@@ -1,0 +1,11893 @@
+1
+00:00:00,000 --> 00:00:03,060
+Right. Welcome back
+to week eight.
+
+2
+00:00:03,060 --> 00:00:04,040
+Officially,
+
+3
+00:00:04,040 --> 00:00:05,640
+the first assignment
+has now been handed in,
+
+4
+00:00:05,640 --> 00:00:06,960
+so the majority
+of you have
+
+5
+00:00:06,960 --> 00:00:08,560
+now submitted
+successfully.
+
+6
+00:00:08,560 --> 00:00:10,080
+Hopefully, you
+should be getting
+
+7
+00:00:10,080 --> 00:00:12,259
+your grades back
+within four weeks.
+
+8
+00:00:12,259 --> 00:00:14,159
+Again, our post
+announcement and
+
+9
+00:00:14,159 --> 00:00:15,440
+all the grade grades
+
+10
+00:00:15,440 --> 00:00:17,639
+and feedback have
+been released.
+
+11
+00:00:17,639 --> 00:00:19,239
+But generally,
+it looks like
+
+12
+00:00:19,239 --> 00:00:20,860
+performance has been
+really good so far.
+
+13
+00:00:20,860 --> 00:00:22,060
+So hopefully, we can carry
+
+14
+00:00:22,060 --> 00:00:24,100
+that through to the
+second assignment.
+
+15
+00:00:24,100 --> 00:00:25,719
+For whatever
+reason you haven't
+
+16
+00:00:25,719 --> 00:00:27,220
+submitted at this stage,
+
+17
+00:00:27,220 --> 00:00:29,779
+you can submit up to
+seven days later,
+
+18
+00:00:29,779 --> 00:00:31,499
+seven days past
+the deadline,
+
+19
+00:00:31,499 --> 00:00:32,639
+but that would
+be capped to a D
+
+20
+00:00:32,639 --> 00:00:34,539
+minus anything
+later than that.
+
+21
+00:00:34,539 --> 00:00:35,219
+And unfortunately,
+
+22
+00:00:35,219 --> 00:00:36,499
+that doesn't count
+as a submission,
+
+23
+00:00:36,499 --> 00:00:38,195
+which would be a G grade.
+
+24
+00:00:38,195 --> 00:00:39,390
+Again, if you haven't
+
+25
+00:00:39,390 --> 00:00:40,630
+submitted at this stage,
+
+26
+00:00:40,630 --> 00:00:42,349
+get it in as urgently as
+
+27
+00:00:42,349 --> 00:00:44,250
+possible because that
+would still count,
+
+28
+00:00:44,250 --> 00:00:45,589
+it would just be
+capped to a D
+
+29
+00:00:45,589 --> 00:00:47,970
+minus at this late stage.
+
+30
+00:00:47,970 --> 00:00:49,029
+It's probably a
+bit too late to
+
+31
+00:00:49,029 --> 00:00:50,570
+apply for mitigating
+circumstances,
+
+32
+00:00:50,570 --> 00:00:52,110
+but you can still
+possibly try,
+
+33
+00:00:52,110 --> 00:00:53,889
+sometimes are a bit
+lenient on that.
+
+34
+00:00:53,889 --> 00:00:55,889
+But again, technically
+
+35
+00:00:55,889 --> 00:00:57,550
+the deadline is
+now fully passed.
+
+36
+00:00:57,550 --> 00:00:59,029
+Do you remember
+that's only
+
+37
+00:00:59,029 --> 00:01:01,350
+25% of the
+assessment though.
+
+38
+00:01:01,350 --> 00:01:03,189
+What we're focusing
+on now from
+
+39
+00:01:03,189 --> 00:01:04,770
+weeks eight to 14 is
+
+40
+00:01:04,770 --> 00:01:06,509
+the 75% the big
+
+41
+00:01:06,509 --> 00:01:08,694
+chunk key part of
+the assessment.
+
+42
+00:01:08,694 --> 00:01:10,239
+Just before we go into
+
+43
+00:01:10,239 --> 00:01:11,200
+the electric
+content today,
+
+44
+00:01:11,200 --> 00:01:12,340
+we're just going
+to briefly look
+
+45
+00:01:12,340 --> 00:01:13,439
+back through the
+second assignment.
+
+46
+00:01:13,439 --> 00:01:14,699
+Just Bn is completely
+
+47
+00:01:14,699 --> 00:01:15,959
+aware of what they're
+working towards,
+
+48
+00:01:15,959 --> 00:01:17,279
+but officially this
+assignment was
+
+49
+00:01:17,279 --> 00:01:17,899
+released when
+
+50
+00:01:17,899 --> 00:01:19,619
+the first assignment
+was released.
+
+51
+00:01:19,619 --> 00:01:23,459
+This was almost just
+over two months ago now.
+
+52
+00:01:23,459 --> 00:01:24,820
+Which was fun.
+
+53
+00:01:24,820 --> 00:01:27,180
+Yeah, let's crack
+into it then.
+
+54
+00:01:27,180 --> 00:01:29,200
+Your second assignment
+is due in on
+
+55
+00:01:29,200 --> 00:01:32,205
+the 19th of the
+fifth 2024.
+
+56
+00:01:32,205 --> 00:01:33,770
+Quite a ways away yet,
+
+57
+00:01:33,770 --> 00:01:34,550
+so don't worry about it.
+
+58
+00:01:34,550 --> 00:01:36,150
+Plus, we've got two
+weeks off for Easter,
+
+59
+00:01:36,150 --> 00:01:37,549
+which should
+give you ample
+
+60
+00:01:37,549 --> 00:01:39,690
+opportunity to
+have a go at this.
+
+61
+00:01:39,690 --> 00:01:41,170
+Essentially, you've
+got January,
+
+62
+00:01:41,170 --> 00:01:42,349
+every March, April, May.
+
+63
+00:01:42,349 --> 00:01:44,920
+It's 19 May,
+
+64
+00:01:44,920 --> 00:01:47,730
+202-41-1509 This
+assignment is
+
+65
+00:01:47,730 --> 00:01:48,990
+structured a
+bit differently
+
+66
+00:01:48,990 --> 00:01:50,750
+to the one you've
+just done.
+
+67
+00:01:50,750 --> 00:01:51,569
+Essentially,
+
+68
+00:01:51,569 --> 00:01:53,715
+this is really going
+to be focusing on
+
+69
+00:01:53,715 --> 00:01:56,400
+programming, the
+programming side to
+
+70
+00:01:56,400 --> 00:01:58,699
+web development
+with HTML and CSS.
+
+71
+00:01:58,699 --> 00:02:00,599
+We focused on the
+look of these pages,
+
+72
+00:02:00,599 --> 00:02:02,140
+making them as
+optimized and
+
+73
+00:02:02,140 --> 00:02:04,260
+as fantastic as they
+possibly can be,
+
+74
+00:02:04,260 --> 00:02:05,960
+where we can add
+different bits
+
+75
+00:02:05,960 --> 00:02:07,999
+of content here or there.
+
+76
+00:02:07,999 --> 00:02:09,960
+With this assignment,
+we're primarily
+
+77
+00:02:09,960 --> 00:02:12,939
+focused on the actual
+coding part to it.
+
+78
+00:02:12,939 --> 00:02:14,480
+Creating variables,
+
+79
+00:02:14,480 --> 00:02:16,140
+if statements, four loops.
+
+80
+00:02:16,140 --> 00:02:17,039
+Not only that, but
+
+81
+00:02:17,039 --> 00:02:18,699
+doing it in an
+efficient way.
+
+82
+00:02:18,699 --> 00:02:20,359
+You could do 1,000
+
+83
+00:02:20,359 --> 00:02:22,260
+lines to make something
+quite simple,
+
+84
+00:02:22,260 --> 00:02:23,519
+but you could also
+achieve the same
+
+85
+00:02:23,519 --> 00:02:25,340
+result in just
+three lines.
+
+86
+00:02:25,340 --> 00:02:28,059
+That's where a lot of
+these marks are from.
+
+87
+00:02:28,059 --> 00:02:30,079
+Breaking up a little bit.
+
+88
+00:02:30,079 --> 00:02:31,800
+Assessment two
+is essentially
+
+89
+00:02:31,800 --> 00:02:33,020
+going to assess
+your ability to
+
+90
+00:02:33,020 --> 00:02:36,519
+do HTML, CSS,
+and Javascript.
+
+91
+00:02:36,519 --> 00:02:38,039
+The bulk of this
+assignment is going
+
+92
+00:02:38,039 --> 00:02:39,560
+to be performed
+in Javascript.
+
+93
+00:02:39,560 --> 00:02:40,799
+Must go zoom in just in
+
+94
+00:02:40,799 --> 00:02:42,959
+case people are
+struggling to see.
+
+95
+00:02:42,959 --> 00:02:45,079
+Now again, the big
+difference with
+
+96
+00:02:45,079 --> 00:02:46,139
+this assignment
+is I actually
+
+97
+00:02:46,139 --> 00:02:47,439
+give you some
+code for this.
+
+98
+00:02:47,439 --> 00:02:48,700
+The idea is you're
+going to build
+
+99
+00:02:48,700 --> 00:02:49,759
+off the code
+that I've given
+
+100
+00:02:49,759 --> 00:02:53,099
+you in Nile bit.
+
+101
+00:02:53,099 --> 00:02:54,320
+Have a teaser of
+what's coming up.
+
+102
+00:02:54,320 --> 00:02:55,140
+Don't worry.
+
+103
+00:02:55,140 --> 00:02:56,179
+Let's go going to
+
+104
+00:02:56,179 --> 00:02:59,340
+a student preview
+very quickly.
+
+105
+00:03:00,390 --> 00:03:02,449
+If you go to
+assessments and
+
+106
+00:03:02,449 --> 00:03:04,289
+submissions in AS two,
+
+107
+00:03:04,289 --> 00:03:05,929
+these are
+currently the only
+
+108
+00:03:05,929 --> 00:03:08,010
+assessment items
+I've released.
+
+109
+00:03:08,010 --> 00:03:09,090
+Eventually, we will have
+
+110
+00:03:09,090 --> 00:03:10,049
+the submission
+points in there.
+
+111
+00:03:10,049 --> 00:03:10,729
+I'll probably also
+
+112
+00:03:10,729 --> 00:03:11,969
+create a video
+demonstration
+
+113
+00:03:11,969 --> 00:03:13,649
+walking you through the
+submission process.
+
+114
+00:03:13,649 --> 00:03:14,490
+It's a little bit
+
+115
+00:03:14,490 --> 00:03:16,069
+different to the
+first assignment.
+
+116
+00:03:16,069 --> 00:03:17,689
+The first assignment
+we used to get
+
+117
+00:03:17,689 --> 00:03:19,469
+Hub and get this one.
+
+118
+00:03:19,469 --> 00:03:20,249
+It's not the way
+
+119
+00:03:20,249 --> 00:03:21,250
+you're actually
+going to submit
+
+120
+00:03:21,250 --> 00:03:23,510
+this is just getting
+all your code,
+
+121
+00:03:23,510 --> 00:03:24,689
+putting it into a zip file
+
+122
+00:03:24,689 --> 00:03:26,934
+and then submitting
+that zip file.
+
+123
+00:03:26,934 --> 00:03:28,759
+I'd recommend you download
+
+124
+00:03:28,759 --> 00:03:29,859
+the AS two zip file
+
+125
+00:03:29,859 --> 00:03:31,039
+because this is
+essentially what you're
+
+126
+00:03:31,039 --> 00:03:32,819
+going to be building
+the assignment from.
+
+127
+00:03:32,819 --> 00:03:34,819
+When you open up the
+AS two zip file,
+
+128
+00:03:34,819 --> 00:03:36,300
+you get greeted
+to something
+
+129
+00:03:36,300 --> 00:03:38,340
+like realize
+that's the grade,
+
+130
+00:03:38,340 --> 00:03:42,459
+apologies you get
+greeted to this.
+
+131
+00:03:42,459 --> 00:03:44,900
+It's a very basic template
+
+132
+00:03:44,900 --> 00:03:46,680
+for a game, completely
+original game.
+
+133
+00:03:46,680 --> 00:03:47,980
+I haven't stolen
+it from anywhere.
+
+134
+00:03:47,980 --> 00:03:49,319
+Obviously, it's my own
+
+135
+00:03:49,319 --> 00:03:52,360
+individual property
+patent pending.
+
+136
+00:03:52,360 --> 00:03:54,944
+But this is
+called Snack Man,
+
+137
+00:03:54,944 --> 00:03:58,790
+essentially. It's a very
+simple Pac Man game.
+
+138
+00:03:58,790 --> 00:04:01,829
+I've given you the
+basic gooey for this.
+
+139
+00:04:01,829 --> 00:04:03,129
+So you've got the
+maze, you've got
+
+140
+00:04:03,129 --> 00:04:04,390
+the characters, you've
+got the leaderboard,
+
+141
+00:04:04,390 --> 00:04:05,549
+You've got these
+button prompts,
+
+142
+00:04:05,549 --> 00:04:08,229
+which my camera is
+annoyingly hiding where.
+
+143
+00:04:08,229 --> 00:04:09,530
+You've got the
+button prompts here,
+
+144
+00:04:09,530 --> 00:04:10,769
+you've got this nice
+score, and you've
+
+145
+00:04:10,769 --> 00:04:12,510
+got these levels
+up in the corner.
+
+146
+00:04:12,510 --> 00:04:14,129
+I put these in for you.
+
+147
+00:04:14,129 --> 00:04:16,710
+Essentially, your
+assignment is
+
+148
+00:04:16,710 --> 00:04:18,750
+to build the functionality
+for this game.
+
+149
+00:04:18,750 --> 00:04:20,290
+Now the game of the
+game is to move
+
+150
+00:04:20,290 --> 00:04:21,689
+the player
+around the maze,
+
+151
+00:04:21,689 --> 00:04:22,729
+collecting the points.
+
+152
+00:04:22,729 --> 00:04:24,349
+Once they've collected
+all the points,
+
+153
+00:04:24,349 --> 00:04:26,204
+that game should
+come to an end.
+
+154
+00:04:26,204 --> 00:04:27,720
+The player
+shouldn't be able
+
+155
+00:04:27,720 --> 00:04:28,879
+to go through the
+walls of the maze,
+
+156
+00:04:28,879 --> 00:04:29,920
+and when they
+encounter one of
+
+157
+00:04:29,920 --> 00:04:30,780
+the enemy characters,
+
+158
+00:04:30,780 --> 00:04:32,239
+the game should also end.
+
+159
+00:04:32,239 --> 00:04:33,939
+Again, putting
+out perspective.
+
+160
+00:04:33,939 --> 00:04:34,700
+You shouldn't be able
+
+161
+00:04:34,700 --> 00:04:35,599
+to go through these walls,
+
+162
+00:04:35,599 --> 00:04:37,219
+you need to be able to
+collect these points.
+
+163
+00:04:37,219 --> 00:04:38,319
+And if I encounter one of
+
+164
+00:04:38,319 --> 00:04:40,279
+these green circles,
+the game should end.
+
+165
+00:04:40,279 --> 00:04:41,960
+That's like the end state.
+
+166
+00:04:41,960 --> 00:04:42,859
+We have a score
+
+167
+00:04:42,859 --> 00:04:44,179
+counter up here
+that should also
+
+168
+00:04:44,179 --> 00:04:45,020
+reflect the number of
+
+169
+00:04:45,020 --> 00:04:46,539
+points you collect
+in the maze.
+
+170
+00:04:46,539 --> 00:04:48,459
+Now, I've not
+been too cruel,
+
+171
+00:04:48,459 --> 00:04:49,920
+I have given you a bit
+
+172
+00:04:49,920 --> 00:04:51,400
+of functionality for this.
+
+173
+00:04:51,400 --> 00:04:53,979
+The functionality I've
+given you is moving
+
+174
+00:04:53,979 --> 00:04:56,439
+the character around the
+maze with the rakes.
+
+175
+00:04:56,439 --> 00:04:57,539
+We can move the character,
+
+176
+00:04:57,539 --> 00:04:59,295
+but that's
+really about it.
+
+177
+00:04:59,295 --> 00:05:00,830
+Everything else
+you're going
+
+178
+00:05:00,830 --> 00:05:01,889
+to have to do yourselves,
+
+179
+00:05:01,889 --> 00:05:03,750
+so you've got to create
+some collision so
+
+180
+00:05:03,750 --> 00:05:04,610
+the character can't just
+
+181
+00:05:04,610 --> 00:05:05,690
+walk through these walls.
+
+182
+00:05:05,690 --> 00:05:06,290
+You're going to need
+
+183
+00:05:06,290 --> 00:05:07,130
+that same collision to
+
+184
+00:05:07,130 --> 00:05:08,089
+work for these points as
+
+185
+00:05:08,089 --> 00:05:09,769
+well and also
+the collision
+
+186
+00:05:09,769 --> 00:05:11,129
+to work on the
+enemy characters.
+
+187
+00:05:11,129 --> 00:05:12,209
+The idea is my encounter
+
+188
+00:05:12,209 --> 00:05:13,370
+one of these
+enemy characters.
+
+189
+00:05:13,370 --> 00:05:17,209
+It's game over.
+Essentially nice
+
+190
+00:05:17,209 --> 00:05:19,450
+and simple of essentially,
+
+191
+00:05:19,450 --> 00:05:20,030
+you're going to make
+
+192
+00:05:20,030 --> 00:05:21,779
+this game fully
+functional.
+
+193
+00:05:21,779 --> 00:05:23,050
+Getting into
+
+194
+00:05:23,050 --> 00:05:24,769
+the specific requirements
+for the brief.
+
+195
+00:05:24,769 --> 00:05:26,150
+Then they're
+separated into
+
+196
+00:05:26,150 --> 00:05:27,529
+the grade boundaries.
+
+197
+00:05:27,529 --> 00:05:28,889
+Right here, we've
+got everything
+
+198
+00:05:28,889 --> 00:05:30,489
+you need for a bare pass,
+
+199
+00:05:30,489 --> 00:05:32,669
+a D minus to a D plus.
+
+200
+00:05:32,669 --> 00:05:34,850
+Okay? We also then
+have a good pass,
+
+201
+00:05:34,850 --> 00:05:36,509
+a very good pass, and
+an excellent pass,
+
+202
+00:05:36,509 --> 00:05:37,970
+and it goes on like that.
+
+203
+00:05:37,970 --> 00:05:39,250
+But we'll just
+focus on the
+
+204
+00:05:39,250 --> 00:05:41,290
+passing criteria
+to begin with.
+
+205
+00:05:41,290 --> 00:05:42,810
+The first requirement is
+
+206
+00:05:42,810 --> 00:05:44,049
+when the start
+button is pressed,
+
+207
+00:05:44,049 --> 00:05:45,710
+the game should begin, and
+
+208
+00:05:45,710 --> 00:05:47,990
+the start button should
+no longer be visible.
+
+209
+00:05:47,990 --> 00:05:49,770
+That essentially
+means when I click on
+
+210
+00:05:49,770 --> 00:05:52,229
+this start button,
+it should disappear.
+
+211
+00:05:52,229 --> 00:05:53,609
+Hopefully,
+everyone should be
+
+212
+00:05:53,609 --> 00:05:54,949
+able to achieve
+that after today,
+
+213
+00:05:54,949 --> 00:05:57,605
+though, it's one of the
+easier requirements.
+
+214
+00:05:57,605 --> 00:06:00,100
+The next one is the
+player should not be able
+
+215
+00:06:00,100 --> 00:06:00,739
+to move until
+
+216
+00:06:00,739 --> 00:06:02,179
+the start button
+has been pressed.
+
+217
+00:06:02,179 --> 00:06:03,820
+Right now, I can move
+around the screen
+
+218
+00:06:03,820 --> 00:06:05,199
+without pressing
+the Start button.
+
+219
+00:06:05,199 --> 00:06:06,320
+That movement needs to be
+
+220
+00:06:06,320 --> 00:06:07,759
+locked behind the
+Start button.
+
+221
+00:06:07,759 --> 00:06:09,419
+So the idea is I click
+the Start button,
+
+222
+00:06:09,419 --> 00:06:11,619
+I can then move the
+character effectively.
+
+223
+00:06:11,619 --> 00:06:14,640
+When you press Start,
+it starts the game.
+
+224
+00:06:16,120 --> 00:06:18,260
+You need to stop
+the player from
+
+225
+00:06:18,260 --> 00:06:19,899
+walking through
+the mazes walls.
+
+226
+00:06:19,899 --> 00:06:22,439
+The walls of the maze
+are these blue squares.
+
+227
+00:06:22,439 --> 00:06:24,060
+They're also dotted around
+
+228
+00:06:24,060 --> 00:06:25,260
+the center of the
+maze as well.
+
+229
+00:06:25,260 --> 00:06:26,300
+You basically
+just need to add
+
+230
+00:06:26,300 --> 00:06:27,620
+that collision in because
+like I said right
+
+231
+00:06:27,620 --> 00:06:28,560
+now we can walk through
+
+232
+00:06:28,560 --> 00:06:29,720
+them and it's not very
+
+233
+00:06:29,720 --> 00:06:32,700
+good when
+
+234
+00:06:32,700 --> 00:06:34,319
+the player touches
+one of the points.
+
+235
+00:06:34,319 --> 00:06:35,059
+The points are
+
+236
+00:06:35,059 --> 00:06:36,679
+the small white
+circles in the maze.
+
+237
+00:06:36,679 --> 00:06:37,900
+You need to remove
+the point from
+
+238
+00:06:37,900 --> 00:06:39,400
+the maze and get
+
+239
+00:06:39,400 --> 00:06:41,200
+this score counter
+to go up by one.
+
+240
+00:06:41,200 --> 00:06:41,759
+Essentially,
+
+241
+00:06:41,759 --> 00:06:43,199
+the player is
+collecting these points
+
+242
+00:06:43,199 --> 00:06:46,339
+and this point counter
+
+243
+00:06:46,339 --> 00:06:47,539
+reflects the
+number of points
+
+244
+00:06:47,539 --> 00:06:49,239
+the players achieved.
+
+245
+00:06:49,239 --> 00:06:50,800
+Basically.
+Obviously, right now
+
+246
+00:06:50,800 --> 00:06:51,560
+we're on zero because
+
+247
+00:06:51,560 --> 00:06:53,300
+we haven't collected any.
+
+248
+00:06:53,300 --> 00:06:55,399
+Oh,
+
+249
+00:06:55,630 --> 00:06:57,509
+once all the points
+
+250
+00:06:57,509 --> 00:06:58,869
+have been collected
+by the player,
+
+251
+00:06:58,869 --> 00:07:00,870
+you need to display
+a game over message,
+
+252
+00:07:00,870 --> 00:07:02,709
+just signifying that
+the game has ended.
+
+253
+00:07:02,709 --> 00:07:04,570
+Again, this is
+quite easy to do.
+
+254
+00:07:04,570 --> 00:07:05,890
+You can either use
+the Start button
+
+255
+00:07:05,890 --> 00:07:07,249
+or you could do what's
+called an alert,
+
+256
+00:07:07,249 --> 00:07:08,890
+which we'll get
+into later today.
+
+257
+00:07:08,890 --> 00:07:10,449
+But effectively, once
+you've collected
+
+258
+00:07:10,449 --> 00:07:13,029
+all the points,
+it's game over.
+
+259
+00:07:13,790 --> 00:07:15,790
+Then the last one is if
+
+260
+00:07:15,790 --> 00:07:17,249
+the player touches
+the enemy,
+
+261
+00:07:17,249 --> 00:07:17,950
+you need to have
+
+262
+00:07:17,950 --> 00:07:20,049
+the same game over
+message appear.
+
+263
+00:07:20,049 --> 00:07:21,389
+And the player will also
+
+264
+00:07:21,389 --> 00:07:22,769
+display the
+dead animation.
+
+265
+00:07:22,769 --> 00:07:25,030
+That's just using
+the CSS class dead.
+
+266
+00:07:25,030 --> 00:07:26,630
+You're just going to
+put this class on
+
+267
+00:07:26,630 --> 00:07:29,270
+the player and that
+should make them die.
+
+268
+00:07:29,270 --> 00:07:31,070
+Let's see this in action.
+
+269
+00:07:31,070 --> 00:07:35,629
+The benefits of
+having branches,
+
+270
+00:07:38,310 --> 00:07:41,529
+so I can't move
+the character.
+
+271
+00:07:41,529 --> 00:07:43,690
+The second I click Start,
+
+272
+00:07:43,690 --> 00:07:45,050
+the start button
+disappears
+
+273
+00:07:45,050 --> 00:07:46,750
+and I can then move
+the character.
+
+274
+00:07:46,750 --> 00:07:48,510
+I can then collect
+these points.
+
+275
+00:07:48,510 --> 00:07:49,890
+And you can see the
+point counts wrap in
+
+276
+00:07:49,890 --> 00:07:51,830
+the corner going
+up by one.
+
+277
+00:07:51,830 --> 00:07:54,250
+I can't go through the
+walls of the maze.
+
+278
+00:07:54,250 --> 00:07:56,425
+There is collision there.
+
+279
+00:07:56,425 --> 00:07:58,479
+If I collect
+all the points,
+
+280
+00:07:58,479 --> 00:07:59,440
+it's the game over.
+
+281
+00:07:59,440 --> 00:08:02,040
+But if I also encounter
+this enemy character,
+
+282
+00:08:02,040 --> 00:08:04,080
+it's game over as well.
+
+283
+00:08:04,080 --> 00:08:06,659
+Now I've used
+the Start button
+
+284
+00:08:06,659 --> 00:08:08,000
+to signify it's game over.
+
+285
+00:08:08,000 --> 00:08:09,480
+But if you had
+another method of
+
+286
+00:08:09,480 --> 00:08:10,660
+showing its game over,
+
+287
+00:08:10,660 --> 00:08:11,840
+that would also be fine.
+
+288
+00:08:11,840 --> 00:08:12,799
+Like I said from today,
+
+289
+00:08:12,799 --> 00:08:14,799
+we are going to
+look at alerts,
+
+290
+00:08:14,799 --> 00:08:17,240
+maybe use alerts, why not?
+
+291
+00:08:17,240 --> 00:08:18,740
+That's everything you need
+
+292
+00:08:18,740 --> 00:08:20,634
+for a bar pass, though,
+
+293
+00:08:20,634 --> 00:08:22,649
+essentially start button
+
+294
+00:08:22,649 --> 00:08:23,990
+pressed, it disappears.
+
+295
+00:08:23,990 --> 00:08:25,290
+The player shouldn't
+be able to
+
+296
+00:08:25,290 --> 00:08:27,149
+move until the start
+button has been pressed.
+
+297
+00:08:27,149 --> 00:08:28,969
+When the player
+touches the points
+
+298
+00:08:28,969 --> 00:08:30,229
+that collects the points,
+
+299
+00:08:30,229 --> 00:08:31,410
+you need the wall
+collision in
+
+300
+00:08:31,410 --> 00:08:32,989
+there and then you
+
+301
+00:08:32,989 --> 00:08:34,349
+need to signify
+it's game over.
+
+302
+00:08:34,349 --> 00:08:35,110
+When the two game
+
+303
+00:08:35,110 --> 00:08:36,249
+over states have
+been reached,
+
+304
+00:08:36,249 --> 00:08:37,989
+that's when all the
+points are collected or
+
+305
+00:08:37,989 --> 00:08:38,849
+when the player
+
+306
+00:08:38,849 --> 00:08:40,550
+encounters the
+enemy character.
+
+307
+00:08:40,550 --> 00:08:43,549
+Everyone at a minimum
+needs to achieve this.
+
+308
+00:08:43,549 --> 00:08:45,149
+Without this, you're not
+
+309
+00:08:45,149 --> 00:08:46,550
+going to pass the asylum.
+
+310
+00:08:46,550 --> 00:08:49,449
+The nice thing is
+every single lecture
+
+311
+00:08:49,449 --> 00:08:51,129
+from this moment on is
+
+312
+00:08:51,129 --> 00:08:53,289
+built around each of
+these requirements.
+
+313
+00:08:53,289 --> 00:08:54,769
+Today we're focused on
+
+314
+00:08:54,769 --> 00:08:55,930
+adding event listeners,
+
+315
+00:08:55,930 --> 00:08:56,990
+which is going
+to be absolutely
+
+316
+00:08:56,990 --> 00:08:59,424
+crucial to these
+first two steps.
+
+317
+00:08:59,424 --> 00:09:00,819
+The week after that,
+
+318
+00:09:00,819 --> 00:09:01,720
+we're going to be focusing
+
+319
+00:09:01,720 --> 00:09:03,760
+more on specifically
+targeting elements,
+
+320
+00:09:03,760 --> 00:09:04,600
+which will be useful for
+
+321
+00:09:04,600 --> 00:09:06,360
+pretty much all
+this criteria.
+
+322
+00:09:06,360 --> 00:09:08,079
+When we come back
+after Easter,
+
+323
+00:09:08,079 --> 00:09:09,499
+we're focused on
+collision detection,
+
+324
+00:09:09,499 --> 00:09:11,099
+which is huge
+when it comes to
+
+325
+00:09:11,099 --> 00:09:13,620
+the collision
+for the walls
+
+326
+00:09:13,620 --> 00:09:15,300
+and the collision
+for the points.
+
+327
+00:09:15,300 --> 00:09:16,739
+Again, each lecture is
+
+328
+00:09:16,739 --> 00:09:18,399
+designed to
+build upon this.
+
+329
+00:09:18,399 --> 00:09:20,239
+Don't panic if you
+don't know it.
+
+330
+00:09:20,239 --> 00:09:21,300
+We're only on lecture one,
+
+331
+00:09:21,300 --> 00:09:23,334
+Bajavascript. Okay,
+
+332
+00:09:23,334 --> 00:09:26,189
+For a good pass, it
+
+333
+00:09:26,189 --> 00:09:27,710
+does get
+progressively harder.
+
+334
+00:09:27,710 --> 00:09:28,930
+You need to randomize
+
+335
+00:09:28,930 --> 00:09:31,470
+the position of the
+enemies at the start.
+
+336
+00:09:31,470 --> 00:09:33,990
+With the bar
+pass criteria,
+
+337
+00:09:33,990 --> 00:09:35,190
+that enemy is
+always going to be
+
+338
+00:09:35,190 --> 00:09:36,650
+in exactly the same place.
+
+339
+00:09:36,650 --> 00:09:38,409
+Okay? Nothing's
+changing with
+
+340
+00:09:38,409 --> 00:09:41,229
+that enemy when we
+get into a good pass,
+
+341
+00:09:41,229 --> 00:09:43,590
+that's the grade criteria.
+
+342
+00:09:43,590 --> 00:09:45,889
+We're randomizing
+these positions.
+
+343
+00:09:45,889 --> 00:09:47,809
+Each time I
+click, refresh,
+
+344
+00:09:47,809 --> 00:09:50,410
+every time I refresh
+the browser,
+
+345
+00:09:50,410 --> 00:09:52,370
+these positions
+get randomized.
+
+346
+00:09:52,370 --> 00:09:53,610
+In theory, the game
+
+347
+00:09:53,610 --> 00:09:55,550
+is never going
+to be the same
+
+348
+00:09:57,460 --> 00:09:59,219
+now because we're
+
+349
+00:09:59,219 --> 00:10:00,399
+randomizing
+these positions.
+
+350
+00:10:00,399 --> 00:10:02,539
+Another requirement is
+just making sure that
+
+351
+00:10:02,539 --> 00:10:03,980
+where these enemies spawn
+
+352
+00:10:03,980 --> 00:10:05,160
+in, it's appropriate.
+
+353
+00:10:05,160 --> 00:10:06,340
+For example, the
+enemies aren't
+
+354
+00:10:06,340 --> 00:10:07,759
+going to be spawning
+outside the maze.
+
+355
+00:10:07,759 --> 00:10:08,919
+They won't be
+spawning where
+
+356
+00:10:08,919 --> 00:10:10,060
+the walls of the maze are.
+
+357
+00:10:10,060 --> 00:10:12,080
+They're only going to
+be spawning inside
+
+358
+00:10:12,080 --> 00:10:14,280
+the maze where
+there's a free space,
+
+359
+00:10:14,280 --> 00:10:15,059
+that's where we're going
+
+360
+00:10:15,059 --> 00:10:16,640
+to put those enemies.
+
+361
+00:10:16,640 --> 00:10:19,160
+By enemies, I mean the
+green circle, so play.
+
+362
+00:10:19,160 --> 00:10:21,699
+Everyone's okay with
+that terminology,
+
+363
+00:10:22,340 --> 00:10:24,780
+This is quite tricky.
+
+364
+00:10:24,780 --> 00:10:26,260
+You also need
+to add random
+
+365
+00:10:26,260 --> 00:10:28,180
+movement to these enemies.
+
+366
+00:10:28,180 --> 00:10:29,860
+The idea is
+they're not just
+
+367
+00:10:29,860 --> 00:10:31,080
+static, they're not
+just staying there.
+
+368
+00:10:31,080 --> 00:10:31,939
+They're actually
+going to be
+
+369
+00:10:31,939 --> 00:10:34,060
+moving throughout
+the maze.
+
+370
+00:10:34,060 --> 00:10:36,660
+There are bonus
+points available
+
+371
+00:10:36,660 --> 00:10:38,240
+if they don't get stuck.
+
+372
+00:10:38,240 --> 00:10:40,080
+If they come into
+contact with a wall,
+
+373
+00:10:40,080 --> 00:10:41,980
+they shouldn't just
+stay on that wall.
+
+374
+00:10:41,980 --> 00:10:43,599
+They should hit the
+wall and go into
+
+375
+00:10:43,599 --> 00:10:44,519
+the opposite direction or
+
+376
+00:10:44,519 --> 00:10:46,040
+go into a new direction.
+
+377
+00:10:46,040 --> 00:10:47,659
+If they get stuck,
+you'll lose
+
+378
+00:10:47,659 --> 00:10:48,920
+a few marks here or there.
+
+379
+00:10:48,920 --> 00:10:49,960
+But the point I want
+
+380
+00:10:49,960 --> 00:10:50,840
+to make with
+this is you're
+
+381
+00:10:50,840 --> 00:10:51,920
+also having the
+wall collision
+
+382
+00:10:51,920 --> 00:10:52,820
+on the enemies itself.
+
+383
+00:10:52,820 --> 00:10:54,200
+Now if you've done
+this properly,
+
+384
+00:10:54,200 --> 00:10:56,120
+so if you've done this
+with the past criteria
+
+385
+00:10:56,120 --> 00:10:58,159
+in a good way, you
+should be able to re,
+
+386
+00:10:58,159 --> 00:11:00,860
+use that method,
+that way of doing
+
+387
+00:11:00,860 --> 00:11:03,980
+it in this if
+that makes sense.
+
+388
+00:11:03,980 --> 00:11:06,219
+Trying to be quite
+vague on that.
+
+389
+00:11:06,660 --> 00:11:09,020
+The enemies also
+need to stop
+
+390
+00:11:09,020 --> 00:11:09,520
+moving when
+
+391
+00:11:09,520 --> 00:11:11,544
+the game overstate
+has been reached.
+
+392
+00:11:11,544 --> 00:11:13,809
+Once the player has
+collected all the points,
+
+393
+00:11:13,809 --> 00:11:15,130
+obviously there's
+been a collision
+
+394
+00:11:15,130 --> 00:11:16,309
+between the enemy
+and the player,
+
+395
+00:11:16,309 --> 00:11:18,470
+that's also game over.
+
+396
+00:11:18,470 --> 00:11:20,890
+The next one is,
+instead of saying
+
+397
+00:11:20,890 --> 00:11:22,870
+game over, try
+displaying restart.
+
+398
+00:11:22,870 --> 00:11:24,169
+This will allow
+the player to
+
+399
+00:11:24,169 --> 00:11:25,690
+restart the game instead
+
+400
+00:11:25,690 --> 00:11:26,969
+of having to just be
+
+401
+00:11:26,969 --> 00:11:29,150
+over and clicking refresh.
+
+402
+00:11:29,150 --> 00:11:31,850
+Essentially, when
+you click restart,
+
+403
+00:11:31,850 --> 00:11:34,650
+the game resets back
+to its original state.
+
+404
+00:11:34,650 --> 00:11:36,089
+That would be
+all the points
+
+405
+00:11:36,089 --> 00:11:36,929
+being back in the maze,
+
+406
+00:11:36,929 --> 00:11:38,929
+the players position
+being back where it was,
+
+407
+00:11:38,929 --> 00:11:40,009
+and the enemies being in
+
+408
+00:11:40,009 --> 00:11:41,810
+a new randomized location.
+
+409
+00:11:41,810 --> 00:11:43,170
+It's effectively the same
+
+410
+00:11:43,170 --> 00:11:44,349
+as refreshing the browser.
+
+411
+00:11:44,349 --> 00:11:46,029
+Essentially, instead
+of game over,
+
+412
+00:11:46,029 --> 00:11:47,870
+it's going to say restart
+
+413
+00:11:47,870 --> 00:11:50,269
+or play again.
+For instance,
+
+414
+00:11:50,269 --> 00:11:52,390
+the last one, which
+is a bit easier,
+
+415
+00:11:52,390 --> 00:11:53,490
+I think I always
+like to throw one
+
+416
+00:11:53,490 --> 00:11:54,589
+of the easy ones
+in this one,
+
+417
+00:11:54,589 --> 00:11:55,470
+because I think a lot of
+
+418
+00:11:55,470 --> 00:11:57,009
+this criteria is
+quite challenging.
+
+419
+00:11:57,009 --> 00:11:57,769
+Is I want you to
+
+420
+00:11:57,769 --> 00:11:59,130
+implement those
+arrow buttons,
+
+421
+00:11:59,130 --> 00:12:00,989
+the arrow buttons in
+the corner over here.
+
+422
+00:12:00,989 --> 00:12:02,370
+I want you to
+implement them,
+
+423
+00:12:02,370 --> 00:12:04,130
+so I'll just
+hide my camera.
+
+424
+00:12:04,130 --> 00:12:06,169
+Now the difference
+with this is
+
+425
+00:12:06,169 --> 00:12:07,490
+if I click on the
+arrow button,
+
+426
+00:12:07,490 --> 00:12:08,470
+the player will continue
+
+427
+00:12:08,470 --> 00:12:09,869
+moving in that direction.
+
+428
+00:12:09,869 --> 00:12:11,370
+Whereas with
+the arrow keys,
+
+429
+00:12:11,370 --> 00:12:12,230
+I've got to be pressing
+
+430
+00:12:12,230 --> 00:12:13,649
+the arrow key
+for it to move.
+
+431
+00:12:13,649 --> 00:12:15,090
+With these
+buttons you just
+
+432
+00:12:15,090 --> 00:12:17,509
+click on it and it
+will continue moving
+
+433
+00:12:17,509 --> 00:12:19,170
+the more I click.
+
+434
+00:12:19,170 --> 00:12:20,790
+Shouldn't increase
+the players speed.
+
+435
+00:12:20,790 --> 00:12:23,130
+That's sometimes a
+common error that I see.
+
+436
+00:12:23,130 --> 00:12:24,730
+Depending on how you built
+
+437
+00:12:24,730 --> 00:12:25,950
+this, I'm going to die.
+
+438
+00:12:25,950 --> 00:12:29,489
+That's a shame, that's
+
+439
+00:12:29,489 --> 00:12:30,469
+allowing me to show you
+
+440
+00:12:30,469 --> 00:12:31,810
+the restart feature,
+which is nice.
+
+441
+00:12:31,810 --> 00:12:34,230
+If I click restart,
+the game restarts.
+
+442
+00:12:34,230 --> 00:12:35,929
+You can have
+these players,
+
+443
+00:12:35,929 --> 00:12:38,069
+these enemy characters,
+moving immediately.
+
+444
+00:12:38,069 --> 00:12:40,390
+I chose to delay it by
+a couple of seconds,
+
+445
+00:12:40,390 --> 00:12:42,309
+just so it's a
+bit more fun,
+
+446
+00:12:42,309 --> 00:12:43,810
+although it's
+not particularly
+
+447
+00:12:43,810 --> 00:12:44,690
+fun at the moment.
+
+448
+00:12:44,690 --> 00:12:45,690
+But can you see that they
+
+449
+00:12:45,690 --> 00:12:46,950
+have got wall collisions?
+
+450
+00:12:46,950 --> 00:12:48,449
+The idea is when they
+encounter a wall,
+
+451
+00:12:48,449 --> 00:12:50,150
+they move in the
+opposite direction.
+
+452
+00:12:50,150 --> 00:12:51,810
+I'm going to die again.
+
+453
+00:12:51,810 --> 00:12:53,790
+I'm not doing very well.
+
+454
+00:12:53,790 --> 00:12:55,049
+But then once
+
+455
+00:12:55,049 --> 00:12:56,350
+the game overstate
+has been reached,
+
+456
+00:12:56,350 --> 00:12:58,070
+the player movement stops.
+
+457
+00:12:58,070 --> 00:12:59,970
+That's pretty much
+everything you need
+
+458
+00:12:59,970 --> 00:13:02,390
+for a grade on this one.
+
+459
+00:13:02,390 --> 00:13:04,249
+This is a good pass.
+
+460
+00:13:04,249 --> 00:13:05,709
+If you've achieved
+quite a bit of this,
+
+461
+00:13:05,709 --> 00:13:07,150
+you're in quite
+a good position,
+
+462
+00:13:07,150 --> 00:13:08,770
+which is nice
+
+463
+00:13:08,770 --> 00:13:11,149
+for a very good
+pass. This one
+
+464
+00:13:11,149 --> 00:13:12,870
+is quite a bit
+more challenging.
+
+465
+00:13:12,870 --> 00:13:14,670
+You need to ask the player
+
+466
+00:13:14,670 --> 00:13:16,669
+for their name at the,
+
+467
+00:13:16,669 --> 00:13:18,829
+at the end game state.
+
+468
+00:13:18,829 --> 00:13:20,409
+Once the players died or
+
+469
+00:13:20,409 --> 00:13:21,470
+collected all the points,
+
+470
+00:13:21,470 --> 00:13:22,630
+you need to ask
+them for their
+
+471
+00:13:22,630 --> 00:13:24,050
+name and then save
+
+472
+00:13:24,050 --> 00:13:27,370
+their name along
+with the score.
+
+473
+00:13:27,370 --> 00:13:29,369
+Apologies, I
+can't talk today.
+
+474
+00:13:29,369 --> 00:13:31,430
+You're saving the
+name with the score
+
+475
+00:13:31,430 --> 00:13:33,090
+the player achieved into
+
+476
+00:13:33,090 --> 00:13:35,009
+something called
+local storage.
+
+477
+00:13:35,009 --> 00:13:36,970
+You're then
+going to display
+
+478
+00:13:36,970 --> 00:13:38,569
+the five highest player
+
+479
+00:13:38,569 --> 00:13:40,289
+scores in the leaderboard.
+
+480
+00:13:40,289 --> 00:13:42,490
+The leaderboard is this
+section just here.
+
+481
+00:13:42,490 --> 00:13:43,249
+You're actually going to
+
+482
+00:13:43,249 --> 00:13:44,390
+make this
+leaderboard fully
+
+483
+00:13:44,390 --> 00:13:45,589
+functional based on
+
+484
+00:13:45,589 --> 00:13:47,950
+the players that have
+played this game.
+
+485
+00:13:49,140 --> 00:13:51,299
+You then need to organize
+
+486
+00:13:51,299 --> 00:13:53,719
+the leaderboard from
+highest to lowest.
+
+487
+00:13:53,719 --> 00:13:55,680
+Again, typically
+it's built
+
+488
+00:13:55,680 --> 00:13:57,120
+in the relative order,
+
+489
+00:13:57,120 --> 00:13:58,599
+which means the
+newer entries
+
+490
+00:13:58,599 --> 00:13:59,800
+will appear at the bottom.
+
+491
+00:13:59,800 --> 00:14:04,760
+You need to reorganize
+this using some thing,
+
+492
+00:14:04,760 --> 00:14:06,559
+Again, being quite
+vague with it.
+
+493
+00:14:06,559 --> 00:14:08,580
+You need to sort it
+by the highest score.
+
+494
+00:14:08,580 --> 00:14:11,060
+So it goes highest
+to lowest.
+
+495
+00:14:13,040 --> 00:14:15,200
+I'm pretty sure
+there's something
+
+496
+00:14:15,200 --> 00:14:17,159
+about limiting it to five.
+
+497
+00:14:17,159 --> 00:14:19,739
+There is also a
+limit of five.
+
+498
+00:14:19,739 --> 00:14:21,460
+Only have the five highest
+
+499
+00:14:21,460 --> 00:14:22,879
+scores on that
+leaderboard.
+
+500
+00:14:22,879 --> 00:14:24,120
+I think I missed that bit
+
+501
+00:14:24,120 --> 00:14:25,500
+annoyingly. That's fine.
+
+502
+00:14:25,500 --> 00:14:27,160
+Once you've got the
+leaderboard working,
+
+503
+00:14:27,160 --> 00:14:28,839
+you then need to
+add the players
+
+504
+00:14:28,839 --> 00:14:31,100
+lives using Java Script.
+
+505
+00:14:31,100 --> 00:14:33,240
+Looking at the
+HTML very quickly,
+
+506
+00:14:33,240 --> 00:14:35,359
+the players
+lives are added.
+
+507
+00:14:35,359 --> 00:14:38,320
+This just here,
+these list items
+
+508
+00:14:38,320 --> 00:14:40,020
+are basically these lives,
+
+509
+00:14:40,020 --> 00:14:43,464
+they're currently hard
+coded into the HTML.
+
+510
+00:14:43,464 --> 00:14:46,149
+Your job is to make this
+
+511
+00:14:46,149 --> 00:14:49,249
+fully based around
+Java script,
+
+512
+00:14:49,249 --> 00:14:49,769
+so you're adding
+
+513
+00:14:49,769 --> 00:14:51,810
+these list items
+through Java script.
+
+514
+00:14:51,810 --> 00:14:53,409
+That's slightly
+easier to do.
+
+515
+00:14:53,409 --> 00:14:55,429
+To be fair, you
+then need to make
+
+516
+00:14:55,429 --> 00:14:57,090
+some functionality
+that states
+
+517
+00:14:57,090 --> 00:14:58,149
+when the player collides
+
+518
+00:14:58,149 --> 00:14:59,110
+with the enemy characters.
+
+519
+00:14:59,110 --> 00:15:00,409
+Instead of it
+being game over
+
+520
+00:15:00,409 --> 00:15:01,569
+immediately
+you're going to
+
+521
+00:15:01,569 --> 00:15:02,449
+remove one of the,
+
+522
+00:15:02,449 --> 00:15:05,249
+remove one of the
+lives and make it
+
+523
+00:15:05,249 --> 00:15:06,390
+so that the player
+is unable to
+
+524
+00:15:06,390 --> 00:15:08,450
+move for 1.5 seconds,
+
+525
+00:15:08,450 --> 00:15:10,590
+you're going to put
+the hit animation
+
+526
+00:15:10,590 --> 00:15:12,190
+on that player again,
+
+527
+00:15:12,190 --> 00:15:13,210
+signifying that
+they've been
+
+528
+00:15:13,210 --> 00:15:15,450
+hit by the enemy
+character.
+
+529
+00:15:15,590 --> 00:15:17,909
+Just to reiterate
+that when you
+
+530
+00:15:17,909 --> 00:15:19,869
+come into contact with
+an enemy character,
+
+531
+00:15:19,869 --> 00:15:21,709
+stop the movement
+of the player.
+
+532
+00:15:21,709 --> 00:15:23,869
+Put the hit class on them.
+
+533
+00:15:23,869 --> 00:15:25,690
+And then after 1.5
+
+534
+00:15:25,690 --> 00:15:26,990
+seconds allow them
+to move again.
+
+535
+00:15:26,990 --> 00:15:28,130
+But the key is to removing
+
+536
+00:15:28,130 --> 00:15:29,669
+one of the lights
+from the screen.
+
+537
+00:15:29,669 --> 00:15:30,930
+The player essentially has
+
+538
+00:15:30,930 --> 00:15:33,029
+three attempts
+for all this.
+
+539
+00:15:33,310 --> 00:15:35,690
+Once all three
+lives are lost,
+
+540
+00:15:35,690 --> 00:15:36,390
+you're then going to
+
+541
+00:15:36,390 --> 00:15:37,770
+display that
+restart message
+
+542
+00:15:37,770 --> 00:15:39,289
+or that game over message.
+
+543
+00:15:39,289 --> 00:15:41,549
+This is significantly
+harder, I would say.
+
+544
+00:15:41,549 --> 00:15:43,449
+This is partly some
+
+545
+00:15:43,449 --> 00:15:45,589
+of the hardest criteria
+on this assignment.
+
+546
+00:15:45,589 --> 00:15:48,630
+So good luck
+moving forward.
+
+547
+00:15:48,630 --> 00:15:51,210
+Then let's go to B grade,
+which is very fun.
+
+548
+00:15:51,210 --> 00:15:53,089
+I'm going to hide that
+I realized that could
+
+549
+00:15:53,089 --> 00:15:56,409
+be not good to demonstrate
+the leaderboard,
+
+550
+00:15:56,409 --> 00:15:57,210
+then I'll just collect
+
+551
+00:15:57,210 --> 00:15:58,230
+a couple of points
+in the maze.
+
+552
+00:15:58,230 --> 00:15:59,130
+Although I get
+the impression
+
+553
+00:15:59,130 --> 00:15:59,969
+I'm going to get hit in,
+
+554
+00:15:59,969 --> 00:16:01,230
+no, I managed to avoid it.
+
+555
+00:16:01,230 --> 00:16:04,910
+That's good. We'll
+get hit once.
+
+556
+00:16:05,910 --> 00:16:08,650
+We'll try and
+get hit again.
+
+557
+00:16:08,650 --> 00:16:10,749
+So we got hit
+again on that one.
+
+558
+00:16:10,749 --> 00:16:12,130
+We unfortunately got hit
+
+559
+00:16:12,130 --> 00:16:13,470
+third time, which is fine.
+
+560
+00:16:13,470 --> 00:16:14,469
+I'll just put my name
+
+561
+00:16:14,469 --> 00:16:15,349
+Chris in the leaderboard.
+
+562
+00:16:15,349 --> 00:16:16,469
+Click okay on that one.
+
+563
+00:16:16,469 --> 00:16:17,569
+And Chris with a score
+
+564
+00:16:17,569 --> 00:16:18,889
+of four then got saved to
+
+565
+00:16:18,889 --> 00:16:20,669
+the leaderboard by try and
+
+566
+00:16:20,669 --> 00:16:22,670
+restart and do a
+similar process.
+
+567
+00:16:22,670 --> 00:16:25,150
+So I'll click to
+govern more points.
+
+568
+00:16:25,780 --> 00:16:28,919
+We'll get hit, we
+
+569
+00:16:28,919 --> 00:16:30,319
+got hit again
+unfortunately,
+
+570
+00:16:30,319 --> 00:16:31,640
+and we got hit
+on the way back.
+
+571
+00:16:31,640 --> 00:16:33,620
+As well as the way
+the game goes,
+
+572
+00:16:33,620 --> 00:16:35,100
+sometimes we'll just put
+
+573
+00:16:35,100 --> 00:16:35,739
+another name on this,
+
+574
+00:16:35,739 --> 00:16:37,720
+so we'll just
+say John Quick.
+
+575
+00:16:37,720 --> 00:16:40,359
+Okay. And that
+scored the lead of
+
+576
+00:16:40,359 --> 00:16:41,579
+order because
+that score was
+
+577
+00:16:41,579 --> 00:16:43,259
+higher than the score
+I previously got.
+
+578
+00:16:43,259 --> 00:16:45,020
+That's taken the
+number one position.
+
+579
+00:16:45,020 --> 00:16:46,560
+If I were to get
+another score,
+
+580
+00:16:46,560 --> 00:16:47,959
+for example two or one
+
+581
+00:16:47,959 --> 00:16:49,580
+that would appear
+in the third slot,
+
+582
+00:16:49,580 --> 00:16:52,500
+they are ordered by
+the score itself.
+
+583
+00:16:52,500 --> 00:16:53,760
+That's the leaderboard.
+
+584
+00:16:53,760 --> 00:16:54,420
+And the cool thing is,
+
+585
+00:16:54,420 --> 00:16:56,000
+because this is
+using local storage,
+
+586
+00:16:56,000 --> 00:16:57,660
+but click Refresh now
+
+587
+00:16:57,660 --> 00:16:59,980
+that leaderboard
+still stays the same.
+
+588
+00:16:59,980 --> 00:17:02,680
+Now local storage is
+based on your laptop.
+
+589
+00:17:02,680 --> 00:17:03,980
+This score only exists
+
+590
+00:17:03,980 --> 00:17:05,700
+on your machine,
+unfortunately,
+
+591
+00:17:05,700 --> 00:17:07,499
+until we look into
+servicide languages
+
+592
+00:17:07,499 --> 00:17:09,400
+where we can save
+things to databases,
+
+593
+00:17:09,400 --> 00:17:10,499
+this is about the best we
+
+594
+00:17:10,499 --> 00:17:12,119
+can do at this stage.
+
+595
+00:17:12,119 --> 00:17:14,299
+But don't worry,
+you'll learn this in,
+
+596
+00:17:14,299 --> 00:17:17,539
+I think it's week 11,
+which is very fun.
+
+597
+00:17:18,040 --> 00:17:20,519
+That is for a
+very good purse.
+
+598
+00:17:20,519 --> 00:17:21,679
+And again, this is some of
+
+599
+00:17:21,679 --> 00:17:23,340
+the more challenging
+parts of the assignment.
+
+600
+00:17:23,340 --> 00:17:25,300
+In my opinion, not
+only do you need
+
+601
+00:17:25,300 --> 00:17:26,459
+to work with local storage
+
+602
+00:17:26,459 --> 00:17:27,519
+where you're
+saving schools,
+
+603
+00:17:27,519 --> 00:17:29,180
+you're also sorting
+those schools
+
+604
+00:17:29,180 --> 00:17:30,840
+and limiting them to five,
+
+605
+00:17:30,840 --> 00:17:34,050
+which does require
+more complex logic.
+
+606
+00:17:34,050 --> 00:17:36,180
+Not only that, you're
+also implementing
+
+607
+00:17:36,180 --> 00:17:37,580
+a whole life function
+
+608
+00:17:37,580 --> 00:17:39,379
+which has
+
+609
+00:17:39,379 --> 00:17:41,340
+a lot more challenges
+than you might think.
+
+610
+00:17:41,340 --> 00:17:43,540
+For example, in some cases
+
+611
+00:17:43,540 --> 00:17:45,039
+you can get all
+three lives
+
+612
+00:17:45,039 --> 00:17:46,180
+disappearing at
+the same time.
+
+613
+00:17:46,180 --> 00:17:47,920
+That's because the
+player in the enemy,
+
+614
+00:17:47,920 --> 00:17:49,319
+there's no time
+to stop on that.
+
+615
+00:17:49,319 --> 00:17:50,559
+So it's constantly
+removing
+
+616
+00:17:50,559 --> 00:17:52,559
+the same life over and
+over and over again.
+
+617
+00:17:52,559 --> 00:17:55,020
+You need some way of
+pausing that collision.
+
+618
+00:17:55,020 --> 00:17:56,999
+There's a lot to
+it, unfortunately,
+
+619
+00:17:56,999 --> 00:17:59,964
+which you'll come out
+the better for it.
+
+620
+00:17:59,964 --> 00:18:01,910
+For an excellent
+pass. This one's
+
+621
+00:18:01,910 --> 00:18:03,449
+a bit more fun
+in my opinion.
+
+622
+00:18:03,449 --> 00:18:04,649
+You might have noticed
+
+623
+00:18:04,649 --> 00:18:05,890
+at this current
+point there's
+
+624
+00:18:05,890 --> 00:18:07,150
+only a limited
+number of points
+
+625
+00:18:07,150 --> 00:18:08,469
+we can actually
+get on this maze.
+
+626
+00:18:08,469 --> 00:18:09,630
+The idea is
+once we collect
+
+627
+00:18:09,630 --> 00:18:11,269
+all these points,
+that's it.
+
+628
+00:18:11,269 --> 00:18:12,949
+Which means the
+highest score
+
+629
+00:18:12,949 --> 00:18:15,150
+is pretty much always
+going to be the same.
+
+630
+00:18:15,150 --> 00:18:17,310
+Which makes the
+leaderboard
+
+631
+00:18:17,310 --> 00:18:20,204
+a bit less fun,
+in my opinion.
+
+632
+00:18:20,204 --> 00:18:22,340
+What part of the excellent
+
+633
+00:18:22,340 --> 00:18:23,599
+passing criteria is,
+
+634
+00:18:23,599 --> 00:18:24,899
+is you're doing levels
+
+635
+00:18:24,899 --> 00:18:26,419
+of increasing difficulty.
+
+636
+00:18:26,419 --> 00:18:28,500
+The idea is once
+the players
+
+637
+00:18:28,500 --> 00:18:30,939
+successfully collected
+all those points,
+
+638
+00:18:30,939 --> 00:18:32,999
+you're going to
+refresh the maze
+
+639
+00:18:32,999 --> 00:18:34,019
+and you're going to have
+
+640
+00:18:34,019 --> 00:18:35,459
+all those points back in.
+
+641
+00:18:35,459 --> 00:18:37,059
+Now the idea for this is
+
+642
+00:18:37,059 --> 00:18:38,400
+there's going to
+be levels now.
+
+643
+00:18:38,400 --> 00:18:39,920
+Level one could
+be quite easy,
+
+644
+00:18:39,920 --> 00:18:40,980
+level two could be harder,
+
+645
+00:18:40,980 --> 00:18:42,040
+level three
+could be harder.
+
+646
+00:18:42,040 --> 00:18:44,399
+You can go on
+and on. Now to
+
+647
+00:18:44,399 --> 00:18:46,279
+get the most number
+of marks for this,
+
+648
+00:18:46,279 --> 00:18:48,795
+the maze needs to
+change for each level.
+
+649
+00:18:48,795 --> 00:18:50,629
+There's two ways
+you can do this.
+
+650
+00:18:50,629 --> 00:18:52,529
+You can have preset levels
+
+651
+00:18:52,529 --> 00:18:54,589
+or for the higher marks,
+
+652
+00:18:54,589 --> 00:18:56,970
+you can randomize
+that mazes creation.
+
+653
+00:18:56,970 --> 00:18:58,309
+What that means is
+it's going to be
+
+654
+00:18:58,309 --> 00:19:01,669
+a random maze
+every single time.
+
+655
+00:19:01,669 --> 00:19:04,050
+Just demonstrating
+this slightly,
+
+656
+00:19:04,050 --> 00:19:08,410
+I go to the A grade
+when I quit refresh.
+
+657
+00:19:08,410 --> 00:19:09,729
+It's a brand new maze.
+
+658
+00:19:09,729 --> 00:19:11,609
+Every single time, if
+
+659
+00:19:11,609 --> 00:19:13,129
+I were to collect
+all these points,
+
+660
+00:19:13,129 --> 00:19:14,829
+I move on to level two and
+
+661
+00:19:14,829 --> 00:19:16,729
+it's a new maze that
+gets refreshed.
+
+662
+00:19:16,729 --> 00:19:17,989
+The idea is in theory,
+
+663
+00:19:17,989 --> 00:19:20,124
+this game could
+go on forever.
+
+664
+00:19:20,124 --> 00:19:22,400
+Now part of the
+requirement
+
+665
+00:19:22,400 --> 00:19:24,619
+is levels of
+increasing difficulty.
+
+666
+00:19:24,619 --> 00:19:26,600
+One way of achieving
+this is to add
+
+667
+00:19:26,600 --> 00:19:28,019
+more enemies to the game
+
+668
+00:19:28,019 --> 00:19:29,539
+as the levels increase.
+
+669
+00:19:29,539 --> 00:19:31,159
+For example, level
+one could have
+
+670
+00:19:31,159 --> 00:19:33,400
+one enemy character
+like I've got here.
+
+671
+00:19:33,400 --> 00:19:34,919
+The second I get
+to level two,
+
+672
+00:19:34,919 --> 00:19:36,460
+there's then two
+enemy characters,
+
+673
+00:19:36,460 --> 00:19:37,619
+three enemy characters,
+
+674
+00:19:37,619 --> 00:19:38,719
+four enemy characters for
+
+675
+00:19:38,719 --> 00:19:40,379
+every single level
+that goes up.
+
+676
+00:19:40,379 --> 00:19:42,299
+Now if you had an infinite
+number of levels,
+
+677
+00:19:42,299 --> 00:19:44,019
+there would need to
+be some cap on this.
+
+678
+00:19:44,019 --> 00:19:45,439
+Otherwise you'd
+end up with like
+
+679
+00:19:45,439 --> 00:19:47,220
+1,000 enemies at level
+
+680
+00:19:47,220 --> 00:19:49,319
+1,000 Maybe it caps off at
+
+681
+00:19:49,319 --> 00:19:50,359
+maybe ten enemies when it
+
+682
+00:19:50,359 --> 00:19:52,379
+gets a bit more
+unmanageable.
+
+683
+00:19:52,379 --> 00:19:54,979
+But the real key to this
+
+684
+00:19:54,979 --> 00:19:57,659
+is it's going to be
+a randomized maze.
+
+685
+00:19:57,659 --> 00:19:59,140
+For each level, there's
+
+686
+00:19:59,140 --> 00:20:00,279
+bonus marks if there
+
+687
+00:20:00,279 --> 00:20:01,680
+are an infinite
+number of levels.
+
+688
+00:20:01,680 --> 00:20:02,940
+And the nice thing
+is that it's
+
+689
+00:20:02,940 --> 00:20:05,540
+quite easy to achieve,
+which is nice.
+
+690
+00:20:05,540 --> 00:20:07,699
+Now you would
+lose marks if
+
+691
+00:20:07,699 --> 00:20:09,340
+the maze is
+impossible to solve.
+
+692
+00:20:09,340 --> 00:20:10,979
+What I mean by that is if
+
+693
+00:20:10,979 --> 00:20:13,020
+we had a wall here
+and a wall here,
+
+694
+00:20:13,020 --> 00:20:14,300
+my player
+character wouldn't
+
+695
+00:20:14,300 --> 00:20:16,099
+be able to get
+these two points.
+
+696
+00:20:16,099 --> 00:20:17,799
+There Doesn't need
+to be something in
+
+697
+00:20:17,799 --> 00:20:20,119
+place to stop that
+from happening.
+
+698
+00:20:20,119 --> 00:20:21,280
+Annoyingly,
+
+699
+00:20:21,280 --> 00:20:22,780
+that took me quite
+a while to solve.
+
+700
+00:20:22,780 --> 00:20:24,619
+It's actually a
+very easy issue,
+
+701
+00:20:24,619 --> 00:20:26,999
+but hopefully you
+guys figure it
+
+702
+00:20:26,999 --> 00:20:29,540
+out a lot quicker
+than me on that one.
+
+703
+00:20:29,540 --> 00:20:32,780
+Let's try and get to
+level two on this one.
+
+704
+00:20:32,780 --> 00:20:34,980
+So unfortunately,
+you've got to watch
+
+705
+00:20:34,980 --> 00:20:37,939
+me very slowly go
+through this game,
+
+706
+00:20:37,939 --> 00:20:41,660
+which is fun to be a fair,
+
+707
+00:20:41,660 --> 00:20:43,539
+is quite a fun game to
+
+708
+00:20:43,539 --> 00:20:44,639
+the idea is as soon as I
+
+709
+00:20:44,639 --> 00:20:46,679
+collect all of
+these points,
+
+710
+00:20:46,679 --> 00:20:48,740
+which we are very
+nearly there,
+
+711
+00:20:48,740 --> 00:20:49,679
+it's going to wait for
+
+712
+00:20:49,679 --> 00:20:52,120
+that character to move.
+
+713
+00:20:54,680 --> 00:20:58,160
+I'm playing it
+dangerously Now
+
+714
+00:21:01,930 --> 00:21:04,549
+of course, he's going
+to go right where I
+
+715
+00:21:04,549 --> 00:21:07,449
+need to go. That's fine.
+
+716
+00:21:10,570 --> 00:21:12,809
+There we go. So
+as soon as I
+
+717
+00:21:12,809 --> 00:21:15,489
+collect this last
+point just here,
+
+718
+00:21:15,489 --> 00:21:18,429
+it tells me the level
+has been completed.
+
+719
+00:21:18,429 --> 00:21:19,509
+It then gives me
+
+720
+00:21:19,509 --> 00:21:21,170
+a new maze and the
+game continues.
+
+721
+00:21:21,170 --> 00:21:22,769
+But this time because
+I'm on level two,
+
+722
+00:21:22,769 --> 00:21:23,149
+I've got
+
+723
+00:21:23,149 --> 00:21:25,729
+two enemy characters
+I'm dealing with.
+
+724
+00:21:26,450 --> 00:21:28,689
+But you can see in theory,
+
+725
+00:21:28,689 --> 00:21:29,269
+I could get like
+
+726
+00:21:29,269 --> 00:21:30,789
+an infinite number
+of points on this.
+
+727
+00:21:30,789 --> 00:21:33,110
+Now we'll just try
+
+728
+00:21:33,110 --> 00:21:34,169
+and die very quickly so I
+
+729
+00:21:34,169 --> 00:21:35,349
+can get a very
+nice high score.
+
+730
+00:21:35,349 --> 00:21:42,290
+When I show this
+in glass, I am.
+
+731
+00:21:43,630 --> 00:21:47,529
+Oh come on. There we go.
+
+732
+00:21:47,529 --> 00:21:49,149
+We'll just say
+Chris two on that
+
+733
+00:21:49,149 --> 00:21:51,890
+one now at my score of 67.
+
+734
+00:21:51,890 --> 00:21:53,050
+Finale to the leaderboard.
+
+735
+00:21:53,050 --> 00:21:54,930
+Like So that's
+
+736
+00:21:54,930 --> 00:21:56,330
+the key to success
+for that one.
+
+737
+00:21:56,330 --> 00:21:57,609
+In theory, this
+game could go on
+
+738
+00:21:57,609 --> 00:21:59,430
+forever, forever and ever.
+
+739
+00:21:59,430 --> 00:22:01,189
+And it's still got the
+same functionalities.
+
+740
+00:22:01,189 --> 00:22:03,450
+I click restart, the
+game restarts as well.
+
+741
+00:22:03,450 --> 00:22:06,849
+That was unfortunate,
+but the point with
+
+742
+00:22:06,849 --> 00:22:08,089
+the grade is it's not
+
+743
+00:22:08,089 --> 00:22:10,270
+premade levels,
+it's infinite.
+
+744
+00:22:10,270 --> 00:22:12,029
+If you did do premade
+levels, for example,
+
+745
+00:22:12,029 --> 00:22:13,930
+level one is this and
+level two is this maze,
+
+746
+00:22:13,930 --> 00:22:15,329
+and level three
+is this maze.
+
+747
+00:22:15,329 --> 00:22:17,109
+That would get
+you some marks.
+
+748
+00:22:17,109 --> 00:22:19,830
+But if it's completely
+randomized every time,
+
+749
+00:22:19,830 --> 00:22:21,269
+that's the key to the
+
+750
+00:22:21,269 --> 00:22:23,710
+highest grade
+boundary on that one.
+
+751
+00:22:23,710 --> 00:22:26,149
+Now the last
+requirement for this,
+
+752
+00:22:26,149 --> 00:22:27,890
+it's the one that
+I really encourage
+
+753
+00:22:27,890 --> 00:22:28,630
+most people to try
+
+754
+00:22:28,630 --> 00:22:29,969
+because I think
+it's quite fun.
+
+755
+00:22:29,969 --> 00:22:33,109
+It adds a bit more
+personalization to this is
+
+756
+00:22:33,109 --> 00:22:34,750
+I want you to add two
+
+757
+00:22:34,750 --> 00:22:36,789
+unique features
+to this game.
+
+758
+00:22:36,789 --> 00:22:38,389
+The more complex
+the features,
+
+759
+00:22:38,389 --> 00:22:40,190
+the higher the
+mark you will get.
+
+760
+00:22:40,190 --> 00:22:42,070
+If it were me, I
+would possibly
+
+761
+00:22:42,070 --> 00:22:44,189
+look at doing some
+power up feature.
+
+762
+00:22:44,189 --> 00:22:45,529
+In traditional Pac Man,
+
+763
+00:22:45,529 --> 00:22:46,989
+you get the fruit
+
+764
+00:22:46,989 --> 00:22:48,449
+that's slightly different
+from the rest of
+
+765
+00:22:48,449 --> 00:22:49,769
+the fruit that gives you
+
+766
+00:22:49,769 --> 00:22:50,409
+more points.
+
+767
+00:22:50,409 --> 00:22:51,989
+You could do
+something like that.
+
+768
+00:22:51,989 --> 00:22:53,410
+For example, you could
+
+769
+00:22:53,410 --> 00:22:54,490
+have maybe a red point.
+
+770
+00:22:54,490 --> 00:22:56,010
+Somewhere on this, you
+collect the red point
+
+771
+00:22:56,010 --> 00:22:58,329
+that gives you ten
+in your score.
+
+772
+00:22:58,329 --> 00:23:01,289
+You could add
+modifiers to it.
+
+773
+00:23:01,289 --> 00:23:02,929
+For example, if you
+were to collect
+
+774
+00:23:02,929 --> 00:23:04,949
+a certain thing
+in the maze,
+
+775
+00:23:04,949 --> 00:23:05,629
+it would speed up
+
+776
+00:23:05,629 --> 00:23:06,869
+your character
+for 10 seconds.
+
+777
+00:23:06,869 --> 00:23:09,549
+Or it makes you
+invisible or invincible,
+
+778
+00:23:09,549 --> 00:23:11,110
+that's the word
+I've meant to use.
+
+779
+00:23:11,110 --> 00:23:12,969
+Or you could take it
+literally from Pac Man.
+
+780
+00:23:12,969 --> 00:23:14,909
+You could allow
+yourself to defeat
+
+781
+00:23:14,909 --> 00:23:16,950
+the enemies in the
+maze temporarily.
+
+782
+00:23:16,950 --> 00:23:18,510
+If you come into
+contact with them,
+
+783
+00:23:18,510 --> 00:23:21,030
+they're the ones that
+die and disappear.
+
+784
+00:23:21,200 --> 00:23:22,759
+You can even do
+
+785
+00:23:22,759 --> 00:23:24,659
+a character customizer
+if you really want to.
+
+786
+00:23:24,659 --> 00:23:25,519
+This is going to be one of
+
+787
+00:23:25,519 --> 00:23:27,240
+your exercises in
+two weeks time.
+
+788
+00:23:27,240 --> 00:23:28,519
+We're actually
+going to create
+
+789
+00:23:28,519 --> 00:23:29,999
+some character
+customize it.
+
+790
+00:23:29,999 --> 00:23:32,479
+Very easy to just port
+that over into this,
+
+791
+00:23:32,479 --> 00:23:35,939
+but the key is the more
+complex the feature,
+
+792
+00:23:35,939 --> 00:23:37,959
+the higher the mark
+you receive on this.
+
+793
+00:23:37,959 --> 00:23:39,740
+I would encourage
+most people
+
+794
+00:23:39,740 --> 00:23:40,659
+to give this one a go.
+
+795
+00:23:40,659 --> 00:23:41,719
+I think that's something I
+
+796
+00:23:41,719 --> 00:23:42,700
+quite like with
+this assignment.
+
+797
+00:23:42,700 --> 00:23:43,419
+A lot of people think
+
+798
+00:23:43,419 --> 00:23:44,860
+they have to do
+this in order,
+
+799
+00:23:44,860 --> 00:23:46,820
+not necessarily the case
+
+800
+00:23:46,820 --> 00:23:48,640
+if you think there's
+a few things,
+
+801
+00:23:48,640 --> 00:23:50,199
+let's say in the
+very good pass,
+
+802
+00:23:50,199 --> 00:23:51,880
+that seem easier
+than this one.
+
+803
+00:23:51,880 --> 00:23:53,419
+In a good pass, you
+
+804
+00:23:53,419 --> 00:23:55,664
+can add those
+for those marks.
+
+805
+00:23:55,664 --> 00:23:58,109
+Even if you haven't
+achieved all of this,
+
+806
+00:23:58,109 --> 00:24:00,110
+you can still do some
+of the requirements
+
+807
+00:24:00,110 --> 00:24:02,029
+for an A grade,
+for a B grade.
+
+808
+00:24:02,029 --> 00:24:03,569
+Each of these have
+a certain number
+
+809
+00:24:03,569 --> 00:24:05,290
+of points
+allocated to them.
+
+810
+00:24:05,290 --> 00:24:06,349
+All you're going to do is
+
+811
+00:24:06,349 --> 00:24:07,609
+rack up those points.
+
+812
+00:24:07,609 --> 00:24:09,570
+You don't have to
+follow a specific order
+
+813
+00:24:09,570 --> 00:24:10,930
+on this, if that
+makes sense.
+
+814
+00:24:10,930 --> 00:24:13,050
+I would say is a major
+requirement though.
+
+815
+00:24:13,050 --> 00:24:15,089
+Everyone needs to have
+done the past grade.
+
+816
+00:24:15,089 --> 00:24:16,089
+The past grade has
+
+817
+00:24:16,089 --> 00:24:17,329
+the most number
+of marks to it,
+
+818
+00:24:17,329 --> 00:24:18,609
+because that's enough
+to get you that
+
+819
+00:24:18,609 --> 00:24:21,629
+40% 40% for the D minus.
+
+820
+00:24:21,629 --> 00:24:23,069
+The rest of this
+stuff is only
+
+821
+00:24:23,069 --> 00:24:24,310
+maybe ten marks each.
+
+822
+00:24:24,310 --> 00:24:26,209
+Ten marks between
+each grade boundary,
+
+823
+00:24:26,209 --> 00:24:27,965
+if that makes sense.
+
+824
+00:24:27,965 --> 00:24:30,639
+But yeah, have
+some fun with it.
+
+825
+00:24:30,639 --> 00:24:31,759
+I'll just go through a
+
+826
+00:24:31,759 --> 00:24:33,140
+bit more on the
+assignment.
+
+827
+00:24:33,140 --> 00:24:35,000
+You've got a few
+different CSS
+
+828
+00:24:35,000 --> 00:24:36,420
+classes at your disposal.
+
+829
+00:24:36,420 --> 00:24:38,359
+The big ones are
+obviously hashtag player,
+
+830
+00:24:38,359 --> 00:24:39,619
+which is an ID
+for the player
+
+831
+00:24:39,619 --> 00:24:41,319
+that's that Pac
+Man character.
+
+832
+00:24:41,319 --> 00:24:43,399
+There's a secondary
+action for these players.
+
+833
+00:24:43,399 --> 00:24:45,160
+There's the hit class
+and the dead class.
+
+834
+00:24:45,160 --> 00:24:46,240
+The dead class gives
+
+835
+00:24:46,240 --> 00:24:47,300
+you that death animation,
+
+836
+00:24:47,300 --> 00:24:49,319
+whereas the hit class
+gives you that hit.
+
+837
+00:24:49,319 --> 00:24:51,639
+It's being hit animation.
+
+838
+00:24:51,639 --> 00:24:53,439
+We then have
+classes for the
+
+839
+00:24:53,439 --> 00:24:54,559
+points and the
+enemies as well.
+
+840
+00:24:54,559 --> 00:24:55,460
+But hopefully it's quite
+
+841
+00:24:55,460 --> 00:24:57,454
+straightforward
+from the CSS.
+
+842
+00:24:57,454 --> 00:25:00,949
+Now for the actual
+assignment submission,
+
+843
+00:25:00,949 --> 00:25:02,609
+you need to
+create a report.
+
+844
+00:25:02,609 --> 00:25:03,769
+This report is
+going to be very
+
+845
+00:25:03,769 --> 00:25:05,069
+different from the
+report you made for
+
+846
+00:25:05,069 --> 00:25:06,609
+the first assignment
+because this one's
+
+847
+00:25:06,609 --> 00:25:09,249
+got quite a lot of
+marks associated to it.
+
+848
+00:25:09,249 --> 00:25:10,249
+You're going to have
+
+849
+00:25:10,249 --> 00:25:11,709
+three sections
+in this report.
+
+850
+00:25:11,709 --> 00:25:13,709
+The first one is
+a checklist of
+
+851
+00:25:13,709 --> 00:25:15,290
+all the completed
+functionality
+
+852
+00:25:15,290 --> 00:25:16,090
+that you've done.
+
+853
+00:25:16,090 --> 00:25:17,549
+I'm going to give
+you a template to
+
+854
+00:25:17,549 --> 00:25:18,970
+use for this in a
+couple of weeks time.
+
+855
+00:25:18,970 --> 00:25:20,050
+That's got every single
+
+856
+00:25:20,050 --> 00:25:21,729
+feature I'm looking for.
+
+857
+00:25:21,729 --> 00:25:23,349
+Everything in all of
+
+858
+00:25:23,349 --> 00:25:24,849
+this nice thing is you
+
+859
+00:25:24,849 --> 00:25:25,490
+can use it to track
+
+860
+00:25:25,490 --> 00:25:26,610
+your progress,
+which is good.
+
+861
+00:25:26,610 --> 00:25:27,489
+All you need to do is
+
+862
+00:25:27,489 --> 00:25:28,670
+just tell me what
+you've done.
+
+863
+00:25:28,670 --> 00:25:30,249
+If you've done all
+the past grade,
+
+864
+00:25:30,249 --> 00:25:31,750
+you'll tick all of these.
+
+865
+00:25:31,750 --> 00:25:34,209
+Just make marking a
+little bit easier on me.
+
+866
+00:25:34,209 --> 00:25:34,709
+Otherwise,
+
+867
+00:25:34,709 --> 00:25:37,000
+it'll be scouring
+through a lot of code.
+
+868
+00:25:37,000 --> 00:25:39,349
+That's the first
+one. Just tell me
+
+869
+00:25:39,349 --> 00:25:40,190
+exactly what you've
+
+870
+00:25:40,190 --> 00:25:41,929
+done using that checklist.
+
+871
+00:25:41,929 --> 00:25:44,130
+The second section
+is testing.
+
+872
+00:25:44,130 --> 00:25:45,609
+We're going to
+focus a lot more on
+
+873
+00:25:45,609 --> 00:25:46,950
+testing in some of
+the later weeks.
+
+874
+00:25:46,950 --> 00:25:47,890
+But you've got to show
+
+875
+00:25:47,890 --> 00:25:49,389
+me how the code
+is working.
+
+876
+00:25:49,389 --> 00:25:51,270
+What tests have
+you performed
+
+877
+00:25:51,270 --> 00:25:52,610
+that guarantee that's
+
+878
+00:25:52,610 --> 00:25:54,389
+working? As you've stated.
+
+879
+00:25:54,389 --> 00:25:56,709
+Could you test
+certain sections
+
+880
+00:25:56,709 --> 00:25:58,009
+without running
+all the code?
+
+881
+00:25:58,009 --> 00:26:00,330
+A bit of a hint you can,
+
+882
+00:26:00,770 --> 00:26:03,430
+then this is quite
+a unique one.
+
+883
+00:26:03,430 --> 00:26:05,790
+If there are any
+bugs in your game,
+
+884
+00:26:05,790 --> 00:26:06,930
+if you disclose them here,
+
+885
+00:26:06,930 --> 00:26:07,950
+you won't be marked down
+
+886
+00:26:07,950 --> 00:26:09,810
+quite as heavily for them.
+
+887
+00:26:09,810 --> 00:26:11,429
+Again, if you know some of
+
+888
+00:26:11,429 --> 00:26:13,244
+it doesn't work,
+mention it
+
+889
+00:26:13,244 --> 00:26:16,640
+for the evaluation.
+Essentially, you're
+
+890
+00:26:16,640 --> 00:26:18,019
+just going to say what
+
+891
+00:26:18,019 --> 00:26:19,579
+happened throughout
+this process.
+
+892
+00:26:19,579 --> 00:26:20,979
+Again, any known bugs
+
+893
+00:26:20,979 --> 00:26:22,200
+or weaknesses in the game.
+
+894
+00:26:22,200 --> 00:26:23,720
+Tell me what works
+well in the game
+
+895
+00:26:23,720 --> 00:26:25,219
+if you're very proud of
+your collision Tion,
+
+896
+00:26:25,219 --> 00:26:27,860
+maybe it's 100% accurate
+every single time.
+
+897
+00:26:27,860 --> 00:26:30,039
+Talk about that. If you
+
+898
+00:26:30,039 --> 00:26:31,759
+had more time or
+what would you do?
+
+899
+00:26:31,759 --> 00:26:33,480
+What improvements could
+you make to the game?
+
+900
+00:26:33,480 --> 00:26:34,660
+What would you have
+done if you were given
+
+901
+00:26:34,660 --> 00:26:36,879
+an extra week or an
+extra month on this?
+
+902
+00:26:36,879 --> 00:26:38,939
+How easy is it to extend
+
+903
+00:26:38,939 --> 00:26:40,600
+the functionality
+for this game?
+
+904
+00:26:40,600 --> 00:26:41,379
+Have you built it in
+
+905
+00:26:41,379 --> 00:26:42,739
+such a way that
+it's very modular?
+
+906
+00:26:42,739 --> 00:26:44,279
+You just need to
+create a new function
+
+907
+00:26:44,279 --> 00:26:45,400
+and then bag it's working?
+
+908
+00:26:45,400 --> 00:26:47,240
+Or is it very
+much written into
+
+909
+00:26:47,240 --> 00:26:48,520
+one solid block where
+
+910
+00:26:48,520 --> 00:26:49,499
+a tiny tweak here
+
+911
+00:26:49,499 --> 00:26:51,479
+or there could
+break everything.
+
+912
+00:26:51,479 --> 00:26:53,519
+The last one is
+if you had to
+
+913
+00:26:53,519 --> 00:26:55,619
+build a similar
+game in the future,
+
+914
+00:26:55,619 --> 00:26:58,539
+what would you do
+differently and why you
+
+915
+00:26:58,539 --> 00:27:00,419
+get to express your
+English skills,
+
+916
+00:27:00,419 --> 00:27:01,620
+which is very fun.
+
+917
+00:27:01,620 --> 00:27:03,219
+The last little
+bit is then
+
+918
+00:27:03,219 --> 00:27:04,899
+a link to your video
+demonstration.
+
+919
+00:27:04,899 --> 00:27:06,239
+This video
+demonstration is a
+
+920
+00:27:06,239 --> 00:27:07,580
+bit longer than the
+first assignment,
+
+921
+00:27:07,580 --> 00:27:08,559
+just because
+you've essentially
+
+922
+00:27:08,559 --> 00:27:09,580
+got to show me
+everything you've
+
+923
+00:27:09,580 --> 00:27:11,920
+done, two to 5 minutes.
+
+924
+00:27:11,920 --> 00:27:13,820
+Try not to make it
+any longer than ten,
+
+925
+00:27:13,820 --> 00:27:14,879
+otherwise that's going to
+
+926
+00:27:14,879 --> 00:27:16,660
+be very painful to watch.
+
+927
+00:27:16,660 --> 00:27:18,779
+But essentially, you're
+just going to show me
+
+928
+00:27:18,779 --> 00:27:20,320
+all the features you've
+added to that game.
+
+929
+00:27:20,320 --> 00:27:21,580
+You don't need to
+show me the code,
+
+930
+00:27:21,580 --> 00:27:24,519
+it's just the game
+itself. Okay?
+
+931
+00:27:25,100 --> 00:27:28,379
+You also need to
+copy and paste
+
+932
+00:27:28,379 --> 00:27:29,919
+all your code into
+a Word document
+
+933
+00:27:29,919 --> 00:27:31,279
+and scan that
+through turn in,
+
+934
+00:27:31,279 --> 00:27:33,280
+just like the
+first assignment.
+
+935
+00:27:33,280 --> 00:27:35,619
+The actual rubric itself,
+
+936
+00:27:35,619 --> 00:27:37,100
+the functionality part,
+
+937
+00:27:37,100 --> 00:27:39,459
+the stuff you're adding
+
+938
+00:27:39,459 --> 00:27:42,759
+to this is worth
+60% of your grade.
+
+939
+00:27:42,759 --> 00:27:45,160
+It's quite a big chunk.
+
+940
+00:27:45,160 --> 00:27:47,619
+All of this stuff, this
+
+941
+00:27:47,619 --> 00:27:50,239
+is all worth 60%
+of that grade.
+
+942
+00:27:50,239 --> 00:27:52,320
+Again, don't look
+at that lightly.
+
+943
+00:27:52,320 --> 00:27:54,620
+It's the biggest section
+in this assignment
+
+944
+00:27:54,620 --> 00:27:57,099
+for the evaluation
+and testing.
+
+945
+00:27:57,099 --> 00:27:58,719
+This is mostly the
+report section.
+
+946
+00:27:58,719 --> 00:28:01,340
+They're 10% each,
+That's 20% Again,
+
+947
+00:28:01,340 --> 00:28:03,379
+it does have to be
+quite a good report.
+
+948
+00:28:03,379 --> 00:28:07,124
+I would say maybe five
+pages is even that.
+
+949
+00:28:07,124 --> 00:28:09,090
+But again, 20
+whole percent,
+
+950
+00:28:09,090 --> 00:28:11,230
+that's quite a lot code
+
+951
+00:28:11,230 --> 00:28:12,369
+quality and efficiency.
+
+952
+00:28:12,369 --> 00:28:13,749
+That's where I'm
+specifically
+
+953
+00:28:13,749 --> 00:28:14,429
+going to be looking
+
+954
+00:28:14,429 --> 00:28:16,709
+at your code and
+seeing how good it is.
+
+955
+00:28:16,709 --> 00:28:18,309
+If you've got a lot of
+duplication in there,
+
+956
+00:28:18,309 --> 00:28:20,310
+are you using a good
+range of functions?
+
+957
+00:28:20,310 --> 00:28:22,209
+Are you using four
+loops? If statements,
+
+958
+00:28:22,209 --> 00:28:23,390
+everything we're
+going to go through.
+
+959
+00:28:23,390 --> 00:28:24,829
+Are you using
+it effectively?
+
+960
+00:28:24,829 --> 00:28:26,730
+That's where 15% then
+
+961
+00:28:26,730 --> 00:28:29,089
+you've got 5% of the
+video demonstration.
+
+962
+00:28:29,089 --> 00:28:30,770
+But just like the
+first assignment,
+
+963
+00:28:30,770 --> 00:28:31,969
+this is more of a pass or
+
+964
+00:28:31,969 --> 00:28:33,849
+fail section
+on the rubric.
+
+965
+00:28:33,849 --> 00:28:34,870
+You've either done
+
+966
+00:28:34,870 --> 00:28:36,549
+a good video
+demonstration where it
+
+967
+00:28:36,549 --> 00:28:37,789
+proves that
+that's your code
+
+968
+00:28:37,789 --> 00:28:39,169
+or there's a bit
+of ambiguity.
+
+969
+00:28:39,169 --> 00:28:40,509
+There were a bit unsure
+
+970
+00:28:40,509 --> 00:28:41,670
+and that's where
+you'll fail
+
+971
+00:28:41,670 --> 00:28:42,989
+that section and
+be called in for
+
+972
+00:28:42,989 --> 00:28:45,694
+a secondary
+interview for that.
+
+973
+00:28:45,694 --> 00:28:48,120
+But that is the
+second assignment.
+
+974
+00:28:48,120 --> 00:28:49,099
+So remember, you've got
+
+975
+00:28:49,099 --> 00:28:50,539
+quite a lot of
+time to do this,
+
+976
+00:28:50,539 --> 00:28:51,900
+so don't panic just yet.
+
+977
+00:28:51,900 --> 00:28:53,380
+You've even got two
+weeks over Easter,
+
+978
+00:28:53,380 --> 00:28:55,039
+surprisingly,
+
+979
+00:28:55,080 --> 00:28:57,519
+but we will come
+back to this as
+
+980
+00:28:57,519 --> 00:28:59,240
+each week goes
+on after today,
+
+981
+00:28:59,240 --> 00:29:00,580
+you can actually
+do the first two
+
+982
+00:29:00,580 --> 00:29:02,599
+requirements of this game.
+
+983
+00:29:02,599 --> 00:29:03,860
+Again, if you're doing
+
+984
+00:29:03,860 --> 00:29:04,980
+the exercises each week,
+
+985
+00:29:04,980 --> 00:29:06,739
+it should be very
+easy to see what
+
+986
+00:29:06,739 --> 00:29:09,719
+this game becomes
+in the end.
+
+987
+00:29:09,719 --> 00:29:11,419
+That's my biggest
+step to you.
+
+988
+00:29:11,419 --> 00:29:12,679
+Just do the exercises
+
+989
+00:29:12,679 --> 00:29:14,860
+each week and you should
+be absolutely fine.
+
+990
+00:29:14,860 --> 00:29:18,080
+Okay, so that is the
+second assignment.
+
+991
+00:29:18,080 --> 00:29:19,019
+I hope everyone is
+
+992
+00:29:19,019 --> 00:29:20,279
+feeling all right
+about that.
+
+993
+00:29:20,279 --> 00:29:21,459
+I think it's quite fun.
+
+994
+00:29:21,459 --> 00:29:22,159
+It's definitely one of
+
+995
+00:29:22,159 --> 00:29:24,740
+the more interactive
+assignments out there.
+
+996
+00:29:24,740 --> 00:29:26,559
+The nice thing is
+you can actually
+
+997
+00:29:26,559 --> 00:29:27,839
+add this to your
+portfolios from
+
+998
+00:29:27,839 --> 00:29:28,759
+the first
+assignment if you
+
+999
+00:29:28,759 --> 00:29:30,040
+wanted to actually let
+
+1000
+00:29:30,040 --> 00:29:31,720
+employers see
+your own work,
+
+1001
+00:29:31,720 --> 00:29:32,899
+which I quite like.
+
+1002
+00:29:32,899 --> 00:29:34,079
+You can even add this to
+
+1003
+00:29:34,079 --> 00:29:35,199
+an eye frame if
+you wanted to.
+
+1004
+00:29:35,199 --> 00:29:37,039
+You might need to optimize
+it a bit further,
+
+1005
+00:29:37,039 --> 00:29:37,440
+but that's
+
+1006
+00:29:37,440 --> 00:29:40,060
+just some standard
+CSS properties here.
+
+1007
+00:29:40,060 --> 00:29:43,519
+I think Mark told me
+very early on when I was
+
+1008
+00:29:43,519 --> 00:29:44,879
+a student that if
+you're very passionate
+
+1009
+00:29:44,879 --> 00:29:45,680
+about an assignment,
+
+1010
+00:29:45,680 --> 00:29:46,680
+you tend to do quite well.
+
+1011
+00:29:46,680 --> 00:29:47,900
+In that the more excited
+
+1012
+00:29:47,900 --> 00:29:49,219
+you are about adding
+things to this,
+
+1013
+00:29:49,219 --> 00:29:50,819
+about learning
+parts to it,
+
+1014
+00:29:50,819 --> 00:29:53,219
+it tends to be the
+better you'll do.
+
+1015
+00:29:53,219 --> 00:29:55,500
+I'm quite a big gamer.
+You can probably
+
+1016
+00:29:55,500 --> 00:29:58,040
+tell from all that
+stuff over there.
+
+1017
+00:29:58,130 --> 00:30:01,310
+I'm really into this.
+I love this stuff.
+
+1018
+00:30:01,310 --> 00:30:02,749
+It's probably the
+assignment I was
+
+1019
+00:30:02,749 --> 00:30:04,470
+most passionate about
+when I was a student.
+
+1020
+00:30:04,470 --> 00:30:06,430
+Hopefully some of you
+feel the same way.
+
+1021
+00:30:06,430 --> 00:30:08,269
+Maybe this isn't
+your capti at all.
+
+1022
+00:30:08,269 --> 00:30:09,890
+Maybe you really don't
+like this stuff.
+
+1023
+00:30:09,890 --> 00:30:11,030
+That's absolutely fine.
+
+1024
+00:30:11,030 --> 00:30:12,810
+There will be modules
+that you enjoy.
+
+1025
+00:30:12,810 --> 00:30:13,729
+This is going to be
+
+1026
+00:30:13,729 --> 00:30:15,210
+modules that you
+don't enjoy.
+
+1027
+00:30:15,210 --> 00:30:17,289
+But I think finding
+the passion
+
+1028
+00:30:17,289 --> 00:30:19,689
+in a lot of this stuff,
+it's the way forward.
+
+1029
+00:30:19,689 --> 00:30:21,329
+Okay, nice thing is
+
+1030
+00:30:21,329 --> 00:30:23,030
+we're all starting
+at the same point.
+
+1031
+00:30:23,030 --> 00:30:24,569
+I'm not going to
+assume anyone's
+
+1032
+00:30:24,569 --> 00:30:25,949
+got any Javascript
+knowledge.
+
+1033
+00:30:25,949 --> 00:30:28,130
+We're going to start
+right from square one.
+
+1034
+00:30:28,130 --> 00:30:29,490
+Right from step one.
+
+1035
+00:30:29,490 --> 00:30:32,770
+Okay, that's the
+second assignment.
+
+1036
+00:30:32,770 --> 00:30:35,270
+Yeah, good luck.
+I'm going to start
+
+1037
+00:30:35,270 --> 00:30:37,270
+the first lecture
+in just a second,
+
+1038
+00:30:37,270 --> 00:30:38,570
+but I'm going to pause
+
+1039
+00:30:38,570 --> 00:30:40,689
+this so I can then
+edit it a little bit.
+
+1040
+00:30:40,689 --> 00:30:43,249
+Nicer. Yeah, I will see
+you in just a second.
+
+1041
+00:30:43,249 --> 00:30:46,150
+Right, time for the
+actual lecture for week.
+
+1042
+00:30:46,150 --> 00:30:48,309
+This week we
+are focusing on
+
+1043
+00:30:48,309 --> 00:30:51,129
+an introduction
+to Java Script.
+
+1044
+00:30:51,260 --> 00:30:53,759
+Javascript is
+
+1045
+00:30:53,759 --> 00:30:55,579
+the big part of the
+second assignment.
+
+1046
+00:30:55,579 --> 00:30:57,060
+Hopefully you've
+gathered that from
+
+1047
+00:30:57,060 --> 00:30:58,020
+the assignment breakdown
+
+1048
+00:30:58,020 --> 00:30:59,320
+we've just gone through.
+
+1049
+00:30:59,320 --> 00:31:01,079
+We're going to be
+focusing on more
+
+1050
+00:31:01,079 --> 00:31:02,560
+of the basic elements,
+
+1051
+00:31:02,560 --> 00:31:05,740
+things like variables,
+different functions,
+
+1052
+00:31:05,740 --> 00:31:07,840
+how we can debug
+in the console,
+
+1053
+00:31:07,840 --> 00:31:08,599
+how we can actually
+
+1054
+00:31:08,599 --> 00:31:09,919
+select certain elements to
+
+1055
+00:31:09,919 --> 00:31:12,819
+the use in Javascript,
+which is quite fun.
+
+1056
+00:31:12,819 --> 00:31:13,920
+The big one today
+
+1057
+00:31:13,920 --> 00:31:14,939
+is going to be
+click events,
+
+1058
+00:31:14,939 --> 00:31:16,020
+and that's primarily
+what we're
+
+1059
+00:31:16,020 --> 00:31:17,240
+going to be using
+for the assignment.
+
+1060
+00:31:17,240 --> 00:31:17,399
+For
+
+1061
+00:31:17,399 --> 00:31:19,600
+those first two
+requirements I spoke about,
+
+1062
+00:31:19,600 --> 00:31:20,860
+when we're clicking
+on the Start
+
+1063
+00:31:20,860 --> 00:31:22,259
+button and it disappears.
+
+1064
+00:31:22,259 --> 00:31:23,260
+That's how we're going
+
+1065
+00:31:23,260 --> 00:31:24,180
+to be doing that today,
+
+1066
+00:31:24,180 --> 00:31:26,380
+which is quite exciting.
+
+1067
+00:31:27,230 --> 00:31:30,849
+Javascript, HTML
+and CSS are
+
+1068
+00:31:30,849 --> 00:31:32,550
+used to present
+information
+
+1069
+00:31:32,550 --> 00:31:34,029
+in very specific ways.
+
+1070
+00:31:34,029 --> 00:31:35,929
+We have our HTML elements,
+
+1071
+00:31:35,929 --> 00:31:37,469
+which is the data itself.
+
+1072
+00:31:37,469 --> 00:31:38,910
+We have the CSS, which
+
+1073
+00:31:38,910 --> 00:31:40,749
+is how that data looks.
+
+1074
+00:31:40,749 --> 00:31:42,729
+Now, the problem
+is CSS and
+
+1075
+00:31:42,729 --> 00:31:46,029
+HTML have certain
+limitations to them.
+
+1076
+00:31:46,030 --> 00:31:47,609
+For example,
+
+1077
+00:31:47,609 --> 00:31:48,970
+once that elements
+on the screen,
+
+1078
+00:31:48,970 --> 00:31:50,549
+once that CSS has
+been applied,
+
+1079
+00:31:50,549 --> 00:31:51,929
+there's not a
+lot we can do.
+
+1080
+00:31:51,929 --> 00:31:53,769
+We don't have
+as much control
+
+1081
+00:31:53,769 --> 00:31:55,649
+once it's on
+the screen now.
+
+1082
+00:31:55,649 --> 00:31:57,989
+Yeah, we can do
+some CSS selectors
+
+1083
+00:31:57,989 --> 00:31:59,289
+like hover or target,
+
+1084
+00:31:59,289 --> 00:32:01,149
+which have very basic
+
+1085
+00:32:01,149 --> 00:32:04,250
+styling properties
+to them.
+
+1086
+00:32:04,250 --> 00:32:05,369
+But the point is,
+
+1087
+00:32:05,369 --> 00:32:06,670
+once that elements
+on the screen,
+
+1088
+00:32:06,670 --> 00:32:08,429
+we lose a lot of
+that control,
+
+1089
+00:32:08,429 --> 00:32:10,090
+if that makes sense.
+
+1090
+00:32:10,090 --> 00:32:12,469
+The big takeaway
+on this is HTML
+
+1091
+00:32:12,469 --> 00:32:15,189
+and CSS aren't
+very interactive.
+
+1092
+00:32:15,189 --> 00:32:17,090
+We can display the page
+
+1093
+00:32:17,090 --> 00:32:18,809
+exactly how we like it.
+
+1094
+00:32:18,809 --> 00:32:20,790
+But once it's on the page,
+
+1095
+00:32:20,790 --> 00:32:24,029
+we can't do much
+for interaction,
+
+1096
+00:32:24,029 --> 00:32:25,789
+if the user wants
+to interact
+
+1097
+00:32:25,789 --> 00:32:27,070
+with certain parts
+of that page.
+
+1098
+00:32:27,070 --> 00:32:28,069
+There's not a lot we can
+
+1099
+00:32:28,069 --> 00:32:29,510
+really do at that point.
+
+1100
+00:32:29,510 --> 00:32:31,809
+Okay, the nice thing
+is, because of that,
+
+1101
+00:32:31,809 --> 00:32:33,529
+H CSS tend to be some of
+
+1102
+00:32:33,529 --> 00:32:35,310
+the more friendly
+languages.
+
+1103
+00:32:35,310 --> 00:32:37,029
+I would say a few of you
+
+1104
+00:32:37,029 --> 00:32:39,110
+have really taken
+a liking to HCSS,
+
+1105
+00:32:39,110 --> 00:32:41,030
+which is fantastic to see.
+
+1106
+00:32:41,030 --> 00:32:43,029
+Unfortunately, Javascript
+
+1107
+00:32:43,029 --> 00:32:45,149
+isn't quite the same.
+
+1108
+00:32:45,270 --> 00:32:48,410
+Html is a markup language,
+
+1109
+00:32:48,410 --> 00:32:50,110
+which basically means it's
+
+1110
+00:32:50,110 --> 00:32:52,490
+describing how that
+data is structured.
+
+1111
+00:32:52,490 --> 00:32:53,890
+Remember HTML? It stands
+
+1112
+00:32:53,890 --> 00:32:56,709
+for Hypertext
+Markup Language.
+
+1113
+00:32:56,720 --> 00:32:58,880
+What this really
+boils down
+
+1114
+00:32:58,880 --> 00:33:00,639
+to is once that
+code has been run,
+
+1115
+00:33:00,639 --> 00:33:03,819
+the browser interprets
+that and then
+
+1116
+00:33:03,819 --> 00:33:07,439
+generates an output
+based on that data.
+
+1117
+00:33:07,439 --> 00:33:08,839
+It goes from
+top to bottom,
+
+1118
+00:33:08,839 --> 00:33:11,565
+line by line
+in that order.
+
+1119
+00:33:11,565 --> 00:33:13,670
+Javascript, on
+the other hand,
+
+1120
+00:33:13,670 --> 00:33:15,489
+is a programming language.
+
+1121
+00:33:15,489 --> 00:33:18,549
+This basically means we
+have complete control
+
+1122
+00:33:18,549 --> 00:33:21,209
+over the order that that
+program is executed.
+
+1123
+00:33:21,209 --> 00:33:23,210
+And it's typically not
+in that structure.
+
+1124
+00:33:23,210 --> 00:33:24,890
+With HTML, it
+goes from top
+
+1125
+00:33:24,890 --> 00:33:27,030
+to bottom, line by line.
+
+1126
+00:33:27,030 --> 00:33:28,250
+Javascript doesn't
+
+1127
+00:33:28,250 --> 00:33:29,589
+usually follow
+that pattern.
+
+1128
+00:33:29,589 --> 00:33:30,849
+We might have a
+bit of code at
+
+1129
+00:33:30,849 --> 00:33:31,990
+the bottom that
+runs first,
+
+1130
+00:33:31,990 --> 00:33:33,289
+that then references
+something in
+
+1131
+00:33:33,289 --> 00:33:35,150
+the middle which then
+goes back to the top.
+
+1132
+00:33:35,150 --> 00:33:36,889
+It can even call
+something in
+
+1133
+00:33:36,889 --> 00:33:39,269
+a completely separate
+file entirely.
+
+1134
+00:33:39,269 --> 00:33:41,610
+The point is we need to
+start thinking about
+
+1135
+00:33:41,610 --> 00:33:43,989
+our code running in
+this different fashion.
+
+1136
+00:33:43,989 --> 00:33:45,169
+That's really what we're
+
+1137
+00:33:45,169 --> 00:33:45,869
+going to focus on with
+
+1138
+00:33:45,869 --> 00:33:48,760
+Javascript, if
+that makes sense.
+
+1139
+00:33:48,760 --> 00:33:51,510
+Now, because we're
+doing Javascript code,
+
+1140
+00:33:51,510 --> 00:33:53,409
+it needs to be
+in its own file.
+
+1141
+00:33:53,409 --> 00:33:56,030
+There are ways of
+doing this in HTML,
+
+1142
+00:33:56,030 --> 00:33:57,550
+but specifically
+for the assignment,
+
+1143
+00:33:57,550 --> 00:33:59,030
+we're going to keep
+our Javascript code
+
+1144
+00:33:59,030 --> 00:34:00,790
+in a Javascript file,
+
+1145
+00:34:00,790 --> 00:34:03,630
+just like CSS and HTML.
+
+1146
+00:34:03,630 --> 00:34:06,950
+Javascript goes in
+Javascript file.
+
+1147
+00:34:06,950 --> 00:34:08,449
+Hopefully you can
+see the screen.
+
+1148
+00:34:08,449 --> 00:34:09,870
+Chomsky is the
+laser pointer,
+
+1149
+00:34:09,870 --> 00:34:11,009
+which I'm starting to use
+
+1150
+00:34:11,009 --> 00:34:12,809
+a lot more now,
+which is fun.
+
+1151
+00:34:12,809 --> 00:34:15,929
+Our HTML ends with HTML.
+
+1152
+00:34:15,929 --> 00:34:18,209
+Our Javascript will
+end up with Dos,
+
+1153
+00:34:18,209 --> 00:34:20,010
+and our CSS ends with SS.
+
+1154
+00:34:20,010 --> 00:34:20,689
+And each of them have
+
+1155
+00:34:20,689 --> 00:34:23,224
+their associated
+icons to them.
+
+1156
+00:34:23,224 --> 00:34:26,439
+Now to run our
+Javascript file in HTML,
+
+1157
+00:34:26,439 --> 00:34:29,520
+we need to use a new
+element called script,
+
+1158
+00:34:29,520 --> 00:34:32,800
+a new HTML tag
+called script.
+
+1159
+00:34:32,800 --> 00:34:35,960
+Now the script tag has
+a source attribute,
+
+1160
+00:34:35,960 --> 00:34:37,900
+just like our image
+tag that basically
+
+1161
+00:34:37,900 --> 00:34:40,499
+points to what that
+HTML file is really,
+
+1162
+00:34:40,499 --> 00:34:42,959
+we're just, we're putting
+
+1163
+00:34:42,959 --> 00:34:43,259
+the name of
+
+1164
+00:34:43,259 --> 00:34:46,140
+our Javascript file
+in that source.
+
+1165
+00:34:46,350 --> 00:34:48,849
+Now, our script
+tags will go
+
+1166
+00:34:48,849 --> 00:34:50,869
+inside of the head
+tags of our HTML.
+
+1167
+00:34:50,869 --> 00:34:52,289
+Now, there's been some
+debate whether or
+
+1168
+00:34:52,289 --> 00:34:54,070
+not this should be in
+the head or the body.
+
+1169
+00:34:54,070 --> 00:34:55,490
+But for modern browsers,
+
+1170
+00:34:55,490 --> 00:34:57,190
+the head is just a
+bit more preferred.
+
+1171
+00:34:57,190 --> 00:34:58,589
+But again, there is
+still a little bit
+
+1172
+00:34:58,589 --> 00:35:00,489
+of debate here or
+there about that,
+
+1173
+00:35:00,489 --> 00:35:02,549
+to actually show you
+what this looks like,
+
+1174
+00:35:02,549 --> 00:35:04,709
+here's a nice
+illustration for you.
+
+1175
+00:35:04,709 --> 00:35:07,410
+It's our standard
+HTML structure.
+
+1176
+00:35:07,410 --> 00:35:08,449
+We've got our doc type,
+
+1177
+00:35:08,449 --> 00:35:10,209
+our HTML tags on our head.
+
+1178
+00:35:10,209 --> 00:35:11,089
+But the new bit of
+
+1179
+00:35:11,089 --> 00:35:12,989
+code Redding is
+this script tag.
+
+1180
+00:35:12,989 --> 00:35:16,509
+We say SRC equals
+than the name of
+
+1181
+00:35:16,509 --> 00:35:18,249
+our Java script file and
+
+1182
+00:35:18,249 --> 00:35:20,229
+then we use the ending
+script tag as well.
+
+1183
+00:35:20,229 --> 00:35:21,829
+We'll just put this in
+the head along with
+
+1184
+00:35:21,829 --> 00:35:25,510
+our CSS. Doing
+that together,
+
+1185
+00:35:26,120 --> 00:35:28,840
+we'll just create
+a brand new index,
+
+1186
+00:35:28,840 --> 00:35:30,579
+page, index dot HTML.
+
+1187
+00:35:30,579 --> 00:35:32,420
+We'll do that very
+nice shortcut.
+
+1188
+00:35:32,420 --> 00:35:34,859
+We'll then create
+our script tag.
+
+1189
+00:35:34,859 --> 00:35:36,179
+Call this whatever
+you want.
+
+1190
+00:35:36,179 --> 00:35:38,160
+I'm just going to
+call it scripts,
+
+1191
+00:35:38,160 --> 00:35:40,880
+but the JS bits,
+very important.
+
+1192
+00:35:41,060 --> 00:35:44,320
+We're then going to link
+this into our HTML.
+
+1193
+00:35:44,320 --> 00:35:45,579
+Remember to use
+Javascript,
+
+1194
+00:35:45,579 --> 00:35:46,719
+we need to link it to
+
+1195
+00:35:46,719 --> 00:35:50,279
+our HTML, use
+the script tag.
+
+1196
+00:35:50,279 --> 00:35:54,139
+We're then going
+to say scripts.
+
+1197
+00:35:54,139 --> 00:35:55,939
+We can do a little
+check just to
+
+1198
+00:35:55,939 --> 00:35:57,260
+make sure that's been
+linked over properly.
+
+1199
+00:35:57,260 --> 00:35:59,099
+The hover over this
+and click Follow Link.
+
+1200
+00:35:59,099 --> 00:36:00,539
+If it opens up that file,
+
+1201
+00:36:00,539 --> 00:36:02,499
+we're all in the
+clear, Which is nice.
+
+1202
+00:36:02,499 --> 00:36:05,380
+That's how we're linking
+our Javascript page
+
+1203
+00:36:05,380 --> 00:36:07,159
+to our HTML.
+
+1204
+00:36:07,159 --> 00:36:09,919
+Okay, if you've
+missed this step,
+
+1205
+00:36:09,919 --> 00:36:11,639
+unfortunately nothing's
+going to work from
+
+1206
+00:36:11,639 --> 00:36:12,759
+this moment on just
+
+1207
+00:36:12,759 --> 00:36:14,499
+the way it is
+unfortunately.
+
+1208
+00:36:14,499 --> 00:36:17,379
+But hopefully this
+is quite clear.
+
+1209
+00:36:21,660 --> 00:36:23,439
+Now to check that
+
+1210
+00:36:23,439 --> 00:36:25,040
+our script is
+loading correctly,
+
+1211
+00:36:25,040 --> 00:36:27,579
+we should probably
+add some code to it.
+
+1212
+00:36:27,820 --> 00:36:30,940
+Let's create a function.
+
+1213
+00:36:30,940 --> 00:36:33,640
+Now, one of the pre
+built functions
+
+1214
+00:36:33,640 --> 00:36:35,560
+in Java script is
+called an alert.
+
+1215
+00:36:35,560 --> 00:36:37,639
+Now alert is essentially
+a pop up box that
+
+1216
+00:36:37,639 --> 00:36:38,779
+appears in our
+browser that
+
+1217
+00:36:38,779 --> 00:36:40,479
+has a piece of
+text into it.
+
+1218
+00:36:40,479 --> 00:36:41,619
+In this case, we're
+
+1219
+00:36:41,619 --> 00:36:43,859
+saying alert
+normal brackets.
+
+1220
+00:36:43,859 --> 00:36:45,560
+Then in single
+quotation marks,
+
+1221
+00:36:45,560 --> 00:36:47,940
+we're putting a
+piece of text.
+
+1222
+00:36:47,940 --> 00:36:50,569
+We also end this
+with a semicolon.
+
+1223
+00:36:50,569 --> 00:36:53,100
+Using this in our
+Java script file.
+
+1224
+00:36:53,100 --> 00:36:55,020
+Using this in scripts,
+
+1225
+00:36:55,020 --> 00:36:57,039
+we get something that
+looks like this.
+
+1226
+00:36:57,039 --> 00:36:58,639
+Now again, this is
+
+1227
+00:36:58,639 --> 00:37:00,139
+dependent on the
+browser you're on.
+
+1228
+00:37:00,139 --> 00:37:01,519
+Sometimes it looks a
+little bit different
+
+1229
+00:37:01,519 --> 00:37:03,239
+if you're on
+Firefox or Edge,
+
+1230
+00:37:03,239 --> 00:37:05,059
+or really anything else.
+
+1231
+00:37:05,059 --> 00:37:08,439
+But this is what an
+alert does in our HTML.
+
+1232
+00:37:08,439 --> 00:37:09,879
+I'm just going
+to add a very
+
+1233
+00:37:09,879 --> 00:37:12,159
+basic heading tag because
+we're going to use
+
+1234
+00:37:12,159 --> 00:37:14,619
+a little bit
+later on we'll
+
+1235
+00:37:14,619 --> 00:37:16,299
+just add a tag as well,
+
+1236
+00:37:16,299 --> 00:37:19,399
+maybe with just
+some laurumext.
+
+1237
+00:37:19,720 --> 00:37:21,759
+We'll just make
+sure this is
+
+1238
+00:37:21,759 --> 00:37:23,800
+loading in correctly.
+
+1239
+00:37:24,730 --> 00:37:28,569
+There we've got our
+heading and our tag.
+
+1240
+00:37:28,569 --> 00:37:30,309
+If I want to make sure
+
+1241
+00:37:30,309 --> 00:37:32,050
+my Javascript file is
+connected properly,
+
+1242
+00:37:32,050 --> 00:37:35,569
+I can use no
+alerts in this.
+
+1243
+00:37:35,569 --> 00:37:38,370
+I could just say page
+
+1244
+00:37:38,370 --> 00:37:41,850
+working with a couple
+of explanation marks
+
+1245
+00:37:41,910 --> 00:37:44,310
+if this is all
+linking up correctly.
+
+1246
+00:37:44,310 --> 00:37:46,109
+If I click refresh, we
+
+1247
+00:37:46,109 --> 00:37:48,129
+get the alert box pop
+up just here that says,
+
+1248
+00:37:48,129 --> 00:37:49,410
+this page says page
+
+1249
+00:37:49,410 --> 00:37:51,610
+working and
+clicking, okay.
+
+1250
+00:37:51,610 --> 00:37:52,969
+But I'm not sure
+
+1251
+00:37:52,969 --> 00:37:54,609
+how many people
+have noticed this.
+
+1252
+00:37:54,609 --> 00:37:57,689
+But something a bit
+weird happened there.
+
+1253
+00:37:57,689 --> 00:38:01,010
+Can you see that
+this alert happens?
+
+1254
+00:38:01,010 --> 00:38:06,029
+And then our content
+is interesting, right?
+
+1255
+00:38:06,029 --> 00:38:08,829
+Put a pin in it,
+we'll get back to it.
+
+1256
+00:38:09,710 --> 00:38:13,205
+Essentially, our
+pop up appears,
+
+1257
+00:38:13,205 --> 00:38:15,340
+the contents of that HTML
+
+1258
+00:38:15,340 --> 00:38:16,740
+aren't immediately loaded.
+
+1259
+00:38:16,740 --> 00:38:18,600
+The second we click okay,
+
+1260
+00:38:18,600 --> 00:38:20,940
+then our elements
+are loaded.
+
+1261
+00:38:20,940 --> 00:38:22,560
+That's because
+Java script runs
+
+1262
+00:38:22,560 --> 00:38:24,560
+before those HTML elements
+
+1263
+00:38:24,560 --> 00:38:25,800
+are drawn on the screen.
+
+1264
+00:38:25,800 --> 00:38:28,499
+If you look at
+the file order,
+
+1265
+00:38:28,499 --> 00:38:30,340
+we link our script tags.
+
+1266
+00:38:30,340 --> 00:38:31,959
+So our script
+tag runs first,
+
+1267
+00:38:31,959 --> 00:38:33,640
+our Javascript runs first,
+
+1268
+00:38:33,640 --> 00:38:36,239
+and then our HTML content
+
+1269
+00:38:36,239 --> 00:38:38,579
+runs. Interesting, right?
+
+1270
+00:38:38,579 --> 00:38:40,320
+That's why when we refresh
+
+1271
+00:38:40,320 --> 00:38:42,400
+the page, look
+at the alert,
+
+1272
+00:38:42,400 --> 00:38:44,480
+We blank screen,
+we click okay,
+
+1273
+00:38:44,480 --> 00:38:48,819
+and then our content
+exists. Pretty cool.
+
+1274
+00:38:51,430 --> 00:38:54,109
+A couple of uses
+for Javascript.
+
+1275
+00:38:54,109 --> 00:38:56,169
+Essentially,
+Javascript is used
+
+1276
+00:38:56,169 --> 00:38:58,610
+to control HTML
+elements on our page.
+
+1277
+00:38:58,610 --> 00:39:01,709
+We can assign certain
+pieces of CSS to them.
+
+1278
+00:39:01,709 --> 00:39:03,470
+We could add or remove
+
+1279
+00:39:03,470 --> 00:39:05,030
+HTML attributes entirely.
+
+1280
+00:39:05,030 --> 00:39:06,509
+So we've got a HTML form,
+
+1281
+00:39:06,509 --> 00:39:07,229
+we can actually get
+
+1282
+00:39:07,229 --> 00:39:08,930
+the inputs from
+those forms.
+
+1283
+00:39:08,930 --> 00:39:11,090
+For your contact pages
+where you're typing
+
+1284
+00:39:11,090 --> 00:39:13,189
+in the name and maybe
+a message for e mail,
+
+1285
+00:39:13,189 --> 00:39:15,250
+we can actually
+get those values
+
+1286
+00:39:15,250 --> 00:39:17,449
+and do something
+with them.
+
+1287
+00:39:17,449 --> 00:39:20,009
+We can detect when
+certain keys are
+
+1288
+00:39:20,009 --> 00:39:22,630
+impressed In that
+Javascript assignment game,
+
+1289
+00:39:22,630 --> 00:39:24,249
+the Pac Man based one,
+
+1290
+00:39:24,249 --> 00:39:25,329
+we're detecting when
+
+1291
+00:39:25,329 --> 00:39:26,690
+the error keys
+are impressed.
+
+1292
+00:39:26,690 --> 00:39:28,010
+But we can do that
+with virtually
+
+1293
+00:39:28,010 --> 00:39:29,690
+any key on our keyboard.
+
+1294
+00:39:29,690 --> 00:39:31,609
+Not only that, we can even
+
+1295
+00:39:31,609 --> 00:39:32,630
+check when elements
+
+1296
+00:39:32,630 --> 00:39:33,809
+are being interacted with.
+
+1297
+00:39:33,809 --> 00:39:35,870
+If our mouse
+curse is hovering
+
+1298
+00:39:35,870 --> 00:39:38,010
+over a certain section,
+we can do something.
+
+1299
+00:39:38,010 --> 00:39:39,530
+If we've clicked
+on an element,
+
+1300
+00:39:39,530 --> 00:39:40,949
+we can do something else.
+
+1301
+00:39:40,949 --> 00:39:44,049
+Javascript has a ton of
+different uses to it,
+
+1302
+00:39:44,049 --> 00:39:45,669
+but the real key one is it
+
+1303
+00:39:45,669 --> 00:39:48,150
+adds interactivity
+to those pages.
+
+1304
+00:39:48,150 --> 00:39:51,350
+It allows us to control
+
+1305
+00:39:51,510 --> 00:39:54,589
+when something happens
+and more specifically,
+
+1306
+00:39:54,589 --> 00:39:56,390
+what happens during
+that process.
+
+1307
+00:39:56,390 --> 00:39:58,249
+If that makes
+sense, we get to
+
+1308
+00:39:58,249 --> 00:40:01,310
+control when that
+happens. Basically
+
+1309
+00:40:04,080 --> 00:40:06,559
+bodies, I've got
+a sore throat.
+
+1310
+00:40:06,559 --> 00:40:07,839
+It's not very fun.
+
+1311
+00:40:07,839 --> 00:40:11,680
+So one of the pinnacle,
+
+1312
+00:40:11,680 --> 00:40:14,120
+the major concepts
+in programming
+
+1313
+00:40:14,120 --> 00:40:15,999
+is something that
+we call variables.
+
+1314
+00:40:15,999 --> 00:40:18,920
+We look very briefly
+at variables in CSS,
+
+1315
+00:40:18,920 --> 00:40:20,599
+but variables go a
+
+1316
+00:40:20,599 --> 00:40:23,139
+step further
+in Javascript.
+
+1317
+00:40:23,139 --> 00:40:26,779
+Now, a variable, in its
+very most basic form,
+
+1318
+00:40:26,779 --> 00:40:30,560
+is a way of us to give
+a label to a value.
+
+1319
+00:40:30,560 --> 00:40:32,760
+The idea is when we
+want to use that value,
+
+1320
+00:40:32,760 --> 00:40:35,699
+we can call that label
+if that makes sense.
+
+1321
+00:40:35,699 --> 00:40:37,660
+In this sense,
+we could create
+
+1322
+00:40:37,660 --> 00:40:39,920
+a label called name.
+
+1323
+00:40:39,920 --> 00:40:41,919
+That name, label would
+
+1324
+00:40:41,919 --> 00:40:43,099
+link to an actual name
+
+1325
+00:40:43,099 --> 00:40:44,159
+that someone's type it in.
+
+1326
+00:40:44,159 --> 00:40:46,139
+Or we could create
+a number label and
+
+1327
+00:40:46,139 --> 00:40:49,480
+that number
+equals ten or 20.
+
+1328
+00:40:49,550 --> 00:40:51,329
+It's a bit weird to
+
+1329
+00:40:51,329 --> 00:40:52,389
+initially get
+your head around,
+
+1330
+00:40:52,389 --> 00:40:53,829
+but essentially a
+variable is way
+
+1331
+00:40:53,829 --> 00:40:55,789
+for us to call
+something by a name.
+
+1332
+00:40:55,789 --> 00:40:57,189
+We can then use
+that name to
+
+1333
+00:40:57,189 --> 00:41:00,109
+reference that value,
+if that makes sense.
+
+1334
+00:41:00,109 --> 00:41:02,009
+Now in Javascript, we have
+
+1335
+00:41:02,009 --> 00:41:03,470
+a lot of control over
+these variables.
+
+1336
+00:41:03,470 --> 00:41:05,109
+We can really call
+it any name we like.
+
+1337
+00:41:05,109 --> 00:41:07,949
+It's chosen by us,
+not Javascript.
+
+1338
+00:41:07,949 --> 00:41:09,630
+The value of that variable
+
+1339
+00:41:09,630 --> 00:41:10,909
+is chosen by us as well.
+
+1340
+00:41:10,909 --> 00:41:13,329
+We could say name
+equals Chris,
+
+1341
+00:41:13,329 --> 00:41:15,714
+or number equals ten.
+
+1342
+00:41:15,714 --> 00:41:19,119
+The only bit that we
+need to absolutely
+
+1343
+00:41:19,119 --> 00:41:20,780
+has to be in is the type
+
+1344
+00:41:20,780 --> 00:41:22,399
+of variable we're using.
+
+1345
+00:41:22,399 --> 00:41:23,759
+There are two types of
+
+1346
+00:41:23,759 --> 00:41:25,260
+variable in Java scripts.
+
+1347
+00:41:25,260 --> 00:41:26,920
+There's let and constant.
+
+1348
+00:41:26,920 --> 00:41:28,639
+And they both do very
+different things.
+
+1349
+00:41:28,639 --> 00:41:29,579
+It's quite important not
+
+1350
+00:41:29,579 --> 00:41:31,020
+to get them confused.
+
+1351
+00:41:31,020 --> 00:41:35,500
+Now, let is probably one
+of the more commonly
+
+1352
+00:41:35,500 --> 00:41:37,560
+used of the two variables
+
+1353
+00:41:37,560 --> 00:41:39,939
+to declare a
+variable using let.
+
+1354
+00:41:39,939 --> 00:41:42,440
+We start with
+the keyword let,
+
+1355
+00:41:42,460 --> 00:41:45,279
+go figure it's let,
+
+1356
+00:41:45,279 --> 00:41:46,459
+followed by the
+name of the
+
+1357
+00:41:46,459 --> 00:41:47,679
+variable we'd
+like to give it.
+
+1358
+00:41:47,679 --> 00:41:48,819
+In this case, I'm being
+
+1359
+00:41:48,819 --> 00:41:49,999
+quite boring
+and calling it
+
+1360
+00:41:49,999 --> 00:41:53,180
+variable name
+equals this value.
+
+1361
+00:41:53,180 --> 00:41:55,399
+When I call variable name,
+
+1362
+00:41:55,399 --> 00:41:59,099
+it will equal value,
+if that makes sense.
+
+1363
+00:41:59,140 --> 00:42:01,239
+Now it's very important to
+
+1364
+00:42:01,239 --> 00:42:02,919
+realize the name
+of the variable is
+
+1365
+00:42:02,919 --> 00:42:05,059
+chosen by you
+and the value of
+
+1366
+00:42:05,059 --> 00:42:06,220
+the variable is chosen
+
+1367
+00:42:06,220 --> 00:42:08,844
+by the only bits
+that are required by
+
+1368
+00:42:08,844 --> 00:42:12,089
+are the let part
+and the equal sign.
+
+1369
+00:42:12,089 --> 00:42:14,129
+Also obviously these
+quotation marks as well.
+
+1370
+00:42:14,129 --> 00:42:15,249
+That's a little
+bit important as
+
+1371
+00:42:15,249 --> 00:42:18,629
+well. But that's it.
+
+1372
+00:42:18,629 --> 00:42:19,950
+We have quite a
+lot of control
+
+1373
+00:42:19,950 --> 00:42:21,629
+over what this
+variable is.
+
+1374
+00:42:21,629 --> 00:42:23,509
+Now the big
+cool thing with
+
+1375
+00:42:23,509 --> 00:42:25,910
+let is we can reassign
+that variable,
+
+1376
+00:42:25,910 --> 00:42:27,489
+which means that
+variable can have
+
+1377
+00:42:27,489 --> 00:42:29,570
+multiple values at
+different points.
+
+1378
+00:42:29,570 --> 00:42:30,629
+For example, when we
+
+1379
+00:42:30,629 --> 00:42:31,650
+first start this program,
+
+1380
+00:42:31,650 --> 00:42:35,250
+we've initialized this
+variable called value.
+
+1381
+00:42:35,250 --> 00:42:38,989
+We could then change
+it to this now,
+
+1382
+00:42:38,989 --> 00:42:40,829
+then changed
+again and again.
+
+1383
+00:42:40,829 --> 00:42:42,710
+The idea is we can
+change this value
+
+1384
+00:42:42,710 --> 00:42:45,590
+over and over again,
+which is interesting.
+
+1385
+00:42:45,590 --> 00:42:47,109
+For example, we could have
+
+1386
+00:42:47,109 --> 00:42:48,529
+a variable called age.
+
+1387
+00:42:48,529 --> 00:42:50,249
+And that age will
+progressively get
+
+1388
+00:42:50,249 --> 00:42:51,609
+bigger and bigger as each
+
+1389
+00:42:51,609 --> 00:42:53,389
+year or day goes by.
+
+1390
+00:42:53,389 --> 00:42:55,830
+The idea is with
+a let variable,
+
+1391
+00:42:55,830 --> 00:42:57,249
+we can reassign it,
+
+1392
+00:42:57,249 --> 00:42:59,090
+we can reassign that value
+
+1393
+00:42:59,090 --> 00:43:00,929
+over and over again,
+
+1394
+00:43:00,929 --> 00:43:04,029
+doing one of these
+variables ourselves. Then
+
+1395
+00:43:04,280 --> 00:43:09,779
+I could say a equals ten.
+
+1396
+00:43:09,779 --> 00:43:12,319
+I just realized
+my age isn't ten.
+
+1397
+00:43:12,319 --> 00:43:15,619
+Let's change this to
+25 my actual age.
+
+1398
+00:43:15,619 --> 00:43:19,919
+We could also say
+number equals one,
+
+1399
+00:43:19,919 --> 00:43:21,939
+but then we
+realize number one
+
+1400
+00:43:21,939 --> 00:43:23,080
+sounds a bit boring.
+
+1401
+00:43:23,080 --> 00:43:26,399
+Let's say number
+equals five.
+
+1402
+00:43:27,080 --> 00:43:31,299
+We can even do, we
+can do text as well,
+
+1403
+00:43:31,299 --> 00:43:35,799
+so we could well
+be a good one.
+
+1404
+00:43:35,799 --> 00:43:39,959
+My name Chris.
+
+1405
+00:43:39,959 --> 00:43:42,659
+But we can then
+change by name to
+
+1406
+00:43:42,659 --> 00:43:45,400
+equals something like
+Mark for instance.
+
+1407
+00:43:45,400 --> 00:43:47,439
+That's really the
+big thing with
+
+1408
+00:43:47,439 --> 00:43:48,640
+these let variables.
+
+1409
+00:43:48,640 --> 00:43:50,200
+We can change the value
+
+1410
+00:43:50,200 --> 00:43:51,799
+further down the line
+that we want to.
+
+1411
+00:43:51,799 --> 00:43:53,619
+We can use the same
+variable name,
+
+1412
+00:43:53,619 --> 00:43:56,579
+change the value if
+that makes sense.
+
+1413
+00:43:56,579 --> 00:43:59,039
+Again, we're not
+limited to one or two.
+
+1414
+00:43:59,039 --> 00:44:01,659
+We can do this as many
+times as we want,
+
+1415
+00:44:01,659 --> 00:44:04,979
+like this, that makes
+a little bit of
+
+1416
+00:44:04,979 --> 00:44:06,339
+sense because that's
+going to tie in
+
+1417
+00:44:06,339 --> 00:44:07,579
+quite heavily
+into the next bit
+
+1418
+00:44:07,579 --> 00:44:08,899
+we're about to do.
+
+1419
+00:44:08,899 --> 00:44:12,459
+If we can reassign
+variables using let,
+
+1420
+00:44:12,459 --> 00:44:15,335
+what is constant exactly?
+
+1421
+00:44:15,335 --> 00:44:16,909
+Well, the second type of
+
+1422
+00:44:16,909 --> 00:44:18,150
+variable is
+called constant,
+
+1423
+00:44:18,150 --> 00:44:20,010
+and that stands
+for constant.
+
+1424
+00:44:20,010 --> 00:44:21,890
+Now again, it's
+a very similar
+
+1425
+00:44:21,890 --> 00:44:23,509
+process to when
+we use let,
+
+1426
+00:44:23,509 --> 00:44:24,989
+except the big change on
+
+1427
+00:44:24,989 --> 00:44:26,689
+this one is instead
+of saying let,
+
+1428
+00:44:26,689 --> 00:44:28,170
+we're using the
+word constant.
+
+1429
+00:44:28,170 --> 00:44:30,110
+Now the big
+fundamental difference
+
+1430
+00:44:30,110 --> 00:44:32,130
+between let and
+constant is constant.
+
+1431
+00:44:32,130 --> 00:44:34,089
+Variables cannot
+be reassigned
+
+1432
+00:44:34,089 --> 00:44:36,550
+once we've set that value,
+
+1433
+00:44:36,550 --> 00:44:38,629
+once we've set
+variable name to
+
+1434
+00:44:38,629 --> 00:44:41,249
+that value, that's it.
+
+1435
+00:44:41,249 --> 00:44:43,109
+If we were to try
+changing this,
+
+1436
+00:44:43,109 --> 00:44:44,369
+we'd get an error.
+
+1437
+00:44:44,369 --> 00:44:45,629
+It's very good when you
+
+1438
+00:44:45,629 --> 00:44:46,929
+want something to
+stay the same.
+
+1439
+00:44:46,929 --> 00:44:48,210
+For example, if
+we're finding
+
+1440
+00:44:48,210 --> 00:44:49,729
+a tag in our HTML and
+
+1441
+00:44:49,729 --> 00:44:50,929
+we know that
+the main tag is
+
+1442
+00:44:50,929 --> 00:44:51,649
+never going to change,
+
+1443
+00:44:51,649 --> 00:44:52,869
+it's always going
+to be this.
+
+1444
+00:44:52,869 --> 00:44:54,290
+That would be a
+good opportunity
+
+1445
+00:44:54,290 --> 00:44:55,930
+to use a constant variable
+
+1446
+00:44:55,930 --> 00:44:59,569
+in the assignment in
+the Javascript game,
+
+1447
+00:44:59,569 --> 00:45:00,669
+The player where I
+
+1448
+00:45:00,669 --> 00:45:02,290
+found the player
+character,
+
+1449
+00:45:02,290 --> 00:45:04,170
+that's using a
+constant variable
+
+1450
+00:45:04,170 --> 00:45:04,809
+because the player is
+
+1451
+00:45:04,809 --> 00:45:06,609
+always going to
+stay the same.
+
+1452
+00:45:06,609 --> 00:45:08,129
+In this case, when we know
+
+1453
+00:45:08,129 --> 00:45:09,649
+something is going
+to stay the same,
+
+1454
+00:45:09,649 --> 00:45:11,730
+constant is quite
+a good variable
+
+1455
+00:45:11,730 --> 00:45:13,880
+to use. Okay,
+
+1456
+00:45:13,880 --> 00:45:16,369
+one thing I'll
+mention is var.
+
+1457
+00:45:16,369 --> 00:45:18,510
+Var was the older way
+of doing variables.
+
+1458
+00:45:18,510 --> 00:45:20,429
+Back in the day,
+Javascript had
+
+1459
+00:45:20,429 --> 00:45:21,529
+a big change and we no
+
+1460
+00:45:21,529 --> 00:45:23,330
+longer really use anymore.
+
+1461
+00:45:23,330 --> 00:45:25,110
+But essentially
+it functions
+
+1462
+00:45:25,110 --> 00:45:26,409
+very similarly to let.
+
+1463
+00:45:26,409 --> 00:45:28,010
+The idea is we
+can reassign
+
+1464
+00:45:28,010 --> 00:45:29,369
+it time and time again.
+
+1465
+00:45:29,369 --> 00:45:31,689
+If you do see an
+example using,
+
+1466
+00:45:31,689 --> 00:45:33,149
+you're probably looking at
+
+1467
+00:45:33,149 --> 00:45:34,550
+quite an old
+piece of code.
+
+1468
+00:45:34,550 --> 00:45:35,949
+Typically we only use V
+
+1469
+00:45:35,949 --> 00:45:37,649
+now for legacy pieces of
+
+1470
+00:45:37,649 --> 00:45:39,490
+code or very old browsers
+
+1471
+00:45:39,490 --> 00:45:41,889
+that haven't quite
+caught up with let cons.
+
+1472
+00:45:41,889 --> 00:45:43,989
+The areas that included
+this slide is just
+
+1473
+00:45:43,989 --> 00:45:45,810
+in case you do see
+some examples online.
+
+1474
+00:45:45,810 --> 00:45:47,610
+But primarily the
+way we do variables
+
+1475
+00:45:47,610 --> 00:45:50,490
+now is using
+let and const.
+
+1476
+00:45:51,270 --> 00:45:53,809
+If you're a bit unsure
+about which ones
+
+1477
+00:45:53,809 --> 00:45:55,990
+to use in general,
+
+1478
+00:45:55,990 --> 00:45:59,330
+you shouldn't be using
+bar again and const.
+
+1479
+00:45:59,330 --> 00:46:01,109
+Think they were
+introduced back in 2015.
+
+1480
+00:46:01,109 --> 00:46:03,329
+It's almost been ten years
+
+1481
+00:46:03,329 --> 00:46:05,129
+since we've been
+using these.
+
+1482
+00:46:05,129 --> 00:46:06,489
+You shouldn't
+be using bar,
+
+1483
+00:46:06,489 --> 00:46:07,729
+you should be
+using let and
+
+1484
+00:46:07,729 --> 00:46:11,390
+const if you ever need
+to change that value.
+
+1485
+00:46:11,390 --> 00:46:12,990
+If you know that value
+
+1486
+00:46:12,990 --> 00:46:14,089
+is going to stay
+exactly the
+
+1487
+00:46:14,089 --> 00:46:17,610
+same from now to the
+dawn of time. Use const.
+
+1488
+00:46:17,610 --> 00:46:20,310
+In my opinion, I
+think let is probably
+
+1489
+00:46:20,310 --> 00:46:22,389
+a bit more commonly
+used because again,
+
+1490
+00:46:22,389 --> 00:46:24,009
+typically we are going
+to be reassigning
+
+1491
+00:46:24,009 --> 00:46:25,850
+values to variables,
+
+1492
+00:46:25,850 --> 00:46:27,970
+especially with our
+Java script games.
+
+1493
+00:46:27,970 --> 00:46:29,810
+You ever a little
+bit unsure,
+
+1494
+00:46:29,810 --> 00:46:32,284
+just use let. Okay,
+
+1495
+00:46:32,284 --> 00:46:34,880
+Black said use constant.
+
+1496
+00:46:34,880 --> 00:46:35,939
+It's always going
+to stay the
+
+1497
+00:46:35,939 --> 00:46:37,819
+same if that makes sense.
+
+1498
+00:46:37,819 --> 00:46:39,399
+So we'll just use
+
+1499
+00:46:39,399 --> 00:46:40,819
+a constant
+variable to serve.
+
+1500
+00:46:40,819 --> 00:46:42,620
+Everyone is on
+the same page.
+
+1501
+00:46:42,620 --> 00:46:45,979
+So if I said const,
+let's go with,
+
+1502
+00:46:47,100 --> 00:46:54,619
+well, that would be a
+good const. Let's say
+
+1503
+00:46:57,440 --> 00:46:59,899
+we'll dude name because
+
+1504
+00:46:59,899 --> 00:47:01,780
+name looks like one const,
+
+1505
+00:47:01,780 --> 00:47:06,039
+my name equals Chris.
+
+1506
+00:47:06,440 --> 00:47:09,059
+If I want to try
+and reassign this,
+
+1507
+00:47:09,059 --> 00:47:12,859
+if I said my name
+equals mark,
+
+1508
+00:47:12,859 --> 00:47:14,839
+this would
+immediately throw
+
+1509
+00:47:14,839 --> 00:47:16,460
+up an error in
+the browser.
+
+1510
+00:47:16,460 --> 00:47:19,400
+Let's see it in action.
+
+1511
+00:47:20,280 --> 00:47:23,760
+Big error, just the
+assignment to constant
+
+1512
+00:47:23,760 --> 00:47:26,959
+variable on line eight,
+which is this one.
+
+1513
+00:47:26,959 --> 00:47:28,299
+When we use
+const, we can't
+
+1514
+00:47:28,299 --> 00:47:30,359
+reassign it if
+that makes sense.
+
+1515
+00:47:30,359 --> 00:47:32,239
+Again, constant is
+very good when we know
+
+1516
+00:47:32,239 --> 00:47:33,279
+our name is never going
+
+1517
+00:47:33,279 --> 00:47:34,659
+to change in this case,
+
+1518
+00:47:34,659 --> 00:47:38,960
+okay? Now when dealing
+with variables,
+
+1519
+00:47:38,960 --> 00:47:41,620
+we have two different
+types of variable.
+
+1520
+00:47:41,620 --> 00:47:43,199
+We've got a number and
+
+1521
+00:47:43,199 --> 00:47:45,120
+a string, which is text.
+
+1522
+00:47:45,120 --> 00:47:48,480
+These are our two data
+types in Java script.
+
+1523
+00:47:48,480 --> 00:47:50,439
+Now, the way
+we assign this
+
+1524
+00:47:50,439 --> 00:47:53,969
+is how we use it that way.
+
+1525
+00:47:53,969 --> 00:47:56,359
+If we're doing a number
+like we've done with
+
+1526
+00:47:56,359 --> 00:47:58,960
+the age property, with
+the name variable.
+
+1527
+00:47:58,960 --> 00:48:00,639
+Thinking in CSS, all
+
+1528
+00:48:00,639 --> 00:48:02,040
+we need to do
+is say equals,
+
+1529
+00:48:02,040 --> 00:48:04,340
+then a number with
+no quotation marks.
+
+1530
+00:48:04,340 --> 00:48:05,819
+Let number equals ten.
+
+1531
+00:48:05,819 --> 00:48:07,559
+This variable
+data type is now
+
+1532
+00:48:07,559 --> 00:48:09,960
+a number to
+assign A string.
+
+1533
+00:48:09,960 --> 00:48:12,399
+Again, strings are
+just pieces of text.
+
+1534
+00:48:12,399 --> 00:48:14,780
+We use quotation marks,
+
+1535
+00:48:14,780 --> 00:48:16,500
+and then we put
+our text inside
+
+1536
+00:48:16,500 --> 00:48:17,700
+those quotation marks.
+
+1537
+00:48:17,700 --> 00:48:19,119
+The way we declare what
+
+1538
+00:48:19,119 --> 00:48:20,919
+data type these
+variables are,
+
+1539
+00:48:20,919 --> 00:48:23,720
+are how we use
+these variables,
+
+1540
+00:48:23,720 --> 00:48:25,579
+if that makes sense.
+
+1541
+00:48:25,590 --> 00:48:27,649
+Now putting this into more
+
+1542
+00:48:27,649 --> 00:48:28,989
+of like an English
+translation,
+
+1543
+00:48:28,989 --> 00:48:30,549
+our code can
+be interpreted
+
+1544
+00:48:30,549 --> 00:48:31,850
+as create a variable
+
+1545
+00:48:31,850 --> 00:48:33,549
+called the equal sign
+
+1546
+00:48:33,549 --> 00:48:35,589
+can then be read
+as set two.
+
+1547
+00:48:35,589 --> 00:48:37,090
+In these two examples,
+
+1548
+00:48:37,090 --> 00:48:38,389
+let's focus on
+the number one.
+
+1549
+00:48:38,389 --> 00:48:40,490
+To start with, we're
+essentially creating
+
+1550
+00:48:40,490 --> 00:48:41,730
+a variable called number
+
+1551
+00:48:41,730 --> 00:48:43,329
+and setting it to ten.
+
+1552
+00:48:43,329 --> 00:48:47,084
+Create our number variable
+and set it to ten.
+
+1553
+00:48:47,084 --> 00:48:48,839
+It's the exact same thing
+
+1554
+00:48:48,839 --> 00:48:49,760
+with the second example.
+
+1555
+00:48:49,760 --> 00:48:51,859
+We're creating a
+variable called string,
+
+1556
+00:48:51,859 --> 00:48:54,859
+let string equals and
+
+1557
+00:48:54,859 --> 00:48:57,800
+set that string
+variable to text.
+
+1558
+00:48:57,800 --> 00:49:00,139
+I think sometimes,
+especially when it's
+
+1559
+00:49:00,139 --> 00:49:00,719
+your first time
+
+1560
+00:49:00,719 --> 00:49:02,480
+doing these
+programming languages,
+
+1561
+00:49:02,480 --> 00:49:03,859
+hopefully everyone's
+got a little bit
+
+1562
+00:49:03,859 --> 00:49:04,639
+of knowledge on this
+
+1563
+00:49:04,639 --> 00:49:06,040
+now from the
+Python module,
+
+1564
+00:49:06,040 --> 00:49:08,059
+but if not, that's fine.
+
+1565
+00:49:08,960 --> 00:49:10,459
+Trying to get
+
+1566
+00:49:10,459 --> 00:49:12,239
+your own definitions
+in your head
+
+1567
+00:49:12,239 --> 00:49:13,779
+for what's going on
+
+1568
+00:49:13,779 --> 00:49:16,180
+really does help with
+a lot of this stuff.
+
+1569
+00:49:16,180 --> 00:49:18,539
+For example, some
+terminology people use
+
+1570
+00:49:18,539 --> 00:49:20,639
+can go completely over
+other people's heads.
+
+1571
+00:49:20,639 --> 00:49:21,139
+Talking about
+
+1572
+00:49:21,139 --> 00:49:22,520
+the software
+engineering module,
+
+1573
+00:49:22,520 --> 00:49:24,299
+we're really focused
+on terminology
+
+1574
+00:49:24,299 --> 00:49:26,480
+and jargon in
+those interviews.
+
+1575
+00:49:26,480 --> 00:49:28,979
+Again, if I were to
+
+1576
+00:49:28,979 --> 00:49:31,459
+teach you using very
+complex terminology,
+
+1577
+00:49:31,459 --> 00:49:32,779
+a lot of you probably
+wouldn't get
+
+1578
+00:49:32,779 --> 00:49:34,719
+it because it's your
+first time doing this.
+
+1579
+00:49:34,719 --> 00:49:36,340
+If you find it
+a lot easier,
+
+1580
+00:49:36,340 --> 00:49:37,159
+thinking about
+
+1581
+00:49:37,159 --> 00:49:38,519
+creating variables
+in this manner.
+
+1582
+00:49:38,519 --> 00:49:41,939
+So create a variable
+call and set it to that.
+
+1583
+00:49:41,939 --> 00:49:44,160
+Say it out loud sometimes.
+
+1584
+00:49:44,160 --> 00:49:45,880
+One of my first web
+loper lecturers,
+
+1585
+00:49:45,880 --> 00:49:46,599
+she actually brought in
+
+1586
+00:49:46,599 --> 00:49:47,519
+a bunch of rubber ducks.
+
+1587
+00:49:47,519 --> 00:49:50,039
+Once there's a
+very common way
+
+1588
+00:49:50,039 --> 00:49:51,580
+of debugging your code,
+
+1589
+00:49:51,580 --> 00:49:52,960
+it's called
+rubber ducking,
+
+1590
+00:49:52,960 --> 00:49:55,259
+I think I want to
+say that's the name.
+
+1591
+00:49:55,259 --> 00:49:56,319
+But essentially you talk
+
+1592
+00:49:56,319 --> 00:49:57,799
+about the problem
+to something.
+
+1593
+00:49:57,799 --> 00:49:59,540
+Usually it's an
+inanimate object,
+
+1594
+00:49:59,540 --> 00:50:01,019
+like a rubber duck.
+
+1595
+00:50:01,019 --> 00:50:03,639
+Typically, by
+talking through
+
+1596
+00:50:03,639 --> 00:50:05,859
+your issue or talking
+through your problem,
+
+1597
+00:50:05,859 --> 00:50:07,579
+nine times out
+of ten, you'll
+
+1598
+00:50:07,579 --> 00:50:08,919
+come up with the
+solution to it.
+
+1599
+00:50:08,919 --> 00:50:10,259
+It's a very strange way
+
+1600
+00:50:10,259 --> 00:50:12,119
+of doing things,
+but it does work.
+
+1601
+00:50:12,119 --> 00:50:13,839
+If you have to say it out
+
+1602
+00:50:13,839 --> 00:50:15,259
+loud for it to make
+sense, just do it.
+
+1603
+00:50:15,259 --> 00:50:16,339
+No one's going to judge.
+
+1604
+00:50:16,339 --> 00:50:18,085
+Well, I won't. Anyway,
+
+1605
+00:50:18,085 --> 00:50:19,890
+the lastly variables.
+
+1606
+00:50:19,890 --> 00:50:20,989
+So we've got two
+different types.
+
+1607
+00:50:20,989 --> 00:50:22,610
+We've got number and
+we've got strings.
+
+1608
+00:50:22,610 --> 00:50:24,229
+At this stage we do
+have a few more,
+
+1609
+00:50:24,229 --> 00:50:25,150
+but we're going
+to introduce
+
+1610
+00:50:25,150 --> 00:50:26,550
+them as the
+weeks progress,
+
+1611
+00:50:26,550 --> 00:50:28,069
+But just for now, we're
+going to focus on
+
+1612
+00:50:28,069 --> 00:50:30,889
+number and string. Okay.
+
+1613
+00:50:30,889 --> 00:50:33,430
+Now, how do we actually
+use these variables?
+
+1614
+00:50:33,430 --> 00:50:35,810
+Well, once I've got
+the variable created,
+
+1615
+00:50:35,810 --> 00:50:37,869
+we can reference it
+wherever we like.
+
+1616
+00:50:37,869 --> 00:50:39,989
+In our case, we're
+
+1617
+00:50:39,989 --> 00:50:43,010
+creating a variable
+called alert text.
+
+1618
+00:50:43,010 --> 00:50:45,009
+We're then setting it
+
+1619
+00:50:45,009 --> 00:50:47,390
+to the value of
+script loaded.
+
+1620
+00:50:47,390 --> 00:50:49,850
+This value is
+this variable,
+
+1621
+00:50:49,850 --> 00:50:52,030
+essentially a variable
+is this value.
+
+1622
+00:50:52,030 --> 00:50:53,850
+If I want to use
+this variable,
+
+1623
+00:50:53,850 --> 00:50:55,709
+you just put it where we
+
+1624
+00:50:55,709 --> 00:50:57,410
+would typically
+put that value.
+
+1625
+00:50:57,410 --> 00:51:00,370
+In our case, when we
+say alert, alert,
+
+1626
+00:51:00,370 --> 00:51:02,669
+it will give me
+the value of
+
+1627
+00:51:02,669 --> 00:51:05,729
+that variable.
+Cool, right?
+
+1628
+00:51:07,140 --> 00:51:11,160
+Let's try it.
+If I said alert
+
+1629
+00:51:11,160 --> 00:51:16,239
+and let's say my name
+inside this alert box,
+
+1630
+00:51:16,239 --> 00:51:18,979
+it should say
+Chris, like this.
+
+1631
+00:51:18,979 --> 00:51:21,159
+Instead of me having
+to type in Chris,
+
+1632
+00:51:21,159 --> 00:51:22,400
+I'm using that variable.
+
+1633
+00:51:22,400 --> 00:51:22,939
+I could do
+
+1634
+00:51:22,939 --> 00:51:24,099
+the exact same thing
+with the number.
+
+1635
+00:51:24,099 --> 00:51:27,980
+I could put age on this,
+which would say 25.
+
+1636
+00:51:29,660 --> 00:51:31,859
+Good thing is I
+can even do quite
+
+1637
+00:51:31,859 --> 00:51:32,919
+a few alerts I want to,
+
+1638
+00:51:32,919 --> 00:51:36,179
+I could say at my name.
+
+1639
+00:51:36,179 --> 00:51:37,200
+And we'll get two alerts
+
+1640
+00:51:37,200 --> 00:51:38,919
+pop up, which
+is quite fun.
+
+1641
+00:51:38,919 --> 00:51:40,580
+That's get a bit annoying.
+
+1642
+00:51:40,580 --> 00:51:41,879
+After a few though,
+
+1643
+00:51:41,879 --> 00:51:45,699
+we've got Chris and
+then 25 pretty fun.
+
+1644
+00:51:45,699 --> 00:51:47,260
+That's essentially how
+we can use variables.
+
+1645
+00:51:47,260 --> 00:51:49,119
+We just use the name
+of the variable and
+
+1646
+00:51:49,119 --> 00:51:51,620
+it points in the direction
+of these values,
+
+1647
+00:51:51,620 --> 00:51:58,499
+which is fun. Anything in
+
+1648
+00:51:59,120 --> 00:52:03,200
+these quotation marks
+is treated as a string.
+
+1649
+00:52:03,200 --> 00:52:04,579
+I think outside of
+
+1650
+00:52:04,579 --> 00:52:06,940
+these quotation
+marks is data.
+
+1651
+00:52:06,940 --> 00:52:10,759
+A very common programming
+mistake is not
+
+1652
+00:52:10,759 --> 00:52:11,580
+really understanding
+
+1653
+00:52:11,580 --> 00:52:12,399
+the difference between the
+
+1654
+00:52:12,399 --> 00:52:14,859
+two when we put things in.
+
+1655
+00:52:14,859 --> 00:52:17,619
+Typically
+Javascript is going
+
+1656
+00:52:17,619 --> 00:52:18,759
+to identify that as the
+
+1657
+00:52:18,759 --> 00:52:20,259
+start point of a string.
+
+1658
+00:52:20,259 --> 00:52:22,519
+It's the starting point
+of the piece of text.
+
+1659
+00:52:22,519 --> 00:52:24,319
+The next quotation mark is
+
+1660
+00:52:24,319 --> 00:52:26,400
+the ending piece
+of that text.
+
+1661
+00:52:26,400 --> 00:52:30,959
+I think that's not inside
+those quotes data,
+
+1662
+00:52:30,959 --> 00:52:31,819
+it's a command that
+
+1663
+00:52:31,819 --> 00:52:33,699
+Javascript will
+do something with
+
+1664
+00:52:33,699 --> 00:52:35,419
+whether it's an
+equal sign or
+
+1665
+00:52:35,419 --> 00:52:38,280
+the let or the actual
+name of the variable.
+
+1666
+00:52:39,230 --> 00:52:42,109
+Essentially, the first
+quote is the start,
+
+1667
+00:52:42,109 --> 00:52:43,529
+the second quote
+is the end.
+
+1668
+00:52:43,529 --> 00:52:45,990
+And anything inside
+those quotes is data.
+
+1669
+00:52:45,990 --> 00:52:47,569
+Really get familiar with
+
+1670
+00:52:47,569 --> 00:52:49,170
+looking at these colors.
+
+1671
+00:52:49,170 --> 00:52:50,810
+Again, going back
+to visual studio,
+
+1672
+00:52:50,810 --> 00:52:52,149
+these colors will
+always be the
+
+1673
+00:52:52,149 --> 00:52:53,710
+same in the default theme.
+
+1674
+00:52:53,710 --> 00:52:55,789
+Anyway, our variables are
+
+1675
+00:52:55,789 --> 00:52:57,970
+typically in these
+blue colors.
+
+1676
+00:52:57,970 --> 00:52:59,809
+Constant is a
+slightly darker blue,
+
+1677
+00:52:59,809 --> 00:53:00,909
+but it's still that blue.
+
+1678
+00:53:00,909 --> 00:53:03,915
+Any major command
+is white.
+
+1679
+00:53:03,915 --> 00:53:06,719
+Functions are typically
+in a yellow form.
+
+1680
+00:53:06,719 --> 00:53:08,480
+In a yellow color,
+for example,
+
+1681
+00:53:08,480 --> 00:53:09,940
+these alerts are yellow.
+
+1682
+00:53:09,940 --> 00:53:12,139
+Get familiar with
+seeing these.
+
+1683
+00:53:12,139 --> 00:53:13,439
+If I were to, let's
+
+1684
+00:53:13,439 --> 00:53:14,860
+say miss a bracket
+for instance,
+
+1685
+00:53:14,860 --> 00:53:16,899
+Immediately
+this turns red.
+
+1686
+00:53:16,899 --> 00:53:19,119
+I think in red
+is an error.
+
+1687
+00:53:19,119 --> 00:53:20,680
+So they get very familiar
+
+1688
+00:53:20,680 --> 00:53:22,459
+with seeing where
+these mistakes are.
+
+1689
+00:53:22,459 --> 00:53:23,880
+Look at the color
+combinations.
+
+1690
+00:53:23,880 --> 00:53:25,039
+If something
+doesn't look right,
+
+1691
+00:53:25,039 --> 00:53:26,379
+it's probably not right.
+
+1692
+00:53:26,379 --> 00:53:29,719
+If I've accidentally
+left a quote open here,
+
+1693
+00:53:29,800 --> 00:53:34,359
+here again, things
+don't look right.
+
+1694
+00:53:34,359 --> 00:53:36,639
+I've got a red
+line under let,
+
+1695
+00:53:36,639 --> 00:53:39,139
+and I've got my semi
+colon in red as well.
+
+1696
+00:53:39,139 --> 00:53:39,939
+Again,
+
+1697
+00:53:39,939 --> 00:53:41,580
+get familiar with
+looking at these colors.
+
+1698
+00:53:41,580 --> 00:53:43,025
+They are very useful.
+
+1699
+00:53:43,025 --> 00:53:48,690
+Okay, just
+really remember,
+
+1700
+00:53:48,690 --> 00:53:50,129
+I think in quotes is
+
+1701
+00:53:50,129 --> 00:53:51,730
+data that's going
+to be processed,
+
+1702
+00:53:51,730 --> 00:53:54,330
+and I think not in
+quotes is a command.
+
+1703
+00:53:54,330 --> 00:53:56,069
+It's important to
+
+1704
+00:53:56,069 --> 00:53:57,689
+understand the difference
+between the two.
+
+1705
+00:53:57,689 --> 00:53:58,930
+It's a very common problem
+
+1706
+00:53:58,930 --> 00:54:00,209
+that a lot of
+people do face,
+
+1707
+00:54:00,209 --> 00:54:02,190
+especially when they
+first do Java script.
+
+1708
+00:54:02,190 --> 00:54:03,770
+If you forget
+the quotation
+
+1709
+00:54:03,770 --> 00:54:06,149
+marks, it won't work.
+
+1710
+00:54:06,149 --> 00:54:07,729
+If you've accidentally
+got too many
+
+1711
+00:54:07,729 --> 00:54:09,669
+quotation marks,
+it won't work.
+
+1712
+00:54:09,669 --> 00:54:11,010
+Again, just get familiar
+
+1713
+00:54:11,010 --> 00:54:12,410
+with looking at
+that structure.
+
+1714
+00:54:12,410 --> 00:54:13,529
+It's going to look very
+
+1715
+00:54:13,529 --> 00:54:15,449
+strange the first
+time you see it,
+
+1716
+00:54:15,449 --> 00:54:17,129
+but the more you do it,
+
+1717
+00:54:17,129 --> 00:54:18,269
+the easier it does get.
+
+1718
+00:54:18,269 --> 00:54:19,209
+That's generally the rule
+
+1719
+00:54:19,209 --> 00:54:21,410
+with most of programming.
+
+1720
+00:54:21,500 --> 00:54:24,159
+I went too far.
+Now, each of
+
+1721
+00:54:24,159 --> 00:54:26,219
+these statements ends
+with a semicolon.
+
+1722
+00:54:26,219 --> 00:54:27,780
+The semicolon
+is essentially
+
+1723
+00:54:27,780 --> 00:54:28,780
+the end of the statement.
+
+1724
+00:54:28,780 --> 00:54:31,300
+It's a bit like a
+full stop in English,
+
+1725
+00:54:31,300 --> 00:54:32,879
+we're basically
+saying this is
+
+1726
+00:54:32,879 --> 00:54:34,360
+the end of that statement,
+
+1727
+00:54:34,360 --> 00:54:36,419
+you missed the semicolon.
+
+1728
+00:54:36,419 --> 00:54:40,060
+Again, typically things
+don't work, okay?
+
+1729
+00:54:40,060 --> 00:54:41,559
+Just make sure
+the semicolons
+
+1730
+00:54:41,559 --> 00:54:42,319
+are in there as well.
+
+1731
+00:54:42,319 --> 00:54:46,075
+It's a bit more finicky
+than H two CSS.
+
+1732
+00:54:46,075 --> 00:54:48,690
+Now, the actual
+Javascript syntax,
+
+1733
+00:54:48,690 --> 00:54:50,830
+even the slightest hypo,
+
+1734
+00:54:50,830 --> 00:54:52,810
+will stop everything
+from working.
+
+1735
+00:54:52,810 --> 00:54:55,689
+Spelling massively
+matters if
+
+1736
+00:54:55,689 --> 00:54:57,589
+you've spell a
+variable incorrectly.
+
+1737
+00:54:57,589 --> 00:54:59,710
+Again, everything works.
+
+1738
+00:54:59,710 --> 00:55:01,570
+Javascript is
+case sensitive,
+
+1739
+00:55:01,570 --> 00:55:02,989
+which means capital
+letters are
+
+1740
+00:55:02,989 --> 00:55:05,190
+treated differently than
+lower case letters.
+
+1741
+00:55:05,190 --> 00:55:06,510
+If you've called
+a variable
+
+1742
+00:55:06,510 --> 00:55:07,969
+with upper case letter,
+
+1743
+00:55:07,969 --> 00:55:09,390
+you need to
+keep on calling
+
+1744
+00:55:09,390 --> 00:55:11,269
+it with that upper
+case letter.
+
+1745
+00:55:11,269 --> 00:55:13,829
+If you miss a
+bracket, semicolon,
+
+1746
+00:55:13,829 --> 00:55:16,570
+adopt any very
+small mistake
+
+1747
+00:55:16,570 --> 00:55:19,045
+will prevent everything
+from working.
+
+1748
+00:55:19,045 --> 00:55:21,260
+You will make
+these mistakes.
+
+1749
+00:55:21,260 --> 00:55:24,180
+It's just the way
+Dravascript works.
+
+1750
+00:55:24,180 --> 00:55:26,220
+When you make
+mistakes, don't panic.
+
+1751
+00:55:26,220 --> 00:55:27,819
+Usually it's a
+very small thing
+
+1752
+00:55:27,819 --> 00:55:28,739
+that you can fix.
+
+1753
+00:55:28,739 --> 00:55:30,139
+I guarantee most of you
+
+1754
+00:55:30,139 --> 00:55:31,739
+will come into the
+issue today of whether
+
+1755
+00:55:31,739 --> 00:55:33,239
+it's a quotation mark
+
+1756
+00:55:33,239 --> 00:55:35,159
+or a bracket or
+a semicolon.
+
+1757
+00:55:35,159 --> 00:55:36,619
+Just get used
+to looking for
+
+1758
+00:55:36,619 --> 00:55:37,899
+those red errors
+because again,
+
+1759
+00:55:37,899 --> 00:55:39,259
+typically wherever
+it's red,
+
+1760
+00:55:39,259 --> 00:55:41,279
+that's usually where
+the mistake is.
+
+1761
+00:55:41,279 --> 00:55:43,439
+Identify where that
+mistake is and
+
+1762
+00:55:43,439 --> 00:55:45,380
+try fixing it, okay?
+
+1763
+00:55:45,380 --> 00:55:48,140
+Get used to looking for
+the smallest mistake.
+
+1764
+00:55:48,140 --> 00:55:49,879
+Like I said, the
+tiniest thing you've
+
+1765
+00:55:49,879 --> 00:55:53,160
+missed will completely
+change everything
+
+1766
+00:55:54,050 --> 00:55:56,509
+back to variables.
+Then you can
+
+1767
+00:55:56,509 --> 00:55:58,289
+create as many
+variables as you like.
+
+1768
+00:55:58,289 --> 00:55:59,850
+Once a variable
+has been created,
+
+1769
+00:55:59,850 --> 00:56:01,250
+we can perform a variety
+
+1770
+00:56:01,250 --> 00:56:02,589
+of different
+operations on it.
+
+1771
+00:56:02,589 --> 00:56:04,409
+For our number variables,
+we can actually do
+
+1772
+00:56:04,409 --> 00:56:06,549
+different mathematical
+operations to it.
+
+1773
+00:56:06,549 --> 00:56:08,550
+For example, we
+could do addition,
+
+1774
+00:56:08,550 --> 00:56:10,330
+subtraction,
+multiplication,
+
+1775
+00:56:10,330 --> 00:56:12,149
+division, very fun stuff.
+
+1776
+00:56:12,149 --> 00:56:12,869
+In this case, we've
+
+1777
+00:56:12,869 --> 00:56:14,310
+created two
+number variables.
+
+1778
+00:56:14,310 --> 00:56:16,589
+Number one is five and
+number two is ten.
+
+1779
+00:56:16,589 --> 00:56:18,029
+We're then
+creating a third
+
+1780
+00:56:18,029 --> 00:56:19,290
+variable called total,
+
+1781
+00:56:19,290 --> 00:56:21,709
+which equals number
+one plus number two,
+
+1782
+00:56:21,709 --> 00:56:23,470
+which is obviously 15.
+
+1783
+00:56:23,470 --> 00:56:24,969
+We're then
+printing out the
+
+1784
+00:56:24,969 --> 00:56:26,170
+total in this alert,
+
+1785
+00:56:26,170 --> 00:56:28,710
+which is why in this
+alert box it says 15.
+
+1786
+00:56:28,710 --> 00:56:29,889
+We could even do that
+
+1787
+00:56:29,889 --> 00:56:31,329
+directly in the alert
+if we wanted to do,
+
+1788
+00:56:31,329 --> 00:56:32,469
+we wouldn't
+necessarily have to do
+
+1789
+00:56:32,469 --> 00:56:35,249
+variables if I wanted
+to, I could say
+
+1790
+00:56:35,570 --> 00:56:42,090
+100 plus ten in the alert,
+
+1791
+00:56:42,090 --> 00:56:44,389
+it would say 110.
+
+1792
+00:56:44,389 --> 00:56:46,509
+We could do very
+complex math where I
+
+1793
+00:56:46,509 --> 00:56:48,530
+could start using these
+ages and numbers.
+
+1794
+00:56:48,530 --> 00:56:53,730
+Up here, I could say
+minus age times number.
+
+1795
+00:56:53,730 --> 00:56:56,089
+For instance, again we're
+
+1796
+00:56:56,089 --> 00:56:59,050
+combining actual values
+with these variables.
+
+1797
+00:56:59,050 --> 00:57:01,829
+Now I've got negative
+15, which is fun.
+
+1798
+00:57:01,829 --> 00:57:03,429
+The point is we can do
+
+1799
+00:57:03,429 --> 00:57:06,049
+some very complex
+expressions
+
+1800
+00:57:06,049 --> 00:57:07,610
+in this using
+these variables,
+
+1801
+00:57:07,610 --> 00:57:09,575
+which is quite exciting.
+
+1802
+00:57:09,575 --> 00:57:12,639
+I feel like I've thrown
+quite a lot at you.
+
+1803
+00:57:12,639 --> 00:57:16,100
+Let's maybe go into an
+exercise very briefly.
+
+1804
+00:57:16,100 --> 00:57:18,020
+I want you to create
+
+1805
+00:57:18,020 --> 00:57:21,780
+a very basic web
+page with HTML.
+
+1806
+00:57:21,780 --> 00:57:23,300
+Again, have
+your HTML tags,
+
+1807
+00:57:23,300 --> 00:57:24,640
+the body and the head tags
+
+1808
+00:57:24,640 --> 00:57:25,959
+inside your body tag have
+
+1809
+00:57:25,959 --> 00:57:27,599
+a H one tag and a tag
+
+1810
+00:57:27,599 --> 00:57:29,159
+that contain any
+text you like.
+
+1811
+00:57:29,159 --> 00:57:30,039
+This will come into
+
+1812
+00:57:30,039 --> 00:57:31,240
+play in the next exercise.
+
+1813
+00:57:31,240 --> 00:57:34,359
+Later on, add a script tag
+
+1814
+00:57:34,359 --> 00:57:35,879
+to that page that
+
+1815
+00:57:35,879 --> 00:57:38,259
+references a file
+called script.
+
+1816
+00:57:38,259 --> 00:57:39,959
+Exactly like we've done in
+
+1817
+00:57:39,959 --> 00:57:41,900
+the previous examples.
+
+1818
+00:57:41,900 --> 00:57:42,219
+Again,
+
+1819
+00:57:42,219 --> 00:57:43,019
+you're pretty much going
+
+1820
+00:57:43,019 --> 00:57:43,759
+to create something like
+
+1821
+00:57:43,759 --> 00:57:47,499
+this with this
+script tag. Okay?
+
+1822
+00:57:47,720 --> 00:57:49,939
+Inside that script tag,
+
+1823
+00:57:49,939 --> 00:57:51,520
+add an alert command,
+
+1824
+00:57:51,520 --> 00:57:54,079
+change it to whatever
+text you like.
+
+1825
+00:57:54,079 --> 00:57:56,979
+Open that HTML
+file and just
+
+1826
+00:57:56,979 --> 00:57:58,380
+make sure it's in
+the same directory
+
+1827
+00:57:58,380 --> 00:58:00,059
+as your Java script file.
+
+1828
+00:58:00,059 --> 00:58:01,999
+Once you've
+checked that it is
+
+1829
+00:58:01,999 --> 00:58:04,060
+open that HTML
+in your browser,
+
+1830
+00:58:04,060 --> 00:58:06,220
+and check that alert
+box is being shown.
+
+1831
+00:58:06,220 --> 00:58:07,980
+If you don't
+have that alert,
+
+1832
+00:58:07,980 --> 00:58:09,159
+there's a good chance that
+
+1833
+00:58:09,159 --> 00:58:10,479
+something's gone
+wrong here.
+
+1834
+00:58:10,479 --> 00:58:12,839
+Maybe you've mistyped
+the file name
+
+1835
+00:58:12,839 --> 00:58:14,059
+or you haven't got
+
+1836
+00:58:14,059 --> 00:58:15,379
+the alert command
+in there.
+
+1837
+00:58:15,379 --> 00:58:16,659
+Again, make
+sure you've got
+
+1838
+00:58:16,659 --> 00:58:18,099
+the alert popping up.
+
+1839
+00:58:18,099 --> 00:58:19,879
+Okay, Make sure you've
+
+1840
+00:58:19,879 --> 00:58:22,360
+got this popping
+up, basically.
+
+1841
+00:58:23,240 --> 00:58:25,659
+For exercise two, I want
+
+1842
+00:58:25,659 --> 00:58:27,360
+you to create two
+number variables.
+
+1843
+00:58:27,360 --> 00:58:30,060
+One that equals 10.1,
+that equals 15.
+
+1844
+00:58:30,060 --> 00:58:31,440
+And try out a
+few different
+
+1845
+00:58:31,440 --> 00:58:33,959
+mathematical
+operations to them.
+
+1846
+00:58:33,959 --> 00:58:36,339
+Try out addition,
+multiplication,
+
+1847
+00:58:36,339 --> 00:58:37,559
+division, and then
+
+1848
+00:58:37,559 --> 00:58:39,559
+this strange
+percentage one.
+
+1849
+00:58:39,559 --> 00:58:41,799
+I'm not going to go
+over this just yet,
+
+1850
+00:58:41,799 --> 00:58:43,399
+but this isn't
+quite what you
+
+1851
+00:58:43,399 --> 00:58:45,959
+think is it's a very
+interesting one.
+
+1852
+00:58:45,959 --> 00:58:48,779
+But try different
+mathematical
+
+1853
+00:58:48,779 --> 00:58:49,900
+operations on
+these variables.
+
+1854
+00:58:49,900 --> 00:58:51,239
+Again, this is your
+opportunity to get
+
+1855
+00:58:51,239 --> 00:58:53,280
+familiar with
+creating variables,
+
+1856
+00:58:53,280 --> 00:58:55,365
+using them with the
+alert function.
+
+1857
+00:58:55,365 --> 00:58:57,209
+Hey, maybe even
+try some of
+
+1858
+00:58:57,209 --> 00:58:59,330
+these operations
+on strings.
+
+1859
+00:58:59,330 --> 00:59:00,990
+What happens if you
+add two strings
+
+1860
+00:59:00,990 --> 00:59:02,909
+together? Have a go.
+
+1861
+00:59:02,909 --> 00:59:05,310
+This is quite a nice
+introduction exercise
+
+1862
+00:59:05,310 --> 00:59:06,849
+just to ease you
+into Javascript.
+
+1863
+00:59:06,849 --> 00:59:09,870
+Maybe take ten or 20
+minutes on this, okay?
+
+1864
+00:59:09,870 --> 00:59:11,529
+And then we're going
+to come back to
+
+1865
+00:59:11,529 --> 00:59:14,570
+some more fun basic
+Javascript stuff.
+
+1866
+00:59:14,570 --> 00:59:16,369
+Pause the video, have
+
+1867
+00:59:16,369 --> 00:59:18,469
+a go at it, and then
+we'll come back.
+
+1868
+00:59:18,469 --> 00:59:21,029
+Okay, Right,
+and we're back.
+
+1869
+00:59:21,029 --> 00:59:22,509
+Hopefully you've
+got to go at
+
+1870
+00:59:22,509 --> 00:59:24,360
+creating some variables.
+
+1871
+00:59:24,360 --> 00:59:26,089
+The next big thing
+we're going to
+
+1872
+00:59:26,089 --> 00:59:27,450
+look at is functions.
+
+1873
+00:59:27,450 --> 00:59:29,689
+Functions are labels that
+
+1874
+00:59:29,689 --> 00:59:31,490
+we can give to big
+blocks of code.
+
+1875
+00:59:31,490 --> 00:59:33,450
+Essentially,
+it's stores code
+
+1876
+00:59:33,450 --> 00:59:35,609
+that we can then
+use later on.
+
+1877
+00:59:35,609 --> 00:59:38,229
+The idea is we can
+give it a name.
+
+1878
+00:59:38,229 --> 00:59:40,429
+If we call that name,
+it's then going to
+
+1879
+00:59:40,429 --> 00:59:42,589
+run that piece of code,
+if that makes sense.
+
+1880
+00:59:42,589 --> 00:59:43,949
+This is fundamentally
+how we're
+
+1881
+00:59:43,949 --> 00:59:45,950
+going to write our
+code out of sequence.
+
+1882
+00:59:45,950 --> 00:59:47,649
+Breaking this down
+a little bit,
+
+1883
+00:59:47,649 --> 00:59:50,829
+we have the function
+keyword again.
+
+1884
+00:59:50,829 --> 00:59:52,769
+Typically it's in the
+darker blue color.
+
+1885
+00:59:52,769 --> 00:59:54,610
+We then have the
+name of the function
+
+1886
+00:59:54,610 --> 00:59:56,570
+followed by two
+regular brackets
+
+1887
+00:59:56,570 --> 00:59:58,669
+that that bit is quite
+
+1888
+00:59:58,669 --> 01:00:01,169
+crucial if you
+missed that bit.
+
+1889
+01:00:01,169 --> 01:00:03,969
+Unfortunately
+it won't work.
+
+1890
+01:00:03,969 --> 01:00:06,769
+Now the function name
+is chosen by you,
+
+1891
+01:00:06,769 --> 01:00:08,430
+so it can be
+absolutely anything.
+
+1892
+01:00:08,430 --> 01:00:10,309
+But again, try keeping
+these quite simple.
+
+1893
+01:00:10,309 --> 01:00:11,449
+Quite short if you can,
+
+1894
+01:00:11,449 --> 01:00:12,569
+the longer the
+function name,
+
+1895
+01:00:12,569 --> 01:00:14,789
+the more you have to
+type out each time.
+
+1896
+01:00:14,789 --> 01:00:18,210
+Calling it something
+simple is quite useful.
+
+1897
+01:00:18,210 --> 01:00:20,570
+We've got the two
+regular brackets,
+
+1898
+01:00:20,570 --> 01:00:20,969
+and then we have
+
+1899
+01:00:20,969 --> 01:00:22,569
+our two curly
+braces in here,
+
+1900
+01:00:22,569 --> 01:00:24,290
+just like we do
+with the CSS.
+
+1901
+01:00:24,290 --> 01:00:25,750
+We then have the code
+
+1902
+01:00:25,750 --> 01:00:27,610
+inside of this function.
+
+1903
+01:00:27,610 --> 01:00:29,750
+In our case, we're
+saying function addition
+
+1904
+01:00:29,750 --> 01:00:31,669
+with our addition
+code in there.
+
+1905
+01:00:31,669 --> 01:00:34,550
+Let's try and replicate
+that ourselves.
+
+1906
+01:00:35,240 --> 01:00:38,320
+So we're going
+to say function,
+
+1907
+01:00:38,320 --> 01:00:41,799
+I'll just call this
+ad because, why not?
+
+1908
+01:00:41,799 --> 01:00:43,179
+I think ad might be
+
+1909
+01:00:43,179 --> 01:00:45,460
+a predefined
+one, possibly.
+
+1910
+01:00:45,460 --> 01:00:46,439
+Or hopefully it's not.
+
+1911
+01:00:46,439 --> 01:00:47,679
+Yeah, we'll just say Ad.
+
+1912
+01:00:47,679 --> 01:00:49,619
+Why not Call me lazy.
+
+1913
+01:00:49,619 --> 01:00:52,019
+I don't like typing a
+division each time.
+
+1914
+01:00:52,019 --> 01:00:56,899
+We'll say number
+one equals five.
+
+1915
+01:00:56,899 --> 01:01:05,840
+Number two equals
+ten total.
+
+1916
+01:01:06,810 --> 01:01:09,369
+Yeah, that is
+smells total is
+
+1917
+01:01:09,369 --> 01:01:12,209
+number one plus
+number two.
+
+1918
+01:01:12,209 --> 01:01:16,850
+Then we'll say
+alert total.
+
+1919
+01:01:17,330 --> 01:01:20,369
+Okay? Nothing too
+crazy just yet.
+
+1920
+01:01:20,369 --> 01:01:21,429
+That is how we're going to
+
+1921
+01:01:21,429 --> 01:01:22,670
+create our first function.
+
+1922
+01:01:22,670 --> 01:01:24,129
+This function
+is called ad.
+
+1923
+01:01:24,129 --> 01:01:25,630
+And inside this
+Ad function
+
+1924
+01:01:25,630 --> 01:01:27,550
+is this very basic
+addition code.
+
+1925
+01:01:27,550 --> 01:01:29,629
+It's going to add number
+one and number two
+
+1926
+01:01:29,629 --> 01:01:31,009
+together and then print
+
+1927
+01:01:31,009 --> 01:01:33,649
+out the total in
+this alert box.
+
+1928
+01:01:34,900 --> 01:01:37,900
+Now, when code is stored
+inside the function,
+
+1929
+01:01:37,900 --> 01:01:39,799
+it's not executed
+immediately.
+
+1930
+01:01:39,799 --> 01:01:42,519
+You might think
+this code will run,
+
+1931
+01:01:42,519 --> 01:01:44,799
+but actually what
+happens is nothing.
+
+1932
+01:01:44,799 --> 01:01:47,280
+If I take this out
+of the function,
+
+1933
+01:01:47,280 --> 01:01:50,660
+so if I remove the
+function entirely,
+
+1934
+01:01:53,140 --> 01:01:55,739
+that alert box
+will pop up.
+
+1935
+01:01:55,739 --> 01:01:57,060
+But if I put that function
+
+1936
+01:01:57,060 --> 01:02:00,580
+back, nothing
+actually happens.
+
+1937
+01:02:01,670 --> 01:02:04,530
+That's because once we've
+created a function,
+
+1938
+01:02:04,530 --> 01:02:06,010
+once we've defined
+a function,
+
+1939
+01:02:06,010 --> 01:02:08,010
+we also need to
+call that function.
+
+1940
+01:02:08,010 --> 01:02:09,530
+Now the way we
+call a function
+
+1941
+01:02:09,530 --> 01:02:11,229
+is by using the
+function name
+
+1942
+01:02:11,229 --> 01:02:16,029
+followed by two regular
+brackets, like this.
+
+1943
+01:02:16,029 --> 01:02:18,110
+To run our
+addition function,
+
+1944
+01:02:18,110 --> 01:02:20,249
+we just need to
+call it, just
+
+1945
+01:02:20,249 --> 01:02:21,810
+call it somewhere
+in our document.
+
+1946
+01:02:21,810 --> 01:02:23,690
+This allows us to create
+
+1947
+01:02:23,690 --> 01:02:26,789
+our code out of
+sequence, essentially.
+
+1948
+01:02:26,789 --> 01:02:28,269
+Now normally code gets
+
+1949
+01:02:28,269 --> 01:02:29,810
+run in the order
+it's written,
+
+1950
+01:02:29,810 --> 01:02:31,869
+but using functions
+allows us
+
+1951
+01:02:31,869 --> 01:02:34,329
+to run code in whatever
+order we like.
+
+1952
+01:02:34,329 --> 01:02:36,890
+In our case, we're
+creating this function,
+
+1953
+01:02:36,890 --> 01:02:38,829
+it's not being
+called immediately,
+
+1954
+01:02:38,829 --> 01:02:41,410
+we're then calling
+that function.
+
+1955
+01:02:41,410 --> 01:02:44,369
+If we try calling ad,
+
+1956
+01:02:44,369 --> 01:02:47,869
+we'll do it down
+here. We'll say add.
+
+1957
+01:02:48,990 --> 01:02:51,730
+It will then run
+our ad function
+
+1958
+01:02:51,730 --> 01:02:53,390
+which has those two
+numbers being added
+
+1959
+01:02:53,390 --> 01:02:54,729
+together and then
+printed out into
+
+1960
+01:02:54,729 --> 01:02:57,869
+our alert box.
+Cool, right?
+
+1961
+01:02:57,869 --> 01:02:59,730
+We can put code
+into a function.
+
+1962
+01:02:59,730 --> 01:03:01,249
+It won't get called
+immediately,
+
+1963
+01:03:01,249 --> 01:03:03,289
+it will only get
+called when we call
+
+1964
+01:03:03,289 --> 01:03:07,269
+that function name
+instead of fun.
+
+1965
+01:03:08,090 --> 01:03:10,209
+Now, functions are a bit
+
+1966
+01:03:10,209 --> 01:03:11,710
+like a program
+on our computer.
+
+1967
+01:03:11,710 --> 01:03:13,209
+Creating a function is
+
+1968
+01:03:13,209 --> 01:03:15,350
+like installing
+that program.
+
+1969
+01:03:15,350 --> 01:03:17,350
+It's there on
+our computer,
+
+1970
+01:03:17,350 --> 01:03:19,929
+but it won't do anything
+until we run it.
+
+1971
+01:03:19,929 --> 01:03:20,890
+Essentially,
+
+1972
+01:03:20,890 --> 01:03:22,970
+that Java script
+interpreter, our browser,
+
+1973
+01:03:22,970 --> 01:03:24,390
+will ignore the
+code inside
+
+1974
+01:03:24,390 --> 01:03:27,330
+the function until we
+call that function.
+
+1975
+01:03:27,330 --> 01:03:28,970
+If you've created
+a function
+
+1976
+01:03:28,970 --> 01:03:30,469
+but you never call it,
+
+1977
+01:03:30,469 --> 01:03:32,589
+that function will
+never be run.
+
+1978
+01:03:32,589 --> 01:03:34,730
+That code will never
+be run by the browser.
+
+1979
+01:03:34,730 --> 01:03:35,990
+If you create
+the function,
+
+1980
+01:03:35,990 --> 01:03:37,249
+make sure you're
+calling it when
+
+1981
+01:03:37,249 --> 01:03:39,449
+you need it, okay?
+
+1982
+01:03:43,830 --> 01:03:46,269
+Now purposes of
+functions at
+
+1983
+01:03:46,269 --> 01:03:47,949
+this stage are we can
+
+1984
+01:03:47,949 --> 01:03:50,790
+massively reduce
+repeated code.
+
+1985
+01:03:50,790 --> 01:03:52,949
+Instead of doing
+the same piece of
+
+1986
+01:03:52,949 --> 01:03:54,449
+code over and over
+and over again.
+
+1987
+01:03:54,449 --> 01:03:55,609
+What we could do is put
+
+1988
+01:03:55,609 --> 01:03:56,770
+that code into a function
+
+1989
+01:03:56,770 --> 01:03:57,589
+and then just call
+
+1990
+01:03:57,589 --> 01:04:00,175
+that function
+multiple times.
+
+1991
+01:04:00,175 --> 01:04:02,399
+In this case, I've
+
+1992
+01:04:02,399 --> 01:04:04,259
+got my adding
+code right here.
+
+1993
+01:04:04,259 --> 01:04:06,400
+I'm creating these
+same variables
+
+1994
+01:04:06,400 --> 01:04:09,899
+multiple times, 123.
+
+1995
+01:04:09,899 --> 01:04:11,719
+I'm creating four of
+
+1996
+01:04:11,719 --> 01:04:14,279
+these blocks of code
+multiple times.
+
+1997
+01:04:14,279 --> 01:04:15,899
+So as the laser point is,
+
+1998
+01:04:15,899 --> 01:04:17,720
+each block of this code
+
+1999
+01:04:17,720 --> 01:04:19,059
+is happening four times.
+
+2000
+01:04:19,059 --> 01:04:21,019
+That's quite a
+lot of code.
+
+2001
+01:04:21,019 --> 01:04:24,180
+Or I could put it
+into a function,
+
+2002
+01:04:24,180 --> 01:04:26,180
+in this case we're saying
+function addition,
+
+2003
+01:04:26,180 --> 01:04:27,799
+then we're calling
+it four times.
+
+2004
+01:04:27,799 --> 01:04:30,540
+Instead, it's
+massively reducing
+
+2005
+01:04:30,540 --> 01:04:31,960
+the duplication
+of our code.
+
+2006
+01:04:31,960 --> 01:04:34,850
+They both produce
+exactly the same output,
+
+2007
+01:04:34,850 --> 01:04:37,140
+but one of them is a
+bit more efficient.
+
+2008
+01:04:37,140 --> 01:04:38,639
+The fun thing is
+we're actually going
+
+2009
+01:04:38,639 --> 01:04:39,680
+to focus on massively
+
+2010
+01:04:39,680 --> 01:04:43,320
+improving this in
+further weeks.
+
+2011
+01:04:43,320 --> 01:04:45,359
+You might be able
+to see we are still
+
+2012
+01:04:45,359 --> 01:04:47,119
+doing the same thing
+over and over again.
+
+2013
+01:04:47,119 --> 01:04:49,959
+We might be able to
+loop through it,
+
+2014
+01:04:49,959 --> 01:04:50,979
+a little bit of a hint
+
+2015
+01:04:50,979 --> 01:04:52,719
+for a couple
+of weeks time.
+
+2016
+01:04:52,719 --> 01:04:54,960
+But the point is we
+can use functions
+
+2017
+01:04:54,960 --> 01:04:57,260
+to massively reduce
+our amount of code.
+
+2018
+01:04:57,260 --> 01:05:00,079
+Again, we go from
+this to this.
+
+2019
+01:05:00,079 --> 01:05:02,400
+This is a lot tighter
+and it's a lot neater,
+
+2020
+01:05:02,400 --> 01:05:03,259
+it's a lot easier to
+
+2021
+01:05:03,259 --> 01:05:05,079
+see what's going on here.
+
+2022
+01:05:05,079 --> 01:05:08,419
+Hopefully that makes
+sense. Again, we
+
+2023
+01:05:08,419 --> 01:05:09,380
+can call that function
+
+2024
+01:05:09,380 --> 01:05:10,659
+as many times as we like.
+
+2025
+01:05:10,659 --> 01:05:15,099
+I could say add 123.
+
+2026
+01:05:15,540 --> 01:05:17,119
+I don't know why I
+
+2027
+01:05:17,119 --> 01:05:18,339
+didn't just copy
+and base that.
+
+2028
+01:05:18,339 --> 01:05:20,580
+This should give me
+four alert boxes,
+
+2029
+01:05:20,580 --> 01:05:28,339
+all saying 1512345.
+
+2030
+01:05:30,300 --> 01:05:33,159
+Let's have quite
+a few of these.
+
+2031
+01:05:33,159 --> 01:05:34,279
+We've got quite a few
+
+2032
+01:05:34,279 --> 01:05:35,800
+of these function calls.
+
+2033
+01:05:35,800 --> 01:05:37,640
+We have to go
+through every
+
+2034
+01:05:37,640 --> 01:05:40,259
+single function
+one at a time.
+
+2035
+01:05:40,259 --> 01:05:42,579
+If you're a bit
+like me, you might
+
+2036
+01:05:42,579 --> 01:05:45,820
+find alert
+really annoying.
+
+2037
+01:05:47,140 --> 01:05:50,199
+If we were to test this
+function 100 times,
+
+2038
+01:05:50,199 --> 01:05:51,179
+that's 100 times we
+
+2039
+01:05:51,179 --> 01:05:52,715
+need to press that button.
+
+2040
+01:05:52,715 --> 01:05:54,889
+What we can do instead is
+
+2041
+01:05:54,889 --> 01:05:57,450
+actually print to the
+Javascript console.
+
+2042
+01:05:57,450 --> 01:05:59,009
+If you aren't
+aware, we can use
+
+2043
+01:05:59,009 --> 01:06:01,330
+the Javascript console
+in developer tools.
+
+2044
+01:06:01,330 --> 01:06:02,789
+We use developer tools for
+
+2045
+01:06:02,789 --> 01:06:06,129
+our mobile optimization
+in weeks four.
+
+2046
+01:06:06,129 --> 01:06:08,110
+But if you go into
+your browser,
+
+2047
+01:06:08,110 --> 01:06:11,090
+Open Developer Tools,
+right click, Inspect.
+
+2048
+01:06:11,090 --> 01:06:13,530
+Next to Elements
+is console.
+
+2049
+01:06:13,530 --> 01:06:15,370
+This is our
+Javascript console.
+
+2050
+01:06:15,370 --> 01:06:16,729
+Essentially, we
+can see a bunch of
+
+2051
+01:06:16,729 --> 01:06:18,669
+really interesting
+Javascript stuff in this.
+
+2052
+01:06:18,669 --> 01:06:20,130
+If we have an
+error in our code,
+
+2053
+01:06:20,130 --> 01:06:23,269
+the error will appear
+in here. Let's try.
+
+2054
+01:06:23,269 --> 01:06:27,129
+If I said constant
+number equals ten,
+
+2055
+01:06:27,129 --> 01:06:31,215
+then I try assigning
+this again 15.
+
+2056
+01:06:31,215 --> 01:06:32,959
+I obviously make
+sure you spell
+
+2057
+01:06:32,959 --> 01:06:35,099
+a number correctly,
+not like I have.
+
+2058
+01:06:35,099 --> 01:06:37,739
+This should give
+me an error there
+
+2059
+01:06:37,739 --> 01:06:40,280
+being I can't
+redeclare constant.
+
+2060
+01:06:40,280 --> 01:06:41,939
+When you do have
+errors in your code,
+
+2061
+01:06:41,939 --> 01:06:43,139
+the errors will appear in
+
+2062
+01:06:43,139 --> 01:06:44,500
+this Javascript console,
+
+2063
+01:06:44,500 --> 01:06:46,540
+which is quite
+interesting.
+
+2064
+01:06:49,150 --> 01:06:51,369
+Now again, it
+might look a bit
+
+2065
+01:06:51,369 --> 01:06:53,030
+different depending
+on your browser,
+
+2066
+01:06:53,030 --> 01:06:54,890
+but it's still
+the same concept.
+
+2067
+01:06:54,890 --> 01:06:56,970
+You'll have a console
+tab, click on console,
+
+2068
+01:06:56,970 --> 01:06:58,170
+and that's where our java
+
+2069
+01:06:58,170 --> 01:07:00,610
+script errors will appear.
+
+2070
+01:07:00,610 --> 01:07:02,030
+Now instead of alert,
+
+2071
+01:07:02,030 --> 01:07:05,969
+we can use a function
+called console dot log.
+
+2072
+01:07:05,969 --> 01:07:07,849
+This is where we can
+actually print things to
+
+2073
+01:07:07,849 --> 01:07:10,129
+the console by saying
+
+2074
+01:07:10,129 --> 01:07:11,950
+console dot log
+and then a value.
+
+2075
+01:07:11,950 --> 01:07:12,889
+In our case, we're going
+
+2076
+01:07:12,889 --> 01:07:13,989
+from numbers one to ten,
+
+2077
+01:07:13,989 --> 01:07:14,950
+we're actually printing
+
+2078
+01:07:14,950 --> 01:07:16,570
+these into our console,
+
+2079
+01:07:16,570 --> 01:07:18,929
+which is quite
+cool, saying
+
+2080
+01:07:18,929 --> 01:07:20,850
+alert all those times.
+
+2081
+01:07:20,850 --> 01:07:24,989
+What if we change alert
+to console dot log
+
+2082
+01:07:28,710 --> 01:07:31,670
+instead of having to
+click through 15 alerts?
+
+2083
+01:07:31,670 --> 01:07:34,130
+We now get 15 printed
+into the console.
+
+2084
+01:07:34,130 --> 01:07:35,709
+It's a nicer
+and it's a lot
+
+2085
+01:07:35,709 --> 01:07:37,950
+easier to deal with
+at this stage.
+
+2086
+01:07:37,950 --> 01:07:40,289
+Typically, we use
+console dot log
+
+2087
+01:07:40,289 --> 01:07:41,790
+to check things are
+running properly.
+
+2088
+01:07:41,790 --> 01:07:43,449
+If you want to make
+sure that a function or
+
+2089
+01:07:43,449 --> 01:07:45,409
+a variable value is
+what you think it is,
+
+2090
+01:07:45,409 --> 01:07:48,009
+we can use console dot
+log just to check.
+
+2091
+01:07:48,009 --> 01:07:50,549
+For instance, if I want to
+
+2092
+01:07:50,549 --> 01:07:51,509
+see what happens if I
+
+2093
+01:07:51,509 --> 01:07:52,829
+put a percentage on this,
+
+2094
+01:07:52,829 --> 01:07:54,049
+I could use console dot
+
+2095
+01:07:54,049 --> 01:07:55,209
+log and that would get
+
+2096
+01:07:55,209 --> 01:07:58,089
+printed into my
+console, which is fun.
+
+2097
+01:07:58,089 --> 01:07:59,450
+I keep saying percentage,
+
+2098
+01:07:59,450 --> 01:08:00,829
+it's not percentage.
+
+2099
+01:08:00,829 --> 01:08:02,730
+It's a really
+annoying operator
+
+2100
+01:08:02,730 --> 01:08:03,589
+that I don't like using,
+
+2101
+01:08:03,589 --> 01:08:05,849
+but hopefully you'll
+get some use out of it
+
+2102
+01:08:05,849 --> 01:08:10,070
+then. That is console
+dot log elements.
+
+2103
+01:08:10,070 --> 01:08:11,669
+Now, how can we
+actually use
+
+2104
+01:08:11,669 --> 01:08:13,649
+Javascript with our HTML?
+
+2105
+01:08:13,649 --> 01:08:16,090
+Well, first things first,
+
+2106
+01:08:16,090 --> 01:08:17,929
+it's a bit like CSS.
+
+2107
+01:08:17,929 --> 01:08:19,289
+We need to figure
+out what we're
+
+2108
+01:08:19,289 --> 01:08:20,949
+actually going
+to be selecting.
+
+2109
+01:08:20,949 --> 01:08:21,929
+We're going to do
+
+2110
+01:08:21,929 --> 01:08:24,149
+all this fantastic
+Javascript stuff,
+
+2111
+01:08:24,149 --> 01:08:26,109
+but what are we
+doing it too?
+
+2112
+01:08:26,109 --> 01:08:28,109
+We need to select
+the elements
+
+2113
+01:08:28,109 --> 01:08:30,789
+from our HTML, okay?
+
+2114
+01:08:30,789 --> 01:08:33,009
+Just like CSS, we need
+a way of selecting
+
+2115
+01:08:33,009 --> 01:08:34,569
+those elements
+so that we can
+
+2116
+01:08:34,569 --> 01:08:37,319
+then do something
+to those elements.
+
+2117
+01:08:37,319 --> 01:08:40,709
+The easiest way to
+select an element in
+
+2118
+01:08:40,709 --> 01:08:42,049
+Java script is by putting
+
+2119
+01:08:42,049 --> 01:08:44,329
+an ID on some elements.
+
+2120
+01:08:44,329 --> 01:08:45,889
+In our case,
+we've got a H,
+
+2121
+01:08:45,889 --> 01:08:47,249
+one tag and a tag.
+
+2122
+01:08:47,249 --> 01:08:48,929
+The ID in this is
+called heading
+
+2123
+01:08:48,929 --> 01:08:51,069
+and the ID in this
+is called content.
+
+2124
+01:08:51,069 --> 01:08:53,649
+If I add this to my
+code very quickly,
+
+2125
+01:08:53,649 --> 01:08:55,169
+so we'll just get
+rid of all of
+
+2126
+01:08:55,169 --> 01:08:57,889
+this in san of
+index the HTML.
+
+2127
+01:08:57,889 --> 01:08:59,269
+If I go with my heading
+
+2128
+01:08:59,269 --> 01:09:01,569
+and my paragraph
+very quickly,
+
+2129
+01:09:01,569 --> 01:09:05,009
+I'll say ID equals
+
+2130
+01:09:05,009 --> 01:09:07,889
+H one tag because I'm
+a bit lazy like that.
+
+2131
+01:09:07,889 --> 01:09:10,849
+And we'll say ID
+equals p tag,
+
+2132
+01:09:10,849 --> 01:09:13,209
+but easier to remember.
+
+2133
+01:09:13,650 --> 01:09:16,029
+The easiest way
+to do this is by
+
+2134
+01:09:16,029 --> 01:09:18,109
+putting an ID on
+those elements.
+
+2135
+01:09:18,109 --> 01:09:20,209
+Once we have an ID
+on those elements,
+
+2136
+01:09:20,209 --> 01:09:21,610
+we can then use
+the Javascript
+
+2137
+01:09:21,610 --> 01:09:23,929
+function query selector to
+
+2138
+01:09:23,929 --> 01:09:25,169
+select it and store
+
+2139
+01:09:25,169 --> 01:09:28,289
+that element inside
+of a variable.
+
+2140
+01:09:28,289 --> 01:09:29,869
+In our case,
+we're creating
+
+2141
+01:09:29,869 --> 01:09:32,009
+a brand new variable
+called heading.
+
+2142
+01:09:32,009 --> 01:09:33,929
+We're then saying equals
+
+2143
+01:09:33,929 --> 01:09:36,889
+document query selector,
+hashtag heading.
+
+2144
+01:09:36,889 --> 01:09:38,449
+Actually breaking
+this down a bit.
+
+2145
+01:09:38,449 --> 01:09:40,029
+Document in this
+case is referring
+
+2146
+01:09:40,029 --> 01:09:42,589
+to our whole
+HTML document.
+
+2147
+01:09:42,589 --> 01:09:45,129
+Document is looking
+for this heading
+
+2148
+01:09:45,129 --> 01:09:47,589
+in the entire HTML page.
+
+2149
+01:09:47,589 --> 01:09:48,549
+That's going to be
+
+2150
+01:09:48,549 --> 01:09:50,029
+important in next
+week's lecture,
+
+2151
+01:09:50,029 --> 01:09:51,849
+when we specifically state
+
+2152
+01:09:51,849 --> 01:09:54,209
+where we want to find
+certain elements.
+
+2153
+01:09:54,209 --> 01:09:56,769
+We then using the
+function query selector,
+
+2154
+01:09:56,769 --> 01:09:59,769
+which basically means
+find this element.
+
+2155
+01:10:00,210 --> 01:10:02,689
+Then inside of
+these brackets,
+
+2156
+01:10:02,689 --> 01:10:04,849
+we're then putting a way
+
+2157
+01:10:04,849 --> 01:10:06,089
+for us to find
+that element.
+
+2158
+01:10:06,089 --> 01:10:07,769
+In our case, we're
+using an ID,
+
+2159
+01:10:07,769 --> 01:10:09,209
+just like in CSS.
+
+2160
+01:10:09,209 --> 01:10:10,429
+When we use ID's,
+
+2161
+01:10:10,429 --> 01:10:11,970
+we start with a hashtag.
+
+2162
+01:10:11,970 --> 01:10:13,549
+If we're going
+to use classes,
+
+2163
+01:10:13,549 --> 01:10:16,249
+we'd start with a dot,
+if that makes sense.
+
+2164
+01:10:16,249 --> 01:10:18,249
+When we say dot
+query selector,
+
+2165
+01:10:18,249 --> 01:10:20,049
+hashtag heading, it will
+
+2166
+01:10:20,049 --> 01:10:22,549
+look for where the
+ID equals heading.
+
+2167
+01:10:22,549 --> 01:10:24,109
+The cool thing is,
+at this stage,
+
+2168
+01:10:24,109 --> 01:10:25,649
+we could have just put
+the tag name as well.
+
+2169
+01:10:25,649 --> 01:10:27,889
+We only have one H one
+tag on the screen.
+
+2170
+01:10:27,889 --> 01:10:30,249
+We could have said
+query selector H one,
+
+2171
+01:10:30,249 --> 01:10:32,189
+and that would have
+given us that H one tag.
+
+2172
+01:10:32,189 --> 01:10:34,610
+But using ID, we can
+just be absolutely
+
+2173
+01:10:34,610 --> 01:10:36,589
+certain that is the ID
+
+2174
+01:10:36,589 --> 01:10:38,679
+that we would
+like to select.
+
+2175
+01:10:38,679 --> 01:10:41,149
+Okay, so we're
+going to say
+
+2176
+01:10:41,149 --> 01:10:43,529
+let heading
+equals documents,
+
+2177
+01:10:43,529 --> 01:10:45,970
+do query selector,
+normal brackets,
+
+2178
+01:10:45,970 --> 01:10:47,669
+quotation mark, then the
+
+2179
+01:10:47,669 --> 01:10:50,369
+ID hash tag, the ID name.
+
+2180
+01:10:50,369 --> 01:10:52,189
+Doing this in our
+example, I'm going to
+
+2181
+01:10:52,189 --> 01:10:56,189
+say let h one tag
+because again,
+
+2182
+01:10:56,189 --> 01:10:57,349
+I'm being a bit
+lazy on this.
+
+2183
+01:10:57,349 --> 01:11:01,214
+One equals document
+query selector
+
+2184
+01:11:01,214 --> 01:11:05,499
+hashtag on tag because
+
+2185
+01:11:05,499 --> 01:11:06,779
+again it's essentially
+
+2186
+01:11:06,779 --> 01:11:08,099
+being called what
+the idea is,
+
+2187
+01:11:08,099 --> 01:11:10,199
+it's one tag just there.
+
+2188
+01:11:10,199 --> 01:11:12,179
+If I want to find the tag,
+
+2189
+01:11:12,179 --> 01:11:15,219
+it would be let
+tag or paragraph.
+
+2190
+01:11:15,219 --> 01:11:16,599
+Again, the variable
+name is up
+
+2191
+01:11:16,599 --> 01:11:19,179
+to you equals documents,
+
+2192
+01:11:19,179 --> 01:11:24,059
+query selector
+hashtag tag.
+
+2193
+01:11:24,059 --> 01:11:26,239
+That would get
+me both the H
+
+2194
+01:11:26,239 --> 01:11:28,039
+one tag and the tag.
+
+2195
+01:11:28,039 --> 01:11:30,639
+Hopefully, that
+makes some sense.
+
+2196
+01:11:30,880 --> 01:11:34,399
+Go down this throat
+is killing me.
+
+2197
+01:11:37,180 --> 01:11:39,079
+Now we've got
+these elements,
+
+2198
+01:11:39,079 --> 01:11:39,739
+we can actually do
+
+2199
+01:11:39,739 --> 01:11:41,939
+some fun stuff
+with them. Y two.
+
+2200
+01:11:41,939 --> 01:11:43,019
+We could change the text
+
+2201
+01:11:43,019 --> 01:11:44,619
+inside of these tags.
+
+2202
+01:11:44,619 --> 01:11:48,039
+Right now, our H one
+tag says heading.
+
+2203
+01:11:48,039 --> 01:11:49,819
+What would it be
+called if we changed
+
+2204
+01:11:49,819 --> 01:11:51,579
+this to something else?
+
+2205
+01:11:51,579 --> 01:11:53,539
+The way we can do this is
+
+2206
+01:11:53,539 --> 01:11:55,099
+by selecting
+that variable.
+
+2207
+01:11:55,099 --> 01:11:59,119
+In our case, it's
+heading first.
+
+2208
+01:11:59,119 --> 01:12:00,639
+Using our CSS knowledge,
+
+2209
+01:12:00,639 --> 01:12:02,079
+we know that first
+child is typically
+
+2210
+01:12:02,079 --> 01:12:05,819
+the first element in
+that element itself.
+
+2211
+01:12:05,819 --> 01:12:07,919
+We'll go more into
+depth about why that's
+
+2212
+01:12:07,919 --> 01:12:09,439
+the case in
+subsequent lectures,
+
+2213
+01:12:09,439 --> 01:12:10,479
+but we're just going
+to say heading,
+
+2214
+01:12:10,479 --> 01:12:12,719
+first child node value
+
+2215
+01:12:12,719 --> 01:12:17,259
+equals and then a value.
+When we type this,
+
+2216
+01:12:17,259 --> 01:12:19,859
+that's going to
+change the content
+
+2217
+01:12:19,859 --> 01:12:21,579
+inside of our H one tag.
+
+2218
+01:12:21,579 --> 01:12:23,979
+Well, that's the
+idea. Anyway, let's
+
+2219
+01:12:23,979 --> 01:12:25,959
+actually see what happens.
+
+2220
+01:12:25,959 --> 01:12:27,539
+Let's say we're just
+
+2221
+01:12:27,539 --> 01:12:28,559
+going to change
+the H one tag.
+
+2222
+01:12:28,559 --> 01:12:29,779
+So all of space here,
+
+2223
+01:12:29,779 --> 01:12:32,899
+I'll say one tag first
+
+2224
+01:12:32,899 --> 01:12:37,199
+child node value equals.
+
+2225
+01:12:37,199 --> 01:12:41,379
+And we'll just say
+this has changed.
+
+2226
+01:12:41,940 --> 01:12:45,259
+Now let's see
+if this works.
+
+2227
+01:12:46,600 --> 01:12:49,819
+It doesn't. We
+actually get an error.
+
+2228
+01:12:49,819 --> 01:12:51,299
+The error says, cannot
+
+2229
+01:12:51,299 --> 01:12:53,599
+read properties of null.
+
+2230
+01:12:53,599 --> 01:12:55,759
+Now, that's
+interesting, isn't
+
+2231
+01:12:55,759 --> 01:12:57,579
+it? Why is it said that?
+
+2232
+01:12:57,579 --> 01:13:01,479
+Any guesses. Again, using
+
+2233
+01:13:01,479 --> 01:13:02,199
+everything we've just
+
+2234
+01:13:02,199 --> 01:13:03,280
+learned about Javascript.
+
+2235
+01:13:03,280 --> 01:13:05,479
+Why is it said that?
+
+2236
+01:13:06,640 --> 01:13:08,879
+Now a big tip from me
+
+2237
+01:13:08,879 --> 01:13:10,599
+is always have your
+console open when you're
+
+2238
+01:13:10,599 --> 01:13:12,359
+doing Javascript
+because even if things
+
+2239
+01:13:12,359 --> 01:13:14,679
+look like it's working,
+it might not be.
+
+2240
+01:13:14,679 --> 01:13:17,059
+When you get an error,
+there is something
+
+2241
+01:13:17,059 --> 01:13:20,679
+catastrophically wrong
+with your code, it.
+
+2242
+01:13:21,160 --> 01:13:25,019
+What is the issue?
+That's the question.
+
+2243
+01:13:25,019 --> 01:13:27,759
+If you remember back to
+our first alert box,
+
+2244
+01:13:27,759 --> 01:13:29,719
+our Javascript code runs
+
+2245
+01:13:29,719 --> 01:13:33,079
+before our HTML
+exists on that page.
+
+2246
+01:13:33,079 --> 01:13:35,079
+That's why our code
+is not working
+
+2247
+01:13:35,079 --> 01:13:38,420
+properly when we're
+running this Javascript.
+
+2248
+01:13:38,420 --> 01:13:41,239
+These tags don't exist
+yet because again,
+
+2249
+01:13:41,239 --> 01:13:43,079
+it's going in the
+order it's created.
+
+2250
+01:13:43,079 --> 01:13:44,779
+It's basically
+running this code
+
+2251
+01:13:44,779 --> 01:13:47,139
+before these elements
+exist on that page.
+
+2252
+01:13:47,139 --> 01:13:49,679
+We're trying to find
+this H one tag,
+
+2253
+01:13:49,679 --> 01:13:52,259
+but the H one tag
+doesn't exist yet,
+
+2254
+01:13:52,259 --> 01:13:54,579
+because again, our
+Javascript is running
+
+2255
+01:13:54,579 --> 01:13:59,029
+before our HTML. So
+how can we fix that?
+
+2256
+01:13:59,029 --> 01:14:01,579
+Well, the really easy
+solution is we're just
+
+2257
+01:14:01,579 --> 01:14:02,639
+going to add an attribute
+
+2258
+01:14:02,639 --> 01:14:03,739
+into our script tag.
+
+2259
+01:14:03,739 --> 01:14:07,099
+We can use defer that
+basically says run
+
+2260
+01:14:07,099 --> 01:14:09,179
+our Javascript code once
+
+2261
+01:14:09,179 --> 01:14:11,699
+our HTML exists
+on that page,
+
+2262
+01:14:11,699 --> 01:14:13,139
+inside a script,
+we're going to
+
+2263
+01:14:13,139 --> 01:14:14,479
+say script source equals
+
+2264
+01:14:14,479 --> 01:14:18,419
+scripts defer inside
+that opening script tag.
+
+2265
+01:14:18,419 --> 01:14:21,219
+Again, all it's
+saying is just wait,
+
+2266
+01:14:21,219 --> 01:14:23,199
+don't run our
+Javascript just yet.
+
+2267
+01:14:23,199 --> 01:14:25,459
+Wait for our HTML
+to exist first,
+
+2268
+01:14:25,459 --> 01:14:27,779
+and then run our
+Javascript code.
+
+2269
+01:14:27,779 --> 01:14:29,399
+There are other ways
+of achieving this.
+
+2270
+01:14:29,399 --> 01:14:31,519
+We could use specific
+event listeners.
+
+2271
+01:14:31,519 --> 01:14:32,939
+But in my opinion, this is
+
+2272
+01:14:32,939 --> 01:14:34,659
+a slightly easier way
+of teaching you for
+
+2273
+01:14:34,659 --> 01:14:36,459
+the first time by
+
+2274
+01:14:36,459 --> 01:14:39,259
+just adding defer
+into my script tag.
+
+2275
+01:14:39,259 --> 01:14:43,819
+Like this, we
+should now go from
+
+2276
+01:14:43,819 --> 01:14:48,799
+heading to this has
+changed, right?
+
+2277
+01:14:48,799 --> 01:14:50,739
+That's now actually
+changing our content.
+
+2278
+01:14:50,739 --> 01:14:52,399
+If I change something
+key, I added
+
+2279
+01:14:52,399 --> 01:14:54,999
+some explanation
+marks that
+
+2280
+01:14:54,999 --> 01:14:57,639
+should also change here.
+
+2281
+01:14:57,639 --> 01:14:59,039
+It's the exact same thing
+
+2282
+01:14:59,039 --> 01:15:00,039
+for this tag as well.
+
+2283
+01:15:00,039 --> 01:15:08,099
+If I said tag first
+child value equals,
+
+2284
+01:15:11,300 --> 01:15:14,259
+this should also
+change as well,
+
+2285
+01:15:14,259 --> 01:15:18,199
+just like pretty
+cool, right?
+
+2286
+01:15:18,199 --> 01:15:19,779
+That's essentially
+how we're
+
+2287
+01:15:19,779 --> 01:15:21,159
+going to fix that error.
+
+2288
+01:15:21,159 --> 01:15:23,579
+Again, don't panic
+if you see an error,
+
+2289
+01:15:23,579 --> 01:15:25,519
+just see what
+the error says
+
+2290
+01:15:25,519 --> 01:15:27,439
+and try your
+best to fix it.
+
+2291
+01:15:27,439 --> 01:15:28,999
+In our case, when
+the error is said,
+
+2292
+01:15:28,999 --> 01:15:30,599
+cannot read
+properties of null.
+
+2293
+01:15:30,599 --> 01:15:31,939
+Null is referring to
+
+2294
+01:15:31,939 --> 01:15:34,019
+the element doesn't
+currently exist.
+
+2295
+01:15:34,019 --> 01:15:36,319
+There's no value
+on that element,
+
+2296
+01:15:36,319 --> 01:15:37,579
+there's just
+nothing there.
+
+2297
+01:15:37,579 --> 01:15:38,979
+We can't do
+anything with it.
+
+2298
+01:15:38,979 --> 01:15:40,739
+We're trying to select
+
+2299
+01:15:40,739 --> 01:15:42,459
+the first child and change
+
+2300
+01:15:42,459 --> 01:15:44,379
+the value of
+that first child
+
+2301
+01:15:44,379 --> 01:15:47,019
+if that element doesn't
+have anything to it.
+
+2302
+01:15:47,019 --> 01:15:49,599
+Of course it's going
+to error again.
+
+2303
+01:15:49,599 --> 01:15:50,319
+Just try and read it.
+
+2304
+01:15:50,319 --> 01:15:51,339
+But the real useful part
+
+2305
+01:15:51,339 --> 01:15:52,279
+on this is it actually
+
+2306
+01:15:52,279 --> 01:15:53,779
+tells you the exact line
+
+2307
+01:15:53,779 --> 01:15:54,879
+that the issue is on.
+
+2308
+01:15:54,879 --> 01:15:56,879
+In our case, it was
+line number three.
+
+2309
+01:15:56,879 --> 01:15:59,079
+Looking at line three,
+
+2310
+01:15:59,079 --> 01:16:01,979
+it was this pictures here.
+
+2311
+01:16:01,979 --> 01:16:04,279
+Basically, it's kind of
+
+2312
+01:16:04,279 --> 01:16:05,359
+the start of
+the end point,
+
+2313
+01:16:05,359 --> 01:16:06,739
+but it roughly
+tells you kind of
+
+2314
+01:16:06,739 --> 01:16:08,279
+where that error is.
+
+2315
+01:16:08,279 --> 01:16:09,619
+So if your file
+is quite big,
+
+2316
+01:16:09,619 --> 01:16:10,879
+it's quite useful
+to narrow down
+
+2317
+01:16:10,879 --> 01:16:12,979
+where that mistake lies
+
+2318
+01:16:16,460 --> 01:16:18,319
+moving forward,
+then this is
+
+2319
+01:16:18,319 --> 01:16:19,679
+what we're going
+to end on today.
+
+2320
+01:16:19,679 --> 01:16:21,619
+Very nearly there,
+don't worry.
+
+2321
+01:16:21,619 --> 01:16:23,659
+This is event listeners
+and this is what
+
+2322
+01:16:23,659 --> 01:16:25,459
+you're going to use
+for the assignment.
+
+2323
+01:16:25,459 --> 01:16:26,579
+Believe it or not,
+this is where
+
+2324
+01:16:26,579 --> 01:16:28,399
+we're connecting
+everything together.
+
+2325
+01:16:28,399 --> 01:16:30,319
+We can use event
+listeners to run
+
+2326
+01:16:30,319 --> 01:16:32,919
+a function when something
+specific happens,
+
+2327
+01:16:32,919 --> 01:16:34,639
+when a specific
+event occurs.
+
+2328
+01:16:34,639 --> 01:16:36,999
+We can do something.
+This could
+
+2329
+01:16:36,999 --> 01:16:38,839
+be when an element
+has been clicked on,
+
+2330
+01:16:38,839 --> 01:16:40,099
+when the page loads, when
+
+2331
+01:16:40,099 --> 01:16:41,359
+we press a specific key,
+
+2332
+01:16:41,359 --> 01:16:42,679
+when we even do our mouse
+
+2333
+01:16:42,679 --> 01:16:44,079
+over a certain element.
+
+2334
+01:16:44,079 --> 01:16:45,499
+But the rough syntax,
+
+2335
+01:16:45,499 --> 01:16:48,019
+the structure for
+this is the element.
+
+2336
+01:16:48,019 --> 01:16:50,099
+So what are we
+adding this to?
+
+2337
+01:16:50,099 --> 01:16:52,739
+The function
+event listener.
+
+2338
+01:16:52,739 --> 01:16:54,679
+The event in question,
+
+2339
+01:16:54,679 --> 01:16:56,799
+Are we clicking? Are
+we pressing a key?
+
+2340
+01:16:56,799 --> 01:16:59,559
+What's triggering
+this? Then the code,
+
+2341
+01:16:59,559 --> 01:17:02,199
+the function that will
+run on this event.
+
+2342
+01:17:02,199 --> 01:17:04,659
+Putting this into
+an actual example.
+
+2343
+01:17:04,659 --> 01:17:08,179
+One event type is called
+dom content loaded.
+
+2344
+01:17:08,179 --> 01:17:10,439
+We use do content
+loaded in
+
+2345
+01:17:10,439 --> 01:17:12,319
+a very similar way to
+how defer was used.
+
+2346
+01:17:12,319 --> 01:17:15,019
+Do content loaded
+basically means
+
+2347
+01:17:15,019 --> 01:17:18,559
+do this once our HTML
+exists on that page.
+
+2348
+01:17:18,559 --> 01:17:20,679
+Document in this
+case is referring
+
+2349
+01:17:20,679 --> 01:17:21,999
+to the entire web page.
+
+2350
+01:17:21,999 --> 01:17:23,279
+We're saying when the
+
+2351
+01:17:23,279 --> 01:17:25,764
+entire web page is
+finished loading
+
+2352
+01:17:25,764 --> 01:17:28,669
+the code in our change
+heading function.
+
+2353
+01:17:28,669 --> 01:17:30,869
+But again, we're
+doing this exactly
+
+2354
+01:17:30,869 --> 01:17:32,589
+like we've done it with
+the Defer attributes.
+
+2355
+01:17:32,589 --> 01:17:33,969
+We don't quite
+need to do this.
+
+2356
+01:17:33,969 --> 01:17:36,829
+A slightly more fun
+one is called click.
+
+2357
+01:17:36,829 --> 01:17:38,769
+The click event triggers
+
+2358
+01:17:38,769 --> 01:17:40,349
+when an element is
+being clicked on.
+
+2359
+01:17:40,349 --> 01:17:41,889
+In our case,
+when we say do
+
+2360
+01:17:41,889 --> 01:17:44,649
+add listener, click
+change Heading.
+
+2361
+01:17:44,649 --> 01:17:46,809
+When we click anywhere
+on our document,
+
+2362
+01:17:46,809 --> 01:17:47,849
+it will run the code in
+
+2363
+01:17:47,849 --> 01:17:49,629
+our change
+heading function.
+
+2364
+01:17:49,629 --> 01:17:51,409
+Let's try it.
+
+2365
+01:17:51,409 --> 01:17:54,169
+If I put this into a
+function really quickly,
+
+2366
+01:17:54,169 --> 01:17:59,629
+we'll say function
+change one tag.
+
+2367
+01:17:59,629 --> 01:18:00,509
+Again,
+
+2368
+01:18:00,509 --> 01:18:02,749
+I like doing slightly
+different examples.
+
+2369
+01:18:02,749 --> 01:18:04,709
+The cool thing
+is we can format
+
+2370
+01:18:04,709 --> 01:18:06,694
+this to look a bit
+nicer as well.
+
+2371
+01:18:06,694 --> 01:18:08,499
+We can then say document,
+
+2372
+01:18:08,499 --> 01:18:10,479
+do, add event listener,
+
+2373
+01:18:10,479 --> 01:18:16,059
+click, change one tag.
+
+2374
+01:18:16,059 --> 01:18:19,479
+Now we have the heading,
+
+2375
+01:18:19,479 --> 01:18:21,879
+but when I click
+somewhere on this page,
+
+2376
+01:18:21,879 --> 01:18:27,479
+that now changes.
+Pretty cool, right?
+
+2377
+01:18:27,480 --> 01:18:30,239
+To be hiding that
+behind the click,
+
+2378
+01:18:30,239 --> 01:18:32,159
+The cool thing is I
+can click anywhere on
+
+2379
+01:18:32,159 --> 01:18:35,759
+this document and it
+will change like so.
+
+2380
+01:18:38,000 --> 01:18:40,679
+Now, while that's
+pretty cool,
+
+2381
+01:18:40,679 --> 01:18:42,779
+wouldn't it be cool if we
+
+2382
+01:18:42,779 --> 01:18:45,099
+could specifically
+target the heading tag?
+
+2383
+01:18:45,099 --> 01:18:47,174
+If we just clicked
+on the heading
+
+2384
+01:18:47,174 --> 01:18:49,729
+only then would the
+heading change.
+
+2385
+01:18:49,729 --> 01:18:51,929
+It could be
+interesting, right?
+
+2386
+01:18:51,929 --> 01:18:54,229
+When we use document
+dot event listener.
+
+2387
+01:18:54,229 --> 01:18:56,149
+We're saying when
+the entire page
+
+2388
+01:18:56,149 --> 01:18:57,929
+has been clicked
+anywhere on this page.
+
+2389
+01:18:57,929 --> 01:18:59,109
+If that's been clicked,
+
+2390
+01:18:59,109 --> 01:19:00,689
+run that piece of code.
+
+2391
+01:19:00,689 --> 01:19:02,289
+But we can call
+
+2392
+01:19:02,289 --> 01:19:04,769
+an event listener onto
+a specific element.
+
+2393
+01:19:04,769 --> 01:19:06,569
+This works exactly
+the same way
+
+2394
+01:19:06,569 --> 01:19:08,509
+as document dot
+event listener.
+
+2395
+01:19:08,509 --> 01:19:10,309
+But instead of
+document, we're going
+
+2396
+01:19:10,309 --> 01:19:12,289
+to use the event
+variable instead.
+
+2397
+01:19:12,289 --> 01:19:14,709
+In our case, we're still
+finding the heading,
+
+2398
+01:19:14,709 --> 01:19:16,169
+We've still got
+our function,
+
+2399
+01:19:16,169 --> 01:19:18,389
+but we're setting
+heading, event listener.
+
+2400
+01:19:18,389 --> 01:19:20,149
+Click change heading.
+
+2401
+01:19:20,149 --> 01:19:21,909
+Adding this to our code,
+
+2402
+01:19:21,909 --> 01:19:23,650
+We'll just move
+this outside.
+
+2403
+01:19:23,650 --> 01:19:25,229
+So we'll put this up here
+
+2404
+01:19:25,229 --> 01:19:28,354
+and we'll change
+this to H, one tag.
+
+2405
+01:19:28,354 --> 01:19:33,999
+So now I click anywhere,
+nothing happens.
+
+2406
+01:19:33,999 --> 01:19:35,459
+If I just click on my
+
+2407
+01:19:35,459 --> 01:19:37,579
+heading, then it changes.
+
+2408
+01:19:37,579 --> 01:19:39,339
+And that is how
+
+2409
+01:19:39,339 --> 01:19:40,839
+you're going to do
+the Start button.
+
+2410
+01:19:40,839 --> 01:19:42,539
+So you're going to
+find the Start button.
+
+2411
+01:19:42,539 --> 01:19:44,019
+When you click on
+the Start button,
+
+2412
+01:19:44,019 --> 01:19:46,079
+you're then going
+to run some code.
+
+2413
+01:19:46,079 --> 01:19:47,699
+That's as far as I go on
+
+2414
+01:19:47,699 --> 01:19:49,999
+that point, but if
+you think about it,
+
+2415
+01:19:49,999 --> 01:19:51,619
+you need to start
+the game when that
+
+2416
+01:19:51,619 --> 01:19:54,839
+start button has
+been pressed, Okay.
+
+2417
+01:19:56,660 --> 01:19:59,879
+Forms. Now, back
+in week four,
+
+2418
+01:19:59,879 --> 01:20:03,679
+we used forms to do
+our contact page,
+
+2419
+01:20:03,679 --> 01:20:05,159
+but we couldn't
+really do anything in
+
+2420
+01:20:05,159 --> 01:20:07,299
+them using Java Script.
+
+2421
+01:20:07,299 --> 01:20:08,759
+We can, we can actually
+
+2422
+01:20:08,759 --> 01:20:09,919
+read the value of some of
+
+2423
+01:20:09,919 --> 01:20:13,419
+our inputs by using the
+dot value property.
+
+2424
+01:20:13,419 --> 01:20:14,859
+In our case,
+we've got a very
+
+2425
+01:20:14,859 --> 01:20:16,179
+basic HTML form here.
+
+2426
+01:20:16,179 --> 01:20:18,479
+We've got a text box
+and a Submit button.
+
+2427
+01:20:18,479 --> 01:20:20,680
+If we find that textbox,
+
+2428
+01:20:20,680 --> 01:20:23,199
+we can then say
+textbovalue
+
+2429
+01:20:23,199 --> 01:20:25,879
+to give us the exact
+value of that form.
+
+2430
+01:20:25,879 --> 01:20:28,039
+In this case, I'm
+saying hello World.
+
+2431
+01:20:28,039 --> 01:20:29,879
+The second I
+click on Submit,
+
+2432
+01:20:29,879 --> 01:20:31,699
+it will then say
+Hello World.
+
+2433
+01:20:31,699 --> 01:20:33,879
+Pretty cool, right?
+
+2434
+01:20:33,879 --> 01:20:36,019
+That's all being
+built around
+
+2435
+01:20:36,019 --> 01:20:37,239
+exactly the same principle
+
+2436
+01:20:37,239 --> 01:20:38,919
+we, I've just taught you.
+
+2437
+01:20:38,919 --> 01:20:40,379
+We find that text box,
+
+2438
+01:20:40,379 --> 01:20:41,880
+we had an alert
+saying textbox
+
+2439
+01:20:41,880 --> 01:20:42,959
+p value and we're only
+
+2440
+01:20:42,959 --> 01:20:44,199
+going to read
+that content.
+
+2441
+01:20:44,199 --> 01:20:46,739
+Find that function read,
+use that function,
+
+2442
+01:20:46,739 --> 01:20:47,719
+read content, and we
+
+2443
+01:20:47,719 --> 01:20:49,539
+click on that
+Submit button.
+
+2444
+01:20:49,539 --> 01:20:52,339
+Pretty fun because I've
+
+2445
+01:20:52,339 --> 01:20:53,799
+been talking for what
+feels like ours.
+
+2446
+01:20:53,799 --> 01:20:55,139
+Now let's set you
+
+2447
+01:20:55,139 --> 01:20:56,980
+onto your last
+batch of exercises.
+
+2448
+01:20:56,980 --> 01:20:58,659
+I want you to
+create a function
+
+2449
+01:20:58,659 --> 01:21:01,339
+called print five that
+has five alerts in it.
+
+2450
+01:21:01,339 --> 01:21:03,939
+Numbers one to five in
+their own alert box.
+
+2451
+01:21:03,939 --> 01:21:07,019
+Call that function twice
+when the page loads.
+
+2452
+01:21:07,019 --> 01:21:10,174
+You should have ten
+alert pop ups in total.
+
+2453
+01:21:10,174 --> 01:21:12,869
+Try replacing alert
+with console dot log
+
+2454
+01:21:12,869 --> 01:21:14,469
+so it's a little
+less annoying.
+
+2455
+01:21:14,469 --> 01:21:16,089
+Make sure you can see
+
+2456
+01:21:16,089 --> 01:21:18,969
+those numbers being
+printed to your console.
+
+2457
+01:21:19,530 --> 01:21:21,709
+I then want you
+to add your
+
+2458
+01:21:21,709 --> 01:21:23,289
+H one element to
+your page and give
+
+2459
+01:21:23,289 --> 01:21:25,049
+the H one element an ID
+
+2460
+01:21:25,049 --> 01:21:26,689
+using an event listener.
+
+2461
+01:21:26,689 --> 01:21:29,309
+Update the content of
+that H one element
+
+2462
+01:21:29,309 --> 01:21:31,009
+so that when
+the page loads
+
+2463
+01:21:31,009 --> 01:21:33,369
+the content of that
+H one changes,
+
+2464
+01:21:33,369 --> 01:21:36,449
+add another element
+like a tag,
+
+2465
+01:21:36,449 --> 01:21:37,849
+and update the
+contents the
+
+2466
+01:21:37,849 --> 01:21:39,469
+same way you did
+to the H one.
+
+2467
+01:21:39,469 --> 01:21:41,189
+You should only
+need one function
+
+2468
+01:21:41,189 --> 01:21:43,889
+and one event
+listener. For this,
+
+2469
+01:21:44,620 --> 01:21:47,439
+try using a click
+event instead.
+
+2470
+01:21:47,439 --> 01:21:48,819
+When you refresh the page,
+
+2471
+01:21:48,819 --> 01:21:50,359
+the H one and P tags
+
+2472
+01:21:50,359 --> 01:21:52,579
+should start with
+their default values.
+
+2473
+01:21:52,579 --> 01:21:54,059
+When you then
+click on the page,
+
+2474
+01:21:54,059 --> 01:21:54,879
+they should then be
+
+2475
+01:21:54,879 --> 01:21:57,499
+updated to extend
+this further.
+
+2476
+01:21:57,499 --> 01:21:58,279
+Make it so that when you
+
+2477
+01:21:58,279 --> 01:21:59,479
+click on the H one tag,
+
+2478
+01:21:59,479 --> 01:22:01,659
+on the H one tag
+changes When you
+
+2479
+01:22:01,659 --> 01:22:04,359
+click on the tag on
+the tag changes.
+
+2480
+01:22:04,359 --> 01:22:05,539
+In this case, you'll need
+
+2481
+01:22:05,539 --> 01:22:07,039
+two different
+event listeners
+
+2482
+01:22:07,039 --> 01:22:08,319
+with two different
+functions.
+
+2483
+01:22:08,319 --> 01:22:11,639
+One for the H one
+tag, one for the tag.
+
+2484
+01:22:11,639 --> 01:22:13,679
+Lastly, I want
+you to create
+
+2485
+01:22:13,679 --> 01:22:15,099
+a very basic H twML form.
+
+2486
+01:22:15,099 --> 01:22:15,819
+Feel free to use
+
+2487
+01:22:15,819 --> 01:22:17,419
+your assignment
+form if you like.
+
+2488
+01:22:17,419 --> 01:22:19,039
+I want you to
+make it so that
+
+2489
+01:22:19,039 --> 01:22:20,339
+when you click
+on a button,
+
+2490
+01:22:20,339 --> 01:22:21,579
+you display the value of
+
+2491
+01:22:21,579 --> 01:22:23,379
+the text box in an alert.
+
+2492
+01:22:23,379 --> 01:22:25,519
+Then try adding a
+div to the page.
+
+2493
+01:22:25,519 --> 01:22:27,899
+And then when you click
+on the button again,
+
+2494
+01:22:27,899 --> 01:22:30,579
+try changing
+the divs value
+
+2495
+01:22:30,579 --> 01:22:33,419
+to that value in the form.
+
+2496
+01:22:33,419 --> 01:22:36,279
+Pretty fun. Once
+you've done all this,
+
+2497
+01:22:36,279 --> 01:22:38,279
+you should have a
+fairly good grasp
+
+2498
+01:22:38,279 --> 01:22:40,214
+of the basics
+of Java script
+
+2499
+01:22:40,214 --> 01:22:41,929
+If you are
+struggling a bit,
+
+2500
+01:22:41,929 --> 01:22:42,809
+which I think some of
+
+2501
+01:22:42,809 --> 01:22:44,449
+you might at this stage,
+
+2502
+01:22:44,449 --> 01:22:46,869
+Javascript is
+significantly harder
+
+2503
+01:22:46,869 --> 01:22:48,089
+than HTM on CSS.
+
+2504
+01:22:48,089 --> 01:22:49,729
+Here are some very
+useful links.
+
+2505
+01:22:49,729 --> 01:22:50,969
+There's quite a
+few, but we have
+
+2506
+01:22:50,969 --> 01:22:52,389
+covered quite a lot today.
+
+2507
+01:22:52,389 --> 01:22:53,949
+There's this
+very nice first
+
+2508
+01:22:53,949 --> 01:22:56,689
+steps documentation
+you can look at.
+
+2509
+01:22:56,689 --> 01:22:58,249
+There's query
+selector, there's
+
+2510
+01:22:58,249 --> 01:23:00,269
+specific areas
+on script tags,
+
+2511
+01:23:00,269 --> 01:23:02,409
+there's alerts, there's
+console dot log,
+
+2512
+01:23:02,409 --> 01:23:04,689
+different functions,
+variables, events.
+
+2513
+01:23:04,689 --> 01:23:06,109
+And there's a
+really nice linked
+
+2514
+01:23:06,109 --> 01:23:07,210
+in learning Javascript,
+
+2515
+01:23:07,210 --> 01:23:08,549
+of course, that
+I'd recommend.
+
+2516
+01:23:08,549 --> 01:23:10,409
+Again, if you are
+struggling a bit today,
+
+2517
+01:23:10,409 --> 01:23:12,009
+might be worth
+going over a few of
+
+2518
+01:23:12,009 --> 01:23:14,715
+these very useful bits
+of documentation.
+
+2519
+01:23:14,715 --> 01:23:16,419
+But yeah, that concludes
+
+2520
+01:23:16,419 --> 01:23:18,299
+our first
+Javascript lecture.
+
+2521
+01:23:18,299 --> 01:23:19,719
+Please do attend next week
+
+2522
+01:23:19,719 --> 01:23:20,679
+because we are
+going to go over
+
+2523
+01:23:20,679 --> 01:23:21,999
+some really crucial
+information to
+
+2524
+01:23:21,999 --> 01:23:24,399
+the assignment
+after next week.
+
+2525
+01:23:24,399 --> 01:23:25,099
+I think you then have
+
+2526
+01:23:25,099 --> 01:23:26,239
+two weeks off for Easter.
+
+2527
+01:23:26,239 --> 01:23:28,199
+We'll double check that
+with the calendar,
+
+2528
+01:23:28,199 --> 01:23:30,199
+but I think we've got
+two Javascript lectures
+
+2529
+01:23:30,199 --> 01:23:31,519
+and then two weeks off,
+
+2530
+01:23:31,519 --> 01:23:33,059
+which should
+be quite nice.
+
+2531
+01:23:33,059 --> 01:23:34,419
+Just remember
+your grades will
+
+2532
+01:23:34,419 --> 01:23:36,439
+be released in
+four weeks time.
+
+2533
+01:23:36,439 --> 01:23:38,319
+I would probably
+start working on
+
+2534
+01:23:38,319 --> 01:23:40,159
+the Javascript assignment
+as soon as you can.
+
+2535
+01:23:40,159 --> 01:23:41,899
+From today, you can
+
+2536
+01:23:41,899 --> 01:23:43,479
+try getting that
+Start button.
+
+2537
+01:23:43,479 --> 01:23:44,999
+Maybe try
+starting the game
+
+2538
+01:23:44,999 --> 01:23:46,599
+when the Start button
+has been pressed.
+
+2539
+01:23:46,599 --> 01:23:48,099
+Next week I'll
+teach you how to
+
+2540
+01:23:48,099 --> 01:23:50,640
+add CSS to Javascript,
+
+2541
+01:23:50,640 --> 01:23:52,999
+or you can try learning
+that yourself.
+
+2542
+01:23:52,999 --> 01:23:53,759
+Why not?
+
+2543
+01:23:53,759 --> 01:23:56,399
+But yeah, best of
+luck to everyone.
+
+2544
+01:23:56,399 --> 01:23:58,599
+I think it's going
+to be a good year.
+
+2545
+01:23:58,599 --> 01:23:59,939
+Okay. It's already been
+
+2546
+01:23:59,939 --> 01:24:01,639
+a good year, but you
+know what I mean?
+
+2547
+01:24:01,639 --> 01:24:02,679
+But come along to
+
+2548
+01:24:02,679 --> 01:24:03,999
+the Friday sport
+session if you
+
+2549
+01:24:03,999 --> 01:24:06,259
+want to see how these
+exercises are finished.
+
+2550
+01:24:06,259 --> 01:24:08,279
+Okay. All completed.
+
+2551
+01:24:08,279 --> 01:24:10,279
+You are particularly
+struggling though.
+
+2552
+01:24:10,279 --> 01:24:11,919
+I do recommend using
+some of these links,
+
+2553
+01:24:11,919 --> 01:24:13,880
+They are very
+useful resources.
+
+2554
+01:24:13,880 --> 01:24:15,479
+Yeah, I will see
+everyone next week.
+
+2555
+01:24:15,479 --> 01:24:17,579
+Hopefully I have
+a good one.

@@ -1,0 +1,4830 @@
+1
+00:00:00,000 --> 00:00:03,060
+Right. Welcome back
+to week eight.
+
+2
+00:00:03,060 --> 00:00:04,040
+Officially,
+
+3
+00:00:04,040 --> 00:00:05,640
+the first assignment
+has now been handed in,
+
+4
+00:00:05,640 --> 00:00:06,960
+so the majority
+of you have
+
+5
+00:00:06,960 --> 00:00:08,560
+now submitted
+successfully.
+
+6
+00:00:08,560 --> 00:00:10,080
+Hopefully, you
+should be getting
+
+7
+00:00:10,080 --> 00:00:12,259
+your grades back
+within four weeks.
+
+8
+00:00:12,259 --> 00:00:14,159
+Again, our post
+announcement and
+
+9
+00:00:14,159 --> 00:00:15,440
+all the grade grades
+
+10
+00:00:15,440 --> 00:00:17,639
+and feedback have
+been released.
+
+11
+00:00:17,639 --> 00:00:19,239
+But generally,
+it looks like
+
+12
+00:00:19,239 --> 00:00:20,860
+performance has been
+really good so far.
+
+13
+00:00:20,860 --> 00:00:22,060
+So hopefully, we can carry
+
+14
+00:00:22,060 --> 00:00:24,100
+that through to the
+second assignment.
+
+15
+00:00:24,100 --> 00:00:25,719
+For whatever
+reason you haven't
+
+16
+00:00:25,719 --> 00:00:27,220
+submitted at this stage,
+
+17
+00:00:27,220 --> 00:00:29,779
+you can submit up to
+seven days later,
+
+18
+00:00:29,779 --> 00:00:31,479
+seven days past
+the deadline,
+
+19
+00:00:31,479 --> 00:00:32,639
+but that would
+be capped to a D
+
+20
+00:00:32,639 --> 00:00:34,519
+minus anything
+later than that.
+
+21
+00:00:34,519 --> 00:00:35,219
+And unfortunately,
+
+22
+00:00:35,219 --> 00:00:36,499
+that doesn't count
+as a submission,
+
+23
+00:00:36,499 --> 00:00:38,185
+which would be a G grade.
+
+24
+00:00:38,185 --> 00:00:39,390
+Again, if you haven't
+
+25
+00:00:39,390 --> 00:00:40,650
+submitted at this stage,
+
+26
+00:00:40,650 --> 00:00:42,349
+get it in as urgently as
+
+27
+00:00:42,349 --> 00:00:44,250
+possible because that
+would still count,
+
+28
+00:00:44,250 --> 00:00:45,449
+it would just
+be capped to a
+
+29
+00:00:45,449 --> 00:00:47,990
+minus at this late stage.
+
+30
+00:00:47,990 --> 00:00:49,049
+It's probably a
+bit too late to
+
+31
+00:00:49,049 --> 00:00:50,550
+apply for mitigating
+circumstances,
+
+32
+00:00:50,550 --> 00:00:52,130
+but you can still
+possibly try,
+
+33
+00:00:52,130 --> 00:00:53,889
+sometimes are a bit
+lenient on that.
+
+34
+00:00:53,889 --> 00:00:55,909
+But again, technically
+
+35
+00:00:55,909 --> 00:00:57,550
+the deadline is
+now fully passed.
+
+36
+00:00:57,550 --> 00:00:59,970
+Do you remember
+that's only 25%
+
+37
+00:00:59,970 --> 00:01:01,390
+of the assessment though.
+
+38
+00:01:01,390 --> 00:01:03,189
+What we're focusing
+on now from
+
+39
+00:01:03,189 --> 00:01:04,750
+weeks eight to 14 is
+
+40
+00:01:04,750 --> 00:01:06,509
+the 75% the big
+
+41
+00:01:06,509 --> 00:01:08,724
+chunk key part of
+the assessment.
+
+42
+00:01:08,724 --> 00:01:10,239
+Just before we go into
+
+43
+00:01:10,239 --> 00:01:11,200
+the electric
+content today,
+
+44
+00:01:11,200 --> 00:01:12,359
+we're just going
+to briefly look
+
+45
+00:01:12,359 --> 00:01:13,439
+back through the
+second assignment.
+
+46
+00:01:13,439 --> 00:01:14,699
+Just Webern is completely
+
+47
+00:01:14,699 --> 00:01:15,980
+aware of what they're
+working towards,
+
+48
+00:01:15,980 --> 00:01:17,279
+but officially this
+assignment was
+
+49
+00:01:17,279 --> 00:01:17,899
+released when
+
+50
+00:01:17,899 --> 00:01:19,619
+the first assignment
+was released.
+
+51
+00:01:19,619 --> 00:01:23,459
+This was almost just
+over two months ago now.
+
+52
+00:01:23,459 --> 00:01:24,820
+Which was fun.
+
+53
+00:01:24,820 --> 00:01:27,180
+Yeah, let's crack
+into it then.
+
+54
+00:01:27,180 --> 00:01:29,199
+Your second assignment
+is due in on
+
+55
+00:01:29,199 --> 00:01:32,205
+the 19th of the
+fifth 2024.
+
+56
+00:01:32,205 --> 00:01:33,750
+Quite a ways away yet,
+
+57
+00:01:33,750 --> 00:01:34,550
+so don't worry about it.
+
+58
+00:01:34,550 --> 00:01:36,150
+Plus, we've got two
+weeks off for Easter,
+
+59
+00:01:36,150 --> 00:01:37,549
+which should
+give you ample
+
+60
+00:01:37,549 --> 00:01:39,690
+opportunity to
+have a go at this.
+
+61
+00:01:39,690 --> 00:01:41,170
+Essentially, you've
+got January,
+
+62
+00:01:41,170 --> 00:01:42,329
+every March, April, May.
+
+63
+00:01:42,329 --> 00:01:44,930
+It's 19 May,
+
+64
+00:01:44,930 --> 00:01:47,730
+202-41-1509 This
+assignment is
+
+65
+00:01:47,730 --> 00:01:48,990
+structured a
+bit differently
+
+66
+00:01:48,990 --> 00:01:50,750
+to the one you've
+just done.
+
+67
+00:01:50,750 --> 00:01:51,549
+Essentially,
+
+68
+00:01:51,549 --> 00:01:53,715
+this is really going
+to be focusing on
+
+69
+00:01:53,715 --> 00:01:56,400
+programming, the
+programming side to
+
+70
+00:01:56,400 --> 00:01:58,699
+web development
+with HTML and CSS.
+
+71
+00:01:58,699 --> 00:02:00,599
+We focused on the
+look of these pages,
+
+72
+00:02:00,599 --> 00:02:02,140
+making them as
+optimized and
+
+73
+00:02:02,140 --> 00:02:04,240
+as fantastic as they
+possibly can be,
+
+74
+00:02:04,240 --> 00:02:05,960
+where we can add
+different bits
+
+75
+00:02:05,960 --> 00:02:07,999
+of content here or there.
+
+76
+00:02:07,999 --> 00:02:09,960
+With this assignment,
+we're primarily
+
+77
+00:02:09,960 --> 00:02:12,939
+focused on the actual
+coding part to it.
+
+78
+00:02:12,939 --> 00:02:14,479
+Creating variables,
+
+79
+00:02:14,479 --> 00:02:16,139
+if statements, four loops.
+
+80
+00:02:16,139 --> 00:02:17,059
+Not only that, but
+
+81
+00:02:17,059 --> 00:02:18,699
+doing it in an
+efficient way.
+
+82
+00:02:18,699 --> 00:02:20,359
+You could do 1,000
+
+83
+00:02:20,359 --> 00:02:22,260
+lines to make something
+quite simple,
+
+84
+00:02:22,260 --> 00:02:23,519
+but you could also
+achieve the same
+
+85
+00:02:23,519 --> 00:02:25,320
+result in just
+three lines.
+
+86
+00:02:25,320 --> 00:02:28,039
+That's where a lot of
+these marks are from.
+
+87
+00:02:28,039 --> 00:02:30,079
+Breaking up a little bit.
+
+88
+00:02:30,079 --> 00:02:31,800
+Assessment two
+is essentially
+
+89
+00:02:31,800 --> 00:02:33,020
+going to assess
+your ability to
+
+90
+00:02:33,020 --> 00:02:36,519
+do HTML, CSS,
+and Javascript.
+
+91
+00:02:36,519 --> 00:02:38,039
+The bulk of this
+assignment is going
+
+92
+00:02:38,039 --> 00:02:39,540
+to be performed
+in Javascript.
+
+93
+00:02:39,540 --> 00:02:40,799
+Let's go zoom in just in
+
+94
+00:02:40,799 --> 00:02:42,959
+case people are
+struggling to see.
+
+95
+00:02:42,959 --> 00:02:45,079
+Now again, the big
+difference with
+
+96
+00:02:45,079 --> 00:02:46,139
+this assignment
+is I actually
+
+97
+00:02:46,139 --> 00:02:47,439
+give you some
+code for this.
+
+98
+00:02:47,439 --> 00:02:48,700
+The idea is you're
+going to build
+
+99
+00:02:48,700 --> 00:02:49,779
+off the code
+that I've given
+
+100
+00:02:49,779 --> 00:02:53,099
+you in Nile bit.
+
+101
+00:02:53,099 --> 00:02:54,320
+Have a teaser of
+what's coming up.
+
+102
+00:02:54,320 --> 00:02:55,140
+Don't worry.
+
+103
+00:02:55,140 --> 00:02:56,199
+Let's go to go in to
+
+104
+00:02:56,199 --> 00:02:59,340
+a student preview
+very quickly.
+
+105
+00:03:00,390 --> 00:03:02,449
+If you go to
+assessments and
+
+106
+00:03:02,449 --> 00:03:04,289
+submissions in AS two,
+
+107
+00:03:04,289 --> 00:03:05,929
+these are
+currently the only
+
+108
+00:03:05,929 --> 00:03:08,010
+assessment items
+I've released.
+
+109
+00:03:08,010 --> 00:03:09,069
+Eventually, we will have
+
+110
+00:03:09,069 --> 00:03:10,049
+the submission
+points in there.
+
+111
+00:03:10,049 --> 00:03:10,729
+I'll probably also
+
+112
+00:03:10,729 --> 00:03:11,949
+create a video
+demonstration
+
+113
+00:03:11,949 --> 00:03:13,649
+walking you through the
+submission process.
+
+114
+00:03:13,649 --> 00:03:14,490
+It's a little bit
+
+115
+00:03:14,490 --> 00:03:16,069
+different to the
+first assignment.
+
+116
+00:03:16,069 --> 00:03:17,689
+The first assignment
+we used to get
+
+117
+00:03:17,689 --> 00:03:19,469
+Hub and get this one.
+
+118
+00:03:19,469 --> 00:03:20,229
+It's not the way
+
+119
+00:03:20,229 --> 00:03:21,250
+you're actually
+going to submit
+
+120
+00:03:21,250 --> 00:03:23,510
+this is just getting
+all your code,
+
+121
+00:03:23,510 --> 00:03:24,710
+putting it into
+a zip file,
+
+122
+00:03:24,710 --> 00:03:26,955
+and then submitting
+that zip file.
+
+123
+00:03:26,955 --> 00:03:28,759
+I'd recommend you download
+
+124
+00:03:28,759 --> 00:03:29,859
+the AS two zip file
+
+125
+00:03:29,859 --> 00:03:31,039
+because this is
+essentially what you're
+
+126
+00:03:31,039 --> 00:03:32,819
+going to be building
+the assignment from.
+
+127
+00:03:32,819 --> 00:03:34,819
+When you open up the
+AS two zip file,
+
+128
+00:03:34,819 --> 00:03:37,500
+you get greeted to
+something like realized,
+
+129
+00:03:37,500 --> 00:03:39,659
+that's the
+grade, apologies
+
+130
+00:03:39,659 --> 00:03:42,459
+you get greeted to this.
+
+131
+00:03:42,459 --> 00:03:44,900
+It's a very basic template
+
+132
+00:03:44,900 --> 00:03:46,659
+for a game, completely
+original game.
+
+133
+00:03:46,659 --> 00:03:47,980
+I haven't stolen
+it from anywhere.
+
+134
+00:03:47,980 --> 00:03:49,319
+Obviously, it's my own
+
+135
+00:03:49,319 --> 00:03:52,360
+individual property
+patent pending.
+
+136
+00:03:52,360 --> 00:03:54,944
+But this is
+called Snack Man,
+
+137
+00:03:54,944 --> 00:03:58,790
+essentially. It's a very
+simple Pac Man game.
+
+138
+00:03:58,790 --> 00:04:01,829
+I've given you the
+basic gooey for this.
+
+139
+00:04:01,829 --> 00:04:03,130
+So you've got the
+maze, you've got
+
+140
+00:04:03,130 --> 00:04:04,390
+the characters, you've
+got the leaderboard,
+
+141
+00:04:04,390 --> 00:04:05,549
+you've got these
+button prompts,
+
+142
+00:04:05,549 --> 00:04:08,229
+which my camera is
+annoyingly hiding where.
+
+143
+00:04:08,229 --> 00:04:09,530
+You've got the
+button prompts here,
+
+144
+00:04:09,530 --> 00:04:10,769
+you've got this nice
+score, and you've
+
+145
+00:04:10,769 --> 00:04:12,549
+got these levels
+up in the corner.
+
+146
+00:04:12,549 --> 00:04:14,129
+I put these in for you.
+
+147
+00:04:14,129 --> 00:04:16,710
+Essentially, your
+assignment is
+
+148
+00:04:16,710 --> 00:04:18,750
+to build the functionality
+for this game.
+
+149
+00:04:18,750 --> 00:04:20,290
+Now the game of the
+game is to move
+
+150
+00:04:20,290 --> 00:04:21,689
+the player
+around the maze,
+
+151
+00:04:21,689 --> 00:04:22,729
+collecting the points.
+
+152
+00:04:22,729 --> 00:04:24,329
+Once they've collected
+all the points,
+
+153
+00:04:24,329 --> 00:04:26,204
+that game should
+come to an end.
+
+154
+00:04:26,204 --> 00:04:27,720
+The player
+shouldn't be able
+
+155
+00:04:27,720 --> 00:04:28,859
+to go through the
+walls of the maze,
+
+156
+00:04:28,859 --> 00:04:29,920
+and when they
+encounter one of
+
+157
+00:04:29,920 --> 00:04:30,780
+the enemy characters,
+
+158
+00:04:30,780 --> 00:04:32,240
+the game should also end.
+
+159
+00:04:32,240 --> 00:04:33,939
+Again, putting
+out perspective.
+
+160
+00:04:33,939 --> 00:04:34,700
+You shouldn't be able
+
+161
+00:04:34,700 --> 00:04:35,599
+to go through these walls,
+
+162
+00:04:35,599 --> 00:04:37,219
+you need to be able to
+collect these points.
+
+163
+00:04:37,219 --> 00:04:38,320
+And if I encounter one of
+
+164
+00:04:38,320 --> 00:04:40,199
+these green circles,
+the game should end.
+
+165
+00:04:40,199 --> 00:04:41,960
+So that's like
+the end state.
+
+166
+00:04:41,960 --> 00:04:42,859
+We have a score
+
+167
+00:04:42,859 --> 00:04:44,179
+counter up here
+that should also
+
+168
+00:04:44,179 --> 00:04:45,020
+reflect the number of
+
+169
+00:04:45,020 --> 00:04:46,519
+points you collect
+in the maze.
+
+170
+00:04:46,519 --> 00:04:48,499
+Now, I've not
+been too cruel,
+
+171
+00:04:48,499 --> 00:04:49,920
+I have given you a bit
+
+172
+00:04:49,920 --> 00:04:51,400
+of functionality for this.
+
+173
+00:04:51,400 --> 00:04:53,979
+The functionality I've
+given you is moving
+
+174
+00:04:53,979 --> 00:04:56,439
+the character around the
+maze with the rakes.
+
+175
+00:04:56,439 --> 00:04:57,539
+We can move the character,
+
+176
+00:04:57,539 --> 00:04:59,295
+but that's
+really about it.
+
+177
+00:04:59,295 --> 00:05:00,830
+Everything else
+you're going
+
+178
+00:05:00,830 --> 00:05:01,910
+to have to do yourselves.
+
+179
+00:05:01,910 --> 00:05:03,750
+So you've got to create
+some collision so
+
+180
+00:05:03,750 --> 00:05:04,610
+the character can't just
+
+181
+00:05:04,610 --> 00:05:05,690
+walk through these walls.
+
+182
+00:05:05,690 --> 00:05:06,290
+You're going to need
+
+183
+00:05:06,290 --> 00:05:07,130
+that same collision to
+
+184
+00:05:07,130 --> 00:05:08,089
+work for these points as
+
+185
+00:05:08,089 --> 00:05:09,750
+well and also
+the collision
+
+186
+00:05:09,750 --> 00:05:11,129
+to work on the
+enemy characters.
+
+187
+00:05:11,129 --> 00:05:12,209
+The idea is my encounter
+
+188
+00:05:12,209 --> 00:05:13,370
+one of these
+enemy characters.
+
+189
+00:05:13,370 --> 00:05:16,130
+It's game over,
+essentially
+
+190
+00:05:16,130 --> 00:05:18,609
+nice and simple, openly.
+
+191
+00:05:18,609 --> 00:05:20,050
+Essentially, you're
+going to make
+
+192
+00:05:20,050 --> 00:05:21,779
+this game fully
+functional.
+
+193
+00:05:21,779 --> 00:05:23,050
+Getting into
+
+194
+00:05:23,050 --> 00:05:24,769
+the specific requirements
+for the brief.
+
+195
+00:05:24,769 --> 00:05:26,150
+Then they're
+separated into
+
+196
+00:05:26,150 --> 00:05:27,529
+the grade boundaries.
+
+197
+00:05:27,529 --> 00:05:28,889
+Right here, we've
+got everything
+
+198
+00:05:28,889 --> 00:05:30,489
+you need for a bare pass,
+
+199
+00:05:30,489 --> 00:05:32,669
+a D minus to a D plus.
+
+200
+00:05:32,669 --> 00:05:34,850
+Okay? We also then
+have a good pass,
+
+201
+00:05:34,850 --> 00:05:36,509
+a very good pass, and
+an excellent pass,
+
+202
+00:05:36,509 --> 00:05:37,970
+and it goes on like that.
+
+203
+00:05:37,970 --> 00:05:39,250
+But we'll just
+focus on the
+
+204
+00:05:39,250 --> 00:05:41,290
+passing criteria
+to begin with.
+
+205
+00:05:41,290 --> 00:05:42,810
+The first requirement is
+
+206
+00:05:42,810 --> 00:05:44,049
+when the start
+button is pressed,
+
+207
+00:05:44,049 --> 00:05:45,710
+the game should begin, and
+
+208
+00:05:45,710 --> 00:05:47,990
+the start button should
+no longer be visible.
+
+209
+00:05:47,990 --> 00:05:49,770
+That essentially
+means when I click on
+
+210
+00:05:49,770 --> 00:05:52,229
+this start button,
+it should disappear.
+
+211
+00:05:52,229 --> 00:05:53,609
+Hopefully,
+everyone should be
+
+212
+00:05:53,609 --> 00:05:54,949
+able to achieve
+that after today,
+
+213
+00:05:54,949 --> 00:05:57,595
+though, it's one of the
+easier requirements.
+
+214
+00:05:57,595 --> 00:06:00,100
+The next one is the
+player should not be able
+
+215
+00:06:00,100 --> 00:06:00,759
+to move until
+
+216
+00:06:00,759 --> 00:06:02,179
+the start button
+has been pressed.
+
+217
+00:06:02,179 --> 00:06:03,819
+Right now, I can move
+around the screen
+
+218
+00:06:03,819 --> 00:06:05,199
+without pressing
+the Start button.
+
+219
+00:06:05,199 --> 00:06:06,320
+That movement needs to be
+
+220
+00:06:06,320 --> 00:06:07,779
+locked behind the
+Start button.
+
+221
+00:06:07,779 --> 00:06:09,440
+So the idea is I click
+the Start button,
+
+222
+00:06:09,440 --> 00:06:11,600
+I can then move the
+character effectively.
+
+223
+00:06:11,600 --> 00:06:14,620
+When you press Start,
+it starts the game.
+
+224
+00:06:16,120 --> 00:06:18,300
+You need to stop
+the player from
+
+225
+00:06:18,300 --> 00:06:19,899
+walking through
+the mazes walls.
+
+226
+00:06:19,899 --> 00:06:22,459
+The walls of the maze
+are these blue squares.
+
+227
+00:06:22,459 --> 00:06:24,060
+They're also dotted around
+
+228
+00:06:24,060 --> 00:06:25,260
+the center of the
+maze as well.
+
+229
+00:06:25,260 --> 00:06:26,719
+You basically just need
+to add that collision
+
+230
+00:06:26,719 --> 00:06:27,780
+in because like
+I said right now
+
+231
+00:06:27,780 --> 00:06:29,720
+we can walk through
+them and it's not very
+
+232
+00:06:29,720 --> 00:06:32,700
+good when
+
+233
+00:06:32,700 --> 00:06:34,319
+the player touches
+one of the points.
+
+234
+00:06:34,319 --> 00:06:35,060
+The points are
+
+235
+00:06:35,060 --> 00:06:36,679
+the small white
+circles in the maze.
+
+236
+00:06:36,679 --> 00:06:37,900
+You need to remove
+the point from
+
+237
+00:06:37,900 --> 00:06:39,400
+the maze and get
+
+238
+00:06:39,400 --> 00:06:41,160
+this score counter
+to go up by one.
+
+239
+00:06:41,160 --> 00:06:41,739
+Essentially,
+
+240
+00:06:41,739 --> 00:06:43,199
+the player is
+collecting these points
+
+241
+00:06:43,199 --> 00:06:46,339
+and this point counter
+
+242
+00:06:46,339 --> 00:06:47,539
+reflects the
+number of points
+
+243
+00:06:47,539 --> 00:06:49,939
+the players basically.
+
+244
+00:06:49,939 --> 00:06:51,280
+Obviously, right
+now we're on zero
+
+245
+00:06:51,280 --> 00:06:53,300
+because we haven't
+collected any.
+
+246
+00:06:53,300 --> 00:06:55,399
+Oh,
+
+247
+00:06:55,630 --> 00:06:57,509
+once all the points
+
+248
+00:06:57,509 --> 00:06:58,869
+have been collected
+by the player,
+
+249
+00:06:58,869 --> 00:07:00,870
+you need to display
+a game over message,
+
+250
+00:07:00,870 --> 00:07:02,649
+just signifying that
+the game has ended.
+
+251
+00:07:02,649 --> 00:07:04,570
+And again, this is
+quite easy to do.
+
+252
+00:07:04,570 --> 00:07:05,890
+You can either use
+the Start button
+
+253
+00:07:05,890 --> 00:07:07,249
+or you could do what's
+called an alert,
+
+254
+00:07:07,249 --> 00:07:08,890
+which we'll get
+into later today.
+
+255
+00:07:08,890 --> 00:07:10,449
+But effectively, once
+you've collected
+
+256
+00:07:10,449 --> 00:07:13,029
+all the points,
+it's game over.
+
+257
+00:07:13,790 --> 00:07:15,790
+Then the last one is if
+
+258
+00:07:15,790 --> 00:07:17,249
+the player touches
+the enemy,
+
+259
+00:07:17,249 --> 00:07:17,950
+you need to have
+
+260
+00:07:17,950 --> 00:07:20,049
+the same game over
+message appear.
+
+261
+00:07:20,049 --> 00:07:21,389
+And the player will also
+
+262
+00:07:21,389 --> 00:07:22,769
+display the
+dead animation.
+
+263
+00:07:22,769 --> 00:07:24,990
+That's just using
+the CSS class dead.
+
+264
+00:07:24,990 --> 00:07:26,630
+So you're just going
+to put this class on
+
+265
+00:07:26,630 --> 00:07:29,270
+the player and that
+should make them die.
+
+266
+00:07:29,270 --> 00:07:31,070
+Let's see this in action.
+
+267
+00:07:31,070 --> 00:07:35,629
+The benefits of
+having branches.
+
+268
+00:07:38,670 --> 00:07:41,530
+I can't move
+the character.
+
+269
+00:07:41,530 --> 00:07:43,690
+The second I click Start,
+
+270
+00:07:43,690 --> 00:07:45,050
+the start button
+disappears
+
+271
+00:07:45,050 --> 00:07:46,790
+and I can then move
+the character.
+
+272
+00:07:46,790 --> 00:07:48,510
+I can then collect
+these points.
+
+273
+00:07:48,510 --> 00:07:49,890
+And you can see the
+point counts wrap in
+
+274
+00:07:49,890 --> 00:07:51,830
+the corner going
+up by one.
+
+275
+00:07:51,830 --> 00:07:54,250
+I can't go through the
+walls of the maze.
+
+276
+00:07:54,250 --> 00:07:56,365
+There is collision there,
+
+277
+00:07:56,365 --> 00:07:58,479
+and if I collect
+all the points,
+
+278
+00:07:58,479 --> 00:07:59,420
+it's the game over.
+
+279
+00:07:59,420 --> 00:08:02,040
+But if I also encounter
+this enemy character,
+
+280
+00:08:02,040 --> 00:08:04,080
+it's game over as well.
+
+281
+00:08:04,080 --> 00:08:06,659
+Now I've used
+the Start button
+
+282
+00:08:06,659 --> 00:08:08,000
+to signify it's game over.
+
+283
+00:08:08,000 --> 00:08:09,500
+But if you had
+another method of
+
+284
+00:08:09,500 --> 00:08:10,660
+showing its game over,
+
+285
+00:08:10,660 --> 00:08:11,819
+that would also be fine.
+
+286
+00:08:11,819 --> 00:08:13,280
+Like I said from
+today, we are going to
+
+287
+00:08:13,280 --> 00:08:15,440
+look at alerts again.
+
+288
+00:08:15,440 --> 00:08:17,240
+Maybe use alerts, why not?
+
+289
+00:08:17,240 --> 00:08:18,740
+That's everything you need
+
+290
+00:08:18,740 --> 00:08:20,634
+for a bar pass, though.
+
+291
+00:08:20,634 --> 00:08:22,649
+Essentially start button
+
+292
+00:08:22,649 --> 00:08:23,990
+pressed, it disappears.
+
+293
+00:08:23,990 --> 00:08:25,290
+The player shouldn't
+be able to
+
+294
+00:08:25,290 --> 00:08:27,149
+move until the start
+button has been pressed.
+
+295
+00:08:27,149 --> 00:08:28,969
+When the player
+touches the points
+
+296
+00:08:28,969 --> 00:08:30,229
+that collects the points,
+
+297
+00:08:30,229 --> 00:08:32,070
+you need the wall
+collision in there,
+
+298
+00:08:32,070 --> 00:08:34,370
+and then you need to
+signify it's game over.
+
+299
+00:08:34,370 --> 00:08:35,110
+When the two game
+
+300
+00:08:35,110 --> 00:08:36,249
+over states have
+been reached,
+
+301
+00:08:36,249 --> 00:08:37,989
+that's when all the
+points are collected or
+
+302
+00:08:37,989 --> 00:08:38,849
+when the player
+
+303
+00:08:38,849 --> 00:08:40,550
+encounters the
+enemy character.
+
+304
+00:08:40,550 --> 00:08:43,549
+Everyone at a minimum
+needs to achieve this.
+
+305
+00:08:43,549 --> 00:08:45,149
+Without this, you're not
+
+306
+00:08:45,149 --> 00:08:46,550
+going to pass the assignm.
+
+307
+00:08:46,550 --> 00:08:49,449
+The nice thing is,
+every single lecture
+
+308
+00:08:49,449 --> 00:08:51,129
+from this moment on is
+
+309
+00:08:51,129 --> 00:08:53,289
+built around each of
+these requirements.
+
+310
+00:08:53,289 --> 00:08:54,769
+Today we're focused on
+
+311
+00:08:54,769 --> 00:08:55,930
+adding event listeners,
+
+312
+00:08:55,930 --> 00:08:56,990
+which is going
+to be absolutely
+
+313
+00:08:56,990 --> 00:08:59,424
+crucial to these
+first two steps.
+
+314
+00:08:59,424 --> 00:09:00,819
+The week after that,
+
+315
+00:09:00,819 --> 00:09:01,720
+we're going to be focusing
+
+316
+00:09:01,720 --> 00:09:03,760
+more on specifically
+targeting elements,
+
+317
+00:09:03,760 --> 00:09:04,579
+which will be useful for
+
+318
+00:09:04,579 --> 00:09:06,360
+pretty much all
+this criteria.
+
+319
+00:09:06,360 --> 00:09:08,079
+When we come back
+after Easter,
+
+320
+00:09:08,079 --> 00:09:09,499
+we're focused on
+collision detection,
+
+321
+00:09:09,499 --> 00:09:11,099
+which is huge
+when it comes to
+
+322
+00:09:11,099 --> 00:09:13,620
+the collision
+for the walls
+
+323
+00:09:13,620 --> 00:09:15,300
+and the collision
+for the points.
+
+324
+00:09:15,300 --> 00:09:16,739
+Again, each lecture is
+
+325
+00:09:16,739 --> 00:09:18,399
+designed to
+build upon this.
+
+326
+00:09:18,399 --> 00:09:20,239
+Don't panic if you
+don't know it.
+
+327
+00:09:20,239 --> 00:09:21,300
+We're only on lecture one
+
+328
+00:09:21,300 --> 00:09:23,334
+Pa Java script. Okay,
+
+329
+00:09:23,334 --> 00:09:26,189
+for a good pass, it
+
+330
+00:09:26,189 --> 00:09:27,710
+does get
+progressively harder.
+
+331
+00:09:27,710 --> 00:09:28,930
+You need to randomize
+
+332
+00:09:28,930 --> 00:09:31,470
+the position of the
+enemies at the start.
+
+333
+00:09:31,470 --> 00:09:33,990
+With the bar
+pass criteria,
+
+334
+00:09:33,990 --> 00:09:35,190
+that enemy is
+always going to be
+
+335
+00:09:35,190 --> 00:09:36,650
+in exactly the same place.
+
+336
+00:09:36,650 --> 00:09:38,409
+Okay? Nothing's
+changing with
+
+337
+00:09:38,409 --> 00:09:41,229
+that enemy when we
+get into a good pass.
+
+338
+00:09:41,229 --> 00:09:43,590
+That's the grade criteria.
+
+339
+00:09:43,590 --> 00:09:45,889
+We're randomizing
+these positions.
+
+340
+00:09:45,889 --> 00:09:47,809
+Each time I
+click, refresh,
+
+341
+00:09:47,809 --> 00:09:50,410
+every time I refresh
+the browser,
+
+342
+00:09:50,410 --> 00:09:52,370
+these positions
+get randomized.
+
+343
+00:09:52,370 --> 00:09:53,610
+In theory, the game
+
+344
+00:09:53,610 --> 00:09:55,550
+is never going
+to be the same
+
+345
+00:09:57,460 --> 00:09:59,219
+now because we're
+
+346
+00:09:59,219 --> 00:10:00,439
+randomizing
+these positions,
+
+347
+00:10:00,439 --> 00:10:02,559
+another requirement is
+just making sure that
+
+348
+00:10:02,559 --> 00:10:03,980
+where these enemies spawn
+
+349
+00:10:03,980 --> 00:10:05,160
+in, it's appropriate.
+
+350
+00:10:05,160 --> 00:10:06,340
+For example, the
+enemies aren't
+
+351
+00:10:06,340 --> 00:10:07,740
+going to be spawning
+outside the maze.
+
+352
+00:10:07,740 --> 00:10:08,919
+They won't be
+spawning where
+
+353
+00:10:08,919 --> 00:10:10,060
+the walls of the maze are.
+
+354
+00:10:10,060 --> 00:10:12,080
+They're only going to
+be spawning inside
+
+355
+00:10:12,080 --> 00:10:14,280
+the maze where
+there's a free space,
+
+356
+00:10:14,280 --> 00:10:15,059
+that's where we're going
+
+357
+00:10:15,059 --> 00:10:16,640
+to put those enemies.
+
+358
+00:10:16,640 --> 00:10:18,780
+By enemies, I mean
+the green circle.
+
+359
+00:10:18,780 --> 00:10:21,699
+So everyone's okay
+with that terminology,
+
+360
+00:10:22,340 --> 00:10:24,780
+this is quite tricky.
+
+361
+00:10:24,780 --> 00:10:26,260
+You also need
+to add random
+
+362
+00:10:26,260 --> 00:10:28,200
+movement to these enemies.
+
+363
+00:10:28,200 --> 00:10:29,860
+The idea is
+they're not just
+
+364
+00:10:29,860 --> 00:10:31,080
+static, they're not
+just staying there.
+
+365
+00:10:31,080 --> 00:10:31,939
+They're actually
+going to be
+
+366
+00:10:31,939 --> 00:10:34,060
+moving throughout
+the maze.
+
+367
+00:10:34,060 --> 00:10:36,660
+There are bonus
+points available
+
+368
+00:10:36,660 --> 00:10:38,260
+if they don't get stuck.
+
+369
+00:10:38,260 --> 00:10:40,080
+If they come into
+contact with a wall,
+
+370
+00:10:40,080 --> 00:10:41,979
+they shouldn't just
+stay on that wall.
+
+371
+00:10:41,979 --> 00:10:43,599
+They should hit the
+wall and go into
+
+372
+00:10:43,599 --> 00:10:44,519
+the opposite direction or
+
+373
+00:10:44,519 --> 00:10:46,040
+go into a new direction.
+
+374
+00:10:46,040 --> 00:10:47,240
+If they get stuck,
+
+375
+00:10:47,240 --> 00:10:48,919
+you'll lose a few
+marks here or there.
+
+376
+00:10:48,919 --> 00:10:49,960
+But the point I want
+
+377
+00:10:49,960 --> 00:10:50,840
+to make with
+this is you're
+
+378
+00:10:50,840 --> 00:10:51,920
+also having the
+wall collision
+
+379
+00:10:51,920 --> 00:10:52,820
+on the enemies itself.
+
+380
+00:10:52,820 --> 00:10:54,200
+Now if you've done
+this properly,
+
+381
+00:10:54,200 --> 00:10:56,120
+so if you've done this
+with the past criteria
+
+382
+00:10:56,120 --> 00:10:58,159
+in a good way, you
+should be able to re,
+
+383
+00:10:58,159 --> 00:11:00,860
+use that method,
+that way of doing
+
+384
+00:11:00,860 --> 00:11:03,980
+it in this if
+that makes sense.
+
+385
+00:11:03,980 --> 00:11:06,219
+Trying to be quite
+vague on that.
+
+386
+00:11:06,660 --> 00:11:09,020
+The enemies also
+need to stop
+
+387
+00:11:09,020 --> 00:11:09,520
+moving when
+
+388
+00:11:09,520 --> 00:11:11,434
+the game overstate
+has been reached.
+
+389
+00:11:11,434 --> 00:11:12,770
+So once the player has
+
+390
+00:11:12,770 --> 00:11:13,889
+collected all
+the points or
+
+391
+00:11:13,889 --> 00:11:15,110
+obviously there's
+been a collision
+
+392
+00:11:15,110 --> 00:11:16,309
+between the enemy
+and the player,
+
+393
+00:11:16,309 --> 00:11:18,449
+that's also game over.
+
+394
+00:11:18,450 --> 00:11:20,870
+The next one is,
+instead of saying
+
+395
+00:11:20,870 --> 00:11:22,869
+game over, try
+displaying restart.
+
+396
+00:11:22,869 --> 00:11:24,050
+This will allow the player
+
+397
+00:11:24,050 --> 00:11:25,210
+to restart the game
+
+398
+00:11:25,210 --> 00:11:26,829
+instead of having to just
+
+399
+00:11:26,829 --> 00:11:29,170
+be over and
+clicking refresh.
+
+400
+00:11:29,170 --> 00:11:31,869
+Essentially, when
+you click restart,
+
+401
+00:11:31,869 --> 00:11:34,670
+the game resets back
+to its original state.
+
+402
+00:11:34,670 --> 00:11:36,089
+That would be
+all the points
+
+403
+00:11:36,089 --> 00:11:36,929
+being back in the maze,
+
+404
+00:11:36,929 --> 00:11:38,929
+the players position
+being back where it was,
+
+405
+00:11:38,929 --> 00:11:40,009
+and the enemies being in
+
+406
+00:11:40,009 --> 00:11:41,810
+a new randomized location.
+
+407
+00:11:41,810 --> 00:11:43,170
+It's effectively the same
+
+408
+00:11:43,170 --> 00:11:44,350
+as refreshing the browser.
+
+409
+00:11:44,350 --> 00:11:46,029
+Essentially, instead
+of game over,
+
+410
+00:11:46,029 --> 00:11:47,890
+it's going to say restart
+
+411
+00:11:47,890 --> 00:11:50,280
+or play again.
+For instance,
+
+412
+00:11:50,280 --> 00:11:52,390
+the last one, which
+is a bit easier,
+
+413
+00:11:52,390 --> 00:11:53,390
+I think I always
+like to throwing
+
+414
+00:11:53,390 --> 00:11:54,609
+one of the easy
+ones in this one,
+
+415
+00:11:54,609 --> 00:11:55,469
+because I think a lot of
+
+416
+00:11:55,469 --> 00:11:56,990
+this criteria is
+quite challenging.
+
+417
+00:11:56,990 --> 00:11:57,790
+Is I want you to
+
+418
+00:11:57,790 --> 00:11:59,130
+implement those
+arrow buttons,
+
+419
+00:11:59,130 --> 00:12:00,989
+the arrow buttons in
+the corner over here.
+
+420
+00:12:00,989 --> 00:12:02,370
+I want you to
+implement them,
+
+421
+00:12:02,370 --> 00:12:04,130
+so I'll just
+hide my camera.
+
+422
+00:12:04,130 --> 00:12:06,169
+Now the difference
+with this is
+
+423
+00:12:06,169 --> 00:12:07,490
+if I click on the
+arrow button,
+
+424
+00:12:07,490 --> 00:12:08,470
+the player will continue
+
+425
+00:12:08,470 --> 00:12:09,869
+moving in that direction.
+
+426
+00:12:09,869 --> 00:12:11,370
+Whereas with
+the arrow keys,
+
+427
+00:12:11,370 --> 00:12:12,250
+I've got to be pressing
+
+428
+00:12:12,250 --> 00:12:13,630
+the arrow key
+for it to move.
+
+429
+00:12:13,630 --> 00:12:15,090
+With these
+buttons, you just
+
+430
+00:12:15,090 --> 00:12:17,509
+click on it and it
+will continue moving
+
+431
+00:12:17,509 --> 00:12:19,170
+the more I click.
+
+432
+00:12:19,170 --> 00:12:20,790
+Shouldn't increase
+the players speed.
+
+433
+00:12:20,790 --> 00:12:23,130
+That's sometimes a
+common error that I see.
+
+434
+00:12:23,130 --> 00:12:24,949
+Depending on how
+you built this,
+
+435
+00:12:24,949 --> 00:12:27,790
+I'm going to die.
+That's a shame.
+
+436
+00:12:27,870 --> 00:12:30,190
+That's allowing me to
+
+437
+00:12:30,190 --> 00:12:31,810
+show you the restart
+feature, which is nice.
+
+438
+00:12:31,810 --> 00:12:34,230
+If I click restart,
+the game restarts.
+
+439
+00:12:34,230 --> 00:12:35,929
+You can have
+these players,
+
+440
+00:12:35,929 --> 00:12:38,069
+these enemy characters,
+moving immediately.
+
+441
+00:12:38,069 --> 00:12:40,390
+I chose to delay it by
+a couple of seconds,
+
+442
+00:12:40,390 --> 00:12:42,309
+just so it's a
+bit more fun,
+
+443
+00:12:42,309 --> 00:12:43,810
+although it's
+not particularly
+
+444
+00:12:43,810 --> 00:12:44,690
+fun at the moment.
+
+445
+00:12:44,690 --> 00:12:45,690
+But can you see that they
+
+446
+00:12:45,690 --> 00:12:46,950
+have got wall collisions?
+
+447
+00:12:46,950 --> 00:12:48,450
+The idea is when they
+encounter a wall,
+
+448
+00:12:48,450 --> 00:12:50,270
+they move in the
+opposite direction,
+
+449
+00:12:50,270 --> 00:12:51,810
+going to die again.
+
+450
+00:12:51,810 --> 00:12:53,790
+I'm not doing very well.
+
+451
+00:12:53,790 --> 00:12:55,049
+But then once
+
+452
+00:12:55,049 --> 00:12:56,350
+the game overstate
+has been reached,
+
+453
+00:12:56,350 --> 00:12:58,070
+the player movement stops.
+
+454
+00:12:58,070 --> 00:12:59,970
+That's pretty much
+everything you need
+
+455
+00:12:59,970 --> 00:13:02,390
+for a grade on this one.
+
+456
+00:13:02,390 --> 00:13:04,249
+This is a good pass.
+
+457
+00:13:04,249 --> 00:13:05,689
+If you've achieved
+quite a bit of this,
+
+458
+00:13:05,689 --> 00:13:07,150
+you're in quite
+a good position,
+
+459
+00:13:07,150 --> 00:13:08,770
+which is nice
+
+460
+00:13:08,770 --> 00:13:11,149
+for a very good
+pass. This one
+
+461
+00:13:11,149 --> 00:13:12,870
+is quite a bit
+more challenging.
+
+462
+00:13:12,870 --> 00:13:14,670
+You need to ask the player
+
+463
+00:13:14,670 --> 00:13:16,669
+for their name at the,
+
+464
+00:13:16,669 --> 00:13:18,829
+at the end game state.
+
+465
+00:13:18,829 --> 00:13:20,409
+Once the players died or
+
+466
+00:13:20,409 --> 00:13:21,470
+collected all the points,
+
+467
+00:13:21,470 --> 00:13:22,630
+you need to ask
+them for their
+
+468
+00:13:22,630 --> 00:13:24,050
+name and then save
+
+469
+00:13:24,050 --> 00:13:27,370
+their name along
+with the score.
+
+470
+00:13:27,370 --> 00:13:29,369
+Apologies, I
+can't talk today.
+
+471
+00:13:29,369 --> 00:13:31,430
+You're saving the
+name with the score
+
+472
+00:13:31,430 --> 00:13:33,090
+the player achieved into
+
+473
+00:13:33,090 --> 00:13:35,009
+something called
+local storage.
+
+474
+00:13:35,009 --> 00:13:36,969
+You're then
+going to display
+
+475
+00:13:36,969 --> 00:13:38,569
+the five highest player
+
+476
+00:13:38,569 --> 00:13:40,289
+scores in the leaderboard.
+
+477
+00:13:40,289 --> 00:13:42,490
+The leaderboard is this
+section just here.
+
+478
+00:13:42,490 --> 00:13:43,249
+You're actually going to
+
+479
+00:13:43,249 --> 00:13:44,390
+make this
+leaderboard fully
+
+480
+00:13:44,390 --> 00:13:45,569
+functional based on
+
+481
+00:13:45,569 --> 00:13:47,950
+the players that have
+played this game.
+
+482
+00:13:49,140 --> 00:13:51,299
+You then need to organize
+
+483
+00:13:51,299 --> 00:13:53,719
+the leaderboard from
+highest to lowest.
+
+484
+00:13:53,719 --> 00:13:55,680
+Again, typically
+it's built
+
+485
+00:13:55,680 --> 00:13:57,120
+in the relative order,
+
+486
+00:13:57,120 --> 00:13:58,599
+which means the
+newer entries
+
+487
+00:13:58,599 --> 00:13:59,800
+will appear at the bottom.
+
+488
+00:13:59,800 --> 00:14:04,780
+You need to reorganize
+this using some thing,
+
+489
+00:14:04,780 --> 00:14:06,559
+again, being quite
+vague with it.
+
+490
+00:14:06,559 --> 00:14:08,560
+You need to sort it
+by the highest score.
+
+491
+00:14:08,560 --> 00:14:11,100
+So it goes highest
+to the lowest.
+
+492
+00:14:13,040 --> 00:14:15,200
+I'm pretty sure
+there's something
+
+493
+00:14:15,200 --> 00:14:17,159
+about limiting it to five.
+
+494
+00:14:17,159 --> 00:14:19,739
+There is also a
+limit of five.
+
+495
+00:14:19,739 --> 00:14:21,460
+Only have the five highest
+
+496
+00:14:21,460 --> 00:14:22,859
+scores on that
+leaderboard.
+
+497
+00:14:22,859 --> 00:14:24,120
+I think I missed that bit
+
+498
+00:14:24,120 --> 00:14:25,500
+annoyingly. That's fine.
+
+499
+00:14:25,500 --> 00:14:27,160
+Once you've got the
+leaderboard working,
+
+500
+00:14:27,160 --> 00:14:28,839
+you then need to
+add the players
+
+501
+00:14:28,839 --> 00:14:30,980
+lives using Java Script.
+
+502
+00:14:30,980 --> 00:14:33,240
+So looking at the
+HTML very quickly,
+
+503
+00:14:33,240 --> 00:14:35,359
+the players
+lives are added.
+
+504
+00:14:35,359 --> 00:14:38,320
+This just here,
+these list items
+
+505
+00:14:38,320 --> 00:14:40,020
+are basically these lives,
+
+506
+00:14:40,020 --> 00:14:43,444
+they're currently hard
+coded into the HTML.
+
+507
+00:14:43,444 --> 00:14:46,149
+Your job is to make this
+
+508
+00:14:46,149 --> 00:14:49,249
+fully based around
+Java Script,
+
+509
+00:14:49,249 --> 00:14:50,490
+so you're adding
+these list items
+
+510
+00:14:50,490 --> 00:14:51,810
+through Java script.
+
+511
+00:14:51,810 --> 00:14:53,409
+That's slightly
+easier to do.
+
+512
+00:14:53,409 --> 00:14:55,429
+To be fair, you
+then need to make
+
+513
+00:14:55,429 --> 00:14:57,090
+some functionality
+that states
+
+514
+00:14:57,090 --> 00:14:58,149
+when the player collides
+
+515
+00:14:58,149 --> 00:14:59,110
+with the enemy characters.
+
+516
+00:14:59,110 --> 00:15:01,049
+Instead of it being
+game over immediately,
+
+517
+00:15:01,049 --> 00:15:02,490
+you're going to
+remove one of these,
+
+518
+00:15:02,490 --> 00:15:04,270
+remove one of the lives,
+
+519
+00:15:04,270 --> 00:15:06,390
+and make it so that the
+player is unable to
+
+520
+00:15:06,390 --> 00:15:08,450
+move for 1.5 seconds.
+
+521
+00:15:08,450 --> 00:15:09,990
+You're then going
+to put the hit
+
+522
+00:15:09,990 --> 00:15:11,570
+animation on that player,
+
+523
+00:15:11,570 --> 00:15:13,050
+again, signifying
+that they've
+
+524
+00:15:13,050 --> 00:15:15,450
+been hit by the
+enemy character.
+
+525
+00:15:15,650 --> 00:15:18,070
+Just to reiterate
+that when you come
+
+526
+00:15:18,070 --> 00:15:19,870
+into contact with
+an enemy character,
+
+527
+00:15:19,870 --> 00:15:21,709
+stop the movement
+of the player.
+
+528
+00:15:21,709 --> 00:15:23,850
+Put the hit class on them,
+
+529
+00:15:23,850 --> 00:15:25,690
+and then after 1.5
+
+530
+00:15:25,690 --> 00:15:26,990
+seconds allow them
+to move again.
+
+531
+00:15:26,990 --> 00:15:28,150
+But the key is
+you're removing
+
+532
+00:15:28,150 --> 00:15:29,669
+one of the lives
+from the screen.
+
+533
+00:15:29,669 --> 00:15:30,950
+The player essentially has
+
+534
+00:15:30,950 --> 00:15:33,009
+three attempts for this.
+
+535
+00:15:33,310 --> 00:15:35,690
+Once all three
+lives are lost,
+
+536
+00:15:35,690 --> 00:15:36,390
+you're then going to
+
+537
+00:15:36,390 --> 00:15:37,770
+display that
+restart message
+
+538
+00:15:37,770 --> 00:15:39,289
+or that game over message.
+
+539
+00:15:39,289 --> 00:15:41,549
+This is significantly
+harder, I would say.
+
+540
+00:15:41,549 --> 00:15:43,449
+This is partly some
+
+541
+00:15:43,449 --> 00:15:45,609
+of the hardest criteria
+on this assignment.
+
+542
+00:15:45,609 --> 00:15:48,630
+So good luck
+moving forward.
+
+543
+00:15:48,630 --> 00:15:51,210
+Then let's go to B grade,
+which is very fun.
+
+544
+00:15:51,210 --> 00:15:52,029
+I'm just going
+to hide that
+
+545
+00:15:52,029 --> 00:15:53,110
+because I realize
+that could
+
+546
+00:15:53,110 --> 00:15:56,409
+be not good to demonstrate
+the leaderboard,
+
+547
+00:15:56,409 --> 00:15:57,210
+then I'll just collect
+
+548
+00:15:57,210 --> 00:15:58,230
+a couple of points
+in the maze.
+
+549
+00:15:58,230 --> 00:15:59,610
+Aloughi get the impression
+I'm going to get
+
+550
+00:15:59,610 --> 00:16:01,230
+hit in mid no, I
+managed to avoid it.
+
+551
+00:16:01,230 --> 00:16:04,910
+That's good. We'll
+get hit once.
+
+552
+00:16:05,910 --> 00:16:08,650
+We'll try and
+get hit again.
+
+553
+00:16:08,650 --> 00:16:10,749
+So we got hit
+again on that one.
+
+554
+00:16:10,749 --> 00:16:12,130
+We unfortunately got hit
+
+555
+00:16:12,130 --> 00:16:13,450
+third time, which is fine.
+
+556
+00:16:13,450 --> 00:16:14,490
+I'll just put my name
+
+557
+00:16:14,490 --> 00:16:15,349
+Chris in the leaderboard.
+
+558
+00:16:15,349 --> 00:16:16,469
+Click okay on that one.
+
+559
+00:16:16,469 --> 00:16:17,929
+And Chris with
+a score of four
+
+560
+00:16:17,929 --> 00:16:19,949
+then got saved to
+the leaderboard.
+
+561
+00:16:19,949 --> 00:16:22,689
+Try and restart and
+do a similar process.
+
+562
+00:16:22,689 --> 00:16:25,150
+So I'll click to
+govern more points.
+
+563
+00:16:25,750 --> 00:16:29,589
+We'll get hit, we
+got hit again,
+
+564
+00:16:29,589 --> 00:16:30,309
+unfortunately,
+
+565
+00:16:30,309 --> 00:16:31,629
+and we got hit
+on the way back.
+
+566
+00:16:31,629 --> 00:16:33,630
+As well as the way
+the game goes,
+
+567
+00:16:33,630 --> 00:16:35,109
+Sometimes we'll just put
+
+568
+00:16:35,109 --> 00:16:35,750
+another name on this,
+
+569
+00:16:35,750 --> 00:16:37,710
+so we'll just
+say John Quick.
+
+570
+00:16:37,710 --> 00:16:40,289
+Okay. And that score
+added to the lead
+
+571
+00:16:40,289 --> 00:16:41,589
+of order because
+that score was
+
+572
+00:16:41,589 --> 00:16:43,269
+higher than the score
+I previously got,
+
+573
+00:16:43,269 --> 00:16:45,010
+that's taken the
+number one position.
+
+574
+00:16:45,010 --> 00:16:47,170
+If I were to get another
+score, for example,
+
+575
+00:16:47,170 --> 00:16:48,329
+two or one that would
+
+576
+00:16:48,329 --> 00:16:49,549
+appear in the third slot,
+
+577
+00:16:49,549 --> 00:16:52,430
+they are ordered by
+the score itself,
+
+578
+00:16:52,430 --> 00:16:53,770
+and that's the
+leaderboard.
+
+579
+00:16:53,770 --> 00:16:54,430
+And the cool thing is,
+
+580
+00:16:54,430 --> 00:16:55,990
+because this is
+using local storage,
+
+581
+00:16:55,990 --> 00:16:57,109
+but I click refresh.
+
+582
+00:16:57,109 --> 00:16:59,990
+Now that leaderboard
+still stays the same.
+
+583
+00:16:59,990 --> 00:17:02,610
+Now local storage is
+based on your laptop,
+
+584
+00:17:02,610 --> 00:17:03,990
+so this score only exists
+
+585
+00:17:03,990 --> 00:17:05,709
+on your machine,
+unfortunately,
+
+586
+00:17:05,709 --> 00:17:07,489
+until we look into
+servicide languages
+
+587
+00:17:07,489 --> 00:17:09,410
+where we can save
+things to databases,
+
+588
+00:17:09,410 --> 00:17:10,509
+this is about the best we
+
+589
+00:17:10,509 --> 00:17:12,129
+can do at this stage.
+
+590
+00:17:12,129 --> 00:17:14,309
+But don't worry,
+you'll learn this in,
+
+591
+00:17:14,309 --> 00:17:17,549
+I think it's week 11,
+which is very fun.
+
+592
+00:17:18,040 --> 00:17:20,519
+That is for a
+very good purse.
+
+593
+00:17:20,519 --> 00:17:21,679
+And again, this is some of
+
+594
+00:17:21,679 --> 00:17:23,340
+the more challenging
+parts of the assignment.
+
+595
+00:17:23,340 --> 00:17:25,300
+In my opinion, not
+only do you need
+
+596
+00:17:25,300 --> 00:17:26,459
+to work with local storage
+
+597
+00:17:26,459 --> 00:17:27,519
+where you're
+saving schools,
+
+598
+00:17:27,519 --> 00:17:29,180
+you're also sorting
+those schools
+
+599
+00:17:29,180 --> 00:17:30,840
+and limiting them to five,
+
+600
+00:17:30,840 --> 00:17:34,040
+which does require
+more complex logic.
+
+601
+00:17:34,040 --> 00:17:36,180
+Not only that, you're
+also implementing
+
+602
+00:17:36,180 --> 00:17:37,560
+a whole life function
+
+603
+00:17:37,560 --> 00:17:39,379
+which has
+
+604
+00:17:39,379 --> 00:17:41,360
+a lot more challenges
+than you might think.
+
+605
+00:17:41,360 --> 00:17:43,560
+For example, in some cases
+
+606
+00:17:43,560 --> 00:17:45,020
+you can get all
+three lives
+
+607
+00:17:45,020 --> 00:17:46,160
+disappearing at
+the same time.
+
+608
+00:17:46,160 --> 00:17:47,919
+That's because the
+player in the enemy,
+
+609
+00:17:47,919 --> 00:17:49,299
+there's no kind
+to stop on that.
+
+610
+00:17:49,299 --> 00:17:50,579
+So it's constantly
+removing
+
+611
+00:17:50,579 --> 00:17:52,480
+the same life over and
+over and over again.
+
+612
+00:17:52,480 --> 00:17:53,360
+So you need some way
+
+613
+00:17:53,360 --> 00:17:55,040
+of pausing that collision.
+
+614
+00:17:55,040 --> 00:17:56,979
+There's a lot to
+it, unfortunately,
+
+615
+00:17:56,979 --> 00:17:59,974
+which you'll come out
+the better for it
+
+616
+00:17:59,974 --> 00:18:01,910
+for an excellent
+pass. This one's
+
+617
+00:18:01,910 --> 00:18:03,449
+a bit more fun
+in my opinion.
+
+618
+00:18:03,449 --> 00:18:04,649
+You might have noticed
+
+619
+00:18:04,649 --> 00:18:05,890
+at this current
+point there's
+
+620
+00:18:05,890 --> 00:18:07,150
+only a limited
+number of points
+
+621
+00:18:07,150 --> 00:18:08,449
+we can actually
+get on this maze.
+
+622
+00:18:08,449 --> 00:18:09,630
+The idea is
+once we collect
+
+623
+00:18:09,630 --> 00:18:11,249
+all these points,
+that's it.
+
+624
+00:18:11,249 --> 00:18:12,949
+Which means the
+highest score
+
+625
+00:18:12,949 --> 00:18:15,150
+is pretty much always
+going to be the same.
+
+626
+00:18:15,150 --> 00:18:17,310
+Which makes the
+leader board
+
+627
+00:18:17,310 --> 00:18:20,204
+a bit less fun,
+in my opinion.
+
+628
+00:18:20,204 --> 00:18:22,340
+What part of the excellent
+
+629
+00:18:22,340 --> 00:18:23,599
+passing criteria is,
+
+630
+00:18:23,599 --> 00:18:24,899
+is you're doing levels
+
+631
+00:18:24,899 --> 00:18:26,439
+of increasing difficulty.
+
+632
+00:18:26,439 --> 00:18:28,500
+The idea is once
+the players
+
+633
+00:18:28,500 --> 00:18:30,939
+successfully collected
+all those points,
+
+634
+00:18:30,939 --> 00:18:32,999
+you're going to
+refresh the maze
+
+635
+00:18:32,999 --> 00:18:34,039
+and you're going to have
+
+636
+00:18:34,039 --> 00:18:35,459
+all those points back in.
+
+637
+00:18:35,459 --> 00:18:37,059
+Now the idea for this is
+
+638
+00:18:37,059 --> 00:18:38,400
+there's going to
+be levels now.
+
+639
+00:18:38,400 --> 00:18:39,920
+Level one could
+be quite easy,
+
+640
+00:18:39,920 --> 00:18:40,980
+level two could be harder,
+
+641
+00:18:40,980 --> 00:18:42,040
+level three
+could be harder.
+
+642
+00:18:42,040 --> 00:18:44,399
+You can go on
+and on. Now to
+
+643
+00:18:44,399 --> 00:18:46,279
+get the most number
+of marks for this,
+
+644
+00:18:46,279 --> 00:18:48,695
+the maze needs to
+change for each level.
+
+645
+00:18:48,695 --> 00:18:50,629
+Now there's two ways
+you can do this.
+
+646
+00:18:50,629 --> 00:18:53,469
+You can have preset
+levels or for
+
+647
+00:18:53,469 --> 00:18:54,889
+the higher marks you
+
+648
+00:18:54,889 --> 00:18:56,970
+can randomize that
+mazes creation,
+
+649
+00:18:56,970 --> 00:18:58,309
+what that means is
+it's going to be
+
+650
+00:18:58,309 --> 00:19:01,669
+a random maze
+every single time.
+
+651
+00:19:01,669 --> 00:19:04,049
+Just demonstrating
+this slightly,
+
+652
+00:19:04,049 --> 00:19:06,589
+I go to the A grade,
+
+653
+00:19:06,589 --> 00:19:08,410
+when I click refresh.
+
+654
+00:19:08,410 --> 00:19:11,110
+It's a brand new maze
+every single time.
+
+655
+00:19:11,110 --> 00:19:13,129
+If I were to collect
+all these points,
+
+656
+00:19:13,129 --> 00:19:14,829
+I move on to level two and
+
+657
+00:19:14,829 --> 00:19:16,729
+it's a new maze that
+gets refreshed.
+
+658
+00:19:16,729 --> 00:19:17,989
+The idea is in theory,
+
+659
+00:19:17,989 --> 00:19:20,124
+this game could
+go on forever.
+
+660
+00:19:20,124 --> 00:19:22,400
+Now part of the
+requirement
+
+661
+00:19:22,400 --> 00:19:24,619
+is levels of
+increasing difficulty.
+
+662
+00:19:24,619 --> 00:19:26,600
+One way of achieving
+this is to add
+
+663
+00:19:26,600 --> 00:19:27,999
+more enemies to the game
+
+664
+00:19:27,999 --> 00:19:29,539
+as the levels increase.
+
+665
+00:19:29,539 --> 00:19:31,159
+For example, level
+one could have
+
+666
+00:19:31,159 --> 00:19:33,400
+one enemy character
+like I've got here.
+
+667
+00:19:33,400 --> 00:19:34,919
+The second I get
+to level two,
+
+668
+00:19:34,919 --> 00:19:36,460
+there's then two
+enemy characters,
+
+669
+00:19:36,460 --> 00:19:37,619
+three enemy characters,
+
+670
+00:19:37,619 --> 00:19:38,719
+four enemy characters for
+
+671
+00:19:38,719 --> 00:19:40,379
+every single level
+that goes up.
+
+672
+00:19:40,379 --> 00:19:42,299
+Now if you had an infinite
+number of levels,
+
+673
+00:19:42,299 --> 00:19:43,999
+there would need to
+be some cap on this.
+
+674
+00:19:43,999 --> 00:19:45,439
+Otherwise you'd
+end up with like
+
+675
+00:19:45,439 --> 00:19:47,220
+1,000 enemies at level
+
+676
+00:19:47,220 --> 00:19:49,319
+1,000 Maybe it caps off at
+
+677
+00:19:49,319 --> 00:19:50,359
+maybe ten enemies when it
+
+678
+00:19:50,359 --> 00:19:52,369
+gets a bit more
+unmanageable.
+
+679
+00:19:52,369 --> 00:19:54,979
+But the real key to this
+
+680
+00:19:54,979 --> 00:19:57,659
+is it's going to be
+a randomized maze.
+
+681
+00:19:57,659 --> 00:19:59,140
+For each level, there's
+
+682
+00:19:59,140 --> 00:20:00,279
+bonus marks if there
+
+683
+00:20:00,279 --> 00:20:01,700
+are an infinite
+number of levels.
+
+684
+00:20:01,700 --> 00:20:02,659
+And the nice thing is that
+
+685
+00:20:02,659 --> 00:20:04,059
+it's quite easy
+to achieve,
+
+686
+00:20:04,059 --> 00:20:06,580
+which is nice Now
+
+687
+00:20:06,580 --> 00:20:07,699
+you would lose marks if
+
+688
+00:20:07,699 --> 00:20:09,340
+the maze is
+impossible to solve.
+
+689
+00:20:09,340 --> 00:20:10,999
+What I mean by that is if
+
+690
+00:20:10,999 --> 00:20:13,020
+we had a wall here
+and a wall here,
+
+691
+00:20:13,020 --> 00:20:14,300
+my player
+character wouldn't
+
+692
+00:20:14,300 --> 00:20:16,099
+be able to get
+these two points.
+
+693
+00:20:16,099 --> 00:20:17,819
+There doesn't need
+to be something in
+
+694
+00:20:17,819 --> 00:20:20,119
+place to stop that
+from happening.
+
+695
+00:20:20,119 --> 00:20:21,279
+Annoyingly,
+
+696
+00:20:21,279 --> 00:20:22,780
+that took me quite
+a while to solve.
+
+697
+00:20:22,780 --> 00:20:24,620
+It's actually a
+very easy issue,
+
+698
+00:20:24,620 --> 00:20:27,019
+but hopefully you
+guys figure it
+
+699
+00:20:27,019 --> 00:20:29,540
+out a lot quicker
+than me on that one.
+
+700
+00:20:29,540 --> 00:20:32,779
+Let's try and get to
+level two on this one.
+
+701
+00:20:32,779 --> 00:20:34,980
+So unfortunately,
+you've got to watch
+
+702
+00:20:34,980 --> 00:20:37,920
+me very slowly go
+through this game,
+
+703
+00:20:37,920 --> 00:20:41,680
+which is fun, to be fair,
+
+704
+00:20:41,680 --> 00:20:43,539
+is quite a fun game to
+
+705
+00:20:43,539 --> 00:20:44,639
+the idea is as soon as I
+
+706
+00:20:44,639 --> 00:20:46,699
+collect all of
+these points,
+
+707
+00:20:46,699 --> 00:20:48,740
+which we are very
+nearly there,
+
+708
+00:20:48,740 --> 00:20:49,679
+it's going to wait for
+
+709
+00:20:49,679 --> 00:20:52,140
+that character to move.
+
+710
+00:20:54,620 --> 00:20:58,140
+I'm playing it
+dangerously. Now
+
+711
+00:21:01,940 --> 00:21:03,759
+of course, he's going to
+
+712
+00:21:03,759 --> 00:21:05,379
+go right where
+I need to go.
+
+713
+00:21:05,379 --> 00:21:12,079
+That's fine. There we go.
+
+714
+00:21:12,079 --> 00:21:13,359
+So as soon as
+I collect this
+
+715
+00:21:13,359 --> 00:21:15,499
+last point just here,
+
+716
+00:21:15,499 --> 00:21:18,440
+it tells me the level
+has been completed.
+
+717
+00:21:18,440 --> 00:21:19,499
+It then gives me
+
+718
+00:21:19,499 --> 00:21:21,160
+a new maze and the
+game continues.
+
+719
+00:21:21,160 --> 00:21:22,780
+But this time because
+I'm on level two,
+
+720
+00:21:22,780 --> 00:21:23,160
+I've got
+
+721
+00:21:23,160 --> 00:21:25,699
+two enemy characters
+I'm dealing with.
+
+722
+00:21:26,460 --> 00:21:28,960
+But you can see
+in theory I could
+
+723
+00:21:28,960 --> 00:21:30,100
+get like an
+infinite number
+
+724
+00:21:30,100 --> 00:21:30,779
+of points on this.
+
+725
+00:21:30,779 --> 00:21:33,959
+Now we'll just try
+and die very quickly,
+
+726
+00:21:33,959 --> 00:21:34,379
+so I can get
+
+727
+00:21:34,379 --> 00:21:35,959
+a very nice high score
+for when I show this
+
+728
+00:21:35,959 --> 00:21:42,300
+in class, I am.
+
+729
+00:21:43,630 --> 00:21:47,509
+Oh come on. There we go.
+
+730
+00:21:47,509 --> 00:21:49,149
+I'll just say
+Chris two on that
+
+731
+00:21:49,149 --> 00:21:51,910
+one now at my score of 67,
+
+732
+00:21:51,910 --> 00:21:53,249
+find to the
+leaderboard like
+
+733
+00:21:53,249 --> 00:21:56,330
+so that's the key to
+success for that one.
+
+734
+00:21:56,330 --> 00:21:57,609
+In theory, this
+game could go on
+
+735
+00:21:57,609 --> 00:21:59,450
+forever, forever and ever.
+
+736
+00:21:59,450 --> 00:22:01,189
+And it's still got the
+same functionalities.
+
+737
+00:22:01,189 --> 00:22:03,430
+I click restart, the
+game restart as well.
+
+738
+00:22:03,430 --> 00:22:06,869
+That was unfortunate,
+but the point with
+
+739
+00:22:06,869 --> 00:22:08,089
+the grade is it's not
+
+740
+00:22:08,089 --> 00:22:10,290
+premade levels,
+it's infinite.
+
+741
+00:22:10,290 --> 00:22:12,029
+If you did do premade
+levels, for example,
+
+742
+00:22:12,029 --> 00:22:13,930
+level one is this and
+level two is this maze,
+
+743
+00:22:13,930 --> 00:22:15,329
+and level three
+is this maze.
+
+744
+00:22:15,329 --> 00:22:17,109
+That would get
+you some marks.
+
+745
+00:22:17,109 --> 00:22:19,830
+But if it's completely
+randomized every time,
+
+746
+00:22:19,830 --> 00:22:21,269
+that's the key to the
+
+747
+00:22:21,269 --> 00:22:23,710
+highest grade
+boundary on that one.
+
+748
+00:22:23,710 --> 00:22:26,069
+Now the last
+requirement for this,
+
+749
+00:22:26,069 --> 00:22:27,390
+and it's the one
+that I really
+
+750
+00:22:27,390 --> 00:22:28,610
+encourage most
+people to try,
+
+751
+00:22:28,610 --> 00:22:29,969
+because I think
+it's quite fun.
+
+752
+00:22:29,969 --> 00:22:32,529
+It adds a bit more
+personalization to this,
+
+753
+00:22:32,529 --> 00:22:34,310
+is I want you to add
+
+754
+00:22:34,310 --> 00:22:36,789
+two unique features
+to this game.
+
+755
+00:22:36,789 --> 00:22:38,389
+The more complex
+the features,
+
+756
+00:22:38,389 --> 00:22:40,190
+the higher the
+mark you will get.
+
+757
+00:22:40,190 --> 00:22:42,070
+If it were me, I
+would possibly
+
+758
+00:22:42,070 --> 00:22:44,189
+look at doing some kind
+of power up feature.
+
+759
+00:22:44,189 --> 00:22:45,509
+In traditional Pac Man,
+
+760
+00:22:45,509 --> 00:22:46,989
+you get the fruit
+
+761
+00:22:46,989 --> 00:22:48,109
+that's slightly
+different from
+
+762
+00:22:48,109 --> 00:22:49,029
+the rest of the fruit,
+
+763
+00:22:49,029 --> 00:22:50,409
+that gives you
+more points.
+
+764
+00:22:50,409 --> 00:22:51,984
+You could do
+something like that,
+
+765
+00:22:51,984 --> 00:22:53,860
+for example, you
+could have maybe
+
+766
+00:22:53,860 --> 00:22:55,099
+a red point
+somewhere on this,
+
+767
+00:22:55,099 --> 00:22:56,360
+you collect the red
+point that gives
+
+768
+00:22:56,360 --> 00:22:58,339
+you ten in your score.
+
+769
+00:22:58,339 --> 00:23:01,299
+You could add
+modifiers to it.
+
+770
+00:23:01,299 --> 00:23:02,919
+For example, if you
+were to collect
+
+771
+00:23:02,919 --> 00:23:04,959
+a certain thing
+in the maze,
+
+772
+00:23:04,959 --> 00:23:05,639
+it would speed up
+
+773
+00:23:05,639 --> 00:23:06,879
+your character
+for 10 seconds.
+
+774
+00:23:06,879 --> 00:23:09,539
+Or it makes you
+invisible or invincible,
+
+775
+00:23:09,539 --> 00:23:11,100
+that's the word
+I'm meant to use.
+
+776
+00:23:11,100 --> 00:23:12,939
+Or you could take it
+literally from Pac Man.
+
+777
+00:23:12,939 --> 00:23:14,279
+You could allow
+yourself to
+
+778
+00:23:14,279 --> 00:23:16,960
+defeat the enemies in
+the maze temporarily.
+
+779
+00:23:16,960 --> 00:23:18,500
+If you come into
+contact with them,
+
+780
+00:23:18,500 --> 00:23:21,020
+they're the ones that
+die and disappear.
+
+781
+00:23:21,200 --> 00:23:22,779
+You can even do
+
+782
+00:23:22,779 --> 00:23:24,659
+a character customizer
+if you really want to.
+
+783
+00:23:24,659 --> 00:23:25,519
+This is going to be one of
+
+784
+00:23:25,519 --> 00:23:27,240
+your exercises in
+two weeks time.
+
+785
+00:23:27,240 --> 00:23:28,519
+We're actually
+going to create
+
+786
+00:23:28,519 --> 00:23:29,999
+some character
+customize it
+
+787
+00:23:29,999 --> 00:23:32,479
+very easy to just port
+that over into this,
+
+788
+00:23:32,479 --> 00:23:35,939
+but the key is the more
+complex the feature,
+
+789
+00:23:35,939 --> 00:23:37,959
+the higher the mark
+you receive on this.
+
+790
+00:23:37,959 --> 00:23:39,740
+I would encourage
+most people
+
+791
+00:23:39,740 --> 00:23:40,659
+to give this one a go.
+
+792
+00:23:40,659 --> 00:23:41,720
+I think that's something I
+
+793
+00:23:41,720 --> 00:23:42,700
+quite like with
+this assignment.
+
+794
+00:23:42,700 --> 00:23:43,440
+A lot of people think
+
+795
+00:23:43,440 --> 00:23:44,860
+they have to do
+this in order,
+
+796
+00:23:44,860 --> 00:23:46,820
+not necessarily the case
+
+797
+00:23:46,820 --> 00:23:48,640
+if you think there's
+a few things,
+
+798
+00:23:48,640 --> 00:23:50,199
+let's say in the
+very good pass,
+
+799
+00:23:50,199 --> 00:23:51,880
+that seem easier
+than this one.
+
+800
+00:23:51,880 --> 00:23:53,419
+In a good pass, you
+
+801
+00:23:53,419 --> 00:23:55,644
+can add those
+for those marks.
+
+802
+00:23:55,644 --> 00:23:58,109
+Even if you haven't
+achieved all of this,
+
+803
+00:23:58,109 --> 00:24:00,110
+you can still do some
+of the requirements
+
+804
+00:24:00,110 --> 00:24:02,029
+for an A grade,
+for a B grade.
+
+805
+00:24:02,029 --> 00:24:03,569
+Each of these have
+a certain number
+
+806
+00:24:03,569 --> 00:24:05,290
+of points
+allocated to them.
+
+807
+00:24:05,290 --> 00:24:06,349
+All you're going to do is
+
+808
+00:24:06,349 --> 00:24:07,609
+rack up those points.
+
+809
+00:24:07,609 --> 00:24:09,570
+You don't have to
+follow a specific order
+
+810
+00:24:09,570 --> 00:24:10,930
+on this, if that
+makes sense.
+
+811
+00:24:10,930 --> 00:24:13,050
+I would say is a major
+requirement though.
+
+812
+00:24:13,050 --> 00:24:15,089
+Everyone needs to have
+done the past grade.
+
+813
+00:24:15,089 --> 00:24:16,690
+The past grade has
+the most number
+
+814
+00:24:16,690 --> 00:24:18,130
+of marks to it
+because that's enough
+
+815
+00:24:18,130 --> 00:24:21,629
+to get you that 40%
+40% for the D minus.
+
+816
+00:24:21,629 --> 00:24:23,069
+The rest of this
+stuff is only
+
+817
+00:24:23,069 --> 00:24:24,310
+maybe ten marks each.
+
+818
+00:24:24,310 --> 00:24:26,209
+Ten marks between
+each grade boundary,
+
+819
+00:24:26,209 --> 00:24:27,965
+if that makes sense.
+
+820
+00:24:27,965 --> 00:24:30,679
+But yeah, have
+some fun with it.
+
+821
+00:24:30,679 --> 00:24:31,759
+I'll just go through a
+
+822
+00:24:31,759 --> 00:24:33,140
+bit more on the
+assignment.
+
+823
+00:24:33,140 --> 00:24:34,999
+You've got a few
+different CSS
+
+824
+00:24:34,999 --> 00:24:36,420
+classes at your disposal.
+
+825
+00:24:36,420 --> 00:24:38,359
+The big ones are
+obviously hashtag player,
+
+826
+00:24:38,359 --> 00:24:39,619
+which is an ID
+for the player
+
+827
+00:24:39,619 --> 00:24:41,299
+that's that Pac
+Man character.
+
+828
+00:24:41,299 --> 00:24:43,399
+There's a secondary
+action for these players.
+
+829
+00:24:43,399 --> 00:24:45,160
+There's the hit class
+and the dead class.
+
+830
+00:24:45,160 --> 00:24:46,240
+The dead class gives
+
+831
+00:24:46,240 --> 00:24:47,300
+you that death animation,
+
+832
+00:24:47,300 --> 00:24:49,319
+whereas the hit class
+gives you that hit.
+
+833
+00:24:49,319 --> 00:24:51,620
+It's being hit animation.
+
+834
+00:24:51,620 --> 00:24:53,439
+We then have
+classes for the
+
+835
+00:24:53,439 --> 00:24:54,559
+points and the
+enemies as well.
+
+836
+00:24:54,559 --> 00:24:55,460
+But hopefully it's quite
+
+837
+00:24:55,460 --> 00:24:57,454
+straightforward
+from the CSS.
+
+838
+00:24:57,454 --> 00:25:00,949
+Now for the actual
+assignment submission,
+
+839
+00:25:00,949 --> 00:25:02,609
+you need to
+create a report.
+
+840
+00:25:02,609 --> 00:25:03,769
+This report is
+going to be very
+
+841
+00:25:03,769 --> 00:25:05,069
+different from the
+report you made for
+
+842
+00:25:05,069 --> 00:25:06,609
+the first assignment
+because this one's
+
+843
+00:25:06,609 --> 00:25:09,249
+got quite a lot of
+marks associated to it.
+
+844
+00:25:09,249 --> 00:25:10,249
+You're going to have
+
+845
+00:25:10,249 --> 00:25:11,709
+three sections
+in this report.
+
+846
+00:25:11,709 --> 00:25:13,709
+The first one is
+a checklist of
+
+847
+00:25:13,709 --> 00:25:15,290
+all the completed
+functionality
+
+848
+00:25:15,290 --> 00:25:16,070
+that you've done.
+
+849
+00:25:16,070 --> 00:25:17,549
+I'm going to give
+you a template to
+
+850
+00:25:17,549 --> 00:25:18,970
+use for this in a
+couple of weeks time.
+
+851
+00:25:18,970 --> 00:25:20,050
+That's got every single
+
+852
+00:25:20,050 --> 00:25:21,729
+feature I'm looking for.
+
+853
+00:25:21,729 --> 00:25:23,349
+Everything in all of
+
+854
+00:25:23,349 --> 00:25:24,849
+this nice thing is you
+
+855
+00:25:24,849 --> 00:25:25,490
+can use it to track
+
+856
+00:25:25,490 --> 00:25:26,610
+your progress,
+which is good.
+
+857
+00:25:26,610 --> 00:25:27,489
+All you need to do is
+
+858
+00:25:27,489 --> 00:25:28,670
+just tell me what
+you've done.
+
+859
+00:25:28,670 --> 00:25:30,249
+If you've done all
+the past grade,
+
+860
+00:25:30,249 --> 00:25:31,770
+you'll tick all of these.
+
+861
+00:25:31,770 --> 00:25:34,229
+Just make marking a
+little bit easier on me.
+
+862
+00:25:34,229 --> 00:25:34,709
+Otherwise,
+
+863
+00:25:34,709 --> 00:25:37,000
+it'll be scouring
+through a lot of code.
+
+864
+00:25:37,000 --> 00:25:39,349
+That's the first
+one. Just tell me
+
+865
+00:25:39,349 --> 00:25:40,190
+exactly what you've
+
+866
+00:25:40,190 --> 00:25:41,929
+done using that checklist.
+
+867
+00:25:41,929 --> 00:25:44,070
+The second section
+is testing,
+
+868
+00:25:44,070 --> 00:25:45,529
+so we're going to
+focus a lot more
+
+869
+00:25:45,529 --> 00:25:46,950
+on testing in some
+of the later weeks.
+
+870
+00:25:46,950 --> 00:25:47,890
+But you've got to show
+
+871
+00:25:47,890 --> 00:25:49,389
+me how the code
+is working.
+
+872
+00:25:49,389 --> 00:25:51,270
+What tests have
+you performed
+
+873
+00:25:51,270 --> 00:25:52,610
+that guarantee that's
+
+874
+00:25:52,610 --> 00:25:54,389
+working? As you've stated.
+
+875
+00:25:54,389 --> 00:25:56,709
+Could you test
+certain sections
+
+876
+00:25:56,709 --> 00:25:58,029
+without running
+all the code?
+
+877
+00:25:58,029 --> 00:26:00,329
+A bit of a hint you can,
+
+878
+00:26:00,770 --> 00:26:03,430
+then this is quite
+a unique one.
+
+879
+00:26:03,430 --> 00:26:05,790
+If there are any
+bugs in your game,
+
+880
+00:26:05,790 --> 00:26:06,930
+if you disclose them here,
+
+881
+00:26:06,930 --> 00:26:07,949
+you won't be marked down
+
+882
+00:26:07,949 --> 00:26:09,810
+quite as heavily for them.
+
+883
+00:26:09,810 --> 00:26:11,429
+Again, if you know some of
+
+884
+00:26:11,429 --> 00:26:13,244
+it doesn't work,
+mention it
+
+885
+00:26:13,244 --> 00:26:16,640
+for the evaluation.
+Essentially, you're
+
+886
+00:26:16,640 --> 00:26:18,019
+just going to say what
+
+887
+00:26:18,019 --> 00:26:19,579
+happened throughout
+this process.
+
+888
+00:26:19,579 --> 00:26:20,979
+Again, any known bugs
+
+889
+00:26:20,979 --> 00:26:22,200
+or weaknesses in the game.
+
+890
+00:26:22,200 --> 00:26:23,720
+Tell me what works
+well in the game.
+
+891
+00:26:23,720 --> 00:26:24,280
+If you're very proud
+
+892
+00:26:24,280 --> 00:26:25,219
+of your collision
+teection,
+
+893
+00:26:25,219 --> 00:26:27,860
+maybe it's 100% accurate
+every single time.
+
+894
+00:26:27,860 --> 00:26:30,039
+Talk about that. If you
+
+895
+00:26:30,039 --> 00:26:31,759
+had more time or
+what would you do?
+
+896
+00:26:31,759 --> 00:26:33,480
+What improvements could
+you make to the game?
+
+897
+00:26:33,480 --> 00:26:34,660
+What would you have
+done if you were given
+
+898
+00:26:34,660 --> 00:26:36,879
+an extra week or an
+extra month on this?
+
+899
+00:26:36,879 --> 00:26:38,939
+How easy is it to extend
+
+900
+00:26:38,939 --> 00:26:40,600
+the functionality
+for this game?
+
+901
+00:26:40,600 --> 00:26:41,419
+Have you built it in
+
+902
+00:26:41,419 --> 00:26:42,739
+such a way that
+it's very modular?
+
+903
+00:26:42,739 --> 00:26:44,279
+You just need to
+create a new function
+
+904
+00:26:44,279 --> 00:26:45,400
+and then bag it's working?
+
+905
+00:26:45,400 --> 00:26:47,240
+Or is it very
+much written into
+
+906
+00:26:47,240 --> 00:26:48,520
+one solid block where
+
+907
+00:26:48,520 --> 00:26:49,619
+a tiny tweak here or
+
+908
+00:26:49,619 --> 00:26:51,500
+there could break
+everything.
+
+909
+00:26:51,500 --> 00:26:53,519
+The last one is
+if you had to
+
+910
+00:26:53,519 --> 00:26:55,619
+build a similar
+game in the future,
+
+911
+00:26:55,619 --> 00:26:58,539
+what would you do
+differently and why you
+
+912
+00:26:58,539 --> 00:27:00,439
+get to express your
+English skills,
+
+913
+00:27:00,439 --> 00:27:01,619
+which is very fun.
+
+914
+00:27:01,619 --> 00:27:03,219
+The last little
+bit is then
+
+915
+00:27:03,219 --> 00:27:04,899
+a link to your video
+demonstration.
+
+916
+00:27:04,899 --> 00:27:06,259
+This video
+demonstration is a
+
+917
+00:27:06,259 --> 00:27:07,580
+bit longer than the
+first assignment,
+
+918
+00:27:07,580 --> 00:27:08,559
+just because
+you've essentially
+
+919
+00:27:08,559 --> 00:27:09,580
+got to show me
+everything you've
+
+920
+00:27:09,580 --> 00:27:11,940
+done, two to 5 minutes.
+
+921
+00:27:11,940 --> 00:27:13,820
+Try not to make it
+any longer than ten,
+
+922
+00:27:13,820 --> 00:27:14,879
+otherwise that's going to
+
+923
+00:27:14,879 --> 00:27:16,660
+be very painful to watch.
+
+924
+00:27:16,660 --> 00:27:18,799
+But essentially, you're
+just going to show me
+
+925
+00:27:18,799 --> 00:27:20,320
+all the features you've
+added to that game.
+
+926
+00:27:20,320 --> 00:27:21,580
+You don't need to
+show me the code,
+
+927
+00:27:21,580 --> 00:27:24,520
+it's just the game
+itself. Okay?
+
+928
+00:27:25,100 --> 00:27:28,379
+You also need to
+copy and paste
+
+929
+00:27:28,379 --> 00:27:29,919
+all your code into
+a Word document
+
+930
+00:27:29,919 --> 00:27:31,279
+and scan that
+through turn in,
+
+931
+00:27:31,279 --> 00:27:33,280
+just like the
+first assignment.
+
+932
+00:27:33,280 --> 00:27:35,619
+The actual rubric itself,
+
+933
+00:27:35,619 --> 00:27:37,100
+the functionality part,
+
+934
+00:27:37,100 --> 00:27:39,459
+the stuff you're adding
+
+935
+00:27:39,459 --> 00:27:42,759
+to this is worth
+60% of your grade.
+
+936
+00:27:42,759 --> 00:27:45,160
+It's quite a big chunk.
+
+937
+00:27:45,160 --> 00:27:47,619
+All of this stuff, this
+
+938
+00:27:47,619 --> 00:27:50,239
+is all worth 60%
+of that grade.
+
+939
+00:27:50,239 --> 00:27:52,320
+Again, don't look
+at that lightly.
+
+940
+00:27:52,320 --> 00:27:54,620
+It's the biggest section
+in this assignment
+
+941
+00:27:54,620 --> 00:27:57,099
+for the evaluation
+and testing.
+
+942
+00:27:57,099 --> 00:27:58,719
+This is mostly the
+report section.
+
+943
+00:27:58,719 --> 00:28:01,340
+They're 10% each,
+That's 20% Again,
+
+944
+00:28:01,340 --> 00:28:03,379
+it does have to be
+quite a good report.
+
+945
+00:28:03,379 --> 00:28:07,124
+I would say maybe five
+pages is even that.
+
+946
+00:28:07,124 --> 00:28:09,109
+But again, 20
+whole percent,
+
+947
+00:28:09,109 --> 00:28:11,230
+that's quite a lot code
+
+948
+00:28:11,230 --> 00:28:12,369
+quality and efficiency.
+
+949
+00:28:12,369 --> 00:28:13,749
+That's where I'm
+specifically
+
+950
+00:28:13,749 --> 00:28:14,410
+going to be looking
+
+951
+00:28:14,410 --> 00:28:16,709
+at your code and
+seeing how good it is.
+
+952
+00:28:16,709 --> 00:28:18,309
+If you've got a lot of
+duplication in there,
+
+953
+00:28:18,309 --> 00:28:20,310
+are you using a good
+range of functions?
+
+954
+00:28:20,310 --> 00:28:22,209
+Are you using four
+loops? If statements,
+
+955
+00:28:22,209 --> 00:28:23,390
+everything we're
+going to go through.
+
+956
+00:28:23,390 --> 00:28:24,829
+Are you using
+it effectively?
+
+957
+00:28:24,829 --> 00:28:26,709
+That's where 15% then
+
+958
+00:28:26,709 --> 00:28:29,089
+you've got 5% of the
+video demonstration.
+
+959
+00:28:29,089 --> 00:28:30,770
+But just like the
+first assignment,
+
+960
+00:28:30,770 --> 00:28:31,969
+this is more of a pass or
+
+961
+00:28:31,969 --> 00:28:33,849
+fail section
+on the rubric.
+
+962
+00:28:33,849 --> 00:28:34,870
+You've either done
+
+963
+00:28:34,870 --> 00:28:36,549
+a good video
+demonstration where it
+
+964
+00:28:36,549 --> 00:28:37,789
+proves that
+that's your code
+
+965
+00:28:37,789 --> 00:28:39,169
+or there's a bit
+of ambiguity.
+
+966
+00:28:39,169 --> 00:28:40,509
+There were a bit unsure
+
+967
+00:28:40,509 --> 00:28:41,670
+and that's where
+you'll fail
+
+968
+00:28:41,670 --> 00:28:42,989
+that section and
+be called in for
+
+969
+00:28:42,989 --> 00:28:45,674
+a secondary
+interview for that.
+
+970
+00:28:45,674 --> 00:28:48,120
+But that is the
+second assignment.
+
+971
+00:28:48,120 --> 00:28:49,099
+So remember, you've got
+
+972
+00:28:49,099 --> 00:28:50,539
+quite a lot of
+time to do this,
+
+973
+00:28:50,539 --> 00:28:51,900
+so don't panic just yet.
+
+974
+00:28:51,900 --> 00:28:53,380
+You've even got two
+weeks over Easter,
+
+975
+00:28:53,380 --> 00:28:55,039
+surprisingly,
+
+976
+00:28:55,080 --> 00:28:57,519
+but we will come
+back to this as
+
+977
+00:28:57,519 --> 00:28:59,240
+each week goes
+on after today,
+
+978
+00:28:59,240 --> 00:29:00,580
+you can actually
+do the first two
+
+979
+00:29:00,580 --> 00:29:02,499
+requirements of this game.
+
+980
+00:29:02,499 --> 00:29:03,860
+So again, if you're doing
+
+981
+00:29:03,860 --> 00:29:04,980
+the exercises each week,
+
+982
+00:29:04,980 --> 00:29:06,739
+it should be very easy
+to kind of see what
+
+983
+00:29:06,739 --> 00:29:09,639
+this game becomes
+in the end.
+
+984
+00:29:09,639 --> 00:29:11,899
+So that's my biggest
+step to you just do
+
+985
+00:29:11,899 --> 00:29:13,259
+the exercises
+each week and
+
+986
+00:29:13,259 --> 00:29:14,860
+you should be
+absolutely fine.
+
+987
+00:29:14,860 --> 00:29:18,080
+Okay, so that is the
+second assignment.
+
+988
+00:29:18,080 --> 00:29:19,019
+I hope everyone is
+
+989
+00:29:19,019 --> 00:29:20,279
+feeling al right
+about that.
+
+990
+00:29:20,279 --> 00:29:21,459
+I think it's quite fun.
+
+991
+00:29:21,459 --> 00:29:22,159
+It's definitely one of
+
+992
+00:29:22,159 --> 00:29:24,740
+the more interactive
+assignments out there.
+
+993
+00:29:24,740 --> 00:29:26,559
+The nice thing is
+you can actually
+
+994
+00:29:26,559 --> 00:29:27,839
+add this to your
+portfolios from
+
+995
+00:29:27,839 --> 00:29:28,759
+the first
+assignment if you
+
+996
+00:29:28,759 --> 00:29:30,039
+wanted to actually let
+
+997
+00:29:30,039 --> 00:29:31,720
+employers see
+your own work,
+
+998
+00:29:31,720 --> 00:29:32,899
+which I quite like.
+
+999
+00:29:32,899 --> 00:29:34,079
+You can even add this to
+
+1000
+00:29:34,079 --> 00:29:35,199
+an eye frame if
+you wanted to.
+
+1001
+00:29:35,199 --> 00:29:37,039
+You might need to optimize
+it a bit further,
+
+1002
+00:29:37,039 --> 00:29:37,440
+but that's
+
+1003
+00:29:37,440 --> 00:29:40,060
+just some standard
+CSS properties here.
+
+1004
+00:29:40,060 --> 00:29:43,519
+I think Mark told me
+very early on when I was
+
+1005
+00:29:43,519 --> 00:29:44,880
+a student that if
+you're very passionate
+
+1006
+00:29:44,880 --> 00:29:45,680
+about an assignment,
+
+1007
+00:29:45,680 --> 00:29:46,680
+you tend to do quite well.
+
+1008
+00:29:46,680 --> 00:29:47,900
+In that the more excited
+
+1009
+00:29:47,900 --> 00:29:49,219
+you are about adding
+things to this,
+
+1010
+00:29:49,219 --> 00:29:50,819
+about learning
+parts to it,
+
+1011
+00:29:50,819 --> 00:29:53,219
+it tends to be the
+better you'll do.
+
+1012
+00:29:53,219 --> 00:29:55,500
+I'm quite a big gamer.
+You can probably
+
+1013
+00:29:55,500 --> 00:29:58,070
+tell from all that
+stuff over there.
+
+1014
+00:29:58,070 --> 00:29:59,959
+I'm really into this.
+
+1015
+00:29:59,959 --> 00:30:01,280
+I love this sort of stuff.
+
+1016
+00:30:01,280 --> 00:30:02,739
+It's probably the
+assignment I was
+
+1017
+00:30:02,739 --> 00:30:04,399
+most passionate about
+when I was a student.
+
+1018
+00:30:04,399 --> 00:30:06,420
+So hopefully some of
+you feel the same way.
+
+1019
+00:30:06,420 --> 00:30:08,259
+Maybe this isn't
+your capti at all.
+
+1020
+00:30:08,259 --> 00:30:09,900
+Maybe you really don't
+like this stuff.
+
+1021
+00:30:09,900 --> 00:30:11,000
+That's absolutely fine.
+
+1022
+00:30:11,000 --> 00:30:12,800
+There will be modules
+that you enjoy.
+
+1023
+00:30:12,800 --> 00:30:13,739
+This is going to be
+
+1024
+00:30:13,739 --> 00:30:15,200
+modules that you
+don't enjoy.
+
+1025
+00:30:15,200 --> 00:30:17,280
+But I think finding
+the passion
+
+1026
+00:30:17,280 --> 00:30:19,679
+in a lot of this stuff,
+it's the way forward.
+
+1027
+00:30:19,679 --> 00:30:21,339
+Okay, a nice thing is
+
+1028
+00:30:21,339 --> 00:30:22,960
+we're all starting
+at the same point.
+
+1029
+00:30:22,960 --> 00:30:24,199
+So I'm not going to assume
+
+1030
+00:30:24,199 --> 00:30:25,919
+anyone's got any Java
+script knowledge.
+
+1031
+00:30:25,919 --> 00:30:28,100
+We're going to start
+right from square one.
+
+1032
+00:30:28,100 --> 00:30:29,500
+Right from step one.
+
+1033
+00:30:29,500 --> 00:30:32,775
+Okay, that's the
+second assignment.
+
+1034
+00:30:32,775 --> 00:30:35,270
+Yeah, good luck.
+I'm going to start
+
+1035
+00:30:35,270 --> 00:30:37,270
+the first lecture
+in just a second.
+
+1036
+00:30:37,270 --> 00:30:38,569
+But I'm going to pause
+
+1037
+00:30:38,569 --> 00:30:40,689
+this so I can then
+edit it a little bit.
+
+1038
+00:30:40,689 --> 00:30:43,930
+Nicer. Yeah, I will see
+you in just a second.
