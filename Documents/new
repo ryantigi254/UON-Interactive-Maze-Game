@@ -1,0 +1,338 @@
+let upPressed = false;
+let downPressed = false;
+let leftPressed = false;
+let rightPressed = false;
+let playerCanMove = false;
+
+
+
+const main = document.querySelector('main');
+
+//Player = 2, Wall = 1, Enemy = 3, Point = 0
+let maze = [
+    [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+    [1, 2, 0, 1, 0, 0, 0, 0, 3, 1],
+    [1, 0, 0, 0, 0, 0, 0, 1, 1, 1],
+    [1, 3, 0, 0, 0, 0, 0, 0, 0, 1],
+    [1, 0, 1, 1, 0, 0, 0, 0, 0, 1],
+    [1, 0, 0, 0, 0, 0, 0, 1, 1, 1],
+    [1, 0, 0, 1, 0, 3, 0, 0, 0, 1],
+    [1, 0, 0, 0, 0, 0, 0, 1, 0, 1],
+    [1, 3, 1, 0, 0, 0, 0, 0, 0, 1],
+    [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+];
+
+//Populates the maze in the HTML
+// ... (previous code remains the same)
+
+//Populates the maze in the HTML
+//Populates the maze in the HTML
+for (let y = 0; y < maze.length; y++) {
+    for (let x = 0; x < maze[y].length; x++) {
+        let block = document.createElement('div');
+        block.classList.add('block');
+
+        switch (maze[y][x]) {
+            case 1:
+                block.classList.add('wall');
+                break;
+            case 2:
+                block.id = 'player';
+                let mouth = document.createElement('div');
+                mouth.classList.add('mouth');
+                block.appendChild(mouth);
+                break;
+            case 3:
+                // Create the enemy
+                let enemyContainer = document.createElement('div');
+                enemyContainer.classList.add('enemy-container');
+
+                let enemy = document.createElement('div');
+                enemy.classList.add('enemy');
+
+                let earLeft = document.createElement('div');
+                earLeft.classList.add('ear', 'ear-left');
+                enemy.appendChild(earLeft);
+
+                let earRight = document.createElement('div');
+                earRight.classList.add('ear', 'ear-right');
+                enemy.appendChild(earRight);
+
+                let headTop = document.createElement('div');
+                headTop.classList.add('head-top');
+                enemy.appendChild(headTop);
+
+                let head = document.createElement('div');
+                head.classList.add('head');
+
+                let eyeLeft = document.createElement('div');
+                eyeLeft.classList.add('eye', 'eye-left');
+                head.appendChild(eyeLeft);
+
+                let eyeRight = document.createElement('div');
+                eyeRight.classList.add('eye', 'eye-right');
+                head.appendChild(eyeRight);
+
+                enemy.appendChild(head);
+
+                let body = document.createElement('div');
+                body.classList.add('body');
+                enemy.appendChild(body);
+
+                let armLeft = document.createElement('div');
+                armLeft.classList.add('arm', 'arm-left');
+                enemy.appendChild(armLeft);
+
+                let armRight = document.createElement('div');
+                armRight.classList.add('arm', 'arm-right');
+                enemy.appendChild(armRight);
+
+                enemyContainer.appendChild(enemy);
+                block.appendChild(enemyContainer);
+                break;
+            default:
+                block.classList.add('point');
+                block.style.height = '1vh';
+                block.style.width = '1vh';
+        }
+
+        main.appendChild(block);
+    }
+}
+
+
+
+//Player movement
+function keyDown(event) {
+    if (playerCanMove) {
+        switch (event.key) {
+            case 'ArrowUp': upPressed = true; break;
+            case 'ArrowDown': downPressed = true; break;
+            case 'ArrowLeft': leftPressed = true; break;
+            case 'ArrowRight': rightPressed = true; break;
+        }
+    }
+}
+
+function keyUp(event) {
+    if (playerCanMove) {
+        switch (event.key) {
+            case 'ArrowUp': upPressed = false; break;
+            case 'ArrowDown': downPressed = false; break;
+            case 'ArrowLeft': leftPressed = false; break;
+            case 'ArrowRight': rightPressed = false; break;
+        }
+    }
+}
+
+const player = document.querySelector('#player');
+const playerMouth = player.querySelector('.mouth');
+let playerTop = 0;
+let playerLeft = 0;
+
+// setInterval(function () {
+//     if (playerCanMove) {
+//         if (downPressed) {
+//             playerTop++;
+//             player.style.top = playerTop + 'px';
+//             playerMouth.classList = 'down';
+//         } else if (upPressed) {
+//             playerTop--;
+//             player.style.top = playerTop + 'px';
+//             playerMouth.classList = 'up';
+//         } else if (leftPressed) {
+//             playerLeft--;
+//             player.style.left = playerLeft + 'px';
+//             playerMouth.classList = 'left';
+//         } else if (rightPressed) {
+//             playerLeft++;
+//             player.style.left = playerLeft + 'px';
+//             playerMouth.classList = 'right';
+//         }
+
+//         checkCollisions();
+//     }
+// }, 10);
+
+document.addEventListener('keydown', keyDown);
+document.addEventListener('keyup', keyUp);
+document.getElementById('lbttn').addEventListener('click', () => {leftPressed = true; setTimeout(() => leftPressed = false, 100);});
+document.getElementById('ubttn').addEventListener('click', () => {upPressed = true; setTimeout(() => upPressed = false, 100);});
+document.getElementById('rbttn').addEventListener('click', () => {rightPressed = true; setTimeout(() => rightPressed = false, 100);});
+document.getElementById('dbttn').addEventListener('click', () => {downPressed = true; setTimeout(() => downPressed = false, 100);});
+
+// Reference to the start button and the start div
+const startBtn = document.querySelector('.start');
+const startDiv = document.querySelector('.startDiv');
+
+// Function to initiate the game
+function startGame() {
+  // Hide the start button
+  startDiv.style.display = 'none';
+  // Allow player movement
+  playerCanMove = true;
+}
+
+// Event listener for the start button
+startBtn.addEventListener('click', startGame);
+
+
+///////////////////////////////////////////////////////////////////////////////////
+
+function checkCollisions(nextTop, nextBottom, nextLeft, nextRight) {
+    // Get the elements at the player's next position corners
+    let topLeftElement = document.elementFromPoint(nextLeft, nextTop);
+    let topRightElement = document.elementFromPoint(nextRight, nextTop);
+    let bottomLeftElement = document.elementFromPoint(nextLeft, nextBottom);
+    let bottomRightElement = document.elementFromPoint(nextRight, nextBottom);
+
+    // Check if any of these elements have a class of 'wall'
+    if (topLeftElement.classList.contains('wall') || 
+        topRightElement.classList.contains('wall') ||
+        bottomLeftElement.classList.contains('wall') ||
+        bottomRightElement.classList.contains('wall')) {
+        // There's a wall, so don't allow movement
+        return false;
+    }
+    // No collision detected
+    return true;
+}
+
+
+setInterval(function () {
+    if (playerCanMove) {
+        let position = player.getBoundingClientRect();
+        let nextTop = position.top - (upPressed ? 1 : 0) + (downPressed ? 1 : 0);
+        let nextBottom = position.bottom + (downPressed ? 1 : 0) - (upPressed ? 1 : 0);
+        let nextLeft = position.left - (leftPressed ? 1 : 0) + (rightPressed ? 1 : 0);
+        let nextRight = position.right + (rightPressed ? 1 : 0) - (leftPressed ? 1 : 0);
+
+        // Only move if no collision is detected
+        if (checkCollisions(nextTop, nextBottom, nextLeft, nextRight)) {
+            if (downPressed) {
+                playerTop++;
+                player.style.top = playerTop + 'px';
+                playerMouth.classList = 'down';
+            } else if (upPressed) {
+                playerTop--;
+                player.style.top = playerTop + 'px';
+                playerMouth.classList = 'up';
+            } else if (leftPressed) {
+                playerLeft--;
+                player.style.left = playerLeft + 'px';
+                playerMouth.classList = 'left';
+            } else if (rightPressed) {
+                playerLeft++;
+                player.style.left = playerLeft + 'px';
+                playerMouth.classList = 'right';
+            }
+        }
+    }
+    checkEnemyCollision();
+}, 1);
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+let lives = 3; // Initialize lives to 3
+// let lives = 3; // Initialize lives to 3
+let invulnerable = false; // New flag to track invulnerability
+
+function checkEnemyCollision() {
+    // If the player is invulnerable, exit the function to avoid multiple hits
+    if (invulnerable) return;
+
+    const enemies = document.querySelectorAll('.enemy');
+    const playerRect = player.getBoundingClientRect();
+
+    for (let enemy of enemies) {
+        const enemyRect = enemy.getBoundingClientRect();
+        if (playerRect.left < enemyRect.right && playerRect.right > enemyRect.left &&
+            playerRect.top < enemyRect.bottom && playerRect.bottom > enemyRect.top) {
+            // Collision detected, flash player and decrement life
+            player.classList.add('hit');
+            setTimeout(() => player.classList.remove('hit'), 2000); // Flash for 2 seconds
+            
+            lives--;
+            updateLivesDisplay();
+            makePlayerInvulnerable(); // Call this to make the player invulnerable for a short time
+
+            if (lives === 0) {
+                gameOver();
+            }
+            break; // Only handle one collision at a time
+        }
+    }
+}
+
+function makePlayerInvulnerable() {
+    invulnerable = true;
+    // Set a timeout for how long the player should be invulnerable after being hit
+    setTimeout(() => {
+        invulnerable = false;
+    }, 1500); // The player is invulnerable for 2 seconds
+}
+
+
+
+function updateLivesDisplay() {
+    const livesList = document.querySelector('.lives ul');
+    livesList.innerHTML = ''; // Clear current lives
+    for (let i = 0; i < lives; i++) {
+        const life = document.createElement('li');
+        livesList.appendChild(life);
+    }
+}
+
+function gameOver() {
+    playerCanMove = false;
+    player.classList.add('dead'); // Add a 'dead' class to change the styling
+    playerMouth.style.display = 'none'; // Hide the mouth to stop animation
+    showGameOverScreen();
+}
+
+function showGameOverScreen() {
+    const gameOverDiv = document.createElement('div');
+    gameOverDiv.classList.add('game-over'); // This class is already styled above
+    
+    const gameOverMessage = document.createElement('h1');
+    gameOverMessage.textContent = 'Game Over';
+    gameOverMessage.classList.add('game-over-btn'); // Use this class for text styling
+    gameOverDiv.appendChild(gameOverMessage);
+    
+    const restartBtn = document.createElement('button');
+    restartBtn.textContent = 'Restart';
+    restartBtn.classList.add('restart-btn'); // Use this class for button styling
+    restartBtn.onclick = restartGame;
+    gameOverDiv.appendChild(restartBtn);
+    
+    startDiv.innerHTML = ''; // Clear the start div and reuse it for the game over screen
+    startDiv.appendChild(gameOverDiv);
+    startDiv.style.display = 'flex'; // Show the game over screen
+}
+
+const gameOverMessage = document.createElement('h1');
+gameOverMessage.textContent = 'Game Over';
+gameOverMessage.classList.add('game-over-text'); // Add a class for styling
+gameOverDiv.appendChild(gameOverMessage);
+
+
+function restartGame() {
+    window.location.reload(); 
+}
+
+// Initial call to set lives display
+updateLivesDisplay();
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// //Enemy movement
+
+
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////

@@ -55,9 +55,6 @@ header {
 
 header h1 {
     font-size: 4em;
-    background: linear-gradient(45deg, #ffde00, #b7ff00 50%, #ff0000 50%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 main {
@@ -137,12 +134,12 @@ div p {
 }
 
 .enemy {
-    background-image: url('space-invader.png'); /* Add a space invader image */
-    background-size: 100% 100%;
-    width: 30px;
-    height: 30px;
+    background-color: green;
+    border-radius: 100%;
+    height: 90%;
+    width: 90%;
     position: relative;
-  }
+}
 
 .point {
     border-radius: 100%;
@@ -268,24 +265,24 @@ button:nth-child(4) { grid-area: downArrow; }
 
 .game-over {
     width: 120%;
-    height: auto;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
-    background: rgba(0, 0, 0, 0.7);
-    color: #FFF;
-    border-radius: 10px; 
+    height: auto; /* Set the width to 50% of its container */
+    margin: 0 auto; /* This will center the div */
+    padding: 20px; /* Add some padding inside the div */
+    text-align: center; /* Center-align the text inside the div */
+    background: rgba(0, 0, 0, 0.7); /* Optional: a semi-transparent black background */
+    color: #FFF; /* White text color */
+    border-radius: 10px; /* Rounded corners */
+    /* Add more styles as needed */
 }
 
 .game-over-text {
-    font-size: 1.5em; 
-    margin-bottom: 20px; 
-    /
+    font-size: 1.5em; /* Increase font size */
+    margin-bottom: 20px; /* Add space below the text */
+    /* Other styles as needed */
 }
 
 
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
-/* enemy styling */
 .enemy-container, .enemy2-container {
     height: 90%;
     width: 90%;
@@ -294,7 +291,7 @@ button:nth-child(4) { grid-area: downArrow; }
     left: 0;
     height: 85%;
     width: 85%;
-    transform: scale(0.045); 
+    transform: scale(0.045); /* Adjust the scale value to make the enemy smaller */
     }
     
     .enemy, .enemy2{
@@ -428,119 +425,3 @@ button:nth-child(4) { grid-area: downArrow; }
     .enemy .arm-right:before {
     right: -100%;
     }
-
-/* /////////////////////////////////////////////////////////////////////////////// */
-/* checkilst, current objectives and color styling */
-.checklist {
-    grid-area: lboard;
-    margin-top: 47em;
-    text-align: left;
-}
-
-.checklist h2 {
-    text-shadow: 2px 2px 2px #000;
-    font-size: 0.9em;
-    text-decoration: underline;
-    margin-left: 10px;
-}
-
-.checklist ul {
-    margin-left: 1.99em;
-    margin-top: 1em;
-    text-align: left;
-    list-style: none;
-}
-
-.checklist ul li {
-    font-size: 0.75em;
-    padding: 1em 0;
-}
-
-.left-container {
-    grid-area: lboard;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-start;
-    padding-bottom: 1em;
-}
-
-.checklist {
-    margin-bottom: 3em; /* Increase the margin-bottom value */
-}
-
-.checklist h2 {
-    text-shadow: 2px 2px 2px #000;
-    font-size: 0.9em;
-    text-decoration: underline;
-    margin-left: 10px;
-}
-
-.checklist ul {
-    margin-left: 1.99em;
-    margin-top: 1em;
-    text-align: left;
-    list-style: none;
-}
-
-.checklist ul li {
-    font-size: 0.75em;
-    padding: 1em 0;
-}
-
-.color-picker h2 {
-    text-shadow: 2px 2px 2px #000;
-    font-size: 0.9em;
-    text-decoration: underline;
-    margin-left: 10px;
-}
-
-.color-options {
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 1em;
-    margin-left: 1.99em;
-}
-
-.color-option {
-    width: 2em;
-    height: 2em;
-    border-radius: 50%;
-    margin-right: 10px;
-    cursor: pointer;
-}
-.color-picker {
-    grid-area: lboard;
-    text-align: left;
-}
-
-.color-picker h2 {
-    text-shadow: 2px 2px 2px #000;
-    font-size: 0.9em;
-    text-decoration: underline;
-    margin-left: 10px;
-}
-
-.color-options {
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 1em;
-    margin-left: 1.99em;
-}
-
-.color-option {
-    width: 2em;
-    height: 2em;
-    border-radius: 50%;
-    margin-right: 10px;
-    cursor: pointer;
-}
-
-.yellow { background-color: yellow; }
-.cyan-blue { background-color: cyan; }
-.green { background-color: green; }
-.orange { background-color: orange; }
-.purple { background-color: purple; }
-
-/* /////////////////////////////////////////////////////////////////////////////// */
-/*  */

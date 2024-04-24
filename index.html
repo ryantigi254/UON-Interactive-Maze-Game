@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
     <script src="script.js" defer></script>
+    <script src="pathfinding.js"></script>
 </head>
 
 <body>
@@ -35,6 +36,28 @@
         </ol>
     </div>
 
+    <div class="left-container">
+        <div class="checklist">
+            <h2>Current Objectives:</h2>
+            <ul>
+                <li><input type="checkbox" id="collect-points"> Collect 10 points</li>
+                <li><input type="checkbox" id="defeat-enemies"> Defeat 3 enemies</li>
+                <li><input type="checkbox" id="reach-level"> Reach level 5</li>
+            </ul>
+        </div>
+    
+        <div class="color-picker">
+            <h2>Choose Your Color:</h2>
+            <div class="color-options">
+                <div class="color-option yellow" data-player-color="yellow" data-enemy1-color="purple" data-enemy2-color="darkblue" data-enemy3-color="magenta"></div>
+                <div class="color-option cyan-blue" data-player-color="cyan" data-enemy1-color="orange" data-enemy2-color="yellow" data-enemy3-color="lightgreen"></div>
+                <div class="color-option green" data-player-color="green" data-enemy1-color="pink" data-enemy2-color="red" data-enemy3-color="purple"></div>
+                <div class="color-option orange" data-player-color="orange" data-enemy1-color="cyan" data-enemy2-color="magenta" data-enemy3-color="darkgreen"></div>
+                <div class="color-option purple" data-player-color="purple" data-enemy1-color="limegreen" data-enemy2-color="yellow" data-enemy3-color="orange"></div>
+            </div>
+        </div>
+    </div>
+        
     <main>
     </main>
 
