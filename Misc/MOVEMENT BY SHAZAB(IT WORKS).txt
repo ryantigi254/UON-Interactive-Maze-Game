@@ -1,0 +1,118 @@
+
+// To be Debugged:
+setInterval(function () {
+    if (playerCanMove) {
+        let position = player.getBoundingClientRect();
+        let nextTop = position.top - (upPressed ? 5: 0) //+ (downPressed ? 1 : 0);
+        let nextBottom = position.bottom + (downPressed ? 5 : 0) //- (upPressed ? 1 : 0);
+        let nextLeft = position.left - (leftPressed ? 5 : 0) //+ (rightPressed ? 1 : 0);
+        let nextRight = position.right + (rightPressed ? 5 : 0) //- (leftPressed ? 1 : 0);
+
+        if (checkWallCollisions(nextTop, nextBottom, nextLeft, nextRight)) {
+            if (downPressed) {
+                playerTop++;
+                playerTop++;
+                playerTop++;
+                player.style.top = playerTop + 'px';
+                playerMouth.classList = 'down';
+            } else if (upPressed) {
+                playerTop--;
+                playerTop--;
+                playerTop--;
+                player.style.top = playerTop + 'px';
+                playerMouth.classList = 'up';
+            } else if (leftPressed) {
+                playerLeft--;
+                playerLeft--;
+                playerLeft--;
+                player.style.left = playerLeft + 'px';
+                playerMouth.classList = 'left';
+            } else if (rightPressed) {
+                playerLeft++;
+                playerLeft++;
+                playerLeft++;
+                player.style.left = playerLeft + 'px';
+                playerMouth.classList = 'right';
+            }
+        }
+        function checkWallCollisions(nextTop, nextBottom, nextLeft, nextRight) {
+            let topLeftElement = document.elementFromPoint(nextLeft, nextTop);
+            let topRightElement = document.elementFromPoint(nextRight, nextTop);
+            let bottomLeftElement = document.elementFromPoint(nextLeft, nextBottom);
+            let bottomRightElement = document.elementFromPoint(nextRight, nextBottom);
+        
+            /*
+            if (topLeftElement.classList.contains('wall') ||
+                topRightElement.classList.contains('wall') ||
+                bottomLeftElement.classList.contains('wall') ||
+                bottomRightElement.classList.contains('wall')) {
+                return false;
+            }
+            */
+            if (downPressed) { 
+                if (bottomLeftElement.classList.contains('wall') || bottomRightElement.classList.contains('wall') ){
+                    playerTop--;
+                    playerTop--;
+                    playerTop--;
+                    player.style.top = playerTop + 'px';
+                    playerMouth.classList = 'down';
+                    return false;
+                }
+        
+                else {
+                    return true;
+         
+                }
+            } 
+            else if (upPressed) {
+                if (topLeftElement.classList.contains('wall') || topRightElement.classList.contains('wall') ){
+                    playerTop++;
+                    playerTop++;
+                    playerTop++;
+                    player.style.top = playerTop + 'px';
+                    playerMouth.classList = 'up';
+                    return false;
+                }
+        
+                else {
+                    return true;
+         
+                }
+            } 
+            else if (leftPressed) {
+                if (topLeftElement.classList.contains('wall') ||  bottomLeftElement.classList.contains('wall') ){
+                    playerLeft++;
+                    playerLeft++;
+                    playerLeft++;
+                    player.style.left = playerLeft + 'px';
+                    playerMouth.classList = 'left';
+                    return false;
+        
+                }
+        
+                else {
+                    return true;
+         
+                }
+            } 
+            else if (rightPressed) {
+                if (bottomRightElement.classList.contains('wall') || topRightElement.classList.contains('wall')) {
+                    playerLeft--;
+                    playerLeft--;
+                    playerLeft--;
+                    player.style.left = playerLeft + 'px';
+                    playerMouth.classList = 'right';
+                    return false;
+        
+                }
+        
+                else {
+                    return true;
+         
+                }
+            }
+        }
+    }
+    checkEnemyCollision();
+    checkScoreCollisions();
+}, 1);

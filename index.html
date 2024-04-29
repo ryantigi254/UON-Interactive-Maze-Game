@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
     <script src="script.js" defer></script>
-    <script src="pathfinding.js"></script>
+    <script src="Maze+enemy.js"></script>
+    <script src="/style.css"></script>
+    <script src="/enemy.js"></script>
 </head>
 
 <body>
@@ -23,6 +25,7 @@
             <h1>Start</h1>
         </div>
     </div>
+ 
 
     <div class="leaderboard">
         <h1>LeaderBoard:</h1>
@@ -40,11 +43,11 @@
         <div class="checklist">
             <h2>Current Objectives:</h2>
             <ul>
-                <li><input type="checkbox" id="collect-points"> Collect 10 points</li>
-                <li><input type="checkbox" id="defeat-enemies"> Defeat 3 enemies</li>
-                <li><input type="checkbox" id="reach-level"> Reach level 5</li>
+              <li><label for="collect-points"><input type="checkbox" id="collect-points"> Collect 10 points</label></li>
+              <li><label for="defeat-enemies"><input type="checkbox" id="defeat-enemies"> Defeat 3 enemies</label></li>
+              <li><label for="reach-level"><input type="checkbox" id="reach-level"> Reach level 5</label></li>
             </ul>
-        </div>
+          </div>
     
         <div class="color-picker">
             <h2>Choose Your Color:</h2>

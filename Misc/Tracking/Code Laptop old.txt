@@ -430,76 +430,34 @@ updateLivesDisplay();
 
 // //Enemy movement
 
-function moveEnemies() {
-    if (!playerCanMove) return;
-  
-    const enemies = document.querySelectorAll('.enemy-container');
-    for (let i = 0; i < enemies.length; i++) {
-      const enemy = enemies[i];
-      const currentNode = getNodeFromBlock(enemy.parentNode);
-      const playerNode = getNodeFromBlock(player.parentNode);
-      const path = findPath(currentNode, playerNode, maze);
-  
-      if (path.length > 0) {
-        const nextNode = path[0];
-        const nextBlock = getBlockFromNode(nextNode);
-  
-        if (!nextBlock.classList.contains('wall') && !nextBlock.querySelector('.enemy-container')) {
-          enemy.parentNode.removeChild(enemy);
-          nextBlock.appendChild(enemy);
-          positionEnemies();
-        }
-      }
-    }
-  
-    setTimeout(moveEnemies, 500);
-  }
 
-  function getBlockFromNode(node) {
-    return document.querySelector(`.block:nth-child(${node.y * maze[0].length + node.x + 1})`);
-  }
+// function randomizeEnemyPositions() {
+//     const enemies = document.querySelectorAll('.enemy-container');
+    
+//     enemies.forEach(enemy => {
+//       let randomX, randomY;
+      
+//       do {
+//         randomX = Math.floor(Math.random() * maze[0].length);
+//         randomY = Math.floor(Math.random() * maze.length);
+//       } while (maze[randomY][randomX] !== 0);
+      
+//       maze[randomY][randomX] = 3;
+      
+//       const block = main.children[randomY].children[randomX];
+//       block.appendChild(enemy);
+//       positionEnemy(enemy);
+//     });
+//   }
   
-  function getNodeFromBlock(block) {
-    const x = Array.from(block.parentNode.children).indexOf(block) % maze[0].length;
-    const y = Math.floor(Array.from(block.parentNode.children).indexOf(block) / maze[0].length);
-    return maze[y][x];
-  }
-
-  function generateMaze() {
-    // Randomize enemy positions
-    const enemyPositions = [];
-    while (enemyPositions.length < 3) {
-      const x = Math.floor(Math.random() * maze[0].length);
-      const y = Math.floor(Math.random() * maze.length);
-      if (!maze[y][x].isWall && !enemyPositions.some(pos => pos.x === x && pos.y === y)) {
-        enemyPositions.push({ x, y });
-      }
-    }
-  
-    for (const { x, y } of enemyPositions) {
-      maze[y][x].isEnemy = true;
-    }
-  }
-  const restartBtn = document.createElement('button');
-restartBtn.textContent = 'Restart';
-restartBtn.classList.add('restart-btn');
-restartBtn.addEventListener('click', restartGame);
-gameOverDiv.appendChild(restartBtn);
-
-function restartGame() {
-  lives = 3;
-  score = 0;
-  playerCanMove = false;
-  player.classList.remove('dead', 'hit');
-  playerMouth.style.display = 'block';
-  startDiv.style.display = 'flex';
-  gameOverDiv.remove();
-
-  main.innerHTML = '';
-  generateMaze();
-}
-
-
+//   function positionEnemy(enemy) {
+//     const block = enemy.parentNode;
+//     const blockRect = block.getBoundingClientRect();
+//     const x = blockRect.left + (blockRect.width - enemy.offsetWidth) / 2;
+//     const y = blockRect.top + (blockRect.height - enemy.offsetHeight) / 2;
+//     enemy.style.top = `${y}px`;
+//     enemy.style.left = `${x}px`;
+//   }
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////

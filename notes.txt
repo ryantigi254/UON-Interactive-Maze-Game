@@ -1,0 +1,3 @@
+Make sure to implement player movement in levelComplete after next level button is clicked
+Make sure to implement enemy stop and enemy move next in the same place where I have "playerCanMove"
+Make sure to implement the speed restrictions (Minimum and maximum) to the enemy/player movement 
