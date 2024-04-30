@@ -1,4 +1,3 @@
-////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Initliazing the game
 let upPressed = false;
 let downPressed = false;
@@ -7,9 +6,10 @@ let rightPressed = false;
 let playerCanMove = false;
 
 
-
 const main = document.querySelector('main');
 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Maze Structure provided as a start
 //Player = 2, Wall = 1, Enemy = 3, Point = 0
 // let maze = [
 //     [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
@@ -25,55 +25,10 @@ const main = document.querySelector('main');
 // ];
 
 
-//Player = 2, Wall = 1, Enemy = 3, Point = 0
-// function generateMaze(level) {
-//     const dimensions = 10 + Math.floor(level / 2);
-//     const maze = Array(dimensions).fill().map(() => Array(dimensions).fill(0));
-
-//     // Place the player at the top-left corner
-//     maze[1][1] = 2;
-
-//     // Set the border cells to walls
-//     for (let i = 0; i < dimensions; i++) {
-//       maze[i][0] = 1;
-//       maze[i][dimensions - 1] = 1;
-//       maze[0][i] = 1;
-//       maze[dimensions - 1][i] = 1;
-//     }
-
-//     // Randomly place walls based on the level
-//     const wallProbability = 0.2 + (level * 0.05);
-//     for (let y = 1; y < dimensions - 1; y++) {
-//       for (let x = 1; x < dimensions - 1; x++) {
-//         if (Math.random() < wallProbability && maze[y][x] !== 2) {
-//           maze[y][x] = 1;
-//         }
-//       }
-//     }
-
-//     // Ensure connectivity (you can use DFS or BFS here)
-//     // ...
-
-//     // Randomly place enemies
-//     const numEnemies = Math.floor(level / 2) + 1;
-//     for (let i = 0; i < numEnemies; i++) {
-//       let enemyY, enemyX;
-//       do {
-//         enemyY = Math.floor(Math.random() * (dimensions - 2)) + 1;
-//         enemyX = Math.floor(Math.random() * (dimensions - 2)) + 1;
-//       } while (maze[enemyY][enemyX] !== 0);
-//       maze[enemyY][enemyX] = 3;
-//     }
-
-//     // Randomly place points
-//     // ...
-
-//     return maze;
-//   }
-
-//   // Modify the code that populates the maze in the HTML
-//   const level = 1; // Replace with the current level
-//   const maze = generateMaze(level);
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//*****************************************************************************************************************
+// Maze Logic that recreates the above array using a mathematical function applied to it to randomize the 3 entities
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 let dimensions = 10;
 
@@ -94,10 +49,6 @@ function generateMaze(level, simplicity) {
     return maze;
 
 }
-
-
-
-
 
 function generateMazeInternal(dimensions, level, simplicity) {
     let maze = Array(dimensions).fill().map(() => Array(dimensions).fill(0));
@@ -173,7 +124,8 @@ function isSolvable(maze) {
                             y + dy < dimensions &&
                             x + dx >= 0 &&
                             x + dx < dimensions &&
-                            maze[y + dy][x + dx] !== 1
+                            maze[y + dy][x + dx] !== 1 &&
+                            maze[y + dy][x + dx] !== 3
                         ) {
                             accessible = true;
                             break;
@@ -193,21 +145,17 @@ function isSolvable(maze) {
 
 
 
-
-
-
-
-
-
-
-
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//*****************************************************************************************************************
+//Populates the maze in the HTML
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 let level = 1;
 let simplicity = 1;
 let maze = generateMaze(level, simplicity);
 
-//Populates the maze in the HTML
+
 for (let y = 0; y < maze.length; y++) {
     for (let x = 0; x < maze[y].length; x++) {
         let block = document.createElement('div');
@@ -263,8 +211,8 @@ function getEnemyColor(y, x) {
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
 // Function to create a new enemy element
+
 function createEnemyElement(color) {
     let enemy = document.createElement('div');
     enemy.classList.add('enemy');
@@ -338,8 +286,10 @@ function positionEnemies() {
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
 // // Game Features
+//*****************************************************************************************************************
+
+
 const colorOptions = document.querySelectorAll('.color-option');
 colorOptions.forEach(option => {
     option.addEventListener('click', () => {
@@ -375,10 +325,10 @@ function updateEnemyColor(enemy, color) {
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
+//*****************************************************************************************************************
+//Player movement operations
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//Player movement
 function keyDown(event) {
     if (playerCanMove) {
         event.preventDefault(); // Prevent scrolling
@@ -463,10 +413,7 @@ startBtn.addEventListener('click', startGame);
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-// Function to check for collisions between the player and walls
-// Core Player Movement Logic
-
+// Core Player Movement Logic checking for collisions between the player and walls
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
@@ -506,9 +453,9 @@ setInterval(function () {
 */
 
 
-// let movement = parseInt(window.prompt("Enter the Speed"), 10)
-let movement = 10
 // New Approach Debugged:
+
+let movement = 10
 setInterval(function () {
     if (playerCanMove) {
         let position = player.getBoundingClientRect();
@@ -651,29 +598,12 @@ setInterval(() => {
     }}
 }, 16); // 16ms = 60fps
 
-/*
-function checkWallCollisions(nextTop, nextBottom, nextLeft, nextRight) {
-    let topLeftElement = document.elementFromPoint(nextLeft, nextTop);
-    let topRightElement = document.elementFromPoint(nextRight, nextTop);
-    let bottomLeftElement = document.elementFromPoint(nextLeft, nextBottom);
-    let bottomRightElement = document.elementFromPoint(nextRight, nextBottom);
 
-    if (topLeftElement.classList.contains('wall') ||
-        topRightElement.classList.contains('wall') ||
-        bottomLeftElement.classList.contains('wall') ||
-        bottomRightElement.classList.contains('wall')) {
-        return false;
-    }
-    return true;
-}
-*/
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
+//*****************************************************************************************************************
 // Function to check for collisions between the player and enemies
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 let lives = 3;
 let invulnerable = false;
@@ -708,7 +638,7 @@ function checkEnemyCollision() {
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
+//*****************************************************************************************************************
 // Core gameplay logic
 function makePlayerInvulnerable() {
     invulnerable = true;
@@ -758,21 +688,13 @@ function showGameOverScreen() {
 }
 
 
-
-// PREVIOUS CODE
-// const gameOverMessage = document.createElement('h1');
-// gameOverMessage.textContent = 'Game Over';
-// gameOverMessage.classList.add('game-over-text');
-// gameOverDiv.appendChild(gameOverMessage);
-
-
 function restartGame() {
     window.location.reload();
 }
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
+//*****************************************************************************************************************
 //Nxt Level
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 function levelComplete() {
@@ -781,50 +703,36 @@ function levelComplete() {
     
 }
 
+function nextLevel() {
+    playerCanMove = false;
+    showNextLevelScreen();
+}
+
 function showNextLevelScreen() {
     gameOverDiv.classList.add('game-over');
-    // gameOverMessage.textContent = 'Game Over';
-    // gameOverMessage.classList.add('game-over-btn');
     gameOverDiv.textContent = "";
     gameOverDiv.innerHTML += '<br>' +'Level Complete'+'<br>';
 
-    
     const nextLevelBtn = document.createElement('button');
     nextLevelBtn.textContent = 'Next Level';
     nextLevelBtn.classList.add('restart-btn');
-    nextLevelBtn.onclick = nextLevel;
+    nextLevelBtn.onclick = startNextLevel;
     gameOverDiv.appendChild(nextLevelBtn);
 
     startDiv.innerHTML = '';
     startDiv.appendChild(gameOverDiv);
     startDiv.style.display = 'flex';
 }
-function nextLevel() {
-    location.href = location.href;
-    startDiv.style.display = 'none';
-    gameOverDiv.style.display = 'none';
-    level++;
-    simplicity -= 0.12;
-    maze = [[],[]];
-    console.log("running next level");
-    
-}
-if (maze ==[[],[]] ){
-    maze = generateMaze(level, simplicity)    
-}
-////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
 
 updateLivesDisplay();
 
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// //Enemy movement
+
 
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
+//*****************************************************************************************************************
 // //Score Functionality
 
 // Initialize the score variable
@@ -860,8 +768,6 @@ function updateScoreDisplay() {
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-
-
 // this is the initial color setting of the enemy
 
 enemies.forEach((enemy) => {
@@ -874,9 +780,9 @@ enemies.forEach((enemy) => {
 
 })
 
-
-
-
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//*****************************************************************************************************************
+// //Enemy movement
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
