@@ -1,3 +1,4 @@
+
 // Initliazing the game
 let upPressed = false;
 let downPressed = false;
@@ -197,6 +198,7 @@ for (let y = 0; y < maze.length; y++) {
     }
 }
 
+
 function getEnemyColor(y, x) {
     // Assign colors based on enemy position
     if (y === 1 && x === 8) {
@@ -323,6 +325,7 @@ function updateEnemyColor(enemy, color) {
     enemy.querySelectorAll('.arm').forEach(arm => arm.style.backgroundColor = color);
     enemy.style.setProperty('--enemy-color', color);
 }
+
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //*****************************************************************************************************************
@@ -455,7 +458,7 @@ setInterval(function () {
 
 // New Approach Debugged:
 
-let movement = 10
+let movement = 3
 setInterval(function () {
     if (playerCanMove) {
         let position = player.getBoundingClientRect();
@@ -493,14 +496,6 @@ setInterval(function () {
             let bottomLeftElement = document.elementFromPoint(nextLeft, nextBottom);
             let bottomRightElement = document.elementFromPoint(nextRight, nextBottom);
         
-            /*
-            if (topLeftElement.classList.contains('wall') ||
-                topRightElement.classList.contains('wall') ||
-                bottomLeftElement.classList.contains('wall') ||
-                bottomRightElement.classList.contains('wall')) {
-                return false;
-            }
-            */
             if (downPressed) { 
                 if (bottomLeftElement.classList.contains('wall') || bottomRightElement.classList.contains('wall') ){
                     return false;
@@ -703,33 +698,98 @@ function levelComplete() {
     
 }
 
-function nextLevel() {
-    playerCanMove = false;
-    showNextLevelScreen();
-}
+const levelCompleteDiv = document.createElement('div');
+const enterNameDiv = document.createElement('div');
 
-function showNextLevelScreen() {
+function showGameOverScreen() {
     gameOverDiv.classList.add('game-over');
     gameOverDiv.textContent = "";
-    gameOverDiv.innerHTML += '<br>' +'Level Complete'+'<br>';
+    gameOverDiv.innerHTML += '<br>' +'Game Over'+'<br>';
 
-    const nextLevelBtn = document.createElement('button');
-    nextLevelBtn.textContent = 'Next Level';
-    nextLevelBtn.classList.add('restart-btn');
-    nextLevelBtn.onclick = startNextLevel;
-    gameOverDiv.appendChild(nextLevelBtn);
+    const restartBtn = document.createElement('button');
+    restartBtn.textContent = 'Restart';
+    restartBtn.classList.add('restart-btn');
+    restartBtn.onclick = restartGame;
+    gameOverDiv.appendChild(restartBtn);
 
     startDiv.innerHTML = '';
     startDiv.appendChild(gameOverDiv);
     startDiv.style.display = 'flex';
 }
 
+function showNextLevelScreen() {
+    levelCompleteDiv.classList.add('level-complete');
+    levelCompleteDiv.textContent = "";
+    levelCompleteDiv.innerHTML += '<br>' + 'Level Complete ' + '<br>';
+
+    const nextLevelBtn = document.createElement('button');
+    nextLevelBtn.textContent = 'Next Level';
+    nextLevelBtn.classList.add('restart-btn');
+    nextLevelBtn.onclick = nextLevel;
+    levelCompleteDiv.appendChild(nextLevelBtn);
+
+    const enterNameBtn = document.createElement('button');
+    enterNameBtn.textContent = 'Enter Name';
+    enterNameBtn.classList.add('restart-btn');
+    enterNameBtn.onclick = showEnterNameScreen;
+    levelCompleteDiv.appendChild(enterNameBtn);
+
+    startDiv.innerHTML = '';
+    startDiv.appendChild(levelCompleteDiv);
+    startDiv.style.display = 'flex';
+
+    // Set a timer to automatically go to the next level after 10 seconds
+    setTimeout(startNextLevel, 10000);
+}
+
+function showEnterNameScreen() {
+    enterNameDiv.classList.add('enter-name');
+    enterNameDiv.innerHTML = '<br>Enter your name:<br><input type="text" id="nameInput"><br>';
+    const submitBtn = document.createElement('button');
+    submitBtn.textContent = 'Submit';
+    submitBtn.onclick = submitName;
+    enterNameDiv.appendChild(submitBtn);
+
+    startDiv.innerHTML = '';
+    startDiv.appendChild(enterNameDiv);
+    startDiv.style.display = 'flex';
+}
+
+function submitName() {
+    const nameInput = document.getElementById('nameInput');
+    const name = nameInput.value;
+    // Do something with the entered name
+    console.log('Name entered:', name);
+    nextLevel();
+}
+
+function nextLevel() {
+    level++;
+    simplicity -= 0.12;
+    
+
+}
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
 updateLivesDisplay();
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+// this is the initial color setting of the enemy
 
+enemies.forEach((enemy) => {
+    enemy.querySelectorAll('.ear').forEach(ear => ear.style.backgroundColor = "purple");
+    enemy.querySelector('.head-top').style.backgroundColor = "purple";
+    enemy.querySelector('.head').style.backgroundColor = "purple";
+    enemy.querySelector('.body').style.backgroundColor = "purple";
+    enemy.querySelectorAll('.arm').forEach(arm => arm.style.backgroundColor = "purple");
+    enemy.style.setProperty('--enemy-color', "purple");
 
-
+})
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //*****************************************************************************************************************
@@ -765,20 +825,45 @@ function updateScoreDisplay() {
     scoreElement.textContent = score;
 }
 
-
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//*****************************************************************************************************************
+// // Leaderboard Functionality 
 
-// this is the initial color setting of the enemy
 
-enemies.forEach((enemy) => {
-    enemy.querySelectorAll('.ear').forEach(ear => ear.style.backgroundColor = "purple");
-    enemy.querySelector('.head-top').style.backgroundColor = "purple";
-    enemy.querySelector('.head').style.backgroundColor = "purple";
-    enemy.querySelector('.body').style.backgroundColor = "purple";
-    enemy.querySelectorAll('.arm').forEach(arm => arm.style.backgroundColor = "purple");
-    enemy.style.setProperty('--enemy-color', "purple");
+function showLeaderboardScreen() {
+    const leaderboardDiv = document.createElement('div');
+    leaderboardDiv.classList.add('leaderboard-screen');
 
-})
+    const message = document.createElement('p');
+    message.textContent = 'Enter your name for the leaderboard:';
+    leaderboardDiv.appendChild(message);
+
+    const nameInput = document.createElement('input');
+    nameInput.type = 'text';
+    nameInput.maxLength = 10;
+    nameInput.classList.add('leaderboard-input');
+    leaderboardDiv.appendChild(nameInput);
+
+    const submitBtn = document.createElement('button');
+    submitBtn.textContent = 'Submit';
+    submitBtn.classList.add('leaderboard-btn');
+    submitBtn.onclick = () => {
+        const playerName = nameInput.value.trim();
+        if (playerName) {
+            saveLeaderboardEntry(playerName);
+        }
+        startNextLevel();
+    };
+    leaderboardDiv.appendChild(submitBtn);
+
+    startDiv.innerHTML = '';
+    startDiv.appendChild(leaderboardDiv);
+    startDiv.style.display = 'flex';
+
+    nameInput.focus();
+}
+
+
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //*****************************************************************************************************************
