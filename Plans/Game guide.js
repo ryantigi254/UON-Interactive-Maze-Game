@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // //Added Features
-
+// With the help of Chat GPT for Ideation (https://chat.openai.com/)
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // // // Levelling System.
@@ -65,4 +65,34 @@
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+// Leveling Structure
+// Ideation was mine however implementation logic below was thanks to LLMA 3 (https://groq.com/)
+// Your code is structured around a single level, with the game logic, player movement, and collision detection all tied to this single level. To implement a next level feature, you'll need to refactor your code to support multiple levels.
 
+// Refactoring Suggestions
+
+// Level Data Structure: Create a data structure to store level data, such as the maze layout, enemy positions, and point locations. This will allow you to easily switch between levels.
+// Level Manager: Create a level manager class or function that handles level transitions, including:
+// Loading the next level data
+// Updating the game state (e.g., player position, score)
+// Resetting the game state (e.g., player lives, score)
+// Game Loop Refactoring: Refactor your game loop to use the level manager and level data structure. This will allow you to easily switch between levels.
+// Next Level Feature Implementation
+
+// To implement the next level feature, you can follow these steps:
+
+// Level Completion Detection: Detect when the player has completed the current level (e.g., by collecting all points or reaching a specific location).
+// Level Transition: When the level is completed, use the level manager to load the next level data and update the game state.
+// Reset Game State: Reset the game state, including the player's position, score, and lives.
+// Update UI: Update the UI to reflect the new level, including the maze layout, enemy positions, and point locations.
+// Task List
+
+// To implement the next level feature, you can follow this task list:
+
+// Create a level data structure to store level data.
+// Implement a level manager class or function to handle level transitions.
+// Refactor the game loop to use the level manager and level data structure.
+// Implement level completion detection.
+// Implement level transition logic.
+// Reset game state when transitioning to a new level.
+// Update the UI to reflect the new level. 

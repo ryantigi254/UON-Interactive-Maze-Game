@@ -699,7 +699,7 @@ function levelComplete() {
 }
 
 const levelCompleteDiv = document.createElement('div');
-const enterNameDiv = document.createElement('div');
+
 
 function showGameOverScreen() {
     gameOverDiv.classList.add('game-over');
@@ -718,56 +718,58 @@ function showGameOverScreen() {
 }
 
 function showNextLevelScreen() {
-    levelCompleteDiv.classList.add('level-complete');
-    levelCompleteDiv.textContent = "";
-    levelCompleteDiv.innerHTML += '<br>' + 'Level Complete ' + '<br>';
-
-    const nextLevelBtn = document.createElement('button');
-    nextLevelBtn.textContent = 'Next Level';
-    nextLevelBtn.classList.add('restart-btn');
-    nextLevelBtn.onclick = nextLevel;
-    levelCompleteDiv.appendChild(nextLevelBtn);
-
-    const enterNameBtn = document.createElement('button');
-    enterNameBtn.textContent = 'Enter Name';
-    enterNameBtn.classList.add('restart-btn');
-    enterNameBtn.onclick = showEnterNameScreen;
-    levelCompleteDiv.appendChild(enterNameBtn);
-
-    startDiv.innerHTML = '';
-    startDiv.appendChild(levelCompleteDiv);
+    startDiv.classList.remove('startDiv');
+    startDiv.classList.add('level-complete');
+    startDiv.innerHTML = `
+        <h2>Level Complete</h2>
+        <div class="button-container">
+            <button class="restart-btn" onclick="showEnterNameScreen()">Enter Your Name</button>
+            <button class="restart-btn" onclick="nextLevel()">Next Level</button>
+        </div>
+    `;
     startDiv.style.display = 'flex';
-
-    // Set a timer to automatically go to the next level after 10 seconds
-    setTimeout(startNextLevel, 10000);
 }
 
 function showEnterNameScreen() {
-    enterNameDiv.classList.add('enter-name');
-    enterNameDiv.innerHTML = '<br>Enter your name:<br><input type="text" id="nameInput"><br>';
-    const submitBtn = document.createElement('button');
-    submitBtn.textContent = 'Submit';
-    submitBtn.onclick = submitName;
-    enterNameDiv.appendChild(submitBtn);
-
-    startDiv.innerHTML = '';
-    startDiv.appendChild(enterNameDiv);
-    startDiv.style.display = 'flex';
+    startDiv.innerHTML = `
+        <h2>Enter Your Name</h2>
+        <div class="input-container">
+            <input type="text" id="nameInput" placeholder="Your Name">
+            <button class="restart-btn" onclick="submitName()">Submit</button>
+        </div>
+    `;
 }
 
 function submitName() {
     const nameInput = document.getElementById('nameInput');
     const name = nameInput.value;
-    // Do something with the entered name
+    // Save the name to the leaderboard or perform any other desired action
     console.log('Name entered:', name);
     nextLevel();
 }
 
+
+
 function nextLevel() {
     level++;
     simplicity -= 0.12;
-    
-
+    startDiv.style.display = 'none';
+    maze = generateMaze(level, simplicity);
+    main.innerHTML = '';
+    for (let y = 0; y < maze.length; y++) {
+        for (let x = 0; x < maze[y].length; x++) {
+            createBlock(maze[y][x], x, y);
+        }
+    }
+    playerTop = 0;
+    playerLeft = 0;
+    player.style.top = playerTop + 'px';
+    player.style.left = playerLeft + 'px';
+    playerCanMove = true;
+    score = 0;
+    updateScoreDisplay();
+    lives = 3;
+    updateLivesDisplay();
 }
 
 
