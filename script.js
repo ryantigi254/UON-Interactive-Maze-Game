@@ -33,13 +33,15 @@ const main = document.querySelector('main');
 
 let dimensions = 10;
 
+document.documentElement.style.setProperty('--dimensions', dimensions);
+
 function generateMaze(level, simplicity) {
     
     dimensions = 10 + Math.floor(level / 2);
     if(dimensions>13){
         dimensions = 13
     }
-    document.documentElement.style.setProperty('--dimensions', dimensions);
+    // document.documentElement.style.setProperty('--dimensions', dimensions);
 
     let maze;
     do {
@@ -156,7 +158,7 @@ let level = 1;
 let simplicity = 1;
 let maze = generateMaze(level, simplicity);
 
-
+function MazePopulator(){
 for (let y = 0; y < maze.length; y++) {
     for (let x = 0; x < maze[y].length; x++) {
         let block = document.createElement('div');
@@ -196,9 +198,9 @@ for (let y = 0; y < maze.length; y++) {
 
         main.appendChild(block);
     }
-}
+}}
 
-
+MazePopulator()
 function getEnemyColor(y, x) {
     // Assign colors based on enemy position
     if (y === 1 && x === 8) {
@@ -260,17 +262,17 @@ function createEnemyElement(color) {
 }
 
 
-// Function to position the enemies correctly
-function positionEnemies() {
-    const enemies = document.querySelectorAll('.enemy-container');
-    for (let i = 0; i < enemies.length; i++) {
-        let enemy = enemies[i];
-        let block = enemy.parentNode;
-        let blockRect = block.getBoundingClientRect();
-        enemy.style.top = `${blockRect.top}px`;
-        enemy.style.left = `${blockRect.left}px`;
-    }
-}
+// // Function to position the enemies correctly
+// function positionEnemies() {
+//     const enemies = document.querySelectorAll('.enemy-container');
+//     for (let i = 0; i < enemies.length; i++) {
+//         let enemy = enemies[i];
+//         let block = enemy.parentNode;
+//         let blockRect = block.getBoundingClientRect();
+//         enemy.style.top = `${blockRect.top}px`;
+//         enemy.style.left = `${blockRect.left}px`;
+//     }
+// }
 
 positionEnemies();
 
@@ -372,7 +374,6 @@ function keyUp(event) {
     }
 }
 
-const player = document.querySelector('#player');
 const playerMouth = player.querySelector('.mouth');
 let playerTop = 0;
 let playerLeft = 0;
@@ -460,6 +461,7 @@ setInterval(function () {
 
 let movement = 3
 setInterval(function () {
+    let player = document.querySelector('#player');
     if (playerCanMove) {
         let position = player.getBoundingClientRect();
         let nextTop = position.top - (upPressed ? movement: 0) //+ (downPressed ? 1 : 0);
@@ -545,6 +547,7 @@ setInterval(function () {
     checkEnemyCollision();
     checkScoreCollisions();
     if (maxScore === 0){
+        maxScore++
         levelComplete();   
     }
 }, 1);
@@ -602,13 +605,13 @@ setInterval(() => {
 
 let lives = 3;
 let invulnerable = false;
-const enemies = document.querySelectorAll('.enemy');
+let enemies = document.querySelectorAll('.enemy');
 
 function checkEnemyCollision() {
     if (invulnerable) return;
 
     const playerRect = player.getBoundingClientRect();
-
+    let enemies = document.querySelectorAll('.enemy');
     for (let enemy of enemies) {
         const enemyRect = enemy.getBoundingClientRect();
         if (playerRect.left < enemyRect.right && playerRect.right > enemyRect.left &&
@@ -748,31 +751,79 @@ function submitName() {
     nextLevel();
 }
 
-
-
 function nextLevel() {
     level++;
     simplicity -= 0.12;
     startDiv.style.display = 'none';
+    console.log("Current Level: " + level);
+
+    dimensions = 10 + Math.floor(level / 2);
+    if (dimensions > 13) {
+        dimensions = 13;
+    }
+    document.documentElement.style.setProperty('--dimensions', dimensions);
+
     maze = generateMaze(level, simplicity);
     main.innerHTML = '';
+
     for (let y = 0; y < maze.length; y++) {
         for (let x = 0; x < maze[y].length; x++) {
-            createBlock(maze[y][x], x, y);
+            let block = document.createElement('div');
+            block.classList.add('block');
+
+            switch (maze[y][x]) {
+                case 1:
+                    block.classList.add('wall');
+                    break;
+                case 2:
+                    block.id = 'player';
+                    let mouth = document.createElement('div');
+                    mouth.classList.add('mouth');
+                    block.appendChild(mouth);
+                    break;
+                case 3:
+                    let enemyContainer = document.createElement('div');
+                    enemyContainer.classList.add('enemy-container');
+                    block.appendChild(enemyContainer);
+
+                    let enemyColor = getEnemyColor(y, x);
+                    let enemy = createEnemyElement(enemyColor);
+                    enemyContainer.appendChild(enemy);
+                    break;
+                default:
+                    block.classList.add('point');
+                    block.style.height = '1vh';
+                    block.style.width = '1vh';
+            }
+
+            main.appendChild(block);
         }
     }
+    maxScore = document.querySelectorAll('.point').length-40
     playerTop = 0;
     playerLeft = 0;
-    player.style.top = playerTop + 'px';
-    player.style.left = playerLeft + 'px';
+    upPressed = false;
+    downPressed = false;
+    leftPressed = false;
+    rightPressed = false;
+
     playerCanMove = true;
     score = 0;
     updateScoreDisplay();
-    lives = 3;
     updateLivesDisplay();
+    positionEnemies();
+    getEnemyColor();
+    let enemies = document.querySelectorAll('.enemy');
+    enemies.forEach((enemy) => {
+        enemy.querySelectorAll('.ear').forEach(ear => ear.style.backgroundColor = "purple");
+        enemy.querySelector('.head-top').style.backgroundColor = "purple";
+        enemy.querySelector('.head').style.backgroundColor = "purple";
+        enemy.querySelector('.body').style.backgroundColor = "purple";
+        enemy.querySelectorAll('.arm').forEach(arm => arm.style.backgroundColor = "purple");
+        enemy.style.setProperty('--enemy-color', "purple");
+    
+    })
 }
-
-
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
