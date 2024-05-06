@@ -11,14 +11,15 @@ body {
   background-color: #000000;
   height: 100vh;
   display: grid;
-  grid-template-columns: 1fr 80vh 1fr;
-  grid-template-rows: auto;
+  grid-template-columns: 1fr minmax(auto, 80vh) 1fr;
+  grid-template-rows: auto 1fr auto;
   grid-template-areas:
     "header header header"
     "lboard main score"
     "lboard main controls";
   align-items: center;
   justify-items: center;
+  overflow: hidden;
 }
 
 header {
@@ -70,9 +71,11 @@ header h1 {
 main {
   grid-area: main;
   display: grid;
-  grid-template-columns: repeat(var(--dimensions), 10%);
-  width: 80vh;
-  height: 80vh;
+  grid-template-columns: repeat(var(--dimensions), 1fr);
+  width: 100%;
+  height: 100%;
+  max-width: 80vh;
+  max-height: 80vh;
   align-items: center;
   justify-items: center;
 }
@@ -175,6 +178,11 @@ div p {
   left: 0;
 }
 
+.open {
+  animation: none !important;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
 .up {
   clip-path: polygon(0 0, 100% 0, 50% 50%);
 }
@@ -203,6 +211,7 @@ div p {
   }
 }
 
+
 /* Directional button styling */
 .controls {
   grid-area: controls;
@@ -213,14 +222,19 @@ div p {
     ". upArrow ."
     "leftArrow . rightArrow"
     ". downArrow .";
-  width: 25vh;
-  height: 25vh;
-  margin-left: 20vh;
-  /* Adjusted value */
+  width: 100%;
+  height: 100%;
+  max-width: 30vh;
+  max-height: 30vh;
+  justify-self: center;
 }
 
 button {
   background-color: rgb(10, 10, 10);
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 button:nth-child(1) {
@@ -255,25 +269,7 @@ button:nth-child(4) {
   }
 }
 
-button {
-  background-color: rgb(10, 10, 10);
-}
 
-button:nth-child(1) {
-  grid-area: leftArrow;
-}
-
-button:nth-child(2) {
-  grid-area: upArrow;
-}
-
-button:nth-child(3) {
-  grid-area: rightArrow;
-}
-
-button:nth-child(4) {
-  grid-area: downArrow;
-}
 
 @keyframes deathAnimation {
   0% {
@@ -711,40 +707,82 @@ button:nth-child(4) {
 }
 
 .leaderboard-input::placeholder {
-  color: #aaa;
+  color: #ffffff;
 }
 
-
-
-
-/* /////////////////////////////////////////////////////////////////////////////// */
-.level-complete {
-  position: absolute;
+.input-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
   width: 100%;
+}
+
+.input-container input[type="text"] {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 16px;
+  padding: 10px;
+  border: 4px solid #fff;
+  background-color: #0000005d;
+  color: #ffffff;
+  outline: none;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.input-container .restart-btn {
+  text-align: center;
+  display: inline-block;
+  margin: 5px;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #D3D3D3;
+  text-shadow: -1px -1px black, 1px 1px white;
+  color: #808080;
+  border-radius: 7px;
+  box-shadow: 0 .2em gray;
+  cursor: pointer;
+  font-family: 'Press Start 2P';
+}
+
+/* /////////////////////////////////////////////////////////////////////////////// */
+.level-complete {
+  position: absolute;
+  
+  /* Stack children vertically */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vh;
   color: #fff;
   font-family: 'Press Start 2P', cursive;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
 }
-
 
 .level-complete h2 {
   text-shadow: 2px 2px 2px #000;
   font-size: 2em;
   text-decoration: none;
-  margin-bottom: 20px;
+  margin-bottom: 200px;
+  margin-left: 10px;
+  /* margin-top: 200px; */
+  /* Ensures space between the message and the buttons */
+  clear: both;
 }
 
 .button-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  width: 100%; /* Take full width of its parent */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .button-container button {
@@ -766,12 +804,52 @@ button:nth-child(4) {
   animation: highlight 0.5s ease-in-out infinite alternate;
 }
 
-@keyframes highlight {
-  0% {
-      transform: scale(1);
-  }
-  100% {
-      transform: scale(1.1);
-  }
+
+.enter-name {
+  position: absolute;
+  
+  /* Stack children vertically */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vh;
+  color: #fff;
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
 }
 
+.enter-name h2 {
+  text-shadow: 2px 2px 2px #000;
+  font-size: 2em;
+  text-decoration: none;
+  margin-bottom: 200px;
+  margin-left: 10px;
+  clear: both;
+}
+
+.input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Take full width of its parent */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.input-container button:hover {
+  background-color: #ffcc00;
+}
+
+@keyframes highlight {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}

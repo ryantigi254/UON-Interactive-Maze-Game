@@ -5,7 +5,7 @@ let downPressed = false;
 let leftPressed = false;
 let rightPressed = false;
 let playerCanMove = false;
-
+localStorage.removeItem('leaderboard');
 
 const main = document.querySelector('main');
 
@@ -30,36 +30,30 @@ const main = document.querySelector('main');
 //*****************************************************************************************************************
 // Maze Logic that recreates the above array using a mathematical function applied to it to randomize the 3 entities
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
 let dimensions = 10;
-
 document.documentElement.style.setProperty('--dimensions', dimensions);
 
 function generateMaze(level, simplicity) {
-    
-    dimensions = 10 + Math.floor(level / 2);
-    if(dimensions>13){
-        dimensions = 13
+    if (level <= 5) {
+        dimensions = 10;
+    } else {
+        dimensions = 10 + Math.floor(level / 2);
+        if (dimensions > 13) {
+            dimensions = 13;
+        }
     }
     // document.documentElement.style.setProperty('--dimensions', dimensions);
-
     let maze;
     do {
         console.log("doing")
         maze = generateMazeInternal(dimensions, level, simplicity);
     } while (!isSolvable(maze));
-
     return maze;
-
 }
 
 function generateMazeInternal(dimensions, level, simplicity) {
     let maze = Array(dimensions).fill().map(() => Array(dimensions).fill(0));
-
-    // Place the player at the top-left corner
     maze[1][1] = 2;
-
-    // Set the border cells to walls
     for (let i = 0; i < dimensions; i++) {
         maze[i][0] = 1;
         maze[i][dimensions - 1] = 1;
@@ -79,10 +73,7 @@ function generateMazeInternal(dimensions, level, simplicity) {
     }
 
     // Randomly place enemies
-    let numEnemies = Math.floor(level / 2) + 2;
-    if(numEnemies>3){
-        numEnemies = 3;
-    }
+    let numEnemies = 3;
     for (let i = 0; i < numEnemies; i++) {
         let enemyY, enemyX;
         do {
@@ -145,6 +136,7 @@ function isSolvable(maze) {
     }
     return true;
 }
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 
@@ -153,12 +145,14 @@ function isSolvable(maze) {
 //Populates the maze in the HTML
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-
 let level = 1;
 let simplicity = 1;
 let maze = generateMaze(level, simplicity);
 
+
+
 function MazePopulator(){
+    
 for (let y = 0; y < maze.length; y++) {
     for (let x = 0; x < maze[y].length; x++) {
         let block = document.createElement('div');
@@ -198,6 +192,7 @@ for (let y = 0; y < maze.length; y++) {
 
         main.appendChild(block);
     }
+    setColorOptions();
 }}
 
 MazePopulator()
@@ -213,10 +208,13 @@ function getEnemyColor(y, x) {
         return 'magenta'; // Enemy 4 (first enemy)
     }
 }
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//*****************************************************************************************************************
 // Function to create a new enemy element
-
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 function createEnemyElement(color) {
     let enemy = document.createElement('div');
     enemy.classList.add('enemy');
@@ -261,8 +259,7 @@ function createEnemyElement(color) {
     return enemy;
 }
 
-
-// // Function to position the enemies correctly
+// Alternative method for positioning Enemies correctly
 // function positionEnemies() {
 //     const enemies = document.querySelectorAll('.enemy-container');
 //     for (let i = 0; i < enemies.length; i++) {
@@ -288,45 +285,67 @@ function positionEnemies() {
         enemy.style.left = `${x}px`;
     }
 }
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-////////////////////////////////////////////////////////////////////////////////////////////////////////////
-// // Game Features
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 //*****************************************************************************************************************
+// // Game Features
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+function setColorOptions() {
+    const colorOptions = document.querySelectorAll('.color-option');
+    colorOptions.forEach(option => {
+        option.addEventListener('click', () => {
+            const playerColor = option.getAttribute('data-player-color');
+            const enemy1Color = option.getAttribute('data-enemy1-color');
+            const enemy2Color = option.getAttribute('data-enemy2-color');
+            const enemy3Color = option.getAttribute('data-enemy3-color');
 
+            const player = document.querySelector('#player');
+            player.style.backgroundColor = playerColor;
 
-const colorOptions = document.querySelectorAll('.color-option');
-colorOptions.forEach(option => {
-    option.addEventListener('click', () => {
-        const playerColor = option.getAttribute('data-player-color');
-        const enemy1Color = option.getAttribute('data-enemy1-color');
-        const enemy2Color = option.getAttribute('data-enemy2-color');
-        const enemy3Color = option.getAttribute('data-enemy3-color');
-
-        player.style.backgroundColor = playerColor;
-
-        const enemies = document.querySelectorAll('.enemy');
-        enemies.forEach((enemy, index) => {
-            if (index === 0) {
-                updateEnemyColor(enemy, enemy1Color);
-            } else if (index === 1) {
-                updateEnemyColor(enemy, enemy2Color);
-            } else if (index === 2) {
-                updateEnemyColor(enemy, enemy3Color);
-            } else if (index === 3) {
-                updateEnemyColor(enemy, 'orange');
-            }
+            const enemies = document.querySelectorAll('.enemy');
+            enemies.forEach((enemy, index) => {
+                if (index === 0) {
+                    updateEnemyColor(enemy, enemy1Color);
+                } else if (index === 1) {
+                    updateEnemyColor(enemy, enemy2Color);
+                } else if (index === 2) {
+                    updateEnemyColor(enemy, enemy3Color);
+                } else if (index === 3) {
+                    updateEnemyColor(enemy, 'orange');
+                }
+            });
         });
     });
-});
+}
 
 function updateEnemyColor(enemy, color) {
-    enemy.querySelectorAll('.ear').forEach(ear => ear.style.backgroundColor = color);
-    enemy.querySelector('.head-top').style.backgroundColor = color;
-    enemy.querySelector('.head').style.backgroundColor = color;
-    enemy.querySelector('.body').style.backgroundColor = color;
-    enemy.querySelectorAll('.arm').forEach(arm => arm.style.backgroundColor = color);
+    const earElements = enemy.querySelectorAll('.ear');
+    earElements.forEach(ear => ear.style.backgroundColor = color);
+
+    const headTopElement = enemy.querySelector('.head-top');
+    if (headTopElement) {
+        headTopElement.style.backgroundColor = color;
+    }
+
+    const headElement = enemy.querySelector('.head');
+    if (headElement) {
+        headElement.style.backgroundColor = color;
+    }
+
+    const bodyElement = enemy.querySelector('.body');
+    if (bodyElement) {
+        bodyElement.style.backgroundColor = color;
+    }
+
+    const armElements = enemy.querySelectorAll('.arm');
+    armElements.forEach(arm => arm.style.backgroundColor = color);
+
     enemy.style.setProperty('--enemy-color', color);
 }
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -353,7 +372,6 @@ function keyDown(event) {
         }
     }
 }
-
 
 function keyUp(event) {
     if (playerCanMove) {
@@ -407,20 +425,29 @@ const startDiv = document.querySelector('.startDiv');
 function startGame() {
     startDiv.style.display = 'none';
     playerCanMove = true;
-
-
+    updateLeaderboard();
+    updateChecklist();
 }
 
 startBtn.addEventListener('click', startGame);
 
+function updatePlayerMouth() {
+    if (downPressed) {
+        playerMouth.classList = 'down';
+    } else if (upPressed) {
+        playerMouth.classList = 'up';
+    } else if (leftPressed) {
+        playerMouth.classList = 'left';
+    } else if (rightPressed) {
+        playerMouth.classList = 'right';
+    }
+}
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Core Player Movement Logic checking for collisions between the player and walls
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
 //Old Logic Needs Debugging
 /*
 setInterval(function () {
@@ -456,41 +483,39 @@ setInterval(function () {
 }, 1);
 */
 
-
 // New Approach Debugged:
 
 let movement = 3
 setInterval(function () {
+    // Auto-click the "yellow" player color
+    const yellowOption = document.querySelector('[data-player-color="yellow"]');
+    yellowOption.click();
+    updateChecklist(); // Call the updateChecklist function
+    updateChecklistAfterLevels(); 
     let player = document.querySelector('#player');
+
     if (playerCanMove) {
         let position = player.getBoundingClientRect();
         let nextTop = position.top - (upPressed ? movement: 0) //+ (downPressed ? 1 : 0);
         let nextBottom = position.bottom + (downPressed ? movement : 0) //- (upPressed ? 1 : 0);
         let nextLeft = position.left - (leftPressed ? movement : 0) //+ (rightPressed ? 1 : 0);
         let nextRight = position.right + (rightPressed ? movement : 0) //- (leftPressed ? 1 : 0);
-
+       
         if (checkWallCollisions(nextTop, nextBottom, nextLeft, nextRight)) {
             if (downPressed) {
                 playerTop+=movement
-
                 player.style.top = playerTop + 'px';
-                playerMouth.classList = 'down';
-                console.log(playerTop)
             } else if (upPressed) {
                 playerTop-=movement
-
                 player.style.top = playerTop + 'px';
-                playerMouth.classList = 'up';
             } else if (leftPressed) {
                 playerLeft-=movement
-
                 player.style.left = playerLeft + 'px';
-                playerMouth.classList = 'left';
             } else if (rightPressed) {
                 playerLeft+=movement
                 player.style.left = playerLeft + 'px';
-                playerMouth.classList = 'right';
             }
+            updatePlayerMouth();
         }
         function checkWallCollisions(nextTop, nextBottom, nextLeft, nextRight) {
             let topLeftElement = document.elementFromPoint(nextLeft, nextTop);
@@ -502,29 +527,22 @@ setInterval(function () {
                 if (bottomLeftElement.classList.contains('wall') || bottomRightElement.classList.contains('wall') ){
                     return false;
                 }
-        
                 else {
                     return true;
-         
                 }
             } 
             else if (upPressed) {
                 if (topLeftElement.classList.contains('wall') || topRightElement.classList.contains('wall') ){
-
                     return false;
                 }
-        
                 else {
                     return true;
-         
                 }
             } 
             else if (leftPressed) {
                 if (topLeftElement.classList.contains('wall') ||  bottomLeftElement.classList.contains('wall') ){
                     return false;
-        
                 }
-        
                 else {
                     return true;
          
@@ -532,14 +550,10 @@ setInterval(function () {
             } 
             else if (rightPressed) {
                 if (bottomRightElement.classList.contains('wall') || topRightElement.classList.contains('wall')) {
-
                     return false;
-        
                 }
-        
                 else {
                     return true;
-         
                 }
             }
         }
@@ -550,8 +564,16 @@ setInterval(function () {
         maxScore++
         levelComplete();   
     }
+        if (downPressed) {
+        playerMouth.classList = 'down';
+    } else if (upPressed) {
+        playerMouth.classList = 'up';
+    } else if (leftPressed) {
+        playerMouth.classList = 'left';
+    } else if (rightPressed) {
+        playerMouth.classList = 'right';
+    }
 }, 1);
-
 
 // Define a grid-based collision detection system
 const gridSize = 10;
@@ -595,14 +617,13 @@ setInterval(() => {
         movePlayer(1, 0);
     }}
 }, 16); // 16ms = 60fps
-
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //*****************************************************************************************************************
 // Function to check for collisions between the player and enemies
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
 let lives = 3;
 let invulnerable = false;
 let enemies = document.querySelectorAll('.enemy');
@@ -638,14 +659,13 @@ function checkEnemyCollision() {
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //*****************************************************************************************************************
 // Core gameplay logic
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 function makePlayerInvulnerable() {
     invulnerable = true;
     setTimeout(() => {
         invulnerable = false;
     }, 1500);
 }
-
-
 
 function updateLivesDisplay() {
     const livesList = document.querySelector('.lives ul');
@@ -667,13 +687,11 @@ const gameOverDiv = document.createElement('div');
 
 function showGameOverScreen() {
     gameOverDiv.classList.add('game-over');
-
     // gameOverMessage.textContent = 'Game Over';
     // gameOverMessage.classList.add('game-over-btn');
     gameOverDiv.textContent = "";
     gameOverDiv.innerHTML += '<br>' +'Game Over'+'<br>';
 
-    
     const restartBtn = document.createElement('button');
     restartBtn.textContent = 'Restart';
     restartBtn.classList.add('restart-btn');
@@ -698,6 +716,7 @@ function restartGame() {
 function levelComplete() {
     playerCanMove = false;
     showNextLevelScreen();
+    playerMouth.style.display = 'none';
     
 }
 
@@ -724,16 +743,19 @@ function showNextLevelScreen() {
     startDiv.classList.remove('startDiv');
     startDiv.classList.add('level-complete');
     startDiv.innerHTML = `
-        <h2>Level Complete</h2>
-        <div class="button-container">
-            <button class="restart-btn" onclick="showEnterNameScreen()">Enter Your Name</button>
-            <button class="restart-btn" onclick="nextLevel()">Next Level</button>
-        </div>
+      <h2>Level Complete</h2>
+      <div class="button-container">
+        ${level === 1 ? '<button class="restart-btn" onclick="showEnterNameScreen()">Enter Your Name</button>' : ''}
+        <button class="restart-btn" onclick="nextLevel()">Next Level</button>
+      </div>
     `;
     startDiv.style.display = 'flex';
 }
 
+
 function showEnterNameScreen() {
+    startDiv.classList.remove('startDiv');
+    startDiv.classList.add('enter-name');
     startDiv.innerHTML = `
         <h2>Enter Your Name</h2>
         <div class="input-container">
@@ -745,24 +767,43 @@ function showEnterNameScreen() {
 
 function submitName() {
     const nameInput = document.getElementById('nameInput');
-    const name = nameInput.value;
-    // Save the name to the leaderboard or perform any other desired action
-    console.log('Name entered:', name);
-    nextLevel();
+    const name = nameInput.value.trim();
+    if (name) {
+      saveLeaderboardEntry(name, score);
+      updateLeaderboard();
+      score = 0; // Reset the score for the next level
+      nextLevel();
+    }
+}
+
+function saveLeaderboardEntry(name, score) {
+    let leaderboard = JSON.parse(localStorage.getItem('leaderboard')) || [];
+    leaderboard.push({ name, score });
+    leaderboard.sort((a, b) => b.score - a.score);
+    leaderboard = leaderboard.slice(0, 5);
+    localStorage.setItem('leaderboard', JSON.stringify(leaderboard));
 }
 
 function nextLevel() {
+    enemies = document.querySelectorAll('.enemy');
+    const yellowOption = document.querySelector('[data-player-color="yellow"]');
+
     level++;
     simplicity -= 0.12;
     startDiv.style.display = 'none';
     console.log("Current Level: " + level);
 
-    dimensions = 10 + Math.floor(level / 2);
-    if (dimensions > 13) {
-        dimensions = 13;
+    if (level <= 5) {
+        dimensions = 10;
+    } else {
+        dimensions = 10 + Math.floor(level / 2);
+        if (dimensions > 13) {
+            dimensions = 13;
+        }
     }
-    document.documentElement.style.setProperty('--dimensions', dimensions);
+    updatePlayerMouth();
 
+    document.documentElement.style.setProperty('--dimensions', dimensions);
     maze = generateMaze(level, simplicity);
     main.innerHTML = '';
 
@@ -799,6 +840,7 @@ function nextLevel() {
             main.appendChild(block);
         }
     }
+    
     maxScore = document.querySelectorAll('.point').length-40
     playerTop = 0;
     playerLeft = 0;
@@ -806,53 +848,37 @@ function nextLevel() {
     downPressed = false;
     leftPressed = false;
     rightPressed = false;
-
     playerCanMove = true;
-    score = 0;
     updateScoreDisplay();
     updateLivesDisplay();
     positionEnemies();
     getEnemyColor();
-    let enemies = document.querySelectorAll('.enemy');
-    enemies.forEach((enemy) => {
-        enemy.querySelectorAll('.ear').forEach(ear => ear.style.backgroundColor = "purple");
-        enemy.querySelector('.head-top').style.backgroundColor = "purple";
-        enemy.querySelector('.head').style.backgroundColor = "purple";
-        enemy.querySelector('.body').style.backgroundColor = "purple";
-        enemy.querySelectorAll('.arm').forEach(arm => arm.style.backgroundColor = "purple");
-        enemy.style.setProperty('--enemy-color', "purple");
-    
-    })
+    updateLeaderboard();
+    updateChecklist();
+    resetChecklist();
+    yellowOption.click();
+    setColorOptions();  
+    updateEnemyColor();  
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
 
 updateLivesDisplay();
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// this is the initial color setting of the enemy
 
-enemies.forEach((enemy) => {
-    enemy.querySelectorAll('.ear').forEach(ear => ear.style.backgroundColor = "purple");
-    enemy.querySelector('.head-top').style.backgroundColor = "purple";
-    enemy.querySelector('.head').style.backgroundColor = "purple";
-    enemy.querySelector('.body').style.backgroundColor = "purple";
-    enemy.querySelectorAll('.arm').forEach(arm => arm.style.backgroundColor = "purple");
-    enemy.style.setProperty('--enemy-color', "purple");
-
-})
-
+ 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //*****************************************************************************************************************
 // //Score Functionality
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // Initialize the score variable
 let score = 0;
 let maxScore = document.querySelectorAll('.point').length-40
 
-console.log(maxScore)
+
 // Make sure to update the score display in your game
 
 function checkScoreCollisions() {
@@ -865,23 +891,52 @@ function checkScoreCollisions() {
             point.classList.remove('point');
             score += 5;
             maxScore--;
-            console.log(maxScore)
-
             updateScoreDisplay();
             break;
         }
-    }
+    }   
 }
 
 function updateScoreDisplay() {
     const scoreElement = document.querySelector('.score p');
     scoreElement.textContent = score;
 }
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //*****************************************************************************************************************
 // // Leaderboard Functionality 
-
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+function updateLeaderboard() {
+    const leaderboardList = document.querySelector('.leaderboard ol');
+    leaderboardList.innerHTML = '';
+  
+    let leaderboard = JSON.parse(localStorage.getItem('leaderboard')) || [];
+    leaderboard = leaderboard.slice(0, 6); // Limit to 6 entries
+    leaderboard.forEach((entry, index) => {
+      const listItem = document.createElement('li');
+      listItem.textContent = `${entry.name}........${entry.score}`;
+      leaderboardList.appendChild(listItem);
+    });
+  
+    // Add the default leaderboard entries
+    const defaultEntries = [
+      { name: 'Chris', score: 100 },
+      { name: 'Mark', score: 75 },
+      { name: 'Tom', score: 50 },
+      { name: 'John', score: 45 },
+      { name: 'Philip', score: 40 },
+      { name: 'Sean', score: 35 }
+    ];
+    defaultEntries.forEach(entry => {
+      if (leaderboard.length < 6 && !leaderboard.some(e => e.name === entry.name)) {
+        const listItem = document.createElement('li');
+        listItem.textContent = `${entry.name}.........${entry.score}`;
+        leaderboardList.appendChild(listItem);
+      }
+    });
+}
 
 function showLeaderboardScreen() {
     const leaderboardDiv = document.createElement('div');
@@ -900,13 +955,7 @@ function showLeaderboardScreen() {
     const submitBtn = document.createElement('button');
     submitBtn.textContent = 'Submit';
     submitBtn.classList.add('leaderboard-btn');
-    submitBtn.onclick = () => {
-        const playerName = nameInput.value.trim();
-        if (playerName) {
-            saveLeaderboardEntry(playerName);
-        }
-        startNextLevel();
-    };
+    submitBtn.onclick = submitName;
     leaderboardDiv.appendChild(submitBtn);
 
     startDiv.innerHTML = '';
@@ -915,6 +964,155 @@ function showLeaderboardScreen() {
 
     nameInput.focus();
 }
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//*****************************************************************************************************************
+// //Checklist Updating
+let collectPointsChecked = false;
+let defeatEnemiesChecked = false;
+let reachLevelChecked = false;
+
+const objectives = [
+    { level: 1, tasks: ['Collect 10 points', 'Defeat 4 enemies', 'Reach level 5'] },
+    { level: 5, tasks: ['Collect 50 points', 'Defeat 5 enemies', 'Reach level 10'] },
+    { level: 10, tasks: ['Collect 100 points', 'Defeat 7 enemies', 'Reach level 15'] },
+    { level: 15, tasks: ['Collect 150 points', 'Defeat 9 enemies', 'Reach level 20'] },
+    // Add more objectives for higher levels
+];
+
+function updateChecklist() {
+    const checklist = document.querySelector('.checklist ul');
+    checklist.innerHTML = '';
+  
+    const currentObjectives = generateObjectives(Math.floor((level - 1) / 5) + 1);
+  
+    currentObjectives.forEach((task, index) => {
+      const listItem = document.createElement('li');
+      const label = document.createElement('label');
+      const checkbox = document.createElement('input');
+      checkbox.type = 'checkbox';
+      checkbox.id = `task-${index}`;
+      checkbox.addEventListener('click', function(event) {
+        event.preventDefault();
+      });
+      label.appendChild(checkbox);
+      label.appendChild(document.createTextNode(' ' + task));
+      listItem.appendChild(label);
+      checklist.appendChild(listItem);
+    });
+  
+    checkCollectPoints();
+    checkDefeatEnemies();
+    checkReachLevel();
+}
+
+function checkCollectPoints() {
+    const currentObjective = objectives.find(obj => obj.level <= level);
+    if (currentObjective) {
+      const collectPointsTask = currentObjective.tasks.find(task => task.startsWith('Collect'));
+      if (collectPointsTask) {
+        const targetPoints = parseInt(collectPointsTask.match(/\d+/)[0]);
+        const checkbox = document.querySelector('.checklist ul li:first-child input[type="checkbox"]');
+        if (score >= targetPoints) {
+          checkbox.checked = true;
+        } else {
+          checkbox.checked = false;
+        }
+      }
+    }
+  }
+
+function checkDefeatEnemies() {
+const currentObjective = objectives.find(obj => obj.level <= level);
+if (currentObjective) {
+    const defeatEnemiesTask = currentObjective.tasks.find(task => task.startsWith('Defeat'));
+    if (defeatEnemiesTask) {
+    const targetEnemies = parseInt(defeatEnemiesTask.match(/\d+/)[0]);
+    const checkbox = document.querySelector('.checklist ul li:nth-child(2) input[type="checkbox"]');
+    const enemiesDefeated = (level - currentObjective.level) * 3; // Assuming 3 enemies per level
+    if (enemiesDefeated >= targetEnemies) {
+        checkbox.checked = true;
+    } else {
+        checkbox.checked = false;
+    }
+    }
+}
+}
+
+function checkReachLevel() {
+const currentObjective = objectives.find(obj => obj.level <= level);
+if (currentObjective) {
+    const reachLevelTask = currentObjective.tasks.find(task => task.startsWith('Reach'));
+    if (reachLevelTask) {
+    const targetLevel = parseInt(reachLevelTask.match(/\d+/)[0]);
+    const checkbox = document.querySelector('.checklist ul li:last-child input[type="checkbox"]');
+    if (level >= targetLevel) {
+        checkbox.checked = true;
+    } else {
+        checkbox.checked = false;
+    }
+    }
+}
+}
+
+function updateChecklistAfterLevels() {
+if (level % 5 === 0) {
+// Update the checklist every 5 levels
+collectPointsChecked = false;
+defeatEnemiesChecked = false;
+reachLevelChecked = false;
+document.getElementById('collect-points').checked = false;
+document.getElementById('defeat-enemies').checked = false;
+document.getElementById('reach-level').checked = false;
+updateChecklist();
+}
+}
+
+const objectiveTemplate = [
+    level => `Collect ${level * 10} points`,
+    level => `Defeat ${level * 2 + 1} enemies`,
+    level => `Reach level ${level * 5}`
+  ];
+  
+  function generateObjectives(level) {
+    return objectiveTemplate.map(template => template(level));
+  }
+  
+  function resetChecklist() {
+    const checklist = document.querySelector('.checklist ul');
+    checklist.innerHTML = '';
+  
+    const defaultObjectives = [
+      'Collect 10 points',
+      'Defeat 3 enemies',
+      'Reach level 5'
+    ];
+  
+    defaultObjectives.forEach((task, index) => {
+      const listItem = document.createElement('li');
+      const label = document.createElement('label');
+      const checkbox = document.createElement('input');
+      checkbox.type = 'checkbox';
+      checkbox.id = `task-${index}`;
+      checkbox.addEventListener('click', function(event) {
+        event.preventDefault();
+      });
+      label.appendChild(checkbox);
+      label.appendChild(document.createTextNode(' ' + task));
+      listItem.appendChild(label);
+      checklist.appendChild(listItem);
+    });
+  }
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 
