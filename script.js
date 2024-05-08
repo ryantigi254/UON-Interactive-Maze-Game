@@ -34,22 +34,88 @@ let dimensions = 10;
 document.documentElement.style.setProperty('--dimensions', dimensions);
 
 function generateMaze(level, simplicity) {
-    if (level <= 5) {
-        dimensions = 10;
-    } else {
-        dimensions = 10 + Math.floor(level / 2);
-        if (dimensions > 13) {
-            dimensions = 13;
-        }
-    }
-    // document.documentElement.style.setProperty('--dimensions', dimensions);
-    let maze;
-    do {
-        console.log("doing")
-        maze = generateMazeInternal(dimensions, level, simplicity);
-    } while (!isSolvable(maze));
+    const dimensions = Math.min(10 + Math.floor(level / 2), 13);
+    document.documentElement.style.setProperty('--dimensions', dimensions);
+
+    const maze = Array(dimensions).fill().map(() => Array(dimensions).fill(1));
+
+    const startX = 1;
+    const startY = 1;
+    maze[startY][startX] = 2;
+
+    generateMazeRecursive(maze, startX, startY, level, simplicity);
+
+    placeEnemiesAndPoints(maze, level);
+
     return maze;
 }
+
+
+function generateMazeRecursive(maze, x, y, level, simplicity) {
+    const directions = shuffleArray([
+        { dx: 0, dy: -1 },
+        { dx: 0, dy: 1 },
+        { dx: -1, dy: 0 },
+        { dx: 1, dy: 0 }
+    ]);
+
+    for (const { dx, dy } of directions) {
+        const newX = x + dx * 2;
+        const newY = y + dy * 2;
+
+        if (isValidCell(maze, newX, newY)) {
+            maze[y + dy][x + dx] = 0;
+            maze[newY][newX] = 0;
+            generateMazeRecursive(maze, newX, newY, level, simplicity);
+        }
+    }
+}
+
+
+
+
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+
+function isValidCell(maze, x, y) {
+    const dimensions = maze.length;
+    return x >= 0 && x < dimensions && y >= 0 && y < dimensions && maze[y][x] === 1;
+}
+
+
+
+
+function placeEnemiesAndPoints(maze, level) {
+    const dimensions = maze.length;
+    const numEnemies = Math.min(3 + Math.floor(level / 5), 5);
+    const numPoints = Math.floor((dimensions - 2) * (dimensions - 2) * (0.5 + level * 0.05));
+
+    for (let i = 0; i < numEnemies; i++) {
+        let x, y;
+        do {
+            x = Math.floor(Math.random() * (dimensions - 2)) + 1;
+            y = Math.floor(Math.random() * (dimensions - 2)) + 1;
+        } while (maze[y][x] !== 0);
+        maze[y][x] = 3;
+    }
+
+    for (let i = 0; i < numPoints; i++) {
+        let x, y;
+        do {
+            x = Math.floor(Math.random() * (dimensions - 2)) + 1;
+            y = Math.floor(Math.random() * (dimensions - 2)) + 1;
+        } while (maze[y][x] !== 0);
+        maze[y][x] = 0;
+    }
+}
+
+
+
 
 function generateMazeInternal(dimensions, level, simplicity) {
     let maze = Array(dimensions).fill().map(() => Array(dimensions).fill(0));
@@ -111,6 +177,9 @@ function generateMazeInternal(dimensions, level, simplicity) {
     
     return maze;
 }
+
+
+
 function isSolvable(maze) {
     for (let y = 1; y < dimensions - 1; y++) {
         for (let x = 1; x < dimensions - 1; x++) {
@@ -234,49 +303,46 @@ maze = ensurePointsAccessible(generateMaze(level, simplicity));
 
 
 
-function MazePopulator(){
-    
-for (let y = 0; y < maze.length; y++) {
-    for (let x = 0; x < maze[y].length; x++) {
-        let block = document.createElement('div');
-        block.classList.add('block');
+function MazePopulator() {
+    level = Math.floor((score - 1) / 100) + 1;
+    const simplicity = 1 - level * 0.05;
+    maze = generateMaze(level, simplicity);
 
-        switch (maze[y][x]) {
-            case 1:
-                block.classList.add('wall');
-                break;
-            case 2:
-                block.id = 'player';
-                let mouth = document.createElement('div');
-                mouth.classList.add('mouth');
-                block.appendChild(mouth);
-                break;
-            case 3:
-                // Create the enemy
-                let enemyContainer = document.createElement('div');
-                enemyContainer.classList.add('enemy-container');
-                block.appendChild(enemyContainer);
+    for (let y = 0; y < maze.length; y++) {
+        for (let x = 0; x < maze[y].length; x++) {
+            let block = document.createElement('div');
+            block.classList.add('block');
 
-                let enemyColor = getEnemyColor(y, x);
-                let enemy = createEnemyElement(enemyColor);
-                enemyContainer.appendChild(enemy);
-                break;
+            switch (maze[y][x]) {
+                case 1:
+                    block.classList.add('wall');
+                    break;
+                case 2:
+                    block.id = 'player';
+                    let mouth = document.createElement('div');
+                    mouth.classList.add('mouth');
+                    block.appendChild(mouth);
+                    break;
+                case 3:
+                    let enemyContainer = document.createElement('div');
+                    enemyContainer.classList.add('enemy-container');
+                    block.appendChild(enemyContainer);
 
-            default:
-                block.classList.add('point');
-                block.style.height = '1vh';
-                block.style.width = '1vh';
-                if (maze[y][x] !== 3) {
+                    let enemyColor = getEnemyColor(y, x);
+                    let enemy = createEnemyElement(enemyColor);
+                    enemyContainer.appendChild(enemy);
+                    break;
+                default:
                     block.classList.add('point');
                     block.style.height = '1vh';
                     block.style.width = '1vh';
-                }
-        }
+            }
 
-        main.appendChild(block);
+            main.appendChild(block);
+        }
     }
     setColorOptions();
-}}
+}
 
 MazePopulator()
 function getEnemyColor(y, x) {
