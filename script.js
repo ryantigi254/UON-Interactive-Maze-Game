@@ -94,6 +94,21 @@ function generateMazeInternal(dimensions, level, simplicity) {
         maze[pointY][pointX] = 0;
     }
 
+    // Randomly place points
+    const placePoints = Math.floor((dimensions - 2) * (dimensions - 2) * (1 - wallProbability));
+    for (let i = 0; i < placePoints; i++) {
+        let pointY, pointX;
+        do {
+            pointY = Math.floor(Math.random() * (dimensions - 2)) + 1;
+            pointX = Math.floor(Math.random() * (dimensions - 2)) + 1;
+        } while (
+            maze[pointY][pointX] !== 0 ||
+            (maze[pointY - 1][pointX] === 1 && maze[pointY + 1][pointX] === 1) ||
+            (maze[pointY][pointX - 1] === 1 && maze[pointY][pointX + 1] === 1)
+        );
+        maze[pointY][pointX] = 0;
+    }
+    
     return maze;
 }
 function isSolvable(maze) {
@@ -131,11 +146,79 @@ function isSolvable(maze) {
                 if (!accessible) {
                     return false;
                 }
+                // Check if the point is inside an obstacle block
+                if (
+                    maze[y - 1][x - 1] === 1 &&
+                    maze[y - 1][x] === 1 &&
+                    maze[y - 1][x + 1] === 1 &&
+                    maze[y][x - 1] === 1 &&
+                    maze[y][x + 1] === 1 &&
+                    maze[y + 1][x - 1] === 1 &&
+                    maze[y + 1][x] === 1 &&
+                    maze[y + 1][x + 1] === 1
+                ) {
+                    return false;
+                }
             }
         }
     }
     return true;
 }
+
+function isPointAccessible(maze, y, x) {
+    const visited = new Set();
+    const queue = [[y, x]];
+    visited.add(`${y},${x}`);
+
+    while (queue.length > 0) {
+        const [currentY, currentX] = queue.shift();
+
+        // Check if the current position is on the edge of the maze (accessible)
+        if (currentY === 0 || currentX === 0 || currentY === maze.length - 1 || currentX === maze[0].length - 1) {
+            return true;
+        }
+
+        // Check adjacent positions
+        const neighbors = [
+            [currentY - 1, currentX],
+            [currentY + 1, currentX],
+            [currentY, currentX - 1],
+            [currentY, currentX + 1],
+        ];
+
+        for (const [neighborY, neighborX] of neighbors) {
+            if (
+                neighborY >= 0 &&
+                neighborY < maze.length &&
+                neighborX >= 0 &&
+                neighborX < maze[0].length &&
+                maze[neighborY][neighborX] === 0 &&
+                !visited.has(`${neighborY},${neighborX}`)
+            ) {
+                visited.add(`${neighborY},${neighborX}`);
+                queue.push([neighborY, neighborX]);
+            }
+        }
+    }
+
+    return false; // The point is enclosed and inaccessible
+}
+
+function ensurePointsAccessible(maze) {
+    for (let y = 0; y < maze.length; y++) {
+        for (let x = 0; x < maze[y].length; x++) {
+            if (maze[y][x] === 0 && !isPointAccessible(maze, y, x)) {
+                // The point at (y, x) is inaccessible
+                // Regenerate the maze or adjust the point's position
+                return generateMaze(level, simplicity);
+            }
+        }
+    }
+    return maze;
+}
+
+// // Replace the call to generateMaze with ensurePointsAccessible
+// maze = ensurePointsAccessible(generateMaze(level, simplicity));
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
@@ -147,7 +230,7 @@ function isSolvable(maze) {
 
 let level = 1;
 let simplicity = 1;
-let maze = generateMaze(level, simplicity);
+maze = ensurePointsAccessible(generateMaze(level, simplicity));
 
 
 
@@ -295,6 +378,28 @@ function positionEnemies() {
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 function setColorOptions() {
     const colorOptions = document.querySelectorAll('.color-option');
+    const randomIndex = Math.floor(Math.random() * colorOptions.length);
+    const selectedOption = colorOptions[randomIndex];
+
+    playerColor = selectedOption.getAttribute('data-player-color');
+    const enemy1Color = selectedOption.getAttribute('data-enemy1-color');
+    const enemy2Color = selectedOption.getAttribute('data-enemy2-color');
+    const enemy3Color = selectedOption.getAttribute('data-enemy3-color');
+
+    player = document.querySelector('#player');
+ 
+
+    const enemies = document.querySelectorAll('.enemy');
+    enemies.forEach((enemy, index) => {
+        if (index === 0) {
+            updateEnemyColor(enemy, enemy1Color);
+        } else if (index === 1) {
+            updateEnemyColor(enemy, enemy2Color);
+        } else if (index >= 2) {
+            updateEnemyColor(enemy, enemy3Color);
+        }
+    });
+
     colorOptions.forEach(option => {
         option.addEventListener('click', () => {
             const playerColor = option.getAttribute('data-player-color');
@@ -302,19 +407,15 @@ function setColorOptions() {
             const enemy2Color = option.getAttribute('data-enemy2-color');
             const enemy3Color = option.getAttribute('data-enemy3-color');
 
-            const player = document.querySelector('#player');
             player.style.backgroundColor = playerColor;
 
-            const enemies = document.querySelectorAll('.enemy');
             enemies.forEach((enemy, index) => {
                 if (index === 0) {
                     updateEnemyColor(enemy, enemy1Color);
                 } else if (index === 1) {
                     updateEnemyColor(enemy, enemy2Color);
-                } else if (index === 2) {
+                } else if (index >= 2) {
                     updateEnemyColor(enemy, enemy3Color);
-                } else if (index === 3) {
-                    updateEnemyColor(enemy, 'orange');
                 }
             });
         });
@@ -345,6 +446,7 @@ function updateEnemyColor(enemy, color) {
 
     enemy.style.setProperty('--enemy-color', color);
 }
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
@@ -426,7 +528,7 @@ function startGame() {
     startDiv.style.display = 'none';
     playerCanMove = true;
     updateLeaderboard();
-    updateChecklist();
+    // updateChecklist();
 }
 
 startBtn.addEventListener('click', startGame);
@@ -488,10 +590,8 @@ setInterval(function () {
 let movement = 3
 setInterval(function () {
     // Auto-click the "yellow" player color
-    const yellowOption = document.querySelector('[data-player-color="yellow"]');
-    yellowOption.click();
-    updateChecklist(); // Call the updateChecklist function
-    updateChecklistAfterLevels(); 
+    // updateChecklist(); // Call the updateChecklist function
+    // updateChecklistAfterLevels(); 
     let player = document.querySelector('#player');
 
     if (playerCanMove) {
@@ -739,21 +839,11 @@ function showGameOverScreen() {
     startDiv.style.display = 'flex';
 }
 
-function showNextLevelScreen() {
-    startDiv.classList.remove('startDiv');
-    startDiv.classList.add('level-complete');
-    startDiv.innerHTML = `
-      <h2>Level Complete</h2>
-      <div class="button-container">
-        ${level === 1 ? '<button class="restart-btn" onclick="showEnterNameScreen()">Enter Your Name</button>' : ''}
-        <button class="restart-btn" onclick="nextLevel()">Next Level</button>
-      </div>
-    `;
-    startDiv.style.display = 'flex';
-}
-
+let hasEnteredName = false;
+let hasClickedEnterName = false;
 
 function showEnterNameScreen() {
+    hasClickedEnterName = true; // Set the flag when the button is clicked
     startDiv.classList.remove('startDiv');
     startDiv.classList.add('enter-name');
     startDiv.innerHTML = `
@@ -763,30 +853,56 @@ function showEnterNameScreen() {
             <button class="restart-btn" onclick="submitName()">Submit</button>
         </div>
     `;
+
+    // Add event listener for "Enter" key press
+    const nameInput = document.getElementById('nameInput');
+    nameInput.addEventListener('keydown', function(event) {
+        if (event.key === 'Enter') {
+            submitName();
+        }
+    });
 }
 
 function submitName() {
     const nameInput = document.getElementById('nameInput');
     const name = nameInput.value.trim();
     if (name) {
-      saveLeaderboardEntry(name, score);
-      updateLeaderboard();
-      score = 0; // Reset the score for the next level
-      nextLevel();
+        saveLeaderboardEntry(name, score);
+        updateLeaderboard();
+        score = 0; // Reset the score for the next level
+        hasEnteredName = true; // Set the flag to true after entering the name
+        nextLevel();
     }
+}
+
+function showNextLevelScreen() {
+    startDiv.classList.remove('startDiv');
+    startDiv.classList.add('level-complete');
+    startDiv.innerHTML = `
+        <h2>Level Complete</h2>
+        <div class="button-container">
+            ${!hasEnteredName ? '<button class="restart-btn" onclick="showEnterNameScreen()">Enter Your Name</button>' : ''}
+            <button class="restart-btn" onclick="nextLevel()">Next Level</button>
+        </div>
+    `;
+    startDiv.style.display = 'flex';
 }
 
 function saveLeaderboardEntry(name, score) {
     let leaderboard = JSON.parse(localStorage.getItem('leaderboard')) || [];
-    leaderboard.push({ name, score });
-    leaderboard.sort((a, b) => b.score - a.score);
-    leaderboard = leaderboard.slice(0, 5);
-    localStorage.setItem('leaderboard', JSON.stringify(leaderboard));
+
+    // Check if the player's score qualifies for the leaderboard
+    if (leaderboard.length < 5 || score > leaderboard[leaderboard.length - 1].score) {
+        leaderboard.push({ name, score });
+        leaderboard.sort((a, b) => b.score - a.score);
+        leaderboard = leaderboard.slice(0, 5);
+        localStorage.setItem('leaderboard', JSON.stringify(leaderboard));
+    }
 }
 
 function nextLevel() {
     enemies = document.querySelectorAll('.enemy');
-    const yellowOption = document.querySelector('[data-player-color="yellow"]');
+        const yellowOption = document.querySelector('[data-player-color="yellow"]');
 
     level++;
     simplicity -= 0.12;
@@ -851,14 +967,17 @@ function nextLevel() {
     playerCanMove = true;
     updateScoreDisplay();
     updateLivesDisplay();
-    positionEnemies();
-    getEnemyColor();
     updateLeaderboard();
-    updateChecklist();
-    resetChecklist();
     yellowOption.click();
     setColorOptions();  
     updateEnemyColor();  
+    positionEnemies();
+    getEnemyColor();
+    createEnemyElement();
+    startEnemyMovement();
+    RandomMovementTimer();
+    // updateChecklist();
+    // resetChecklist();
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -889,7 +1008,7 @@ function checkScoreCollisions() {
         if (playerRect.left < pointRect.right && playerRect.right > pointRect.left &&
             playerRect.top < pointRect.bottom && playerRect.bottom > pointRect.top) {
             point.classList.remove('point');
-            score += 5;
+            score += 1;
             maxScore--;
             updateScoreDisplay();
             break;
@@ -975,143 +1094,167 @@ function showLeaderboardScreen() {
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //*****************************************************************************************************************
-// //Checklist Updating
-let collectPointsChecked = false;
-let defeatEnemiesChecked = false;
-let reachLevelChecked = false;
+// // //Checklist Updating
+// let collectPointsChecked = false;
+// let defeatEnemiesChecked = false;
+// let reachLevelChecked = false;
 
-const objectives = [
-    { level: 1, tasks: ['Collect 10 points', 'Defeat 4 enemies', 'Reach level 5'] },
-    { level: 5, tasks: ['Collect 50 points', 'Defeat 5 enemies', 'Reach level 10'] },
-    { level: 10, tasks: ['Collect 100 points', 'Defeat 7 enemies', 'Reach level 15'] },
-    { level: 15, tasks: ['Collect 150 points', 'Defeat 9 enemies', 'Reach level 20'] },
-    // Add more objectives for higher levels
-];
+// const objectives = [
+//     { level: 1, tasks: ['Collect 10 points', 'Defeat 4 enemies', 'Reach level 5'] },
+//     { level: 5, tasks: ['Collect 50 points', 'Defeat 5 enemies', 'Reach level 10'] },
+//     { level: 10, tasks: ['Collect 100 points', 'Defeat 7 enemies', 'Reach level 15'] },
+//     { level: 15, tasks: ['Collect 150 points', 'Defeat 9 enemies', 'Reach level 20'] },
+//     // Add more objectives for higher levels
+// ];
 
-function updateChecklist() {
-    const checklist = document.querySelector('.checklist ul');
-    checklist.innerHTML = '';
+// function updateChecklist() {
+//     const checklist = document.querySelector('.checklist ul');
+//     checklist.innerHTML = '';
   
-    const currentObjectives = generateObjectives(Math.floor((level - 1) / 5) + 1);
+//     const currentObjectives = generateObjectives(Math.floor((level - 1) / 5) + 1);
   
-    currentObjectives.forEach((task, index) => {
-      const listItem = document.createElement('li');
-      const label = document.createElement('label');
-      const checkbox = document.createElement('input');
-      checkbox.type = 'checkbox';
-      checkbox.id = `task-${index}`;
-      checkbox.addEventListener('click', function(event) {
-        event.preventDefault();
-      });
-      label.appendChild(checkbox);
-      label.appendChild(document.createTextNode(' ' + task));
-      listItem.appendChild(label);
-      checklist.appendChild(listItem);
-    });
+//     currentObjectives.forEach((task, index) => {
+//       const listItem = document.createElement('li');
+//       const label = document.createElement('label');
+//       const checkbox = document.createElement('input');
+//       checkbox.type = 'checkbox';
+//       checkbox.id = `task-${index}`;
+//       checkbox.addEventListener('click', function(event) {
+//         event.preventDefault();
+//       });
+//       label.appendChild(checkbox);
+//       label.appendChild(document.createTextNode(' ' + task));
+//       listItem.appendChild(label);
+//       checklist.appendChild(listItem);
+//     });
   
-    checkCollectPoints();
-    checkDefeatEnemies();
-    checkReachLevel();
-}
+//     checkCollectPoints();
+//     checkDefeatEnemies();
+//     checkReachLevel();
+// }
 
-function checkCollectPoints() {
-    const currentObjective = objectives.find(obj => obj.level <= level);
-    if (currentObjective) {
-      const collectPointsTask = currentObjective.tasks.find(task => task.startsWith('Collect'));
-      if (collectPointsTask) {
-        const targetPoints = parseInt(collectPointsTask.match(/\d+/)[0]);
-        const checkbox = document.querySelector('.checklist ul li:first-child input[type="checkbox"]');
-        if (score >= targetPoints) {
-          checkbox.checked = true;
-        } else {
-          checkbox.checked = false;
-        }
-      }
-    }
-  }
+// function checkCollectPoints() {
+//     const currentObjective = objectives.find(obj => obj.level <= level);
+//     if (currentObjective) {
+//       const collectPointsTask = currentObjective.tasks.find(task => task.startsWith('Collect'));
+//       if (collectPointsTask) {
+//         const targetPoints = parseInt(collectPointsTask.match(/\d+/)[0]);
+//         const checkbox = document.querySelector('.checklist ul li:first-child input[type="checkbox"]');
+//         if (score >= targetPoints) {
+//           checkbox.checked = true;
+//         } else {
+//           checkbox.checked = false;
+//         }
+//       }
+//     }
+//   }
 
-function checkDefeatEnemies() {
-const currentObjective = objectives.find(obj => obj.level <= level);
-if (currentObjective) {
-    const defeatEnemiesTask = currentObjective.tasks.find(task => task.startsWith('Defeat'));
-    if (defeatEnemiesTask) {
-    const targetEnemies = parseInt(defeatEnemiesTask.match(/\d+/)[0]);
-    const checkbox = document.querySelector('.checklist ul li:nth-child(2) input[type="checkbox"]');
-    const enemiesDefeated = (level - currentObjective.level) * 3; // Assuming 3 enemies per level
-    if (enemiesDefeated >= targetEnemies) {
-        checkbox.checked = true;
-    } else {
-        checkbox.checked = false;
-    }
-    }
-}
-}
+// function checkDefeatEnemies() {
+// const currentObjective = objectives.find(obj => obj.level <= level);
+// if (currentObjective) {
+//     const defeatEnemiesTask = currentObjective.tasks.find(task => task.startsWith('Defeat'));
+//     if (defeatEnemiesTask) {
+//     const targetEnemies = parseInt(defeatEnemiesTask.match(/\d+/)[0]);
+//     const checkbox = document.querySelector('.checklist ul li:nth-child(2) input[type="checkbox"]');
+//     const enemiesDefeated = (level - currentObjective.level) * 3; // Assuming 3 enemies per level
+//     if (enemiesDefeated >= targetEnemies) {
+//         checkbox.checked = true;
+//     } else {
+//         checkbox.checked = false;
+//     }
+//     }
+// }
+// }
 
-function checkReachLevel() {
-const currentObjective = objectives.find(obj => obj.level <= level);
-if (currentObjective) {
-    const reachLevelTask = currentObjective.tasks.find(task => task.startsWith('Reach'));
-    if (reachLevelTask) {
-    const targetLevel = parseInt(reachLevelTask.match(/\d+/)[0]);
-    const checkbox = document.querySelector('.checklist ul li:last-child input[type="checkbox"]');
-    if (level >= targetLevel) {
-        checkbox.checked = true;
-    } else {
-        checkbox.checked = false;
-    }
-    }
-}
-}
+// function checkReachLevel() {
+// const currentObjective = objectives.find(obj => obj.level <= level);
+// if (currentObjective) {
+//     const reachLevelTask = currentObjective.tasks.find(task => task.startsWith('Reach'));
+//     if (reachLevelTask) {
+//     const targetLevel = parseInt(reachLevelTask.match(/\d+/)[0]);
+//     const checkbox = document.querySelector('.checklist ul li:last-child input[type="checkbox"]');
+//     if (level >= targetLevel) {
+//         checkbox.checked = true;
+//     } else {
+//         checkbox.checked = false;
+//     }
+//     }
+// }
+// }
 
-function updateChecklistAfterLevels() {
-if (level % 5 === 0) {
-// Update the checklist every 5 levels
-collectPointsChecked = false;
-defeatEnemiesChecked = false;
-reachLevelChecked = false;
-document.getElementById('collect-points').checked = false;
-document.getElementById('defeat-enemies').checked = false;
-document.getElementById('reach-level').checked = false;
-updateChecklist();
-}
-}
+// function updateChecklistAfterLevels() {
+// if (level % 5 === 0) {
+// // Update the checklist every 5 levels
+// collectPointsChecked = false;
+// defeatEnemiesChecked = false;
+// reachLevelChecked = false;
+// document.getElementById('collect-points').checked = false;
+// document.getElementById('defeat-enemies').checked = false;
+// document.getElementById('reach-level').checked = false;
+// updateChecklist();
+// }
+// }
 
-const objectiveTemplate = [
-    level => `Collect ${level * 10} points`,
-    level => `Defeat ${level * 2 + 1} enemies`,
-    level => `Reach level ${level * 5}`
-  ];
+// const objectiveTemplate = [
+//     level => `Collect ${level * 10} points`,
+//     level => `Defeat ${level * 2 + 1} enemies`,
+//     level => `Reach level ${level * 5}`
+//   ];
   
-  function generateObjectives(level) {
-    return objectiveTemplate.map(template => template(level));
-  }
+//   function generateObjectives(level) {
+//     return objectiveTemplate.map(template => template(level));
+//   }
   
-  function resetChecklist() {
-    const checklist = document.querySelector('.checklist ul');
-    checklist.innerHTML = '';
+//   function resetChecklist() {
+//     const checklist = document.querySelector('.checklist ul');
+//     checklist.innerHTML = '';
   
-    const defaultObjectives = [
-      'Collect 10 points',
-      'Defeat 3 enemies',
-      'Reach level 5'
-    ];
+//     const defaultObjectives = [
+//       'Collect 10 points',
+//       'Defeat 3 enemies',
+//       'Reach level 5'
+//     ];
   
-    defaultObjectives.forEach((task, index) => {
-      const listItem = document.createElement('li');
-      const label = document.createElement('label');
-      const checkbox = document.createElement('input');
-      checkbox.type = 'checkbox';
-      checkbox.id = `task-${index}`;
-      checkbox.addEventListener('click', function(event) {
-        event.preventDefault();
-      });
-      label.appendChild(checkbox);
-      label.appendChild(document.createTextNode(' ' + task));
-      listItem.appendChild(label);
-      checklist.appendChild(listItem);
-    });
-  }
+//     defaultObjectives.forEach((task, index) => {
+//       const listItem = document.createElement('li');
+//       const label = document.createElement('label');
+//       const checkbox = document.createElement('input');
+//       checkbox.type = 'checkbox';
+//       checkbox.id = `task-${index}`;
+//       checkbox.addEventListener('click', function(event) {
+//         event.preventDefault();
+//       });
+//       label.appendChild(checkbox);
+//       label.appendChild(document.createTextNode(' ' + task));
+//       listItem.appendChild(label);
+//       checklist.appendChild(listItem);
+//     });
+//   }
 
+//   function checkReachLevel() {
+//     const currentObjective = objectives.find(obj => obj.level <= level);
+//     if (currentObjective) {
+//         const reachLevelTask = currentObjective.tasks.find(task => task.startsWith('Reach'));
+//         if (reachLevelTask) {
+//             const targetLevel = parseInt(reachLevelTask.match(/\d+/)[0]);
+//             const checkbox = document.querySelector('.checklist ul li:last-child input[type="checkbox"]');
+//             if (level >= targetLevel) {
+//                 checkbox.checked = true;
+
+//                 // Check if all checkboxes are checked
+//                 const checkboxes = document.querySelectorAll('.checklist ul li input[type="checkbox"]');
+//                 const allChecked = Array.from(checkboxes).every(checkbox => checkbox.checked);
+
+//                 if (allChecked) {
+//                     // All checkboxes are checked, update the checklist
+//                     updateChecklist();
+//                 }
+//             } else {
+//                 checkbox.checked = false;
+//             }
+//         }
+//     }
+// } 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
@@ -1120,6 +1263,215 @@ const objectiveTemplate = [
 //*****************************************************************************************************************
 // //Enemy movement
 
-////////////////////////////////////////////////////////////////////////////////////////////////////////////
+function startEnemyMovement(){
+enemies.forEach(enemy => {
+    enemy.classList.add("MoveBottom")
+})
+}
 
+function RandomMovementTimer() { 
+    let enemies = document.querySelectorAll('.enemy');
+    enemies.forEach(enemy => {
+        enemy.classList.remove("MoveLeft");
+        enemy.classList.remove("MoveTop");
+        enemy.classList.remove("MoveRight");
+        enemy.classList.remove("MoveBottom");
+
+        const randomNum = Math.floor(Math.random() * 4) + 1;
+
+        // Use a switch-case statement to perform actions based on the random number
+        switch (randomNum) {
+            case 1:
+                // for case 1 enemy moves left
+                enemy.classList.add("MoveLeft")
+
+            case 2:
+                // for case 2 enemy moves Top
+                enemy.classList.add("MoveTop");
+
+            case 3:
+                // for case 3 enemy moves Right
+                enemy.classList.add("MoveRight")
+
+            case 4:
+                // for case 4 enemy moves Bottom
+                enemy.classList.add("MoveBottom")
+
+        }
+    })
+}
+
+
+let difficultyprompt = 5
+// let difficultyprompt = parseInt(window.prompt("Choose a difficulty from 1 to 5:(default will always be 1)"), 10);
+let difficulty = 6;
+
+
+function enemyMovement() {
+    if (playerCanMove == false)
+        return;
+    // console.log("hello")
+    let enemies = document.querySelectorAll('.enemy');
+    enemies.forEach(enemy => {
+        let enemyposition = enemy.getBoundingClientRect()
+
+
+        // these will be coordinates for the next position of the enemy
+        let next = 5;
+        let nextTOP = enemyposition.top - next
+        let nextLEFT = enemyposition.left - next
+        let nextBOTTOM = enemyposition.top + enemyposition.height + next
+        let nextRIGHT = enemyposition.left + enemyposition.width + next
+
+        // these are the current coordinates
+        let x = enemyposition.left
+        let y = enemyposition.top
+
+
+        // this is for storing the current style coordinate of the enemy
+        let movementX = parseInt(enemy.style.left, 10)
+        let movementY = parseInt(enemy.style.top, 10)
+
+        if (isNaN(movementX)) {
+            movementX = 0
+        }
+        if (isNaN(movementY)) {
+            movementY = 0
+        }
+
+        // this will make sure that both top right and top left are checked for wall to ensure fair collision and similar with all 4 directions
+        let coordinateTopRight = document.elementFromPoint(x + (enemyposition.width), nextTOP)
+        let coordinateTopLeft = document.elementFromPoint(x, nextTOP)
+
+        let coordinateLeftUp = document.elementFromPoint(nextLEFT, y + (enemyposition.height))
+        let coordinateLeftDown = document.elementFromPoint(nextLEFT, y)
+
+        let coordinateBottomRight = document.elementFromPoint(x + (enemyposition.width), nextBOTTOM)
+        let coordinateBottomLeft = document.elementFromPoint(x, nextBOTTOM)
+
+        let coordinateRightUp = document.elementFromPoint(nextRIGHT, y + (enemyposition.height))
+        let coordinateRightDown = document.elementFromPoint(nextRIGHT, y)
+
+
+        function reset() {
+            if (!coordinateLeftUp.classList.contains("wall") && !coordinateLeftDown.classList.contains("wall")) {
+                enemy.classList.add("MoveLeft")
+                movementX -= difficulty;
+                enemy.style.left = movementX + "px"
+
+            } else if (!coordinateTopRight.classList.contains("wall") && !coordinateTopLeft.classList.contains("wall")) {
+                enemy.classList.add("MoveTop");
+                movementY -= difficulty;
+                enemy.style.top = movementY + "px";
+
+            } else if (!coordinateRightUp.classList.contains("wall") && !coordinateRightDown.classList.contains("wall")) {
+                enemy.classList.add("MoveRight")
+                movementX += difficulty;
+                enemy.style.left = movementX + "px"
+            } else {
+                enemy.classList.add("MoveBottom")
+                movementY += difficulty;
+                enemy.style.top = movementY + "px"
+            }
+        }
+
+
+        function RandomMovement() {
+
+            const randomNumber = Math.floor(Math.random() * 4) + 1;
+
+            // Use a switch-case statement to perform actions based on the random number
+            switch (randomNumber) {
+                case 1:
+                    // for case 1 enemy moves left
+                    if (!coordinateLeftUp.classList.contains("wall") && !coordinateLeftDown.classList.contains("wall")) {
+                        enemy.classList.add("MoveLeft")
+                        movementX -= difficulty;
+                        enemy.style.left = movementX + "px"
+                    } else {
+                        reset()
+                    }
+                    ;
+                case 2:
+                    // for case 2 enemy moves Top
+                    if (!coordinateTopRight.classList.contains("wall") && !coordinateTopLeft.classList.contains("wall")) {
+                        enemy.classList.add("MoveTop");
+                        movementY -= difficulty;
+                        enemy.style.top = movementY + "px";
+                    } else {
+                        reset()
+                    }
+                case 3:
+                    // for case 3 enemy moves Right
+                    if (!coordinateRightUp.classList.contains("wall") && !coordinateRightDown.classList.contains("wall")) {
+                        enemy.classList.add("MoveRight")
+                        movementX += difficulty;
+                        enemy.style.left = movementX + "px"
+                    } else {
+                        reset()
+                    }
+                case 4:
+                    // for case 4 enemy moves Bottom
+                    if (!coordinateBottomRight.classList.contains("wall") && !coordinateBottomLeft.classList.contains("wall")) {
+                        enemy.classList.add("MoveBottom")
+                        movementY += difficulty;
+                        enemy.style.top = movementY + "px"
+                    } else {
+                        reset()
+                    }
+                    break;
+            }
+        }
+
+
+
+
+
+        if (enemy.classList.contains("MoveLeft")) {
+            if (!coordinateLeftUp.classList.contains("wall") && !coordinateLeftDown.classList.contains("wall")) {
+                movementX -= difficulty
+                enemy.style.left = movementX + "px"
+            } else {
+                enemy.classList.remove("MoveLeft");
+                RandomMovement()
+            }
+        }
+
+        else if (enemy.classList.contains("MoveTop")) {
+            if (!coordinateTopRight.classList.contains("wall") && !coordinateTopLeft.classList.contains("wall")) {
+                movementY -= difficulty
+                enemy.style.top = movementY + "px"
+            } else {
+                enemy.classList.remove("MoveTop")
+                RandomMovement()
+            }
+        }
+
+        else if (enemy.classList.contains("MoveRight")) {
+            if (!coordinateRightUp.classList.contains("wall") && !coordinateRightDown.classList.contains("wall")) {
+                movementX += difficulty
+                enemy.style.left = movementX + "px"
+            } else {
+                enemy.classList.remove("MoveRight")
+                RandomMovement()
+            }
+
+
+        } else if (enemy.classList.contains("MoveBottom")) {
+            if (!coordinateBottomRight.classList.contains("wall") && !coordinateBottomLeft.classList.contains("wall")) {
+                movementY += difficulty;
+                enemy.style.top = movementY + "px"
+            } else {
+                enemy.classList.remove("MoveBottom")
+                RandomMovement()
+            }
+        }
+    });
+}
+
+enemyMovementInterval = setInterval(enemyMovement, 1)
+enemyRandomTimerInterval = setInterval(RandomMovementTimer, 5000)
+
+startEnemyMovement();
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
