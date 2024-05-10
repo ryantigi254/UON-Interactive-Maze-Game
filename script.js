@@ -333,37 +333,69 @@ function dfs(maze, x, y) {
     }
 }
 
-function placeEnemiesAndPoints(maze, level) {
-    const dimensions = maze.length;
+function placeEnemies(maze, level) {
     const numEnemies = Math.min(3 + Math.floor(level / 5), 5);
-    const numPoints = Math.floor((dimensions - 2) * (dimensions - 2) * (0.5 + level * 0.05));
-
-    // Place enemies
     for (let i = 0; i < numEnemies; i++) {
-        let x, y;
-        do {
-            x = Math.floor(Math.random() * (dimensions - 2)) + 1;
-            y = Math.floor(Math.random() * (dimensions - 2)) + 1;
-        } while (maze[y][x] !== 0);
-        maze[y][x] = 3;
+      let enemyX, enemyY;
+      do {
+        enemyX = Math.floor(Math.random() * maze[0].length);
+        enemyY = Math.floor(Math.random() * maze.length);
+      } while (maze[enemyY][enemyX] !== 0 && maze[enemyY][enemyX] !== 1);
+      maze[enemyY][enemyX] = 3;
     }
+  }
 
-    // Place points
+  function placePoints(maze, level) {
+    const numPoints = Math.floor((maze[0].length - 2) * (maze.length - 2) * (0.5 + level * 0.05));
     for (let i = 0; i < numPoints; i++) {
-        let x, y;
-        do {
-            x = Math.floor(Math.random() * (dimensions - 2)) + 1;
-            y = Math.floor(Math.random() * (dimensions - 2)) + 1;
-        } while (maze[y][x] !== 0);
-        maze[y][x] = 0;
+      let pointX, pointY;
+      do {
+        pointX = Math.floor(Math.random() * maze[0].length);
+        pointY = Math.floor(Math.random() * maze.length);
+      } while (maze[pointY][pointX] !== 0 && maze[pointY][pointX] !== 1);
+      maze[pointY][pointX] = 0;
     }
-}
-
-
+  }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-
+function generateNewMaze(dimensions, level) {
+    let maze = Array(dimensions).fill().map(() => Array(dimensions).fill(1));
+    recursiveBacktracking(maze, 1, 1);
+    prim(maze);
+  
+    // Place the player
+    let playerX, playerY;
+    do {
+      playerX = Math.floor(Math.random() * dimensions);
+      playerY = Math.floor(Math.random() * dimensions);
+    } while (maze[playerY][playerX] !== 0);
+    maze[playerY][playerX] = 2;
+  
+    // Place enemies
+    const numEnemies = Math.min(3 + Math.floor(level / 5), 5);
+    for (let i = 0; i < numEnemies; i++) {
+      let enemyX, enemyY;
+      do {
+        enemyX = Math.floor(Math.random() * dimensions);
+        enemyY = Math.floor(Math.random() * dimensions);
+      } while (maze[enemyY][enemyX] !== 0);
+      maze[enemyY][enemyX] = 3;
+    }
+  
+    // Place points
+    const numPoints = Math.floor((dimensions - 2) * (dimensions - 2) * (0.5 + level * 0.05));
+    for (let i = 0; i < numPoints; i++) {
+      let pointX, pointY;
+      do {
+        pointX = Math.floor(Math.random() * dimensions);
+        pointY = Math.floor(Math.random() * dimensions);
+      } while (maze[pointY][pointX] !== 0);
+      maze[pointY][pointX] = 0;
+    }
+  
+    return maze;
+  }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -1008,14 +1040,13 @@ function showEnterNameScreen() {
 
 function submitName() {
     const nameInput = document.getElementById('nameInput');
-    const name = nameInput.value.trim();
-    if (name) {
+    playerName = nameInput.value.trim();
+    if (playerName) {
         if (leaderboard.entries.length >= leaderboard.maxEntries) {
             leaderboard.entries.pop(); // Remove the last entry
         }
-        leaderboard.addEntry(name, score);
+        leaderboard.addEntry(playerName, score);
         leaderboard.updateLeaderboardHTML();
-        score = 0; // Reset the score for the next level
         hasEnteredName = true; // Set the flag to true after entering the name
         nextLevel();
     }
@@ -1033,6 +1064,8 @@ function showNextLevelScreen() {
     `;
     startDiv.style.display = 'flex';
 }
+
+let playerName = '';
 
 function nextLevel() {
     enemies = document.querySelectorAll('.enemy');
@@ -1112,11 +1145,17 @@ function nextLevel() {
     leftPressed = false;
     rightPressed = false;
     playerCanMove = true;
-
-    
     updateScoreDisplay();
     updateLivesDisplay();
-    updateLeaderboard();
+
+    // Find the player's entry in the leaderboard and update their score
+    const playerEntry = leaderboard.entries.find(entry => entry.name === playerName);
+    if (playerEntry) {
+        playerEntry.score = score;
+        leaderboard.entries.sort((a, b) => b.score - a.score); 
+        leaderboard.updateLeaderboardHTML();
+    }
+    
     yellowOption.click();
     setColorOptions();  
     updateEnemyColor();  
@@ -1125,8 +1164,6 @@ function nextLevel() {
     createEnemyElement();
     startEnemyMovement();
     RandomMovementTimer();
-    // updateChecklist();
-    // resetChecklist();
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -1209,6 +1246,7 @@ class LeaderboardEntry {
         if (this.entries.length > this.maxEntries) {
             this.entries.pop(); 
         }
+        this.updateLeaderboardHTML();
     }
 
     getTopEntries(count) {
