@@ -124,7 +124,7 @@ function generateMazeInternal(dimensions, level, simplicity) {
 function isSolvable(maze) {
     for (let y = 1; y < dimensions - 1; y++) {
         for (let x = 1; x < dimensions - 1; x++) {
-            if (maze[y][x] == 0 || maze[y][x] == 3) {
+            if (maze[y][x] === 0 || maze[y][x] === 3) {
                 if (
                     maze[y - 1][x] === 1 &&
                     maze[y + 1][x] === 1 &&
@@ -861,6 +861,7 @@ setInterval(function () {
     } else if (rightPressed) {
         playerMouth.classList = 'right';
     }
+    updatePlayerMouth();
 }, 1);
 
 // Grid-based collision detection system
@@ -1381,23 +1382,22 @@ function RandomMovementTimer() {
 let difficultyprompt = 5
 let difficulty = 6;
 
-
 function enemyMovement() {
     if (playerCanMove == false)
         return;
-    // console.log("hello")
+
     let enemies = document.querySelectorAll('.enemy');
     enemies.forEach(enemy => {
-        let enemyposition = enemy.getBoundingClientRect()
+        let enemyPosition = enemy.getBoundingClientRect()
 
         let next = 5;
-        let nextTOP = enemyposition.top - next
-        let nextLEFT = enemyposition.left - next
-        let nextBOTTOM = enemyposition.top + enemyposition.height + next
-        let nextRIGHT = enemyposition.left + enemyposition.width + next
+        let nextTOP = enemyPosition.top - next
+        let nextLEFT = enemyPosition.left - next
+        let nextBOTTOM = enemyPosition.top + enemyPosition.height + next
+        let nextRIGHT = enemyPosition.left + enemyPosition.width + next
 
-        let x = enemyposition.left
-        let y = enemyposition.top
+        let x = enemyPosition.left
+        let y = enemyPosition.top
 
 
         let movementX = parseInt(enemy.style.left, 10)
@@ -1410,17 +1410,16 @@ function enemyMovement() {
             movementY = 0
         }
 
-        // this will make sure that both top right and top left are checked for wall to ensure fair collision and similar with all 4 directions
-        let coordinateTopRight = document.elementFromPoint(x + (enemyposition.width), nextTOP)
+        let coordinateTopRight = document.elementFromPoint(x + (enemyPosition.width), nextTOP)
         let coordinateTopLeft = document.elementFromPoint(x, nextTOP)
 
-        let coordinateLeftUp = document.elementFromPoint(nextLEFT, y + (enemyposition.height))
+        let coordinateLeftUp = document.elementFromPoint(nextLEFT, y + (enemyPosition.height))
         let coordinateLeftDown = document.elementFromPoint(nextLEFT, y)
 
-        let coordinateBottomRight = document.elementFromPoint(x + (enemyposition.width), nextBOTTOM)
+        let coordinateBottomRight = document.elementFromPoint(x + (enemyPosition.width), nextBOTTOM)
         let coordinateBottomLeft = document.elementFromPoint(x, nextBOTTOM)
 
-        let coordinateRightUp = document.elementFromPoint(nextRIGHT, y + (enemyposition.height))
+        let coordinateRightUp = document.elementFromPoint(nextRIGHT, y + (enemyPosition.height))
         let coordinateRightDown = document.elementFromPoint(nextRIGHT, y)
 
 
@@ -1448,90 +1447,56 @@ function enemyMovement() {
 
 
         function RandomMovement() {
-
             const randomNumber = Math.floor(Math.random() * 4) + 1;
             switch (randomNumber) {
                 case 1:
-                    if (!coordinateLeftUp.classList.contains("wall") && !coordinateLeftDown.classList.contains("wall")) {
-                        enemy.classList.add("MoveLeft")
-                        movementX -= difficulty;
-                        enemy.style.left = movementX + "px"
-                    } else {
-                        reset()
-                    }
-                    ;
+                    enemy.classList.add("MoveLeft");
+                    break;
                 case 2:
-                    // for case 2 enemy moves Top
-                    if (!coordinateTopRight.classList.contains("wall") && !coordinateTopLeft.classList.contains("wall")) {
-                        enemy.classList.add("MoveTop");
-                        movementY -= difficulty;
-                        enemy.style.top = movementY + "px";
-                    } else {
-                        reset()
-                    }
+                    enemy.classList.add("MoveTop");
+                    break;
                 case 3:
-                    // for case 3 enemy moves Right
-                    if (!coordinateRightUp.classList.contains("wall") && !coordinateRightDown.classList.contains("wall")) {
-                        enemy.classList.add("MoveRight")
-                        movementX += difficulty;
-                        enemy.style.left = movementX + "px"
-                    } else {
-                        reset()
-                    }
+                    enemy.classList.add("MoveRight");
+                    break;
                 case 4:
-                    // for case 4 enemy moves Bottom
-                    if (!coordinateBottomRight.classList.contains("wall") && !coordinateBottomLeft.classList.contains("wall")) {
-                        enemy.classList.add("MoveBottom")
-                        movementY += difficulty;
-                        enemy.style.top = movementY + "px"
-                    } else {
-                        reset()
-                    }
+                    enemy.classList.add("MoveBottom");
                     break;
             }
         }
-
-
-
-
-
+        
+        // ...
+        
         if (enemy.classList.contains("MoveLeft")) {
             if (!coordinateLeftUp.classList.contains("wall") && !coordinateLeftDown.classList.contains("wall")) {
-                movementX -= difficulty
-                enemy.style.left = movementX + "px"
+                movementX -= difficulty;
+                enemy.style.left = movementX + "px";
             } else {
                 enemy.classList.remove("MoveLeft");
-                RandomMovement()
+                RandomMovement();
             }
-        }
-
-        else if (enemy.classList.contains("MoveTop")) {
+        } else if (enemy.classList.contains("MoveTop")) {
             if (!coordinateTopRight.classList.contains("wall") && !coordinateTopLeft.classList.contains("wall")) {
-                movementY -= difficulty
-                enemy.style.top = movementY + "px"
+                movementY -= difficulty;
+                enemy.style.top = movementY + "px";
             } else {
-                enemy.classList.remove("MoveTop")
-                RandomMovement()
+                enemy.classList.remove("MoveTop");
+                RandomMovement();
             }
-        }
-
-        else if (enemy.classList.contains("MoveRight")) {
+        } else if (enemy.classList.contains("MoveRight")) {
             if (!coordinateRightUp.classList.contains("wall") && !coordinateRightDown.classList.contains("wall")) {
-                movementX += difficulty
-                enemy.style.left = movementX + "px"
+                movementX += difficulty;
+                enemy.style.left = movementX + "px";
             } else {
-                enemy.classList.remove("MoveRight")
-                RandomMovement()
+                enemy.classList.remove("MoveRight");
+                RandomMovement();
             }
-
-
         } else if (enemy.classList.contains("MoveBottom")) {
             if (!coordinateBottomRight.classList.contains("wall") && !coordinateBottomLeft.classList.contains("wall")) {
                 movementY += difficulty;
-                enemy.style.top = movementY + "px"
+                enemy.style.top = movementY + "px";
             } else {
-                enemy.classList.remove("MoveBottom")
-                RandomMovement()
+                enemy.classList.remove("MoveBottom");
+                RandomMovement();
             }
         }
     });
