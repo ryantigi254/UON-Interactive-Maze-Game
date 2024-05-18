@@ -121,63 +121,30 @@ function generateMazeInternal(dimensions, level, simplicity) {
     
     return maze;
 }
+
 function isSolvable(maze) {
-    for (let y = 1; y < dimensions - 1; y++) {
-        for (let x = 1; x < dimensions - 1; x++) {
-            if (maze[y][x] === 0 || maze[y][x] === 3) {
+    const rows = maze.length;
+    const cols = maze[0].length;
+
+    for (let y = 1; y < rows - 1; y++) {
+        for (let x = 1; x < cols - 1; x++) {
+            if (maze[y] && (maze[y][x] === 0 || maze[y][x] === 3)) {
                 if (
-                    maze[y - 1][x] === 1 &&
-                    maze[y + 1][x] === 1 &&
+                    (maze[y - 1] && maze[y - 1][x] === 1) &&
+                    (maze[y + 1] && maze[y + 1][x] === 1) &&
                     maze[y][x - 1] === 1 &&
                     maze[y][x + 1] === 1
                 ) {
                     console.log(`Unsolvable maze detected at (${y}, ${x})`);
                     return false;
                 }
-
-                // Check if the point or enemy is accessible by the player
-                let accessible = false;
-                for (let dy = -1; dy <= 1; dy++) {
-                    for (let dx = -1; dx <= 1; dx++) {
-                        if (
-                            y + dy >= 0 &&
-                            y + dy < dimensions &&
-                            x + dx >= 0 &&
-                            x + dx < dimensions &&
-                            maze[y + dy][x + dx] !== 1 &&
-                            maze[y + dy][x + dx] !== 3
-                        ) {
-                            accessible = true;
-                            break;
-                        }
-                    }
-                    if (accessible) break;
-                }
-
-                if (!accessible) {
-                    console.log(`Inaccessible point or enemy detected at (${y}, ${x})`);
-                    return false;
-                }
-
-                // Check if the point is inside an obstacle block
-                if (
-                    maze[y - 1][x - 1] === 1 &&
-                    maze[y - 1][x] === 1 &&
-                    maze[y - 1][x + 1] === 1 &&
-                    maze[y][x - 1] === 1 &&
-                    maze[y][x + 1] === 1 &&
-                    maze[y + 1][x - 1] === 1 &&
-                    maze[y + 1][x] === 1 &&
-                    maze[y + 1][x + 1] === 1
-                ) {
-                    console.log(`Point inside an obstacle block detected at (${y}, ${x})`);
-                    return false;
-                }
             }
         }
     }
+
     return true;
 }
+
 
 function isPointAccessible(maze, y, x) {
     const visited = new Set();
