@@ -1,3 +1,4 @@
+
 // Initliazing the game
 let upPressed = false;
 let downPressed = false;
@@ -8,6 +9,23 @@ localStorage.removeItem('leaderboard');
 let score = 0; 
 
 const main = document.querySelector('main');
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Maze Structure provided as a start
+//Player = 2, Wall = 1, Enemy = 3, Point = 0
+// let maze = [
+//     [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+//     [1, 2, 0, 1, 0, 0, 0, 0, 3, 1],
+//     [1, 0, 0, 0, 0, 0, 0, 1, 1, 1],
+//     [1, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+//     [1, 0, 1, 1, 0, 0, 0, 0, 0, 1],
+//     [1, 0, 0, 0, 0, 0, 0, 1, 1, 1],
+//     [1, 0, 0, 1, 0, 3, 0, 0, 0, 1],
+//     [1, 0, 0, 0, 0, 0, 0, 1, 0, 1],
+//     [1, 3, 1, 0, 0, 0, 0, 0, 0, 1],
+//     [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+// ];
+
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //*****************************************************************************************************************
@@ -315,33 +333,29 @@ function dfs(maze, x, y) {
     }
 }
 
-function placeEnemiesAndPoints(maze, level) {
-    const dimensions = maze.length;
+function placeEnemies(maze, level) {
     const numEnemies = Math.min(3 + Math.floor(level / 5), 5);
-    const numPoints = Math.floor((dimensions - 2) * (dimensions - 2) * (0.5 + level * 0.05));
-
-    // Place enemies
     for (let i = 0; i < numEnemies; i++) {
-        let x, y;
-        do {
-            x = Math.floor(Math.random() * (dimensions - 2)) + 1;
-            y = Math.floor(Math.random() * (dimensions - 2)) + 1;
-        } while (maze[y][x] !== 0);
-        maze[y][x] = 3;
+      let enemyX, enemyY;
+      do {
+        enemyX = Math.floor(Math.random() * maze[0].length);
+        enemyY = Math.floor(Math.random() * maze.length);
+      } while (maze[enemyY][enemyX] !== 0 && maze[enemyY][enemyX] !== 1);
+      maze[enemyY][enemyX] = 3;
     }
+  }
 
-    // Place points
+  function placePoints(maze, level) {
+    const numPoints = Math.floor((maze[0].length - 2) * (maze.length - 2) * (0.5 + level * 0.05));
     for (let i = 0; i < numPoints; i++) {
-        let x, y;
-        do {
-            x = Math.floor(Math.random() * (dimensions - 2)) + 1;
-            y = Math.floor(Math.random() * (dimensions - 2)) + 1;
-        } while (maze[y][x] !== 0);
-        maze[y][x] = 0;
+      let pointX, pointY;
+      do {
+        pointX = Math.floor(Math.random() * maze[0].length);
+        pointY = Math.floor(Math.random() * maze.length);
+      } while (maze[pointY][pointX] !== 0 && maze[pointY][pointX] !== 1);
+      maze[pointY][pointX] = 0;
     }
-}
-
-
+  }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -459,6 +473,7 @@ function getEnemyColor(y, x) {
     }
 }
 
+
 function createEnemyElement(color) {
     let enemy = document.createElement('div');
     enemy.classList.add('enemy');
@@ -503,7 +518,7 @@ function createEnemyElement(color) {
     return enemy;
 }
 
-// // Alternative method for positioning Enemies correctly
+// Alternative method for positioning Enemies correctly
 // function positionEnemies() {
 //     const enemies = document.querySelectorAll('.enemy-container');
 //     for (let i = 0; i < enemies.length; i++) {
@@ -584,7 +599,7 @@ function setColorOptions() {
 }
 
 function updateEnemyColor(enemy, color) {
-    earElements = enemy.querySelectorAll('.ear');
+    const earElements = enemy.querySelectorAll('.ear');
     earElements.forEach(ear => ear.style.backgroundColor = color);
 
     const headTopElement = enemy.querySelector('.head-top');
@@ -750,26 +765,91 @@ setInterval(function () {
 // New Approach Debugged:
 
 let movement = 3
-// Update the game loop to use the new movement logic
-setInterval(() => {
-    if (maxScore > 0 && playerCanMove) {
-        if (upPressed) {
-            movePlayer(0, -1);
-        } else if (downPressed) {
-            movePlayer(0, 1);
-        } else if (leftPressed) {
-            movePlayer(-1, 0);
-        } else if (rightPressed) {
-            movePlayer(1, 0);
+setInterval(function () {
+    // updateChecklist(); // Call the updateChecklist function
+    // updateChecklistAfterLevels(); 
+    let player = document.querySelector('#player');
+
+    if (playerCanMove) {
+        let position = player.getBoundingClientRect();
+        let nextTop = position.top - (upPressed ? movement: 0) 
+        let nextBottom = position.bottom + (downPressed ? movement : 0) 
+        let nextLeft = position.left - (leftPressed ? movement : 0) 
+        let nextRight = position.right + (rightPressed ? movement : 0) 
+       
+        if (checkWallCollisions(nextTop, nextBottom, nextLeft, nextRight)) {
+            if (downPressed) {
+                playerTop+=movement
+                player.style.top = playerTop + 'px';
+            } else if (upPressed) {
+                playerTop-=movement
+                player.style.top = playerTop + 'px';
+            } else if (leftPressed) {
+                playerLeft-=movement
+                player.style.left = playerLeft + 'px';
+            } else if (rightPressed) {
+                playerLeft+=movement
+                player.style.left = playerLeft + 'px';
+            }
+            updatePlayerMouth();
+        }
+        function checkWallCollisions(nextTop, nextBottom, nextLeft, nextRight) {
+            let topLeftElement = document.elementFromPoint(nextLeft, nextTop);
+            let topRightElement = document.elementFromPoint(nextRight, nextTop);
+            let bottomLeftElement = document.elementFromPoint(nextLeft, nextBottom);
+            let bottomRightElement = document.elementFromPoint(nextRight, nextBottom);
+        
+            if (downPressed) { 
+                if (bottomLeftElement.classList.contains('wall') || bottomRightElement.classList.contains('wall') ){
+                    return false;
+                }
+                else {
+                    return true;
+                }
+            } 
+            else if (upPressed) {
+                if (topLeftElement.classList.contains('wall') || topRightElement.classList.contains('wall') ){
+                    return false;
+                }
+                else {
+                    return true;
+                }
+            } 
+            else if (leftPressed) {
+                if (topLeftElement.classList.contains('wall') ||  bottomLeftElement.classList.contains('wall') ){
+                    return false;
+                }
+                else {
+                    return true;
+         
+                }
+            } 
+            else if (rightPressed) {
+                if (bottomRightElement.classList.contains('wall') || topRightElement.classList.contains('wall')) {
+                    return false;
+                }
+                else {
+                    return true;
+                }
+            }
         }
     }
     checkEnemyCollision();
     checkScoreCollisions();
-    if (maxScore === 0) {
-        maxScore++;
-        levelComplete();
+    if (maxScore === 0){
+        maxScore++
+        levelComplete();   
     }
-}, 16); 
+        if (downPressed) {
+        playerMouth.classList = 'down';
+    } else if (upPressed) {
+        playerMouth.classList = 'up';
+    } else if (leftPressed) {
+        playerMouth.classList = 'left';
+    } else if (rightPressed) {
+        playerMouth.classList = 'right';
+    }
+}, 1);
 
 // Grid-based collision detection system
 const gridSize = 10;
@@ -822,20 +902,17 @@ setInterval(() => {
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 let lives = 3;
 let invulnerable = false;
+let enemies = document.querySelectorAll('.enemy');
 
 function checkEnemyCollision() {
     if (invulnerable) return;
 
     const playerRect = player.getBoundingClientRect();
-    const enemies = document.querySelectorAll('.enemy');
+    let enemies = document.querySelectorAll('.enemy');
     for (let enemy of enemies) {
         const enemyRect = enemy.getBoundingClientRect();
-        if (
-            playerRect.left < enemyRect.right &&
-            playerRect.right > enemyRect.left &&
-            playerRect.top < enemyRect.bottom &&
-            playerRect.bottom > enemyRect.top
-        ) {
+        if (playerRect.left < enemyRect.right && playerRect.right > enemyRect.left &&
+            playerRect.top < enemyRect.bottom && playerRect.bottom > enemyRect.top) {
             player.classList.add('hit');
             setTimeout(() => player.classList.remove('hit'), 1500);
 
@@ -916,6 +993,7 @@ function levelComplete() {
     playerCanMove = false;
     showNextLevelScreen();
     playerMouth.style.display = 'none';
+    
 }
 
 const levelCompleteDiv = document.createElement('div');
@@ -988,7 +1066,9 @@ function showNextLevelScreen() {
 }
 
 let playerName = '';
+
 function nextLevel() {
+    enemies = document.querySelectorAll('.enemy');
     const yellowOption = document.querySelector('[data-player-color="yellow"]');
 
     level++;
@@ -996,15 +1076,68 @@ function nextLevel() {
     startDiv.style.display = 'none';
     console.log(`Current Level: ${level}`);
     console.log("Current simplicity: " + simplicity);
-    dimensions = Math.min(10 + Math.floor(level / 2), 17);
-
+    if (level <= 5) {
+        dimensions = 10;
+    } else {
+        dimensions = 10 + Math.floor(level / 2);
+        if (dimensions > 13) {
+            dimensions = 13;
+        }
+    }
     updatePlayerMouth();
 
     document.documentElement.style.setProperty('--dimensions', dimensions);
-    maze = generateMaze(level);
+    maze = generateMaze(level, simplicity);
+    main.innerHTML = '';
 
+    function MazePopulator() {
+        const level = Math.floor((score - 1) / 100) + 1;
+        const simplicity = 1 - level * 0.05;
+    
+        if (level <= 5) {
+            maze = generateMaze(level, simplicity);
+        } else {
+            maze = generateNewMaze(dimensions, level);
+        }
+    
+        for (let y = 0; y < maze.length; y++) {
+            for (let x = 0; x < maze[y].length; x++) {
+                let block = document.createElement('div');
+                block.classList.add('block');
+    
+                switch (maze[y][x]) {
+                    case 1:
+                        block.classList.add('wall');
+                        break;
+                    case 2:
+                        block.id = 'player';
+                        let mouth = document.createElement('div');
+                        mouth.classList.add('mouth');
+                        block.appendChild(mouth);
+                        break;
+                    case 3:
+                        let enemyContainer = document.createElement('div');
+                        enemyContainer.classList.add('enemy-container');
+                        block.appendChild(enemyContainer);
+    
+                        let enemyColor = getEnemyColor(y, x);
+                        let enemy = createEnemyElement(enemyColor);
+                        enemyContainer.appendChild(enemy);
+                        break;
+                    default:
+                        block.classList.add('point');
+                        block.style.height = '1vh';
+                        block.style.width = '1vh';
+                }
+    
+                main.appendChild(block);
+            }
+        }
+        setColorOptions();
+    }
+    
     MazePopulator();
-    maxScore = document.querySelectorAll('.point').length;
+    maxScore = document.querySelectorAll('.point').length-40
     playerTop = 0;
     playerLeft = 0;
     upPressed = false;
@@ -1019,12 +1152,13 @@ function nextLevel() {
     const playerEntry = leaderboard.entries.find(entry => entry.name === playerName);
     if (playerEntry) {
         playerEntry.score = score;
-        leaderboard.entries.sort((a, b) => b.score - a.score);
+        leaderboard.entries.sort((a, b) => b.score - a.score); 
         leaderboard.updateLeaderboardHTML();
     }
-
-    setColorOptions();
-    updateEnemyColor();
+    
+    yellowOption.click();
+    setColorOptions();  
+    updateEnemyColor();  
     positionEnemies();
     getEnemyColor();
     createEnemyElement();
@@ -1323,34 +1457,42 @@ class LeaderboardEntry {
 //*****************************************************************************************************************
 // //Enemy movement
 
-function startEnemyMovement() {
-    const enemies = document.querySelectorAll('.enemy');
-    enemies.forEach(enemy => {
-        enemy.classList.add("MoveBottom");
-    });
+function startEnemyMovement(){
+enemies.forEach(enemy => {
+    enemy.classList.add("MoveBottom")
+})
 }
-function RandomMovementTimer() {
-    const enemies = document.querySelectorAll('.enemy');
+
+function RandomMovementTimer() { 
+    let enemies = document.querySelectorAll('.enemy');
     enemies.forEach(enemy => {
-        enemy.classList.remove("MoveLeft", "MoveTop", "MoveRight", "MoveBottom");
+        enemy.classList.remove("MoveLeft");
+        enemy.classList.remove("MoveTop");
+        enemy.classList.remove("MoveRight");
+        enemy.classList.remove("MoveBottom");
 
         const randomNum = Math.floor(Math.random() * 4) + 1;
 
+        // Use a switch-case statement to perform actions based on the random number
         switch (randomNum) {
             case 1:
-                enemy.classList.add("MoveLeft");
-                break;
+                // for case 1 enemy moves left
+                enemy.classList.add("MoveLeft")
+
             case 2:
+                // for case 2 enemy moves Top
                 enemy.classList.add("MoveTop");
-                break;
+
             case 3:
-                enemy.classList.add("MoveRight");
-                break;
+                // for case 3 enemy moves Right
+                enemy.classList.add("MoveRight")
+
             case 4:
-                enemy.classList.add("MoveBottom");
-                break;
+                // for case 4 enemy moves Bottom
+                enemy.classList.add("MoveBottom")
+
         }
-    });
+    })
 }
 
 
@@ -1358,129 +1500,172 @@ let difficultyprompt = 5
 // let difficultyprompt = parseInt(window.prompt("Choose a difficulty from 1 to 5:(default will always be 1)"), 10);
 let difficulty = 6;
 
+
 function enemyMovement() {
-    if (!playerCanMove) return;
-
-    const enemies = document.querySelectorAll('.enemy');
+    if (playerCanMove == false)
+        return;
+    // console.log("hello")
+    let enemies = document.querySelectorAll('.enemy');
     enemies.forEach(enemy => {
-        const enemyposition = enemy.getBoundingClientRect();
+        let enemyposition = enemy.getBoundingClientRect()
 
-        const next = 5;
-        const nextTOP = enemyposition.top - next;
-        const nextLEFT = enemyposition.left - next;
-        const nextBOTTOM = enemyposition.top + enemyposition.height + next;
-        const nextRIGHT = enemyposition.left + enemyposition.width + next;
 
-        const x = enemyposition.left;
-        const y = enemyposition.top;
+        // these will be coordinates for the next position of the enemy
+        let next = 5;
+        let nextTOP = enemyposition.top - next
+        let nextLEFT = enemyposition.left - next
+        let nextBOTTOM = enemyposition.top + enemyposition.height + next
+        let nextRIGHT = enemyposition.left + enemyposition.width + next
 
-        let movementX = parseInt(enemy.style.left, 10) || 0;
-        let movementY = parseInt(enemy.style.top, 10) || 0;
+        // these are the current coordinates
+        let x = enemyposition.left
+        let y = enemyposition.top
 
-        const coordinateTopRight = document.elementFromPoint(x + enemyposition.width, nextTOP);
-        const coordinateTopLeft = document.elementFromPoint(x, nextTOP);
-        const coordinateLeftUp = document.elementFromPoint(nextLEFT, y + enemyposition.height);
-        const coordinateLeftDown = document.elementFromPoint(nextLEFT, y);
-        const coordinateBottomRight = document.elementFromPoint(x + enemyposition.width, nextBOTTOM);
-        const coordinateBottomLeft = document.elementFromPoint(x, nextBOTTOM);
-        const coordinateRightUp = document.elementFromPoint(nextRIGHT, y + enemyposition.height);
-        const coordinateRightDown = document.elementFromPoint(nextRIGHT, y);
+
+        // this is for storing the current style coordinate of the enemy
+        let movementX = parseInt(enemy.style.left, 10)
+        let movementY = parseInt(enemy.style.top, 10)
+
+        if (isNaN(movementX)) {
+            movementX = 0
+        }
+        if (isNaN(movementY)) {
+            movementY = 0
+        }
+
+        // this will make sure that both top right and top left are checked for wall to ensure fair collision and similar with all 4 directions
+        let coordinateTopRight = document.elementFromPoint(x + (enemyposition.width), nextTOP)
+        let coordinateTopLeft = document.elementFromPoint(x, nextTOP)
+
+        let coordinateLeftUp = document.elementFromPoint(nextLEFT, y + (enemyposition.height))
+        let coordinateLeftDown = document.elementFromPoint(nextLEFT, y)
+
+        let coordinateBottomRight = document.elementFromPoint(x + (enemyposition.width), nextBOTTOM)
+        let coordinateBottomLeft = document.elementFromPoint(x, nextBOTTOM)
+
+        let coordinateRightUp = document.elementFromPoint(nextRIGHT, y + (enemyposition.height))
+        let coordinateRightDown = document.elementFromPoint(nextRIGHT, y)
+
 
         function reset() {
             if (!coordinateLeftUp.classList.contains("wall") && !coordinateLeftDown.classList.contains("wall")) {
-                enemy.classList.add("MoveLeft");
+                enemy.classList.add("MoveLeft")
                 movementX -= difficulty;
+                enemy.style.left = movementX + "px"
+
             } else if (!coordinateTopRight.classList.contains("wall") && !coordinateTopLeft.classList.contains("wall")) {
                 enemy.classList.add("MoveTop");
                 movementY -= difficulty;
+                enemy.style.top = movementY + "px";
+
             } else if (!coordinateRightUp.classList.contains("wall") && !coordinateRightDown.classList.contains("wall")) {
-                enemy.classList.add("MoveRight");
+                enemy.classList.add("MoveRight")
                 movementX += difficulty;
+                enemy.style.left = movementX + "px"
             } else {
-                enemy.classList.add("MoveBottom");
+                enemy.classList.add("MoveBottom")
                 movementY += difficulty;
+                enemy.style.top = movementY + "px"
             }
-            enemy.style.left = movementX + "px";
-            enemy.style.top = movementY + "px";
         }
 
+
         function RandomMovement() {
+
             const randomNumber = Math.floor(Math.random() * 4) + 1;
 
+            // Use a switch-case statement to perform actions based on the random number
             switch (randomNumber) {
                 case 1:
+                    // for case 1 enemy moves left
                     if (!coordinateLeftUp.classList.contains("wall") && !coordinateLeftDown.classList.contains("wall")) {
-                        enemy.classList.add("MoveLeft");
+                        enemy.classList.add("MoveLeft")
                         movementX -= difficulty;
+                        enemy.style.left = movementX + "px"
                     } else {
-                        reset();
+                        reset()
                     }
-                    break;
+                    ;
                 case 2:
+                    // for case 2 enemy moves Top
                     if (!coordinateTopRight.classList.contains("wall") && !coordinateTopLeft.classList.contains("wall")) {
                         enemy.classList.add("MoveTop");
                         movementY -= difficulty;
+                        enemy.style.top = movementY + "px";
                     } else {
-                        reset();
+                        reset()
                     }
-                    break;
                 case 3:
+                    // for case 3 enemy moves Right
                     if (!coordinateRightUp.classList.contains("wall") && !coordinateRightDown.classList.contains("wall")) {
-                        enemy.classList.add("MoveRight");
+                        enemy.classList.add("MoveRight")
                         movementX += difficulty;
+                        enemy.style.left = movementX + "px"
                     } else {
-                        reset();
+                        reset()
                     }
-                    break;
                 case 4:
+                    // for case 4 enemy moves Bottom
                     if (!coordinateBottomRight.classList.contains("wall") && !coordinateBottomLeft.classList.contains("wall")) {
-                        enemy.classList.add("MoveBottom");
+                        enemy.classList.add("MoveBottom")
                         movementY += difficulty;
+                        enemy.style.top = movementY + "px"
                     } else {
-                        reset();
+                        reset()
                     }
                     break;
             }
-            enemy.style.left = movementX + "px";
-            enemy.style.top = movementY + "px";
         }
+
+
+
+
 
         if (enemy.classList.contains("MoveLeft")) {
             if (!coordinateLeftUp.classList.contains("wall") && !coordinateLeftDown.classList.contains("wall")) {
-                movementX -= difficulty;
+                movementX -= difficulty
+                enemy.style.left = movementX + "px"
             } else {
                 enemy.classList.remove("MoveLeft");
-                RandomMovement();
+                RandomMovement()
             }
-        } else if (enemy.classList.contains("MoveTop")) {
+        }
+
+        else if (enemy.classList.contains("MoveTop")) {
             if (!coordinateTopRight.classList.contains("wall") && !coordinateTopLeft.classList.contains("wall")) {
-                movementY -= difficulty;
+                movementY -= difficulty
+                enemy.style.top = movementY + "px"
             } else {
-                enemy.classList.remove("MoveTop");
-                RandomMovement();
+                enemy.classList.remove("MoveTop")
+                RandomMovement()
             }
-        } else if (enemy.classList.contains("MoveRight")) {
+        }
+
+        else if (enemy.classList.contains("MoveRight")) {
             if (!coordinateRightUp.classList.contains("wall") && !coordinateRightDown.classList.contains("wall")) {
-                movementX += difficulty;
+                movementX += difficulty
+                enemy.style.left = movementX + "px"
             } else {
-                enemy.classList.remove("MoveRight");
-                RandomMovement();
+                enemy.classList.remove("MoveRight")
+                RandomMovement()
             }
+
+
         } else if (enemy.classList.contains("MoveBottom")) {
             if (!coordinateBottomRight.classList.contains("wall") && !coordinateBottomLeft.classList.contains("wall")) {
                 movementY += difficulty;
+                enemy.style.top = movementY + "px"
             } else {
-                enemy.classList.remove("MoveBottom");
-                RandomMovement();
+                enemy.classList.remove("MoveBottom")
+                RandomMovement()
             }
         }
-        enemy.style.left = movementX + "px";
-        enemy.style.top = movementY + "px";
     });
 }
 
-const enemyMovementInterval = setInterval(enemyMovement, 1);
-const enemyRandomTimerInterval = setInterval(RandomMovementTimer, 5000);
+enemyMovementInterval = setInterval(enemyMovement, 1)
+enemyRandomTimerInterval = setInterval(RandomMovementTimer, 5000)
 
 startEnemyMovement();
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
