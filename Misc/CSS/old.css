@@ -232,7 +232,7 @@ button:nth-child(4) { grid-area: downArrow; }
     animation: hitAnimation 1.5s ease-in-out;
 }
 
-/* Styles for the Game Over and Restart buttons to match the Start button */
+
 .restart-btn {
     text-align: center;
     display: inline-block;
@@ -254,7 +254,6 @@ button:nth-child(4) { grid-area: downArrow; }
     top: .2em;
 }
 
-/* Game Over specific styles */
 .game-over {
     cursor: none;
     font-size: medium;
@@ -265,18 +264,16 @@ button:nth-child(4) { grid-area: downArrow; }
 
 .game-over {
     width: 120%;
-    height: auto; /* Set the width to 50% of its container */
-    margin: 0 auto; /* This will center the div */
-    padding: 20px; /* Add some padding inside the div */
-    text-align: center; /* Center-align the text inside the div */
-    background: rgba(0, 0, 0, 0.7); /* Optional: a semi-transparent black background */
-    color: #FFF; /* White text color */
-    border-radius: 10px; /* Rounded corners */
-    /* Add more styles as needed */
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    color: #FFF;
+    border-radius: 10px;
 }
 
 .game-over-text {
-    font-size: 1.5em; /* Increase font size */
-    margin-bottom: 20px; /* Add space below the text */
-    /* Other styles as needed */
+    font-size: 1.5em;
+    margin-bottom: 20px;
 }

@@ -223,8 +223,7 @@ function ensurePointsAccessible(maze) {
         for (let x = 0; x < maze[y].length; x++) {
             if (maze[y][x] === 0 && !isPointAccessible(maze, y, x)) {
                 console.log(`Inaccessible point detected at (${y}, ${x})`);
-                // The point at (y, x) is inaccessible
-                // Regenerate the maze or adjust the point's position
+
                 return generateMaze(level, simplicity);
             }
         }
@@ -284,7 +283,7 @@ function prim(maze) {
 
     while (queue.length > 0) {
         const [x, y] = queue.shift();
-        maze[y][x] = 0; // Mark as part of the tree
+        maze[y][x] = 0; 
 
         const neighbors = [];
         for (let i = 0; i < 4; i++) {
@@ -847,7 +846,7 @@ setInterval(function () {
     }
     checkEnemyCollision();
     checkScoreCollisions();
-    checkAllObjectives(); // Add this line to check objectives
+    checkAllObjectives(); 
     if (maxScore === 0){
         maxScore++;
         levelComplete();
@@ -1002,7 +1001,6 @@ function restartGame() {
 //*****************************************************************************************************************
 // Level Complete Functionality Game Over Screen and Next Level
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
-// Level complete functionality
 function levelComplete() {
     playerCanMove = false;
     showNextLevelScreen();
@@ -1057,13 +1055,13 @@ function submitName() {
     playerName = nameInput.value.trim();
     if (playerName) {
         if (leaderboard.entries.length >= leaderboard.maxEntries) {
-            leaderboard.entries.pop(); // Remove the last entry
-        }
+            leaderboard.entries.pop();
         leaderboard.addEntry(playerName, score);
         leaderboard.updateLeaderboardHTML();
-        hasEnteredName = true; // Set the flag to true after entering the name
+        hasEnteredName = true; 
         nextLevel();
     }
+}
 }
 
 function showNextLevelScreen() {
@@ -1296,7 +1294,7 @@ function checkCollectPoints() {
 function checkDefeatEnemies() {
     const targetEnemies = Math.ceil(level / 2) + 2;
     const checkbox = document.querySelector('.checklist ul li:nth-child(2) input[type="checkbox"]');
-    const enemiesDefeated = (level - 1) * 3; // Adjust this logic based on how you track defeated enemies
+    const enemiesDefeated = (level - 1) * 3; 
     if (enemiesDefeated >= targetEnemies) {
         checkbox.checked = true;
         defeatEnemiesChecked = true;
@@ -1328,7 +1326,7 @@ function checkAllObjectives() {
     }
 }
 
-// Load the checklist as soon as the page is loaded
+
 document.addEventListener('DOMContentLoaded', () => {
     updateChecklist();
 });
@@ -1357,22 +1355,22 @@ function RandomMovementTimer() {
 
         const randomNum = Math.floor(Math.random() * 4) + 1;
 
-        // Use a switch-case statement to perform actions based on the random number
+
         switch (randomNum) {
             case 1:
-                // for case 1 enemy moves left
+
                 enemy.classList.add("MoveLeft")
 
             case 2:
-                // for case 2 enemy moves Top
+
                 enemy.classList.add("MoveTop");
 
             case 3:
-                // for case 3 enemy moves Right
+
                 enemy.classList.add("MoveRight")
 
             case 4:
-                // for case 4 enemy moves Bottom
+
                 enemy.classList.add("MoveBottom")
 
         }
@@ -1381,7 +1379,6 @@ function RandomMovementTimer() {
 
 
 let difficultyprompt = 5
-// let difficultyprompt = parseInt(window.prompt("Choose a difficulty from 1 to 5:(default will always be 1)"), 10);
 let difficulty = 6;
 
 
@@ -1393,20 +1390,16 @@ function enemyMovement() {
     enemies.forEach(enemy => {
         let enemyposition = enemy.getBoundingClientRect()
 
-
-        // these will be coordinates for the next position of the enemy
         let next = 5;
         let nextTOP = enemyposition.top - next
         let nextLEFT = enemyposition.left - next
         let nextBOTTOM = enemyposition.top + enemyposition.height + next
         let nextRIGHT = enemyposition.left + enemyposition.width + next
 
-        // these are the current coordinates
         let x = enemyposition.left
         let y = enemyposition.top
 
 
-        // this is for storing the current style coordinate of the enemy
         let movementX = parseInt(enemy.style.left, 10)
         let movementY = parseInt(enemy.style.top, 10)
 
@@ -1457,11 +1450,8 @@ function enemyMovement() {
         function RandomMovement() {
 
             const randomNumber = Math.floor(Math.random() * 4) + 1;
-
-            // Use a switch-case statement to perform actions based on the random number
             switch (randomNumber) {
                 case 1:
-                    // for case 1 enemy moves left
                     if (!coordinateLeftUp.classList.contains("wall") && !coordinateLeftDown.classList.contains("wall")) {
                         enemy.classList.add("MoveLeft")
                         movementX -= difficulty;
