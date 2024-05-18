@@ -363,39 +363,40 @@ function generateNewMaze(dimensions, level) {
     let maze = Array(dimensions).fill().map(() => Array(dimensions).fill(1));
     recursiveBacktracking(maze, 1, 1);
     prim(maze);
-  
+
     // Place the player
     let playerX, playerY;
     do {
-      playerX = Math.floor(Math.random() * dimensions);
-      playerY = Math.floor(Math.random() * dimensions);
+        playerX = Math.floor(Math.random() * dimensions);
+        playerY = Math.floor(Math.random() * dimensions);
     } while (maze[playerY][playerX] !== 0);
     maze[playerY][playerX] = 2;
-  
+
     // Place enemies
     const numEnemies = Math.min(3 + Math.floor(level / 5), 5);
     for (let i = 0; i < numEnemies; i++) {
-      let enemyX, enemyY;
-      do {
-        enemyX = Math.floor(Math.random() * dimensions);
-        enemyY = Math.floor(Math.random() * dimensions);
-      } while (maze[enemyY][enemyX] !== 0);
-      maze[enemyY][enemyX] = 3;
+        let enemyX, enemyY;
+        do {
+            enemyX = Math.floor(Math.random() * dimensions);
+            enemyY = Math.floor(Math.random() * dimensions);
+        } while (maze[enemyY][enemyX] !== 0);
+        maze[enemyY][enemyX] = 3;
     }
-  
+
     // Place points
     const numPoints = Math.floor((dimensions - 2) * (dimensions - 2) * (0.5 + level * 0.05));
     for (let i = 0; i < numPoints; i++) {
-      let pointX, pointY;
-      do {
-        pointX = Math.floor(Math.random() * dimensions);
-        pointY = Math.floor(Math.random() * dimensions);
-      } while (maze[pointY][pointX] !== 0);
-      maze[pointY][pointX] = 0;
+        let pointX, pointY;
+        do {
+            pointX = Math.floor(Math.random() * dimensions);
+            pointY = Math.floor(Math.random() * dimensions);
+        } while (maze[pointY][pointX] !== 0);
+        maze[pointY][pointX] = 0;
     }
-  
+
     return maze;
-  }
+}
+
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -414,6 +415,8 @@ function MazePopulator() {
     } else {
         maze = generateNewMaze(dimensions, level);
     }
+
+    main.innerHTML = ''; // Clear previous maze elements
 
     for (let y = 0; y < maze.length; y++) {
         for (let x = 0; x < maze[y].length; x++) {
@@ -452,6 +455,7 @@ function MazePopulator() {
 }
 
 MazePopulator();
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
@@ -1068,76 +1072,18 @@ function showNextLevelScreen() {
 let playerName = '';
 
 function nextLevel() {
-    enemies = document.querySelectorAll('.enemy');
-    const yellowOption = document.querySelector('[data-player-color="yellow"]');
-
     level++;
     simplicity -= 0.12;
     startDiv.style.display = 'none';
     console.log(`Current Level: ${level}`);
     console.log("Current simplicity: " + simplicity);
-    if (level <= 5) {
-        dimensions = 10;
-    } else {
-        dimensions = 10 + Math.floor(level / 2);
-        if (dimensions > 13) {
-            dimensions = 13;
-        }
-    }
-    updatePlayerMouth();
+    dimensions = Math.min(10 + Math.floor(level / 2), 17);
 
     document.documentElement.style.setProperty('--dimensions', dimensions);
     maze = generateMaze(level, simplicity);
-    main.innerHTML = '';
-
-    function MazePopulator() {
-        const level = Math.floor((score - 1) / 100) + 1;
-        const simplicity = 1 - level * 0.05;
-    
-        if (level <= 5) {
-            maze = generateMaze(level, simplicity);
-        } else {
-            maze = generateNewMaze(dimensions, level);
-        }
-    
-        for (let y = 0; y < maze.length; y++) {
-            for (let x = 0; x < maze[y].length; x++) {
-                let block = document.createElement('div');
-                block.classList.add('block');
-    
-                switch (maze[y][x]) {
-                    case 1:
-                        block.classList.add('wall');
-                        break;
-                    case 2:
-                        block.id = 'player';
-                        let mouth = document.createElement('div');
-                        mouth.classList.add('mouth');
-                        block.appendChild(mouth);
-                        break;
-                    case 3:
-                        let enemyContainer = document.createElement('div');
-                        enemyContainer.classList.add('enemy-container');
-                        block.appendChild(enemyContainer);
-    
-                        let enemyColor = getEnemyColor(y, x);
-                        let enemy = createEnemyElement(enemyColor);
-                        enemyContainer.appendChild(enemy);
-                        break;
-                    default:
-                        block.classList.add('point');
-                        block.style.height = '1vh';
-                        block.style.width = '1vh';
-                }
-    
-                main.appendChild(block);
-            }
-        }
-        setColorOptions();
-    }
-    
     MazePopulator();
-    maxScore = document.querySelectorAll('.point').length-40
+
+    maxScore = document.querySelectorAll('.point').length;
     playerTop = 0;
     playerLeft = 0;
     upPressed = false;
@@ -1148,23 +1094,20 @@ function nextLevel() {
     updateScoreDisplay();
     updateLivesDisplay();
 
-    // Find the player's entry in the leaderboard and update their score
+    // Update the leaderboard
     const playerEntry = leaderboard.entries.find(entry => entry.name === playerName);
     if (playerEntry) {
         playerEntry.score = score;
-        leaderboard.entries.sort((a, b) => b.score - a.score); 
+        leaderboard.entries.sort((a, b) => b.score - a.score);
         leaderboard.updateLeaderboardHTML();
     }
-    
-    yellowOption.click();
-    setColorOptions();  
-    updateEnemyColor();  
+
+    setColorOptions();
     positionEnemies();
-    getEnemyColor();
-    createEnemyElement();
     startEnemyMovement();
     RandomMovementTimer();
 }
+
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
