@@ -124,16 +124,17 @@ function generateMazeInternal(dimensions, level, simplicity) {
 function isSolvable(maze) {
     for (let y = 1; y < dimensions - 1; y++) {
         for (let x = 1; x < dimensions - 1; x++) {
-            if (maze[y][x] === 0 || maze[y][x] === 3) {
+            if (maze[y][x] == 0 || maze[y][x] == 3) {
                 if (
                     maze[y - 1][x] === 1 &&
                     maze[y + 1][x] === 1 &&
                     maze[y][x - 1] === 1 &&
                     maze[y][x + 1] === 1
                 ) {
+                    console.log(`Unsolvable maze detected at (${y}, ${x})`);
                     return false;
                 }
-                
+
                 // Check if the point or enemy is accessible by the player
                 let accessible = false;
                 for (let dy = -1; dy <= 1; dy++) {
@@ -152,10 +153,12 @@ function isSolvable(maze) {
                     }
                     if (accessible) break;
                 }
-                
+
                 if (!accessible) {
+                    console.log(`Inaccessible point or enemy detected at (${y}, ${x})`);
                     return false;
                 }
+
                 // Check if the point is inside an obstacle block
                 if (
                     maze[y - 1][x - 1] === 1 &&
@@ -167,6 +170,7 @@ function isSolvable(maze) {
                     maze[y + 1][x] === 1 &&
                     maze[y + 1][x + 1] === 1
                 ) {
+                    console.log(`Point inside an obstacle block detected at (${y}, ${x})`);
                     return false;
                 }
             }
@@ -218,6 +222,7 @@ function ensurePointsAccessible(maze) {
     for (let y = 0; y < maze.length; y++) {
         for (let x = 0; x < maze[y].length; x++) {
             if (maze[y][x] === 0 && !isPointAccessible(maze, y, x)) {
+                console.log(`Inaccessible point detected at (${y}, ${x})`);
                 // The point at (y, x) is inaccessible
                 // Regenerate the maze or adjust the point's position
                 return generateMaze(level, simplicity);
@@ -226,6 +231,7 @@ function ensurePointsAccessible(maze) {
     }
     return maze;
 }
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
@@ -704,13 +710,14 @@ document.getElementById('dbttn').addEventListener('click', () => {
 const startBtn = document.querySelector('.start');
 const startDiv = document.querySelector('.startDiv');
 
+// Start game function
 function startGame() {
     startDiv.style.display = 'none';
     playerCanMove = true;
     lives = 3; 
     updateLivesDisplay();
-    // updateChecklist();
 }
+
 
 startBtn.addEventListener('click', startGame);
 
@@ -840,10 +847,12 @@ setInterval(function () {
     }
     checkEnemyCollision();
     checkScoreCollisions();
+    checkAllObjectives(); // Add this line to check objectives
     if (maxScore === 0){
-        maxScore++
-        levelComplete();   
+        maxScore++;
+        levelComplete();
     }
+    updatePlayerMouth();
         if (downPressed) {
         playerMouth.classList = 'down';
     } else if (upPressed) {
@@ -993,12 +1002,13 @@ function restartGame() {
 //*****************************************************************************************************************
 // Level Complete Functionality Game Over Screen and Next Level
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Level complete functionality
 function levelComplete() {
     playerCanMove = false;
     showNextLevelScreen();
     playerMouth.style.display = 'none';
-    
 }
+
 
 const levelCompleteDiv = document.createElement('div');
 
@@ -1083,7 +1093,7 @@ function nextLevel() {
     maze = generateMaze(level, simplicity);
     MazePopulator();
 
-    maxScore = document.querySelectorAll('.point').length;
+    maxScore = document.querySelectorAll('.point').length-40
     playerTop = 0;
     playerLeft = 0;
     upPressed = false;
@@ -1106,6 +1116,8 @@ function nextLevel() {
     positionEnemies();
     startEnemyMovement();
     RandomMovementTimer();
+    updateChecklist(); 
+    updatePlayerMouth();
 }
 
 
@@ -1231,167 +1243,96 @@ class LeaderboardEntry {
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //*****************************************************************************************************************
-// // //Checklist Updating
-// let collectPointsChecked = false;
-// let defeatEnemiesChecked = false;
-// let reachLevelChecked = false;
+// Initial setup for objectives
+let collectPointsChecked = false;
+let defeatEnemiesChecked = false;
+let reachLevelChecked = false;
 
-// const objectives = [
-//     { level: 1, tasks: ['Collect 10 points', 'Defeat 4 enemies', 'Reach level 5'] },
-//     { level: 5, tasks: ['Collect 50 points', 'Defeat 5 enemies', 'Reach level 10'] },
-//     { level: 10, tasks: ['Collect 100 points', 'Defeat 7 enemies', 'Reach level 15'] },
-//     { level: 15, tasks: ['Collect 150 points', 'Defeat 9 enemies', 'Reach level 20'] },
-//     // Add more objectives for higher levels
-// ];
+function generateDynamicObjectives(level) {
+    let pointsToCollect = level * 10;
+    let enemiesToDefeat = Math.ceil(level / 2) + 2;
+    let targetLevel = level + 4;
 
-// function updateChecklist() {
-//     const checklist = document.querySelector('.checklist ul');
-//     checklist.innerHTML = '';
-  
-//     const currentObjectives = generateObjectives(Math.floor((level - 1) / 5) + 1);
-  
-//     currentObjectives.forEach((task, index) => {
-//       const listItem = document.createElement('li');
-//       const label = document.createElement('label');
-//       const checkbox = document.createElement('input');
-//       checkbox.type = 'checkbox';
-//       checkbox.id = `task-${index}`;
-//       checkbox.addEventListener('click', function(event) {
-//         event.preventDefault();
-//       });
-//       label.appendChild(checkbox);
-//       label.appendChild(document.createTextNode(' ' + task));
-//       listItem.appendChild(label);
-//       checklist.appendChild(listItem);
-//     });
-  
-//     checkCollectPoints();
-//     checkDefeatEnemies();
-//     checkReachLevel();
-// }
+    return [
+        `Collect ${pointsToCollect} points`,
+        `Defeat ${enemiesToDefeat} enemies`,
+        `Reach level ${targetLevel}`
+    ];
+}
 
-// function checkCollectPoints() {
-//     const currentObjective = objectives.find(obj => obj.level <= level);
-//     if (currentObjective) {
-//       const collectPointsTask = currentObjective.tasks.find(task => task.startsWith('Collect'));
-//       if (collectPointsTask) {
-//         const targetPoints = parseInt(collectPointsTask.match(/\d+/)[0]);
-//         const checkbox = document.querySelector('.checklist ul li:first-child input[type="checkbox"]');
-//         if (score >= targetPoints) {
-//           checkbox.checked = true;
-//         } else {
-//           checkbox.checked = false;
-//         }
-//       }
-//     }
-//   }
+function updateChecklist() {
+    const checklist = document.querySelector('.checklist ul');
+    checklist.innerHTML = '';
 
-// function checkDefeatEnemies() {
-// const currentObjective = objectives.find(obj => obj.level <= level);
-// if (currentObjective) {
-//     const defeatEnemiesTask = currentObjective.tasks.find(task => task.startsWith('Defeat'));
-//     if (defeatEnemiesTask) {
-//     const targetEnemies = parseInt(defeatEnemiesTask.match(/\d+/)[0]);
-//     const checkbox = document.querySelector('.checklist ul li:nth-child(2) input[type="checkbox"]');
-//     const enemiesDefeated = (level - currentObjective.level) * 3; // Assuming 3 enemies per level
-//     if (enemiesDefeated >= targetEnemies) {
-//         checkbox.checked = true;
-//     } else {
-//         checkbox.checked = false;
-//     }
-//     }
-// }
-// }
+    const currentObjectives = generateDynamicObjectives(level);
+    currentObjectives.forEach((task, index) => {
+        const listItem = document.createElement('li');
+        const label = document.createElement('label');
+        const checkbox = document.createElement('input');
+        checkbox.type = 'checkbox';
+        checkbox.id = `task-${index}`;
+        checkbox.addEventListener('click', function(event) {
+            event.preventDefault();
+        });
+        label.appendChild(checkbox);
+        label.appendChild(document.createTextNode(' ' + task));
+        listItem.appendChild(label);
+        checklist.appendChild(listItem);
+    });
+}
 
-// function checkReachLevel() {
-// const currentObjective = objectives.find(obj => obj.level <= level);
-// if (currentObjective) {
-//     const reachLevelTask = currentObjective.tasks.find(task => task.startsWith('Reach'));
-//     if (reachLevelTask) {
-//     const targetLevel = parseInt(reachLevelTask.match(/\d+/)[0]);
-//     const checkbox = document.querySelector('.checklist ul li:last-child input[type="checkbox"]');
-//     if (level >= targetLevel) {
-//         checkbox.checked = true;
-//     } else {
-//         checkbox.checked = false;
-//     }
-//     }
-// }
-// }
+function checkCollectPoints() {
+    const targetPoints = level * 10;
+    const checkbox = document.querySelector('.checklist ul li:first-child input[type="checkbox"]');
+    if (score >= targetPoints) {
+        checkbox.checked = true;
+        collectPointsChecked = true;
+    } else {
+        checkbox.checked = false;
+        collectPointsChecked = false;
+    }
+}
 
-// function updateChecklistAfterLevels() {
-// if (level % 5 === 0) {
-// // Update the checklist every 5 levels
-// collectPointsChecked = false;
-// defeatEnemiesChecked = false;
-// reachLevelChecked = false;
-// document.getElementById('collect-points').checked = false;
-// document.getElementById('defeat-enemies').checked = false;
-// document.getElementById('reach-level').checked = false;
-// updateChecklist();
-// }
-// }
+function checkDefeatEnemies() {
+    const targetEnemies = Math.ceil(level / 2) + 2;
+    const checkbox = document.querySelector('.checklist ul li:nth-child(2) input[type="checkbox"]');
+    const enemiesDefeated = (level - 1) * 3; // Adjust this logic based on how you track defeated enemies
+    if (enemiesDefeated >= targetEnemies) {
+        checkbox.checked = true;
+        defeatEnemiesChecked = true;
+    } else {
+        checkbox.checked = false;
+        defeatEnemiesChecked = false;
+    }
+}
 
-// const objectiveTemplate = [
-//     level => `Collect ${level * 10} points`,
-//     level => `Defeat ${level * 2 + 1} enemies`,
-//     level => `Reach level ${level * 5}`
-//   ];
-  
-//   function generateObjectives(level) {
-//     return objectiveTemplate.map(template => template(level));
-//   }
-  
-//   function resetChecklist() {
-//     const checklist = document.querySelector('.checklist ul');
-//     checklist.innerHTML = '';
-  
-//     const defaultObjectives = [
-//       'Collect 10 points',
-//       'Defeat 3 enemies',
-//       'Reach level 5'
-//     ];
-  
-//     defaultObjectives.forEach((task, index) => {
-//       const listItem = document.createElement('li');
-//       const label = document.createElement('label');
-//       const checkbox = document.createElement('input');
-//       checkbox.type = 'checkbox';
-//       checkbox.id = `task-${index}`;
-//       checkbox.addEventListener('click', function(event) {
-//         event.preventDefault();
-//       });
-//       label.appendChild(checkbox);
-//       label.appendChild(document.createTextNode(' ' + task));
-//       listItem.appendChild(label);
-//       checklist.appendChild(listItem);
-//     });
-//   }
+function checkReachLevel() {
+    const targetLevel = level + 4;
+    const checkbox = document.querySelector('.checklist ul li:last-child input[type="checkbox"]');
+    if (level >= targetLevel) {
+        checkbox.checked = true;
+        reachLevelChecked = true;
+    } else {
+        checkbox.checked = false;
+        reachLevelChecked = false;
+    }
+}
 
-//   function checkReachLevel() {
-//     const currentObjective = objectives.find(obj => obj.level <= level);
-//     if (currentObjective) {
-//         const reachLevelTask = currentObjective.tasks.find(task => task.startsWith('Reach'));
-//         if (reachLevelTask) {
-//             const targetLevel = parseInt(reachLevelTask.match(/\d+/)[0]);
-//             const checkbox = document.querySelector('.checklist ul li:last-child input[type="checkbox"]');
-//             if (level >= targetLevel) {
-//                 checkbox.checked = true;
+function checkAllObjectives() {
+    checkCollectPoints();
+    checkDefeatEnemies();
+    checkReachLevel();
 
-//                 // Check if all checkboxes are checked
-//                 const checkboxes = document.querySelectorAll('.checklist ul li input[type="checkbox"]');
-//                 const allChecked = Array.from(checkboxes).every(checkbox => checkbox.checked);
+    if (collectPointsChecked && defeatEnemiesChecked && reachLevelChecked) {
+        levelComplete();
+    }
+}
 
-//                 if (allChecked) {
-//                     // All checkboxes are checked, update the checklist
-//                     updateChecklist();
-//                 }
-//             } else {
-//                 checkbox.checked = false;
-//             }
-//         }
-//     }
-// } 
+// Load the checklist as soon as the page is loaded
+document.addEventListener('DOMContentLoaded', () => {
+    updateChecklist();
+});
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
