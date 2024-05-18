@@ -1,6 +1,6 @@
 # UON-Interactive-Maze-Game
-Web-based maze game for UON's CSY1063 module.The game is a Pacman-style game called Snack Man. The objective is to navigate mazes, collect points, avoid obstacles, and compete for high scores. Built with HTML, CSS, and JavaScript, it offers engaging gameplay and a user-friendly interface. All code included for easy browser play.
 
+Web-based maze game for UON's CSY1063 module. The game is a Pacman-style game called Snack Man. The objective is to navigate mazes, collect points, avoid obstacles, and compete for high scores. Built with HTML, CSS, and JavaScript, it offers engaging gameplay and a user-friendly interface. All code included for easy browser play.
 
 # Interactive Maze Game - UON CSY1063 Project
 
@@ -16,10 +16,10 @@ The game's interactivity and logic are powered by JavaScript. The scripts handle
 
 ### AI Components
 
-We plan to integrate various AI components to enrich the gameplay experience:
+**Note:** The AI components are planned for future implementation to further enrich the gameplay experience:
 
-- Skill-based leveling: The game will adapt to the player's skill level, providing a customized challenge.
-- Advancing difficulties: As players progress, the mazes will become more intricate and the obstacles more challenging.
+- **Skill-based leveling:** The game will adapt to the player's skill level, providing a customized challenge.
+- **Advancing difficulties:** As players progress, the mazes will become more intricate and the obstacles more challenging.
 
 ## Getting Started
 
